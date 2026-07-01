@@ -1,0 +1,11 @@
+﻿Brand_ID,Brand_Name,Generic_ID,Generic_Name,Strength,Dosage_Form,Company_Name,Country,CDSCO_Status,Jan_Aushadhi_Available,Status,Last_Updated
+BR000001,Crocin,,Paracetamol,500 mg,,Haleon,,,,,
+BR000002,Calpol,,Paracetamol,500 mg,,Haleon,,,,,
+BR000003,Dolo,,Paracetamol,650 mg,,Micro Labs,,,,,
+BR000004,Glycomet,,Metformin,500 mg,,USV,,,,,
+BR000005,Pantocid,,Pantoprazole,40 mg,,Sun Pharma,,,,,
+BR000006,Amlong,,Amlodipine,5 mg,,Micro Labs,,,,,
+BR000007,Telma,,Telmisartan,40 mg,,Glenmark,,,,,
+BR000008,Atorva,,Atorvastatin,10 mg,,Zydus,,,,,
+BR000009,Omez,,Omeprazole,20 mg,,Dr. Reddy's,,,,,
+BR000010,Cetzine,,Cetirizine,10 mg,,Dr. Reddy's,,,,,

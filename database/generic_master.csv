@@ -1,0 +1,11 @@
+﻿Generic_ID,Generic_Name,Generic_Name_Gujarati,Therapeutic_Class,Dosage_Forms,Available_Strengths,Rx_OTC
+GEN000001,Paracetamol,પેરાસિટામોલ,Analgesic / Antipyretic,"Tablet, Syrup, Injection","125 mg, 250 mg, 500 mg, 650 mg",OTC
+GEN000002,Metformin,મેટફોર્મિન,Antidiabetic,Tablet,"500 mg, 850 mg, 1000 mg",Rx
+GEN000003,Amlodipine,એમ્લોડિપાઇન,Antihypertensive,Tablet,"2.5 mg, 5 mg, 10 mg",Rx
+GEN000004,Pantoprazole,પેન્ટોપ્રાઝોલ,Proton Pump Inhibitor,"Tablet, Injection","20 mg, 40 mg",Rx
+GEN000005,Cetirizine,સેટિરિઝિન,Antihistamine,"Tablet, Syrup","5 mg, 10 mg",OTC
+GEN000006,Amoxicillin,એમોક્સિસિલિન,Antibiotic,"Capsule, Tablet, Syrup","250 mg, 500 mg",Rx
+GEN000007,Azithromycin,એઝિથ્રોમાઇસિન,Antibiotic,"Tablet, Suspension","250 mg, 500 mg",Rx
+GEN000008,Telmisartan,ટેલ્મિસાર્ટન,Antihypertensive,Tablet,"20 mg, 40 mg, 80 mg",Rx
+GEN000009,Atorvastatin,એટોરવાસ્ટેટિન,Lipid Lowering Agent,Tablet,"10 mg, 20 mg, 40 mg",Rx
+GEN000010,Omeprazole,ઓમેપ્રાઝોલ,Proton Pump Inhibitor,Capsule,"20 mg, 40 mg",Rx
