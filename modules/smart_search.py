@@ -201,3 +201,17 @@ def search_anything(keyword):
             )
 
     return None
+# =====================================================
+# Get All Brands of a Generic
+# =====================================================
+
+def get_brand_list(medicine):
+
+    if medicine is None:
+        return None
+
+    generic_id = medicine["brand"]["Generic_ID"]
+
+    brands = db.get_brands_by_generic(generic_id)
+
+    return brands
