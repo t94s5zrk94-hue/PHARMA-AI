@@ -1,164 +1,316 @@
-import os
+from __future__ import annotations
+
+import re
+from dataclasses import dataclass
+from typing import Any
 
 import streamlit as st
 from dotenv import load_dotenv
-from google import genai
 
+from modules.ai_engine import ask_ai
 from modules.database import PharmaDatabase
-from modules.styles import load_css
 from modules.medicine_card import show_medicine_card
-from modules.smart_search import (
-    search_anything,
-    get_brand_list
+from modules.smart_search import get_brand_list, search_anything
+from modules.styles import load_css
+
+
+PLACEHOLDER_BRAND = re.compile(
+    r"^brand\s+[a-z0-9_-]+$",
+    flags=re.IGNORECASE,
 )
+NOT_FOUND_CONTEXT = "Medicine not found in the database."
 
-# =====================================================
-# Load Environment
-# =====================================================
 
-load_dotenv()
+@dataclass(frozen=True)
+class SearchResult:
+    """Store a medicine match and its available verified brands."""
 
-client = genai.Client(
-    api_key=os.getenv("GEMINI_API_KEY")
-)
+    medicine: dict[str, Any] | None
+    brand_names: tuple[str, ...] = ()
 
-db = PharmaDatabase()
 
-# =====================================================
-# Page Config
-# =====================================================
+def configure_app() -> None:
+    """Configure Streamlit before rendering the interface."""
 
-st.set_page_config(
-    page_title="💊 Pharma AI",
-    page_icon="💊",
-    layout="wide"
-)
+    st.set_page_config(
+        page_title="Pharma AI",
+        page_icon="💊",
+        layout="wide",
+    )
+    load_css()
 
-load_css()
 
-st.title("💊 Pharma AI")
-st.caption("AI Clinical Pharmacy Assistant")
+@st.cache_resource
+def get_database() -> PharmaDatabase:
+    """Load and reuse the CSV-backed medicine database."""
 
-# =====================================================
-# Chat History
-# =====================================================
+    return PharmaDatabase()
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
 
-for message in st.session_state.messages:
+def initialize_session() -> None:
+    """Initialize application session state."""
 
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
 
-# =====================================================
-# Chat Input
-# =====================================================
+    if "search_result" not in st.session_state:
+        st.session_state.search_result = None
 
-question = st.chat_input(
-    "દવા વિશે પ્રશ્ન પૂછો..."
-)
 
-# =====================================================
-# Database Search
-# =====================================================
+def is_verified_brand(value: object) -> bool:
+    """Exclude empty and generated brand names such as 'Brand 17'."""
 
-medicine = search_anything(question)
+    brand_name = str(value).strip()
+    return bool(brand_name) and not PLACEHOLDER_BRAND.fullmatch(brand_name)
 
-brands = get_brand_list(medicine)
 
-selected_brand = None
+def search_database(question: str) -> SearchResult:
+    """Run the application's single database search flow."""
 
-if medicine:
+    medicine = search_anything(question)
+
+    if medicine is None:
+        return SearchResult(medicine=None)
+
+    brands = get_brand_list(medicine)
+
+    if brands is None or brands.empty:
+        brand_name = medicine["brand"].get("Brand_Name", "")
+        brand_names = (
+            (str(brand_name).strip(),)
+            if is_verified_brand(brand_name)
+            else ()
+        )
+        return SearchResult(
+            medicine=medicine,
+            brand_names=brand_names,
+        )
+
+    # Preserve database order while removing duplicates and placeholders.
+    brand_names = tuple(
+        dict.fromkeys(
+            str(name).strip()
+            for name in brands["Brand_Name"].tolist()
+            if is_verified_brand(name)
+        )
+    )
+
+    return SearchResult(
+        medicine=medicine,
+        brand_names=brand_names,
+    )
+
+
+def resolve_medicine(
+    database: PharmaDatabase,
+    result: SearchResult,
+    selected_brand: str,
+) -> dict[str, Any] | None:
+    """Resolve the selected brand to a complete medicine record."""
+
+    if result.medicine is None:
+        return None
+
+    matched_brand = str(
+        result.medicine["brand"].get("Brand_Name", "")
+    ).strip()
+
+    if selected_brand == matched_brand:
+        return result.medicine
+
+    return database.get_complete_medicine(selected_brand)
+
+
+def clean_value(record: Any, field: str) -> str:
+    """Convert a database field into clean prompt text."""
+
+    value = record.get(field, "")
+
+    if value is None:
+        return ""
+
+    text = str(value).strip()
+    return "" if text.lower() == "nan" else text
+
+
+def build_ai_context(medicine: dict[str, Any] | None) -> str:
+    """Create structured medicine context for the AI engine."""
+
+    if medicine is None:
+        return NOT_FOUND_CONTEXT
+
+    brand = medicine["brand"]
+    generic = medicine["generic"]
+    company = medicine["company"]
+    product = medicine["product"]
+
+    fields = (
+        ("Brand Name", clean_value(brand, "Brand_Name")),
+        ("Generic Name", clean_value(generic, "Generic_Name")),
+        (
+            "Gujarati Name",
+            clean_value(generic, "Generic_Name_Gujarati"),
+        ),
+        ("Strength", clean_value(brand, "Strength")),
+        ("Dosage Form", clean_value(brand, "Dosage_Form")),
+        ("Company", clean_value(company, "Company_Name")),
+        ("Country", clean_value(company, "Country")),
+        ("Pack Size", clean_value(product, "Pack_Size")),
+        ("Schedule", clean_value(product, "Schedule")),
+        ("GST", clean_value(product, "GST")),
+    )
+
+    return "\n".join(
+        f"{label}: {value or 'Not available'}"
+        for label, value in fields
+    )
+
+
+def render_medicine_information(
+    database: PharmaDatabase,
+) -> None:
+    """Render the single medicine-information section and card."""
+
+    result = st.session_state.search_result
+
+    if result is None:
+        return
 
     st.subheader("💊 Medicine Information")
 
-    # ------------------------------------
-    # Multiple Brand Selection
-    # ------------------------------------
+    if result.medicine is None:
+        st.warning("Medicine not found in the database.")
+        return
 
-    if brands is not None and len(brands) > 1:
+    if not result.brand_names:
+        st.warning("No verified brand is available for this medicine.")
+        return
 
-        brand_options = brands["Brand_Name"].tolist()
+    matched_brand = str(
+        result.medicine["brand"]["Brand_Name"]
+    ).strip()
 
+    default_index = (
+        result.brand_names.index(matched_brand)
+        if matched_brand in result.brand_names
+        else 0
+    )
+
+    # The application's only selectbox supports all matching brands.
+    selected_brand = st.selectbox(
+        "Select a brand",
+        options=result.brand_names,
+        index=default_index,
+        key="selected_brand",
+    )
+
+    medicine = resolve_medicine(
+        database,
+        result,
+        selected_brand,
+    )
+
+    if medicine is None:
+        st.error("The selected brand could not be loaded.")
+        return
+
+    # The application's only medicine-card rendering path.
     show_medicine_card(medicine)
 
-    st.divider()
 
-    st.subheader("🤖 AI Clinical Pharmacist")
+def render_chat_history() -> None:
+    """Render persisted chat messages in chronological order."""
 
-    medicine_database = f"""
-Brand Name: {medicine['brand']['Brand_Name']}
-Generic Name: {medicine['generic']['Generic_Name']}
-Gujarati Name: {medicine['generic']['Generic_Name_Gujarati']}
-Strength: {medicine['brand']['Strength']}
-Dosage Form: {medicine['brand']['Dosage_Form']}
-Company: {medicine['company']['Company_Name']}
-Country: {medicine['company']['Country']}
-Pack Size: {medicine['product']['Pack_Size']}
-Schedule: {medicine['product']['Schedule']}
-GST: {medicine['product']['GST']}
-"""
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
 
-else:
 
-    st.warning(
-        "⚠️ Medicine not found in database.\n\nAI will answer using general educational information."
-    )
+def process_question(
+    question: str,
+    database: PharmaDatabase,
+) -> None:
+    """Search, call the AI engine, and persist the exchange."""
 
-    medicine_database = "Medicine not found in database."
-    # =====================================================
-# Database Search
-# =====================================================
+    clean_question = question.strip()
 
-medicine = search_anything(question)
+    if not clean_question:
+        return
 
-brands = get_brand_list(medicine)
+    result = search_database(clean_question)
+    st.session_state.search_result = result
 
-selected_brand = None
+    # Clear the previous selection before brand options change.
+    st.session_state.pop("selected_brand", None)
 
-if medicine:
+    medicine = result.medicine
 
-    st.subheader("💊 Medicine Information")
+    if medicine is not None and result.brand_names:
+        matched_brand = str(
+            medicine["brand"]["Brand_Name"]
+        ).strip()
 
-    # ------------------------------------
-    # Multiple Brand Selection
-    # ------------------------------------
-
-    if brands is not None and len(brands) > 1:
-
-        brand_options = brands["Brand_Name"].tolist()
-
-        selected_brand = st.selectbox(
-            "💊 Select Brand",
-            brand_options
+        selected_brand = (
+            matched_brand
+            if matched_brand in result.brand_names
+            else result.brand_names[0]
         )
 
-        medicine = db.get_complete_medicine(
-            selected_brand
+        medicine = resolve_medicine(
+            database,
+            result,
+            selected_brand,
         )
 
-    st.divider()
-
-    st.subheader("🤖 AI Clinical Pharmacist")
-
-    medicine_database = f"""
-Brand Name: {medicine['brand']['Brand_Name']}
-Generic Name: {medicine['generic']['Generic_Name']}
-Gujarati Name: {medicine['generic']['Generic_Name_Gujarati']}
-Strength: {medicine['brand']['Strength']}
-Dosage Form: {medicine['brand']['Dosage_Form']}
-Company: {medicine['company']['Company_Name']}
-Country: {medicine['company']['Country']}
-Pack Size: {medicine['product']['Pack_Size']}
-Schedule: {medicine['product']['Schedule']}
-GST: {medicine['product']['GST']}
-"""
-
-else:
-
-    st.warning(
-        "⚠️ Medicine not found in database.\n\nAI will answer using general educational information."
+    st.session_state.messages.append(
+        {
+            "role": "user",
+            "content": clean_question,
+        }
     )
 
-    medicine_database = "Medicine not found in database."
+    with st.spinner(
+        "Clinical pharmacist is preparing a response..."
+    ):
+        response = ask_ai(
+            clean_question,
+            build_ai_context(medicine),
+        )
+
+    st.session_state.messages.append(
+        {
+            "role": "assistant",
+            "content": response,
+        }
+    )
+
+
+def main() -> None:
+    """Compose and run the Pharma AI application."""
+
+    load_dotenv()
+    configure_app()
+    initialize_session()
+
+    database = get_database()
+
+    st.title("💊 Pharma AI")
+    st.caption("AI Clinical Pharmacy Assistant")
+
+    render_medicine_information(database)
+
+    if st.session_state.search_result is not None:
+        st.divider()
+
+    st.subheader("🤖 AI Clinical Pharmacist")
+    render_chat_history()
+
+    question = st.chat_input("દવા વિશે પ્રશ્ન પૂછો...")
+
+    if question:
+        process_question(question, database)
+        st.rerun()
+
+
+if __name__ == "__main__":
+    main()
