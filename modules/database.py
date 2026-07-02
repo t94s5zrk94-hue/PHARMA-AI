@@ -144,3 +144,14 @@ class PharmaDatabase:
             "generic": generic,
             "company": company
         }
+    # -------------------------------------------------
+
+def get_brands_by_generic(self, generic_id):
+
+    generic_id = str(generic_id).strip()
+
+    brands = self.brand[
+        self.brand["Generic_ID"].astype(str).str.strip() == generic_id
+    ]
+
+    return brands

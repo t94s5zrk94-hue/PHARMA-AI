@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 from google import genai
 
+from modules.database import PharmaDatabase
 from modules.styles import load_css
 from modules.smart_search import search_anything
 from modules.medicine_card import show_medicine_card
@@ -16,6 +17,7 @@ load_dotenv()
 client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
+db = PharmaDatabase()
 
 # ---------------------------------------
 # Page Config
@@ -69,11 +71,27 @@ if question:
     # ---------------------------------------
 
     medicine = search_anything(question)
+    brands = None
+
+    if medicine is not None:
+
+        generic_id = medicine["brand"]["Generic_ID"]
+
+        brands = db.get_brands_by_generic(generic_id)
 
     if medicine:
 
         st.subheader("💊 Medicine Information")
+    if brands is not None and len(brands) > 1:
 
+        st.info("💊 Available Brands")
+
+        st.dataframe(
+        brands[
+            ["Brand_Name", "Strength", "Dosage_Form"]
+        ],
+        use_container_width=True
+        )
         show_medicine_card(medicine)
 
         st.divider()
