@@ -1,14 +1,4 @@
-﻿Product_ID,Brand_ID,Company_ID,Generic_ID,Product_Name,Strength,Dosage_Form,Pack_Size,Schedule,GST,HSN_Code,Status,Last_Updated
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
+﻿Product_ID,Brand_ID,Product_Name,Pack_Size,Schedule,GST,HSN_Code,Status,Last_Updated
+PROD000001,BR000001,Dolo 650,15 Tablets,OTC,12,30049099,Active,01-07-26
+PROD000002,BR000002,Crocin 500,15 Tablets,OTC,12,30049099,Active,01-07-26
+PROD000003,BR000003,Augmentin 625,10 Tablets,Rx,12,30049099,Active,01-07-26
