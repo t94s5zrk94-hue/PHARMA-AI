@@ -81,3 +81,57 @@ User Question
 
 ✅ Database માહિતી સફળતાપૂર્વક ઉપલબ્ધ છે.
 """
+def ask_drug_interaction(
+    medicine_one_context: str,
+    medicine_two_context: str,
+):
+
+    prompt = f"""
+You are an experienced Clinical Pharmacist.
+
+Analyze the interaction between these two medicines.
+
+Medicine 1:
+{medicine_one_context}
+
+Medicine 2:
+{medicine_two_context}
+
+Respond ONLY in Gujarati.
+
+Use this format:
+
+🔴 Interaction Severity
+
+💊 Can they be taken together?
+
+⚙️ Interaction Mechanism
+
+⚠️ Clinical Significance
+
+🩺 Management
+
+👨‍⚕️ Patient Counselling
+
+📚 Important Notes
+
+Do not invent information.
+Use simple Gujarati.
+"""
+
+    try:
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
+
+        return response.text
+
+    except Exception:
+
+        return """
+### ⚠️ AI સેવા હાલમાં ઉપલબ્ધ નથી
+
+Drug interaction વિશ્લેષણ હાલમાં ઉપલબ્ધ નથી.
+"""

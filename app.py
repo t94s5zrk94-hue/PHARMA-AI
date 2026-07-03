@@ -11,7 +11,10 @@ from modules.ai_engine import ask_ai
 from modules.database import PharmaDatabase
 from modules.medicine_card import show_medicine_card
 from modules.smart_search import get_brand_list, search_anything
+from modules.comparison import BrandComparison
+from modules.interaction import DrugInteraction
 from modules.styles import load_css
+
 
 
 PLACEHOLDER_BRAND = re.compile(
@@ -165,7 +168,109 @@ def build_ai_context(medicine: dict[str, Any] | None) -> str:
         for label, value in fields
     )
 
+def render_brand_comparison(result: SearchResult) -> None:
+    """Render side-by-side brand comparison when multiple brands exist."""
 
+    if len(result.brand_names) < 2:
+        return
+
+    st.subheader("⚖️ Brand Comparison")
+
+    column_left, column_right = st.columns(2)
+
+    with column_left:
+        brand_one = st.selectbox(
+            "Select first brand",
+            options=result.brand_names,
+            index=0,
+            key="comparison_brand_one",
+        )
+
+    with column_right:
+        brand_two = st.selectbox(
+            "Select second brand",
+            options=result.brand_names,
+            index=1,
+            key="comparison_brand_two",
+        )
+
+    # Prevent comparing the same brand
+    if brand_one == brand_two:
+        st.warning("Please select two different brands.")
+        return
+
+    if st.button("Compare", key="compare_brands"):
+
+        comparison = BrandComparison()
+
+        comparison_result = comparison.compare_brands(
+            brand_one,
+            brand_two,
+        )
+
+        if not comparison_result["success"]:
+            st.error(comparison_result["message"])
+            return
+
+        st.table(
+            comparison.get_comparison_table(
+                comparison_result,
+            )
+        )
+
+        st.info(
+            comparison.generate_summary(
+                comparison_result,
+            )
+        )
+def render_drug_interaction() -> None:
+    """Render the Drug Interaction Checker UI."""
+
+    st.subheader("💊 Drug Interaction Checker")
+
+    medicine_one = st.text_input(
+        "Medicine 1",
+        key="interaction_medicine_1",
+    )
+
+    medicine_two = st.text_input(
+        "Medicine 2",
+        key="interaction_medicine_2",
+    )
+
+    if st.button("Check Interaction"):
+
+        if not medicine_one.strip() or not medicine_two.strip():
+            st.warning("Please enter both medicine names.")
+            return
+
+        interaction = DrugInteraction()
+
+        with st.spinner("Checking drug interaction..."):
+            result = interaction.check_interaction(
+                medicine_one,
+                medicine_two,
+            )
+
+        if not result["success"]:
+            st.error(result["interaction"])
+            return
+
+        severity = result["severity"]
+        if severity == "Major":
+            st.error(f"**Severity:** {severity}")
+        elif severity == "Moderate":
+            st.warning(f"**Severity:** {severity}")
+        else:
+            st.success(f"**Severity:** {severity}")
+
+        st.write("**Interaction:**", result["interaction"])
+        st.write("**Mechanism:**", result["mechanism"])
+        st.write("**Management:**", result["management"])
+        st.write(
+            "**Patient Counselling:**",
+            result["patient_counselling"],
+        )
 def render_medicine_information(
     database: PharmaDatabase,
 ) -> None:
@@ -216,7 +321,8 @@ def render_medicine_information(
 
     # The application's only medicine-card rendering path.
     show_medicine_card(medicine)
-
+    
+    render_brand_comparison(result)
 
 def render_chat_history() -> None:
     """Render persisted chat messages in chronological order."""
@@ -284,7 +390,6 @@ def process_question(
         }
     )
 
-
 def main() -> None:
     """Compose and run the Pharma AI application."""
 
@@ -298,6 +403,72 @@ def main() -> None:
     st.caption("AI Clinical Pharmacy Assistant")
 
     render_medicine_information(database)
+    
+    def render_drug_interaction() -> None:
+     """Render the Drug Interaction Checker."""
+
+    st.subheader("💊 Drug Interaction Checker")
+
+    medicine_one = st.text_input(
+        "Medicine 1",
+        key="interaction_medicine_one",
+        placeholder="Example: Dolo 650",
+    )
+
+    medicine_two = st.text_input(
+        "Medicine 2",
+        key="interaction_medicine_two",
+        placeholder="Example: Augmentin 625",
+    )
+
+    if st.button(
+        "🔍 Check Interaction",
+        key="check_interaction",
+    ):
+
+        if not medicine_one.strip() or not medicine_two.strip():
+            st.warning("Please enter both medicine names.")
+            return
+        st.write("Reached Interaction")
+
+        checker = DrugInteraction()
+        
+        result = checker.check_interaction(
+            medicine_one,
+            medicine_two,
+        )
+        st.write("After function")
+        st.write(result)
+
+        if not result["success"]:
+            st.error(result["interaction"])
+            return
+
+        severity = result["severity"]
+
+        if severity == "Major":
+            st.error(f"🔴 Severity : {severity}")
+
+        elif severity == "Moderate":
+            st.warning(f"🟡 Severity : {severity}")
+
+        elif severity == "Minor":
+            st.info(f"🟢 Severity : {severity}")
+
+        else:
+            st.success(f"✅ {severity}")
+
+        st.markdown("### ⚠ Interaction")
+        st.write(result["interaction"])
+
+        st.markdown("### ⚙ Mechanism")
+        st.write(result["mechanism"])
+
+        st.markdown("### 🩺 Management")
+        st.write(result["management"])
+
+        st.markdown("### 👨‍⚕️ Patient Counselling")
+        st.write(result["patient_counselling"])
 
     if st.session_state.search_result is not None:
         st.divider()
