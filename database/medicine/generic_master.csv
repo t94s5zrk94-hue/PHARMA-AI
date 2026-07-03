@@ -1,0 +1,32 @@
+Generic_ID,Generic_Name,Therapeutic_Class,Pharmacological_Class,ATC_Code,Pregnancy_Safety,Lactation_Safety,Renal_Adjustment,Hepatic_Adjustment,Contraindications,Status
+GEN000001,Paracetamol,Analgesic,Non-opioid Analgesic,N02BE01,Use with Caution,Safe,No Adjustment,Dose Reduction,Severe Hepatic Impairment;Hypersensitivity,Active
+GEN000061,Naproxen,Analgesic,NSAID,M01AE02,Avoid,Use with Caution,Dose Reduction,Contraindicated,Active Peptic Ulcer;Severe Renal Impairment,Active
+GEN000062,Ibuprofen,Analgesic,NSAID,M01AE01,Avoid,Use with Caution,Dose Reduction,Dose Reduction,Active Peptic Ulcer;Severe Renal Impairment,Active
+GEN000063,Ketorolac,Analgesic,NSAID,M01AB15,Avoid,Avoid,Contraindicated,Contraindicated,Active Peptic Ulcer;Renal Impairment,Active
+GEN000064,Tramadol,Analgesic,Opioid Analgesic,N02AX02,Use with Caution,Avoid,Dose Reduction,Dose Reduction,Severe Respiratory Depression,Active
+GEN000065,Tapentadol,Analgesic,Opioid Analgesic,N02AX06,Use with Caution,Avoid,Dose Reduction,Dose Reduction,Severe Respiratory Depression,Active
+GEN000010,Amoxicillin,Antibiotic,Penicillin,J01CA04,Safe,Safe,Dose Reduction,No Adjustment,Hypersensitivity to Penicillins,Active
+GEN000011,Azithromycin,Antibiotic,Macrolide,J01FA10,Use with Caution,Use with Caution,No Adjustment,No Adjustment,Hypersensitivity to Macrolides,Active
+GEN000012,Ciprofloxacin,Antibiotic,Fluoroquinolone,J01MA02,Avoid,Use with Caution,Dose Reduction,No Adjustment,Tendinopathy;Hypersensitivity,Active
+GEN000013,Doxycycline,Antibiotic,Tetracycline,J01AA02,Avoid,Avoid,No Adjustment,Dose Reduction,Severe Hepatic Impairment;Pregnancy,Active
+GEN000020,Metformin,Antidiabetic,Biguanide,A10BA02,Use with Caution,Use with Caution,Dose Reduction,Contraindicated,Severe Renal Impairment;Metabolic Acidosis,Active
+GEN000021,Glimepiride,Antidiabetic,Sulfonylurea,A10BB12,Avoid,Avoid,No Adjustment,Dose Reduction,Type 1 Diabetes;Severe Hepatic Impairment,Active
+GEN000022,Sitagliptin,Antidiabetic,DPP-4 Inhibitor,A10BH01,Use with Caution,Use with Caution,Dose Reduction,No Adjustment,Hypersensitivity,Active
+GEN000023,Vildagliptin,Antidiabetic,DPP-4 Inhibitor,A10BH02,Use with Caution,Use with Caution,Dose Reduction,No Adjustment,Type 1 Diabetes;Hepatic Impairment,Active
+GEN000030,Amlodipine,Antihypertensive,Calcium Channel Blocker,C08CA01,Use with Caution,Use with Caution,No Adjustment,Dose Reduction,Severe Hepatic Impairment;Hypersensitivity,Active
+GEN000031,Telmisartan,Antihypertensive,ARB,C09CA07,Avoid,Avoid,No Adjustment,Contraindicated,Biliary Obstruction;Severe Hepatic Impairment,Active
+GEN000032,Losartan,Antihypertensive,ARB,C09CA01,Avoid,Avoid,No Adjustment,Dose Reduction,Hypersensitivity,Active
+GEN000033,Metoprolol,Antihypertensive,Beta Blocker,C07AB02,Use with Caution,Use with Caution,No Adjustment,Dose Reduction,Severe Bradycardia;Heart Block,Active
+GEN000040,Omeprazole,PPI,Proton Pump Inhibitor,A02BC01,Safe,Use with Caution,No Adjustment,Dose Reduction,Hypersensitivity,Active
+GEN000041,Pantoprazole,PPI,Proton Pump Inhibitor,A02BC02,Safe,Use with Caution,No Adjustment,Dose Reduction,Hypersensitivity,Active
+GEN000042,Rabeprazole,PPI,Proton Pump Inhibitor,A02BC04,Safe,Use with Caution,No Adjustment,Dose Reduction,Hypersensitivity,Active
+GEN000043,Esomeprazole,PPI,Proton Pump Inhibitor,A02BC05,Safe,Use with Caution,No Adjustment,Dose Reduction,Hypersensitivity,Active
+GEN000050,Atorvastatin,Statin,HMG-CoA Reductase Inhibitor,C10AA05,Avoid,Avoid,No Adjustment,Dose Reduction,Active Liver Disease;Pregnancy,Active
+GEN000051,Rosuvastatin,Statin,HMG-CoA Reductase Inhibitor,C10AA07,Avoid,Avoid,Dose Reduction,Dose Reduction,Active Liver Disease;Pregnancy,Active
+GEN000052,Simvastatin,Statin,HMG-CoA Reductase Inhibitor,C10AA01,Avoid,Avoid,Dose Reduction,Dose Reduction,Active Liver Disease;Pregnancy,Active
+GEN000053,Pravastatin,Statin,HMG-CoA Reductase Inhibitor,C10AA03,Avoid,Avoid,Dose Reduction,Dose Reduction,Active Liver Disease;Pregnancy,Active
+GEN000070,Digoxin,Cardiovascular,Cardiac Glycoside,C01AA05,Use with Caution,Use with Caution,Dose Reduction,Dose Reduction,Ventricular Fibrillation;Hypersensitivity,Active
+GEN000071,Clopidogrel,Cardiovascular,Antiplatelet,B01AC04,Use with Caution,Use with Caution,No Adjustment,No Adjustment,Active Pathological Bleeding,Active
+GEN000072,Atorvastatin,Cardiovascular,Statin,C10AA05,Avoid,Avoid,No Adjustment,Dose Reduction,Active Liver Disease;Pregnancy,Active
+GEN000073,Warfarin,Cardiovascular,Anticoagulant,B01AA03,Avoid,Safe,Dose Reduction,Dose Reduction,Severe Hypertension;Pregnancy,Active
+GEN000060,Cetirizine,Antihistamine,Second-generation Antihistamine,R06AE07,Safe,Use with Caution,No Adjustment,No Adjustment,Hypersensitivity,Active

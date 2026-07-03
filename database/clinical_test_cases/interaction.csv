@@ -1,0 +1,206 @@
+test_id,category,medicine_1,medicine_2,expected_severity,expected_result,clinical_action,reference,evidence_level,priority,status,remarks
+INT001,Anticoagulant,Warfarin,Aspirin,Major,Bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor INR
+INT002,Anticoagulant,Warfarin,Ibuprofen,Major,Bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Use PPI if needed
+INT003,Anticoagulant,Warfarin,Diclofenac,Major,Bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor INR
+INT004,Anticoagulant,Warfarin,Clopidogrel,Major,Bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor INR
+INT005,Cardiovascular,Sildenafil,Nitroglycerin,Major,Severe hypotension,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT006,Cardiovascular,Tadalafil,Nitroglycerin,Major,Severe hypotension,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT007,Statin,Simvastatin,Clarithromycin,Major,Statin toxicity,Avoid Combination,BNF 89,High,High,Active,Rhabdomyolysis risk
+INT008,Statin,Atorvastatin,Clarithromycin,Major,Statin exposure,Monitor Closely,BNF 89,High,High,Active,Reduce Statin dose
+INT009,Antirheumatic,Methotrexate,Cotrimoxazole,Major,MTX toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Bone marrow suppression
+INT010,Cardiac,Digoxin,Verapamil,Major,Digoxin toxicity,Monitor Closely,Micromedex 2025,High,High,Active,Monitor levels
+INT011,Antihypertensive,Telmisartan,Spironolactone,Moderate,Hyperkalemia,Monitor Closely,BNF 89,High,High,Active,Check Potassium
+INT012,Antihypertensive,Ramipril,Spironolactone,Moderate,Hyperkalemia,Monitor Closely,BNF 89,High,High,Active,Check Potassium
+INT013,Antihypertensive,Losartan,Potassium Chloride,Moderate,Hyperkalemia,Monitor Closely,Lexicomp 2025,Medium,High,Active,Monitor K+
+INT014,Antidiabetic,Metformin,Alcohol,Moderate,Lactic acidosis,Monitor Closely,Lexicomp 2025,Medium,High,Active,Educate patient
+INT015,Cardiovascular,Amlodipine,Simvastatin,Moderate,Statin exposure,Monitor Closely,BNF 89,Medium,High,Active,Limit dose
+INT016,Antibiotic,Ciprofloxacin,Calcium Carbonate,Moderate,Reduced absorption,Separate Doses,Lexicomp 2025,Medium,High,Active,2hr gap
+INT017,Endocrine,Levothyroxine,Calcium Carbonate,Moderate,Reduced absorption,Separate Doses,BNF 89,Medium,High,Active,4hr gap
+INT018,Endocrine,Levothyroxine,Ferrous Sulfate,Moderate,Reduced absorption,Separate Doses,Lexicomp 2025,Medium,High,Active,4hr gap
+INT019,Cardiac,Digoxin,Furosemide,Moderate,Hypokalemia risk,Monitor Closely,Micromedex 2025,Medium,High,Active,Check Electrolytes
+INT020,General,Paracetamol,Amlodipine,No Known Interaction,No interaction,Safe to Use,BNF 89,High,Low,Active,None
+INT021,Anticoagulant,Apixaban,Ketoconazole,Major,Bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor renal func
+INT022,Anticoagulant,Rivaroxaban,Amiodarone,Major,Bleeding risk,Monitor Closely,Lexicomp 2025,High,High,Active,Dose adjustment
+INT023,Antidiabetic,Glimepiride,Fluconazole,Moderate,Hypoglycemia,Monitor Closely,BNF 89,Medium,High,Active,Blood sugar check
+INT024,Cardiovascular,Amiodarone,Levofloxacin,Major,QT Prolongation,Avoid Combination,Lexicomp 2025,High,High,Active,ECG monitoring
+INT025,Antiepileptic,Phenytoin,Fluconazole,Major,Phenytoin toxicity,Monitor Closely,Lexicomp 2025,High,High,Active,Check plasma levels
+INT021,Cardiovascular,Amiodarone,Digoxin,Major,Increased Digoxin levels,Dose Adjustment,Lexicomp 2025,High,High,Active,Reduce Digoxin dose
+INT022,Cardiovascular,Amiodarone,Warfarin,Major,Increased bleeding risk,Dose Adjustment,Lexicomp 2025,High,High,Active,Reduce Warfarin dose
+INT023,Cardiovascular,Amiodarone,Simvastatin,Major,Increased myopathy risk,Dose Adjustment,BNF 89,High,High,Active,Max Simvastatin 20mg
+INT024,Cardiovascular,Digoxin,Amiodarone,Major,Bradycardia risk,Monitor Closely,Micromedex 2025,High,High,Active,Monitor HR/ECG
+INT025,Cardiovascular,Amiodarone,Levofloxacin,Major,QT Prolongation,Avoid Combination,Lexicomp 2025,High,High,Active,Risk of TdP
+INT026,Cardiovascular,Digoxin,Spironolactone,Moderate,Increased Digoxin levels,Monitor Closely,BNF 89,Medium,Medium,Active,Monitor K+ & levels
+INT027,Cardiovascular,Amiodarone,Diltiazem,Major,Bradycardia/AV block,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor HR
+INT028,Cardiovascular,Digoxin,Quinidine,Major,Digoxin toxicity,Dose Adjustment,Micromedex 2025,High,High,Active,Reduce Digoxin dose
+INT029,Cardiovascular,Valsartan,Spironolactone,Moderate,Hyperkalemia,Monitor Closely,Lexicomp 2025,High,Medium,Active,Check K+ weekly
+INT030,Cardiovascular,Atenolol,Verapamil,Major,Heart block risk,Avoid Combination,BNF 89,High,High,Active,Contraindicated
+INT031,Antibiotic,Clarithromycin,Theophylline,Moderate,Increased Theophylline,Dose Adjustment,Lexicomp 2025,Medium,Medium,Active,Reduce Theophylline
+INT032,Antibiotic,Ciprofloxacin,Theophylline,Moderate,Theophylline toxicity,Monitor Closely,BNF 89,High,High,Active,Monitor levels
+INT033,Antibiotic,Azithromycin,Warfarin,Moderate,Increased INR,Monitor Closely,Lexicomp 2025,High,Medium,Active,Monitor INR
+INT034,Antibiotic,Moxifloxacin,Amiodarone,Major,QT Prolongation,Avoid Combination,Lexicomp 2025,High,High,Active,Risk of TdP
+INT035,Antibiotic,Clarithromycin,Atorvastatin,Major,Rhabdomyolysis,Avoid Combination,Lexicomp 2025,High,High,Active,Hold Statin
+INT036,Antibiotic,Tetracycline,Ferrous Sulfate,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,3hr gap
+INT037,Antibiotic,Levofloxacin,Magnesium Hydroxide,Moderate,Reduced absorption,Separate Administration,BNF 89,High,Medium,Active,2hr gap
+INT038,Antibiotic,Metronidazole,Alcohol,Moderate,Disulfiram-like reaction,Avoid Combination,Lexicomp 2025,High,High,Active,Avoid alcohol
+INT039,Antibiotic,Clarithromycin,Cyclosporine,Major,Nephrotoxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor levels
+INT040,Antibiotic,Ciprofloxacin,Tizanidine,Major,Hypotension/Sedation,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT041,Antidiabetic,Glimepiride,Propranolol,Moderate,Masked hypoglycemia,Monitor Closely,Lexicomp 2025,Medium,Medium,Active,Educate patient
+INT042,Antidiabetic,Metformin,Prednisolone,Moderate,Hyperglycemia,Monitor Closely,BNF 89,Medium,Medium,Active,Check Blood sugar
+INT043,Antidiabetic,Sitagliptin,Insulin,Moderate,Increased hypoglycemia,Monitor Closely,Lexicomp 2025,Medium,Medium,Active,Dose adjustment
+INT044,Antidiabetic,Gliclazide,Fluconazole,Moderate,Hypoglycemia,Monitor Closely,BNF 89,High,High,Active,Monitor sugar
+INT045,Antidiabetic,Metformin,Cimetidine,Moderate,Increased Metformin,Monitor Closely,Lexicomp 2025,Medium,Medium,Active,Monitor renal function
+INT046,Antidiabetic,Pioglitazone,Gemfibrozil,Moderate,Increased Pioglitazone,Dose Adjustment,Lexicomp 2025,Medium,Medium,Active,Reduce dose
+INT047,Antidiabetic,Vildagliptin,ACE Inhibitor,Moderate,Angioedema risk,Use with Caution,Lexicomp 2025,Medium,Medium,Active,Monitor closely
+INT048,Antidiabetic,Metformin,Iodinated Contrast,Major,Lactic acidosis,Avoid Combination,Lexicomp 2025,High,High,Active,Stop Metformin
+INT049,Antidiabetic,Insulin,Salbutamol,Moderate,Hypokalemia/Hyperglycemia,Monitor Closely,BNF 89,Medium,Medium,Active,Monitor K+ and Sugar
+INT050,Antidiabetic,Glipizide,Rifampicin,Moderate,Reduced effect,Monitor Closely,Lexicomp 2025,High,High,Active,Monitor sugar
+INT051,NSAID,Ibuprofen,Aspirin,Moderate,Reduced antiplatelet effect,Separate Administration,Lexicomp 2025,High,High,Active,Give Ibuprofen 8h after
+INT052,NSAID,Naproxen,Warfarin,Major,Increased bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor INR
+INT053,NSAID,Diclofenac,Lithium,Major,Increased Lithium toxicity,Monitor Closely,BNF 89,High,High,Active,Monitor Lithium levels
+INT054,NSAID,Indomethacin,Ramipril,Moderate,Reduced antihypertensive,Monitor Closely,Lexicomp 2025,Medium,Medium,Active,Check BP
+INT055,NSAID,Celecoxib,Fluconazole,Moderate,Increased Celecoxib,Dose Adjustment,Lexicomp 2025,Medium,Medium,Active,Reduce Celecoxib
+INT056,Statin,Simvastatin,Amiodarone,Major,Statin toxicity,Dose Adjustment,Lexicomp 2025,High,High,Active,Max Simvastatin 20mg
+INT057,Statin,Atorvastatin,Cyclosporine,Major,Increased Statin exposure,Avoid Combination,BNF 89,High,High,Active,Contraindicated
+INT058,Statin,Rosuvastatin,Gemfibrozil,Major,Myopathy risk,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT059,Statin,Simvastatin,Diltiazem,Major,Statin toxicity,Dose Adjustment,Lexicomp 2025,High,High,Active,Max Simvastatin 20mg
+INT060,Statin,Lovastatin,Clarithromycin,Major,Rhabdomyolysis,Avoid Combination,Lexicomp 2025,High,High,Active,Hold Statin
+INT061,PPI,Omeprazole,Clopidogrel,Moderate,Reduced Clopidogrel effect,Use with Caution,Lexicomp 2025,Moderate,Medium,Active,Use Pantoprazole if needed
+INT062,PPI,Lansoprazole,Methotrexate,Moderate,MTX toxicity,Monitor Closely,BNF 89,High,High,Active,Monitor MTX levels
+INT063,PPI,Esomeprazole,Atazanavir,Major,Reduced absorption,Avoid Combination,Lexicomp 2025,High,High,Active,Switch to alternative
+INT064,PPI,Omeprazole,Warfarin,Moderate,Increased INR,Monitor Closely,Lexicomp 2025,Medium,Medium,Active,Monitor INR
+INT065,PPI,Rabeprazole,Digoxin,Moderate,Increased Digoxin,Monitor Closely,Micromedex 2025,Medium,Medium,Active,Monitor Digoxin levels
+INT066,NSAID,Ketorolac,Warfarin,Major,Severe bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT067,NSAID,Piroxicam,Methotrexate,Major,MTX toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor MTX levels
+INT068,Statin,Fluvastatin,Erythromycin,Major,Statin toxicity,Monitor Closely,Lexicomp 2025,High,Medium,Active,Monitor for muscle pain
+INT069,Statin,Pravastatin,Colchicine,Moderate,Myopathy risk,Monitor Closely,BNF 89,Medium,Medium,Active,Advise patient
+INT070,PPI,Omeprazole,Iron,Moderate,Reduced iron absorption,Separate Administration,Lexicomp 2025,Medium,Medium,Active,2hr gap
+INT071,NSAID,Aspirin,Methotrexate,Major,MTX toxicity,Monitor Closely,Lexicomp 2025,High,High,Active,Monitor blood counts
+INT072,Statin,Simvastatin,Grapefruit Juice,Major,Statin toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,High risk interaction
+INT073,PPI,Pantoprazole,Iron,Moderate,Reduced iron absorption,Separate Administration,BNF 89,Medium,Medium,Active,2hr gap
+INT074,NSAID,Naproxen,Lithium,Major,Increased Lithium toxicity,Monitor Closely,Lexicomp 2025,High,High,Active,Monitor Lithium levels
+INT075,Statin,Atorvastatin,Rifampicin,Moderate,Reduced Statin effect,Monitor Closely,Lexicomp 2025,Medium,Medium,Active,Monitor Lipid profile
+INT076,Antiepileptic,Phenytoin,Valproic Acid,Major,Phenytoin toxicity,Monitor Closely,Lexicomp 2025,High,High,Active,Check levels
+INT077,Antiepileptic,Carbamazepine,Oral Contraceptives,Major,Reduced efficacy,Avoid Combination,BNF 89,High,High,Active,Use barrier method
+INT078,Antiepileptic,Phenytoin,Fluconazole,Major,Phenytoin toxicity,Monitor Closely,Lexicomp 2025,High,High,Active,Check plasma levels
+INT079,Antiepileptic,Lamotrigine,Valproic Acid,Major,Lamotrigine toxicity,Dose Adjustment,Lexicomp 2025,High,High,Active,Reduce Lamotrigine
+INT080,Antiepileptic,Carbamazepine,Warfarin,Major,Reduced Warfarin effect,Monitor Closely,BNF 89,High,High,Active,Monitor INR
+INT081,Psychotropic,Fluoxetine,Tramadol,Major,Serotonin syndrome,Avoid Combination,Lexicomp 2025,High,High,Active,Risk of S. Syndrome
+INT082,Psychotropic,Sertraline,Warfarin,Moderate,Increased bleeding risk,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor INR
+INT083,Psychotropic,Lithium,Ibuprofen,Major,Lithium toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT084,Psychotropic,Amitriptyline,Fluoxetine,Moderate,Increased TCA levels,Monitor Closely,BNF 89,Moderate,Medium,Active,Monitor side effects
+INT085,Psychotropic,Quetiapine,Ketoconazole,Major,Quetiapine toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT086,Supplement,Calcium,Levofloxacin,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,2hr gap
+INT087,Supplement,Magnesium,Tetracycline,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,3hr gap
+INT088,Supplement,Vitamin K,Warfarin,Major,Reduced Warfarin effect,Monitor Closely,Lexicomp 2025,High,High,Active,Monitor INR
+INT089,Supplement,Iron,Doxycycline,Moderate,Reduced absorption,Separate Administration,BNF 89,High,Medium,Active,3hr gap
+INT090,Supplement,Zinc,Ciprofloxacin,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,2hr gap
+INT091,Antiepileptic,Valproic Acid,Aspirin,Moderate,Increased Valproate,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor clinical status
+INT092,Antiepileptic,Phenobarbital,Warfarin,Major,Reduced Warfarin effect,Monitor Closely,BNF 89,High,High,Active,Monitor INR
+INT093,Psychotropic,Venlafaxine,St. John's Wort,Major,Serotonin syndrome,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT094,Psychotropic,Lithium,Thiazides,Major,Lithium toxicity,Dose Adjustment,Lexicomp 2025,High,High,Active,Monitor levels
+INT095,Psychotropic,Olanzapine,Fluvoxamine,Moderate,Olanzapine toxicity,Monitor Closely,BNF 89,Moderate,Medium,Active,Monitor side effects
+INT096,Antiepileptic,Topiramate,Oral Contraceptives,Moderate,Reduced efficacy,Use with Caution,Lexicomp 2025,Moderate,Medium,Active,Use barrier method
+INT097,Psychotropic,Risperidone,Fluoxetine,Moderate,Risperidone toxicity,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor for EPS
+INT098,Supplement,Folic Acid,Phenytoin,Moderate,Reduced Phenytoin,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor levels
+INT099,Antiepileptic,Levetiracetam,Methotrexate,Moderate,MTX toxicity,Use with Caution,Lexicomp 2025,Moderate,Medium,Active,Monitor renal function
+INT100,Psychotropic,Citalopram,Omeprazole,Moderate,Increased Citalopram,Dose Adjustment,Lexicomp 2025,Moderate,Medium,Active,Monitor QT interval
+INT101,Endocrine,Levothyroxine,Cholestyramine,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,4hr gap
+INT102,Endocrine,Prednisolone,Warfarin,Moderate,Increased bleeding risk,Monitor Closely,BNF 89,Moderate,Medium,Active,Monitor INR
+INT103,Endocrine,Dexamethasone,Phenytoin,Moderate,Reduced steroid effect,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor clinical status
+INT104,Endocrine,Levothyroxine,Calcium,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,4hr gap
+INT105,Oncology,Methotrexate,NSAIDs,Major,MTX toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor renal function
+INT106,Oncology,Tamoxifen,Fluoxetine,Major,Reduced efficacy,Avoid Combination,Lexicomp 2025,High,High,Active,Switch antidepressant
+INT107,Oncology,Cyclophosphamide,Allopurinol,Moderate,Increased bone marrow toxicity,Monitor Closely,BNF 89,Moderate,Medium,Active,Monitor CBC
+INT108,Oncology,Imatinib,Ketoconazole,Moderate,Increased Imatinib levels,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor side effects
+INT109,Oncology,Cisplatin,Aminoglycosides,Major,Nephrotoxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor renal function
+INT110,Oncology,Doxorubicin,Verapamil,Moderate,Increased cardiotoxicity,Monitor Closely,Micromedex 2025,Moderate,Medium,Active,Monitor LVEF
+INT111,Endocrine,Spironolactone,Lithium,Major,Lithium toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Check Lithium levels
+INT112,Endocrine,Hydrocortisone,Insulin,Moderate,Hyperglycemia,Monitor Closely,BNF 89,Moderate,Medium,Active,Adjust Insulin dose
+INT113,Oncology,Capecitabine,Warfarin,Major,Increased bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor INR daily
+INT114,Oncology,Etoposide,Phenytoin,Moderate,Reduced Etoposide efficacy,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor treatment response
+INT115,Oncology,Paclitaxel,Doxorubicin,Major,Increased toxicity,Separate Administration,Lexicomp 2025,High,High,Active,Space by 24h
+INT116,Endocrine,Metformin,Levothyroxine,No Known Interaction,No interaction,Safe to Use,BNF 89,High,Low,Active,None
+INT117,Oncology,Vincristine,Azole Antifungals,Major,Neurotoxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Risk of neuropathy
+INT118,Endocrine,Ethinylestradiol,Carbamazepine,Major,Reduced contraceptive effect,Use with Caution,Lexicomp 2025,High,High,Active,Use barrier method
+INT119,Oncology,Methotrexate,Probenecid,Major,MTX toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT120,Endocrine,Thyroxine,Iron Salts,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,4hr gap
+INT121,Oncology,Imatinib,St. John's Wort,Major,Reduced Imatinib effect,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT122,Endocrine,Prednisone,NSAIDs,Moderate,Increased GI ulcer risk,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Use PPI if needed
+INT123,Oncology,5-Fluorouracil,Warfarin,Major,Increased bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor INR
+INT124,Endocrine,Testosterone,Warfarin,Moderate,Increased bleeding risk,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor INR
+INT125,Oncology,Nilotinib,Proton Pump Inhibitors,Major,Reduced absorption,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor efficacy
+INT126,Drug-Food,Warfarin,Leafy Greens,Moderate,Reduced INR,Monitor Closely,Lexicomp 2025,High,Medium,Active,Consistency is key
+INT127,Drug-Food,Cyclosporine,Grapefruit Juice,Major,Increased toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT128,Complex,Metformin,Contrast Dye,Major,Lactic Acidosis,Avoid Combination,BNF 89,High,High,Active,Stop Metformin 48h
+INT129,Renal,Digoxin,Ibuprofen,Moderate,Digoxin toxicity,Monitor Closely,Lexicomp 2025,High,Medium,Active,Reduce dose in renal
+INT130,Hepatic,Warfarin,Paracetamol,Moderate,Increased INR,Monitor Closely,BNF 89,Moderate,Medium,Active,Limit Paracetamol
+INT131,Complex,Lithium,ACE Inhibitor,Major,Lithium toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor levels
+INT132,Drug-Food,Tetracycline,Milk/Dairy,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,2hr gap
+INT133,Renal,Methotrexate,NSAIDs,Major,Nephrotoxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT134,Complex,Theophylline,Tobacco Smoke,Moderate,Reduced efficacy,Dose Adjustment,Lexicomp 2025,Moderate,Medium,Active,Monitor levels
+INT135,Hepatic,Statins,Alcohol,Moderate,Liver strain,Monitor Closely,BNF 89,Moderate,Medium,Active,Avoid excess alcohol
+INT136,Drug-Food,MAOI,Aged Cheese,Major,Hypertensive crisis,Avoid Combination,Lexicomp 2025,High,High,Active,Tyramine avoidance
+INT137,Renal,Gentamicin,Furosemide,Major,Nephrotoxicity,Monitor Closely,Lexicomp 2025,High,High,Active,Monitor Creatinine
+INT138,Complex,Phenytoin,Folic Acid,Moderate,Reduced Phenytoin,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Check plasma levels
+INT139,Hepatic,Rifampicin,Oral Contraceptive,Major,Reduced efficacy,Use with Caution,BNF 89,High,High,Active,Barrier method
+INT140,Complex,Alendronate,Coffee,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,Water only
+INT141,Renal,Atenolol,Cimetidine,Moderate,Increased Atenolol,Dose Adjustment,Lexicomp 2025,Moderate,Medium,Active,Monitor HR/BP
+INT142,Drug-Food,Iron,Coffee/Tea,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,Moderate,Medium,Active,2hr gap
+INT143,Complex,Valproic Acid,Carbapenem,Major,Reduced Valproic Acid,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT144,Hepatic,Erythromycin,Carbamazepine,Major,Carbamazepine toxicity,Monitor Closely,BNF 89,High,High,Active,Reduce dose
+INT145,Complex,Levothyroxine,Soy,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,Moderate,Medium,Active,4hr gap
+INT146,Renal,Acyclovir,Nephrotoxic drugs,Major,Nephrotoxicity,Monitor Closely,Lexicomp 2025,High,High,Active,Hydration essential
+INT147,Drug-Food,Statins,Red Yeast Rice,Major,Increased myopathy,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT148,Complex,Aspirin,Alcohol,Moderate,Increased GI bleeding,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor stools
+INT149,Hepatic,Methotrexate,Alcohol,Major,Liver toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT150,Renal,Enalapril,Spironolactone,Moderate,Hyperkalemia,Monitor Closely,BNF 89,High,High,Active,Monitor K+ levels
+INT151,Geriatrics,Digoxin,Amiodarone,Major,Increased Digoxin toxicity,Dose Adjustment,Lexicomp 2025,High,High,Active,Lower dose in elderly
+INT152,Pediatrics,Tetracycline,Milk,Moderate,Reduced absorption,Separate Administration,BNF 89,High,Medium,Active,Avoid in <8 yrs
+INT153,Geriatrics,Amitriptyline,Beers Criteria Drugs,Major,High fall risk,Avoid Combination,Lexicomp 2025,High,High,Active,Avoid in elderly
+INT154,Pediatrics,Aspirin,Viral Infection,Major,Reye's Syndrome risk,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT155,Geriatrics,Warfarin,NSAIDs,Major,Severe GI bleeding,Avoid Combination,Lexicomp 2025,High,High,Active,High risk in elderly
+INT156,Pediatrics,Codeine,Post-tonsillectomy,Major,Respiratory depression,Avoid Combination,BNF 89,High,High,Active,Contraindicated
+INT157,Geriatrics,Diazepam,Alcohol,Major,CNS depression/Falls,Avoid Combination,Lexicomp 2025,High,High,Active,High fall risk
+INT158,Pediatrics,Fluoroquinolones,Growing child,Moderate,Cartilage damage,Use with Caution,Lexicomp 2025,Moderate,Medium,Active,Use only if essential
+INT159,Geriatrics,Metformin,Renal Impairment,Major,Lactic acidosis,Dose Adjustment,Lexicomp 2025,High,High,Active,Monitor GFR
+INT160,Pediatrics,Cimetidine,Theophylline,Moderate,Theophylline toxicity,Dose Adjustment,BNF 89,Moderate,Medium,Active,Reduce Theophylline
+INT161,Geriatrics,Zolpidem,Opioids,Major,Respiratory depression,Avoid Combination,Lexicomp 2025,High,High,Active,High fall risk
+INT162,Pediatrics,Valproic Acid,Aspirin,Moderate,Valproic toxicity,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor levels
+INT163,Geriatrics,Spironolactone,ACE Inhibitors,Major,Hyperkalemia,Monitor Closely,Lexicomp 2025,High,High,Active,High risk in elderly
+INT164,Pediatrics,Erythromycin,Cisapride,Major,QT Prolongation,Avoid Combination,BNF 89,High,High,Active,Contraindicated
+INT165,Geriatrics,Haloperidol,Anticholinergics,Moderate,Confusion/Delirium,Avoid Combination,Lexicomp 2025,Moderate,Medium,Active,Avoid in dementia
+INT166,Pediatrics,Promethazine,<2 Years Old,Major,Respiratory depression,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT167,Geriatrics,Celecoxib,Warfarin,Major,Increased bleeding risk,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor INR
+INT168,Pediatrics,Phenobarbital,Oral Contraceptives,Major,Reduced efficacy,Use with Caution,BNF 89,High,Medium,Active,Use barrier method
+INT169,Geriatrics,Gabapentin,Opioids,Major,CNS depression,Monitor Closely,Lexicomp 2025,High,High,Active,Monitor sedation
+INT170,Pediatrics,Tetracycline,Iron Salts,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,3hr gap
+INT171,Geriatrics,Tamsulosin,Antihypertensives,Moderate,Orthostatic hypotension,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Risk of falls
+INT172,Pediatrics,Chloramphenicol,Neonates,Major,Grey Baby Syndrome,Avoid Combination,BNF 89,High,High,Active,Contraindicated
+INT173,Geriatrics,Pioglitazone,Heart Failure,Major,Fluid retention,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT174,Pediatrics,Sulfonamides,<2 Months Old,Major,Kernicterus risk,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT175,Geriatrics,Oxybutynin,Cholinesterase inhibitors,Moderate,Antagonistic effect,Avoid Combination,Lexicomp 2025,Moderate,Medium,Active,Avoid in dementia
+INT176,EdgeCase,Paracetamol,Paracetamol,Duplicate,Duplicate therapy,Avoid Combination,Lexicomp 2025,High,High,Active,Check total dose
+INT177,Misc,Metformin,Gliclazide,Moderate,Hypoglycemia,Monitor Closely,BNF 89,Medium,Medium,Active,Check blood sugar
+INT178,EdgeCase,Aspirin,Ibuprofen,Moderate,Increased GI toxicity,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Use PPI
+INT179,Misc,Furosemide,Lithium,Major,Lithium toxicity,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor Lithium
+INT180,EdgeCase,Amoxicillin,Amoxicillin,Duplicate,Duplicate therapy,Avoid Combination,BNF 89,High,High,Active,Check prescription
+INT181,Misc,Atorvastatin,Ezetimibe,Moderate,Increased efficacy,Monitor Closely,Lexicomp 2025,Moderate,Low,Active,Monitor lipids
+INT182,Complex,Warfarin,St. John's Wort,Major,Reduced INR,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT183,EdgeCase,Empty,Metformin,PASS,No interaction,Safe to Use,N/A,Low,Low,Active,Invalid input handled
+INT184,Misc,Ciprofloxacin,Theophylline,Major,Theophylline toxicity,Monitor Closely,BNF 89,High,High,Active,Monitor levels
+INT185,Complex,Levothyroxine,Calcium,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,High,Medium,Active,4hr gap
+INT186,EdgeCase,Very long text,Paracetamol,PASS,Unknown drug,Investigate,N/A,Low,Low,Active,Error handled
+INT187,Misc,Ramipril,Losartan,Major,Hyperkalemia/Renal risk,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT188,Complex,Amiodarone,Flecainide,Major,QT Prolongation,Avoid Combination,Lexicomp 2025,High,High,Active,ECG monitoring
+INT189,EdgeCase,12345,67890,PASS,Unknown drug,Investigate,N/A,Low,Low,Active,Invalid input
+INT190,Misc,Omeprazole,Atazanavir,Major,Reduced efficacy,Avoid Combination,Lexicomp 2025,High,High,Active,Contraindicated
+INT191,Complex,Prednisolone,NSAIDs,Moderate,GI Ulcer risk,Monitor Closely,BNF 89,Moderate,Medium,Active,Use PPI
+INT192,EdgeCase,Paracetamol,Empty,PASS,No interaction,Safe to Use,N/A,Low,Low,Active,Single drug
+INT193,Misc,Clarithromycin,Digoxin,Major,Digoxin toxicity,Monitor Closely,Lexicomp 2025,High,High,Active,Monitor levels
+INT194,Complex,Methotrexate,Folic Acid,Moderate,Reduced toxicity,Use with Caution,BNF 89,Moderate,Medium,Active,Standard protocol
+INT195,EdgeCase,Symbols,Paracetamol,PASS,Invalid input,Review,N/A,Low,Low,Active,Input sanitization
+INT196,Misc,Warfarin,Green Tea,Moderate,Reduced INR,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Consistent intake
+INT197,Complex,Simvastatin,Niacin,Moderate,Increased myopathy,Monitor Closely,Lexicomp 2025,Moderate,Medium,Active,Monitor muscles
+INT198,Misc,Lisinopril,Potassium,Major,Severe Hyperkalemia,Avoid Combination,Lexicomp 2025,High,High,Active,Monitor K+ levels
+INT199,EdgeCase,ABC999,XYZ123,PASS,Unknown drug,Investigate,N/A,Low,Low,Active,Fake drug test
+INT200,Misc,Levothyroxine,Soy Milk,Moderate,Reduced absorption,Separate Administration,Lexicomp 2025,Moderate,Medium,Active,4hr gap
