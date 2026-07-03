@@ -429,7 +429,6 @@ def main() -> None:
         if not medicine_one.strip() or not medicine_two.strip():
             st.warning("Please enter both medicine names.")
             return
-        st.write("Reached Interaction")
 
         checker = DrugInteraction()
         
@@ -437,8 +436,6 @@ def main() -> None:
             medicine_one,
             medicine_two,
         )
-        st.write("After function")
-        st.write(result)
 
         if not result["success"]:
             st.error(result["interaction"])
