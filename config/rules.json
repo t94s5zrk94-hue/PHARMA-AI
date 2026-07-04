@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "config_version": "1.1.0",
+    "last_updated": "2026-07-04",
+    "owner": "Clinical Data Team",
+    "status": "Approved"
+  },
+  "confidence_thresholds": {
+    "exact_match": 1.0,
+    "synonym_match": 0.98,
+    "alias_match": 0.95,
+    "minimum_publish": 0.80
+  },
+  "processing_rules": {
+    "remove_trademarks": true,
+    "normalize_unicode": true,
+    "trim_whitespace": true,
+    "split_characters": ["+", "/", "with", "and"]
+  },
+  "clinical_features": {
+    "apply_pregnancy_warnings": true,
+    "apply_renal_adjustments": true
+  },
+  "clinical_validation_rules": {
+    "pregnancy_evidence_required": true,
+    "renal_source_required": true,
+    "default_route_id": "ROUTE001"
+  }
+}

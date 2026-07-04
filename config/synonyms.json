@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "config_version": "2.0.0",
+    "last_updated": "2026-07-04",
+    "owner": "Clinical Data Team",
+    "review_due": "2027-07-04"
+  },
+  "lexical_entries": {
+    "GEN000001": {
+      "generic_name": "Paracetamol",
+      "terminology_system": "INN",
+      "synonyms": [
+        {
+          "term": "Acetaminophen",
+          "region": "USA",
+          "source": "USAN",
+          "ambiguous": false
+        },
+        {
+          "term": "PCM",
+          "region": "India",
+          "source": "Local Practice",
+          "ambiguous": false
+        },
+        {
+          "term": "Para",
+          "region": "Global",
+          "source": "Informal",
+          "ambiguous": true,
+          "requires_context": true
+        }
+      ]
+    }
+  }
+}

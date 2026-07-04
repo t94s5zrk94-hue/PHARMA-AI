@@ -1,0 +1,1413 @@
+﻿Sr No,Drug Code,Product_Name,Unit Size,MRP,Group Name,Mapped_Category,Confidence,Matched_Rule,Needs_Review,Processing_Status
+2,2,Aceclofenac Tablets IP 100 mg,10's,8.25,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+3,3,Pregabalin Capsules IP 75 mg,10's,22.69,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+4,5,Aspirin Gastro-resistant Tablets IP 150 mg,14's,5.16,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+8,9,Diclofenac Sodium Prolonged Release Tablets IP 100 mg,10's,12.47,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+9,10,Diclofenac Sodium Injection IP 25mg per ml,3 ml,3.75,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+10,11,Diclofenac Gastro-Resistant Tablets IP 50 mg,10's,5.68,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+11,12,Etoricoxib Tablets IP 120 mg,10's,35.63,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+12,13,Etoricoxib Tablets IP 90 mg,10's,31.97,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+14,15,Ibuprofen Tablets IP 200 mg,10's,2.81,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+15,16,Ibuprofen Tablets IP 400 mg,15's,9.08,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+16,17,Indomethacin Capsules IP 25 mg,10's,12.19,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+17,18,Azithromycin Tablets IP 250 mg,6's,42.19,Antibiotics,generic,Needs Review,None,Yes,Classified
+19,20,Nimesulide Tablets 100 mg,10's,6.81,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+21,22,Paracetamol Paediatric Oral Suspension IP 125 mg per 5 ml,60 ml,11.34,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+22,23,Paracetamol Tablets IP 500 mg,10's,6.56,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+23,24,Pentazocine Injection IP 30 mg per ml,1 ml,14.06,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+24,25,Serratiopeptidase Tablets IP 10 mg,10's,12.47,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+25,26,Tramadol Hydrochloride Injection 100 mg per 2 ml,2 ml,7.5,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+26,27,Tramadol HCl Injection 50mg 1 ml,1 ml,4.69,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+27,28,Tramadol Tablets 50mg,10's,8.25,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+28,29,Aciclovir Tablets IP 400 mg,10's,41.25,Anti-Viral,generic,Needs Review,None,Yes,Classified
+29,30,Amikacin Injection IP 100 mg per 2 ml,2 ml Vial,12.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+30,31,Amikacin Injection IP 250 mg per 2 ml,2 ml Vial,20.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+31,32,Amikacin Injection IP 500 mg per 2 ml,2 ml Vial,27.19,Antibiotics,generic,Needs Review,None,Yes,Classified
+39,42,Amoxycillin Trihydrate Dispersible Tablets IP 125 mg,10's,11.25,Antibiotics,generic,Needs Review,None,Yes,Classified
+40,43,Amoxycillin Oral Suspension IP 125mg per 5ml,60 ml,17.81,Antibiotics,generic,Needs Review,None,Yes,Classified
+41,44,Amoxycillin Capsules IP 250mg,10's,13.13,Antibiotics,generic,Needs Review,None,Yes,Classified
+42,45,Amoxycillin Capsules IP 500mg,10's,36.09,Antibiotics,generic,Needs Review,None,Yes,Classified
+43,46,Ampicillin Injection IP 500 mg,Vial,7.22,Antibiotics,generic,Needs Review,None,Yes,Classified
+44,47,Azithromycin Oral Suspension IP 100mg per 5ml,15 ml,14.06,Antibiotics,generic,Needs Review,None,Yes,Classified
+45,48,Azithromycin Dispersible Tablets 100mg,10's,25.31,Antibiotics,generic,Needs Review,None,Yes,Classified
+46,51,Cefadroxil Dispersible Tablets 250mg,10's,17.53,Antibiotics,generic,Needs Review,None,Yes,Classified
+47,52,Cefadroxil Tablets IP 500 mg,10's,22.69,Antibiotics,generic,Needs Review,None,Yes,Classified
+48,53,Cefixime Oral Suspension IP 50mg per 5ml,30 ml,18.75,Antibiotics,generic,Needs Review,None,Yes,Classified
+49,54,Cefixime Tablets IP 100 mg,10's,28.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+50,55,Cefixime Tablets IP 200 mg,10's,52.55,Antibiotics,generic,Needs Review,None,Yes,Classified
+53,58,Cefoperazone Injection IP 1 g,Vial & Wfi,43.13,Antibiotics,generic,Needs Review,None,Yes,Classified
+57,62,Cefotaxime Sodium Injection IP 1g,Vial & Wfi,17.81,Antibiotics,generic,Needs Review,None,Yes,Classified
+58,63,Cefotaxime Sodium Injection IP 250 mg,Vial & Wfi,9.38,Antibiotics,generic,Needs Review,None,Yes,Classified
+59,64,Cefotaxime Sodium Injection IP 500 mg,Vial & Wfi,11.25,Antibiotics,generic,Needs Review,None,Yes,Classified
+60,65,Cefpodoxime Proxetil Dispersible Tablets 100 mg,10's,37.5,Antibiotics,generic,Needs Review,None,Yes,Classified
+61,66,Cefpodoxime Tablets IP 200 mg,10's,72.19,Antibiotics,generic,Needs Review,None,Yes,Classified
+62,67,Ceftazidime Injection IP 1g,Vial & Wfi,75.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+63,68,Ceftazidime Injection IP 250mg,Vial & Wfi,28.13,Antibiotics,generic,Needs Review,None,Yes,Classified
+64,69,Ceftazidime Injection IP 500mg,Vial & Wfi,46.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+67,72,Azithromycin Tablets IP 500 mg,3's,39.38,Antibiotics,generic,Needs Review,None,Yes,Classified
+70,75,Ceftriaxone Injection IP  1 g,Vial & Wfi,28.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+71,76,Ceftriaxone Injection IP 250 mg,Vial & Wfi,12.19,Antibiotics,generic,Needs Review,None,Yes,Classified
+72,77,Ceftriaxone injection IP 500 mg,Vial & Wfi,22.5,Antibiotics,generic,Needs Review,None,Yes,Classified
+73,78,Cefuroxime Axetil Tablets IP 250 mg,10's,70.31,Antibiotics,generic,Needs Review,None,Yes,Classified
+74,79,Cefuroxime Axetil Tablets IP 500 mg,10's,146.44,Antibiotics,generic,Needs Review,None,Yes,Classified
+75,80,Cephalexin Tablets IP 125mg (Dispersible),10's,19.69,Antibiotics,generic,Needs Review,None,Yes,Classified
+76,81,Cephalexin  Capsules IP 250mg,10's,30.94,Antibiotics,generic,Needs Review,None,Yes,Classified
+77,82,Cephalexin Capsules IP 500mg,10's,46.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+80,85,Ciprofloxacin Hydrochloride Tablets IP 250 mg,10's,10.31,Antibiotics,generic,Needs Review,None,Yes,Classified
+81,86,Ciprofloxacin Hydrochloride Tablets IP 500 mg,10's,20.63,Antibiotics,generic,Needs Review,None,Yes,Classified
+86,92,Doxycycline Capsules IP 100mg,10's,15.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+87,93,Erythromycin Stearate Tablets IP  250mg,10's,19.59,Antibiotics,generic,Needs Review,None,Yes,Classified
+88,94,Gentamicin Sulphate Injection IP 80 mg per 2ml,2 ml,5.09,Antibiotics,generic,Needs Review,None,Yes,Classified
+89,95,Levofloxacin Tablets IP 250mg,10's,16.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+90,96,Levofloxacin Tablets IP 500mg,10's,34.03,Antibiotics,generic,Needs Review,None,Yes,Classified
+91,97,Meropenem Injection IP 1 g,Vial & Wfi,221.25,Antibiotics,generic,Needs Review,None,Yes,Classified
+93,99,Norfloxacin Tablets IP 400 mg,10's,19.69,Antibiotics,generic,Needs Review,None,Yes,Classified
+95,101,Ofloxacin Tablets IP 200mg,10's,14.44,Antibiotics,generic,Needs Review,None,Yes,Classified
+96,102,Ofloxacin Tablets IP 400mg,10's,32.81,Antibiotics,generic,Needs Review,None,Yes,Classified
+98,105,Roxithromycin Tablets IP 150 mg,10's,26.25,Antibiotics,generic,Needs Review,None,Yes,Classified
+99,106,Roxithromycin Tablets IP 300 mg,10's,46.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+100,107,Tinidazole Tablets IP 300 mg,10's,12.19,Antibiotics,generic,Needs Review,None,Yes,Classified
+101,108,Tinidazole Tablets IP 500 mg,10's,15.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+102,109,Vancomycin Hydrochloride for Intravenous Infusion IP 500 mg,Vial & Wfi,135.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+106,115,Calamine Lotion IP,100 ml,26.25,Derma Care,generic,Needs Review,None,Yes,Classified
+118,133,Glibenclamide Tablets IP 2.5 mg,10's,2.81,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+119,134,Glibenclamide Tablets IP 5 mg,10's,5.68,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+120,135,Gliclazide Tablets IP 40 mg,10's,15.88,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+121,136,Gliclazide Tablets IP 80 mg,10's,24.75,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+122,137,Glimepiride Tablets IP 1mg,10's,4.54,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+123,138,Glimepiride Tablets IP 2mg,10's,5.68,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+124,141,Glipizide Tablet IP 5 mg,10's,4.74,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+125,142,Soluble Insulin Injection IP 40 IU per ml (R-DNA Origin),10 ml Vial,85.91,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+127,144,Metformin Hydrochloride Sustained Release Tablets IP 1000 mg,10's,13.62,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+128,145,Metformin Hydrochloride Tablets IP 500mg,10's,6.81,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+129,147,Pioglitazone Tablets IP 30mg,10's,13.62,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+131,152,Bleomycin Injection IP 15 IU,Vial,300.0,Oncology,generic,Needs Review,None,Yes,Classified
+132,153,Cisplatin Injection IP 10 mg per10ml,Vial,32.81,Oncology,generic,Needs Review,None,Yes,Classified
+133,154,Cisplatin Injection 50mg per 50ml,Vial,160.88,Oncology,generic,Needs Review,None,Yes,Classified
+134,156,Doxorubicin Injection IP 50mg (2mg per ml),Vial,281.25,Oncology,generic,Needs Review,None,Yes,Classified
+135,158,Etoposide Injection IP 100 mg per 5 ml,Vial,92.81,Oncology,generic,Needs Review,None,Yes,Classified
+136,159,Gemcitabine Injection IP 1000mg,Vial,783.75,Oncology,generic,Needs Review,None,Yes,Classified
+137,160,Gemcitabine Injection IP 200mg,Vial,225.0,Oncology,generic,Needs Review,None,Yes,Classified
+138,163,Tamoxifen Citrate Tablets IP 10 mg,10's,10.31,Oncology,generic,Needs Review,None,Yes,Classified
+139,164,Tamoxifen Citrate Tablets IP 20 mg,10's,15.0,Oncology,generic,Needs Review,None,Yes,Classified
+140,165,Ciprofloxacin Injection IP 200mg,100 ml,11.25,Antibiotics,generic,Needs Review,None,Yes,Classified
+143,172,Metronidazole  Infusion IP 500 mg,100 ml,8.25,Antibiotics,generic,Needs Review,None,Yes,Classified
+144,177,Albendazole Oral Suspension IP 200 mg per 5ml,10 ml,7.5,Anthelmintic,generic,Needs Review,None,Yes,Classified
+146,180,Bisacodyl Tablets IP 5mg,10's,6.19,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+148,183,Dicyclomine Tablets IP 10mg,10's,0.94,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+150,186,Domperidone Tablets IP 10 mg,10's,4.54,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+151,187,Domperidone Suspension IP 5mg per 5ml,30 ml,12.19,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+153,191,Famotidine Tablets IP 20 mg,14's,2.81,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+154,192,Famotidine Tablets IP 40 mg,14's,4.99,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+155,193,Furazolidone Tablets IP 100 mg,10's,0.94,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+156,194,Hyoscine Butylbromide Tablets IP 10 mg,10's,16.5,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+157,196,Lactic Acid Bacillus Tablets 60 Million spores,10's,7.94,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+158,197,Lactulose Solution IP 10g per 15ml,100 ml,57.0,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+160,199,Metoclopramide Tablets IP 10 mg,10's,7.5,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+161,200,Metoclopramide Injection IP 5mg per ml,2ml Ampoule,2.81,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+162,201,Metronidazole  Tablets IP 200mg,10's,4.41,Antibiotics,generic,Needs Review,None,Yes,Classified
+163,202,Metronidazole  Tablets IP 400mg,10's,7.22,Antibiotics,generic,Needs Review,None,Yes,Classified
+164,203,Misoprostol Tablets IP 200 mcg,4's,18.75,Gynaecology,generic,Needs Review,None,Yes,Classified
+166,207,Omeprazole Gastro-resistant Capsules IP 20 mg,10's,10.21,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+167,208,Ondansetron Injection IP 2mg per ml,2 ml,4.54,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+168,209,Ondansetron Tablets IP 4 mg,10's,6.81,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+169,210,Ornidazole Tablets IP 500mg,10's,23.44,Antibiotics,generic,Needs Review,None,Yes,Classified
+170,212,Pantoprazole Gastro Resistant Tablets IP 40 mg,10's,12.47,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+171,213,Pantoprazole Injection 40mg,Vial,23.83,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+173,215,Rabeprazole Gastro Resistant Tablets IP 20 mg,10's,9.08,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+174,216,Ranitidine Injection IP 25 mg per ml,2 ml,3.75,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+175,217,Ranitidine Tablets IP 150 mg,10's,6.19,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+176,218,Ranitidine Tablets IP 300 mg,10's,13.41,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+179,224,Folic Acid Tablets IP 5 mg,15's,4.54,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+181,227,Polyvitamin Tablets NFI (Prophylactic),10's,7.22,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+182,230,Vitamin B-Complex fort Zinc Capsule,10's,10.21,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+183,231,"Vitamin B-Complex Tablets (B1 10mg, B2 10mg, B3 45mg, B5 50mg, B6 3mg, B12 15mcg)",10's,16.5,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+184,232,Vitamin B-Complex Syrup,200 ml,39.38,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+185,235,Budesonide Nebuliser Suspension 1mg per 2ml,2 ml,12.8,Respiratory,generic,Needs Review,None,Yes,Classified
+186,236,Budesonide Inhalation IP 100mcg,200 MDI,115.31,Respiratory,generic,Needs Review,None,Yes,Classified
+187,238,Budesonide Inhalation IP 200mcg,200 md,150.0,Respiratory,generic,Needs Review,None,Yes,Classified
+188,239,Cetirizine Syrup IP 5 mg per 5 ml,60 ml,13.41,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+189,240,Cetrizine Hydrochloride Tablets IP 10mg,10's,5.68,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+191,246,Fexofenadine Hydrochloride Tablets IP 120mg,10's,24.75,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+192,247,Fexofenadine Tablets IP 180 mg,10's,35.06,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+193,248,Levocetrizine Tablets IP 5 mg,10's,7.94,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+194,250,Montelukast Sodium Tablets IP 5mg,10's,14.06,Respiratory,generic,Needs Review,None,Yes,Classified
+195,251,Montelukast Sodium Tablets IP 10mg,10's,20.42,Respiratory,generic,Needs Review,None,Yes,Classified
+197,253,Pheniramine Maleate Tablets IP 25 mg,15's,4.69,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+198,254,Promethazine Syrup IP 5mg per 5ml,100 ml,13.13,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+199,255,Salbutamol Inhalation IP 100mcg,200 md,52.5,Respiratory,generic,Needs Review,None,Yes,Classified
+200,256,Salbutamol Tablets IP 2mg,10's,0.94,Respiratory,generic,Needs Review,None,Yes,Classified
+201,259,Salbutamol Syrup IP 2mg per 5ml,100 ml,10.31,Respiratory,generic,Needs Review,None,Yes,Classified
+202,260,Salbutamol Tablets IP 4 mg,10's,1.88,Respiratory,generic,Needs Review,None,Yes,Classified
+203,261,Adenosine Injection IP 6 mg per 2ml,2 ml,98.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+205,264,Amlodipine Tablets IP 5mg,10's,5.68,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+206,265,Atenolol Tablets IP 50 mg,14's,6.81,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+207,266,Atorvastatin Tablets IP 10mg,10's,9.08,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+208,267,Atorvastatin Tablets IP 20mg,10's,12.47,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+209,268,Clonidine Tablets IP 100 mcg,10's,10.5,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+210,269,Clopidogrel Tablets IP 75mg,10's,19.28,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+212,271,Diltiazem Tablets IP 30 mg,10's,11.34,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+213,272,Diltiazem Tablets IP 60 mg,10's,15.94,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+214,273,Dobutamine Injection IP 250mg per 20ml (for Intravenous Infusion),Vial,35.63,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+215,274,Dopamine Hydrochloride Injection IP 200 mg per 5ml,5 ml,15.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+216,275,Enalapril Tablets IP 5 mg,10's,5.68,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+217,276,Enoxaparin Injection IP 40 mg per 0.4 ml,0.4 ml,187.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+218,277,Enoxaparin Injection IP 60 mg per 0.6 ml,0.6 ml,217.8,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+219,278,Frusemide Injection IP 10 mg per ml,2 ml,2.81,Diuretic,generic,Needs Review,None,Yes,Classified
+220,279,Frusemide Tablets IP 40 mg,10's,4.94,Diuretic,generic,Needs Review,None,Yes,Classified
+221,280,Heparin Sodium Injection IP 5000 IU,5 ml,40.22,Anticoagulant,generic,Needs Review,None,Yes,Classified
+222,281,Heparin Sodium Injection IP 25000 IU,5 ml,187.5,Anticoagulant,generic,Needs Review,None,Yes,Classified
+223,283,Isosorbide Dinitrate Tablets IP 10mg,50's,19.69,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+225,286,Lisinopril Tablets IP 5mg,10's,9.38,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+227,288,Losartan Tablets IP 25mg,10's,7.94,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+228,289,Losartan Tablets IP 50mg,10's,12.47,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+229,290,Metoprolol Tablets IP 25 mg,10's,6.81,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+230,291,Metoprolol Extended release Tablets IP 50mg,10's,10.21,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+231,293,Ramipril Tablets IP 2.5 mg,10's,7.94,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+232,294,Ramipril Tablets IP 5 mg,10's,10.32,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+233,295,Simvastatin Tablets IP 10mg,10's,10.31,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+234,296,Simvastatin Tablets IP 20mg,10's,15.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+236,299,Telmisartan Tablets IP 20mg,10's,11.34,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+237,300,Telmisartan Tablets IP 40mg,10's,12.38,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+238,301,Tranexamic Acid Tablets IP  500 mg,10's,74.0,Coagulants,generic,Needs Review,None,Yes,Classified
+239,302,Tranexamic Acid Injection IP 500 mg (100mg per ml),5 ml Amp.,24.0,Coagulants,generic,Needs Review,None,Yes,Classified
+240,304,α-β Arteether Injection 150 mg,2 ml Ampoule,17.81,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+241,305,Chloroquine Phosphate Tablets IP 250 mg,10's,5.0,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+242,311,Disodium Hydrogen Citrate Syrup (Alkalyser) 1.4 gm per 5 ml,100 ml,22.69,Urology,generic,Needs Review,None,Yes,Classified
+243,312,Oral Rehydration Salts IP 20.5g Sachet (WHO Formula),1's,10.98,Electrolytes,generic,Needs Review,None,Yes,Classified
+244,313,Alprazolam Tablets IP 0.25 mg,10's,4.54,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+245,314,Alprazolam Tablets IP 0.5 mg,10's,7.94,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+246,316,Betahistine Tablets IP 8 mg,10's,9.08,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+247,317,Carbamazepine Tablets IP 100 mg,10's,7.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+248,319,Clonazepam Tablets IP 0.5 mg,10's,5.68,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+249,320,Diazepam Tablets IP 5 mg,10's,5.63,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+250,321,Escitalopram Tablets IP 10 mg,10's,10.32,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+251,322,Escitalopram Tablets IP 20 mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+252,323,Flunarizine Tablets IP 10 mg,10's,7.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+253,324,Flunarizine Tablets IP 5 mg,10's,6.56,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+254,325,Fluoxetine Hydrochloride Capsules IP 20mg,10's,9.08,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+255,326,Methyl Ergometrine Tablets IP 0.125 mg,10's,10.31,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+256,327,Phenytoin Tablets IP 100 mg,100's in Bottle,56.72,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+257,328,Prochlorperazine Tablets IP 5 mg,10's,5.63,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+258,329,Prednisolone Tablets IP 5 mg,15's,7.5,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+259,330,Prednisolone Tablets IP 10 mg,10's,8.44,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+260,332,Thyroxine Sodium Tablets IP 100 mcg,100's,70.33,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+261,333,Dexamethasone Tablets IP 0.5 mg,10's,1.88,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+262,334,Dexamethasone Injection IP 4mg per ml,2 ml,5.63,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+263,336,Allopurinol Tablets IP 100 mg,10's,10.31,Ortho,generic,Needs Review,None,Yes,Classified
+264,337,Clomiphene Citrate Tablets IP 50mg,10's,20.63,Gynaecology,generic,Needs Review,None,Yes,Classified
+265,338,Atropine Sulphate Injection IP 0.6mg per ml,1 ml,2.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+270,352,Bupivacaine Hydrochloride Injection IP 5 mg per ml,20 ml,36.56,Anaesthetics,generic,Needs Review,None,Yes,Classified
+273,358,Propofol Injection IP 10 mg per ml,10 ml Vial,36.56,Anaesthetics,generic,Needs Review,None,Yes,Classified
+274,359,Tetanus Vaccine IP,0.5 ml Ampoule,6.5,Vaccines,generic,Needs Review,None,Yes,Classified
+275,360,Mifepristone Tablets IP 200 mg,1's,62.81,Gynaecology,generic,Needs Review,None,Yes,Classified
+276,362,Biphasic Isophane Insulin Injection IP (50:50) 40 IU per ml,10 ML VIAL,96.8,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+277,363,Insulin Glargine Injection IP 100 IU per ml,Cartridge 3 ml,340.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+279,367,Voglibose Tablets IP 0.3 mg,10's,15.88,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+280,368,Gliclazide Extended release Tablets 60 mg,10's,45.38,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+281,369,Acarbose Tablets IP 50 mg,10's,63.94,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+282,371,Voglibose Tablets IP 0.2 mg,10's,12.47,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+283,372,Metformin Hydrochloride Prolonged release Tablets IP 500 mg,10's,10.79,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+284,373,Artesunate Injection IP 60 mg,1 vial,21.56,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+285,375,Quinine Sulphate Tablets IP 300 mg,10's,31.0,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+287,377,Clindamycin Capsules IP 300 mg,10's,84.38,Antibiotics,generic,Needs Review,None,Yes,Classified
+288,380,Clarithromycin Tablets IP 500 mg,4's,67.5,Antibiotics,generic,Needs Review,None,Yes,Classified
+290,382,Linezolid Tablets IP 600 mg,10's,154.69,Antibiotics,generic,Needs Review,None,Yes,Classified
+292,384,Itraconazole Capsules 100 mg,4's,24.96,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+294,386,Diethylcarbamazine Tablets IP 50 mg,30's,9.0,Anthelmintic,generic,Needs Review,None,Yes,Classified
+295,387,Terbinafine Tablets IP 250mg,7's,42.28,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+296,391,Moxifloxacin Tablets 400 mg,5's,61.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+297,392,Griseofulvin Tablets IP 250 mg,10's,15.0,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+298,393,Aciclovir Dispersible Tablets IP 800 mg,5's,41.25,Anti-Viral,generic,Needs Review,None,Yes,Classified
+300,396,Liposomal Amphotericin B Injection 50 mg per Vial,20 ml,2700.0,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+301,400,Ketoconazole Tablets IP 200 mg,10's,26.25,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+304,403,Clindamycin Injection IP 300mg per 2ml,2 ML,55.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+305,404,Linezolid Infusion 600mg per 300ml,300 ml,113.44,Antibiotics,generic,Needs Review,None,Yes,Classified
+306,405,Ofloxacin Infusion IP 200 mg per 100 ml,100 ml,30.94,Antibiotics,generic,Needs Review,None,Yes,Classified
+307,407,Ivermectin Dispersible Tablets 12 mg,10's,21.66,Anthelmintic,generic,Needs Review,None,Yes,Classified
+308,410,Trastuzumab Injection 440 mg With Wfi,1's,14062.5,Oncology,generic,Needs Review,None,Yes,Classified
+309,412,Azathioprine Tablets IP 50 mg,10's,45.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+310,413,Methotrexate Tablets IP 7.5 mg,10's,25.0,Oncology,generic,Needs Review,None,Yes,Classified
+312,416,Prazosin Tablets IP 5 mg,15's,31.77,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+314,418,Rosuvastatin Tablets IP 20 mg,10's,29.49,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+317,421,Nebivolol Tablets IP 5 mg,10's,25.78,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+318,422,Torasemide Tablets IP 10mg,15's,17.53,Diuretic,generic,Needs Review,None,Yes,Classified
+319,423,Bisoprolol Tablets 5 mg,10's,15.47,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+320,424,Carvedilol Tablets IP 3.125 mg,10's,7.94,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+321,425,Diltiazem Sustained Release Tablets 90 mg,10's,37.43,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+322,426,Acenocoumarol Tablets IP 2 mg,30's,33.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+323,427,S(-)Amlodipine Tablets IP 2.5 mg,10's,12.47,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+324,428,Digoxin Tablets IP 0.25 mg,10's,8.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+326,430,Amiodarone Tablets IP 200 mg,10's,55.31,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+328,432,Olmesartan Medoxomil Tablets IP 40 mg,10's,37.43,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+329,433,Isosorbide Mononitrate Sustained Release Tablets 30 mg,30's,65.63,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+330,434,Propranolol Tablets IP 40 mg,10's,6.81,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+333,437,Nifedipine Prolonged release Tablets IP 20mg,10's,9.28,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+334,438,Indapamide Tablets IP 1.5 mg,10's,24.38,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+338,442,Fenofibrate Tablets  IP 160 mg,10's,27.84,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+339,443,Isosorbide Dinitrate Tablets IP 5 mg,50's,18.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+343,447,Moxonidine Tablets 0.3 mg,10's,48.47,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+345,449,Spironolactone Tablets IP 25 mg,15's,20.63,Diuretic,generic,Needs Review,None,Yes,Classified
+346,450,Labetalol Hydrochloride Tablets IP 100mg,10's,42.19,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+347,451,"Streptokinase Injection IP 15,00,000 IU",10 ml & wfi,932.81,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+348,452,Warfarin Tablets IP 5 mg,10's,16.88,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+350,454,Valsartan Tablets IP 80 mg,10's,34.03,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+351,455,Verapamil Tablets IP 80 mg,10's,13.13,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+352,456,Atorvastatin Tablets IP 40 mg,10's,22.69,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+353,457,Torsemide Tablets IP 20 mg,10's,20.42,Diuretic,generic,Needs Review,None,Yes,Classified
+354,458,Labetalol Injection IP 5 mg per ml,4 ml Ampoule,55.31,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+360,466,Ursodeoxycholic Acid Tablets IP 300 mg,10's,176.66,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+362,468,Bacillus Clausii Spores Suspension 2 Billion per 5ml,5 ML,14.06,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+367,475,Sucralfate Suspension 500mg per 5ml,200 ml,72.19,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+370,478,Sodium Picosulphate Tablets 10 mg,10's,10.31,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+373,481,Rifaximin Tablets 400 mg,10's,121.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+375,483,Loperamide Capsules IP 2 mg,10's,7.22,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+376,484,Esomeprazole Tablets IP 40 mg,10's,21.55,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+377,485,Promethazine Tablets IP 25 mg,10's,6.56,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+380,488,Lansoprazole Capsules IP 15 mg,10's,18.75,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+381,489,Sulfasalazine Gastro-resistant Tablets 1000mg,10's,72.19,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+382,491,Itopride Tablets IP 50 mg,10's,33.75,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+383,492,Sulfasalazine Delayed Release Tablets 500mg,10's,25.36,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+384,496,Dydrogesterone Tablets IP 10 mg,10's,328.13,Gynaecology,generic,Needs Review,None,Yes,Classified
+385,497,Combipack of Mifepristone Tablets IP 200mg  (1 Tablet) & Misoprostol Tablets IP 200mcg (4 Tablets),1's,69.38,Gynaecology,generic,Needs Review,None,Yes,Classified
+387,499,Norethisterone Tablets IP 5 mg,10's,13.13,Gynaecology,generic,Needs Review,None,Yes,Classified
+388,500,Levo-Thyroxine Sodium Tablets IP 100 mcg,100's,60.0,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+389,501,Betamethasone Sodium Phosphate Tablets IP 0.5 mg,20's,8.25,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+390,502,Deflazacort Tablets 6 mg,6's,14.75,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+391,503,Methylprednisolone Sodium Succinate Injection 1000mg,Vial & Wfi,297.19,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+392,504,Nandrolone Decanoate Injection IP 25 mg per ml,1 ML,18.75,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+393,505,Carbimazole Tablets IP 10 mg,100's,72.19,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+394,507,Carbimazole Tablets IP 5 mg,10's,10.31,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+395,508,Levetiracetam Tablets IP 500 mg,10's,69.83,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+396,509,Hydroxychloroquine Tablets IP 200 mg,10's,34.18,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+398,511,Paracetamol Tablets IP 650 mg,15's,15.47,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+400,513,Piroxicam Capsules IP 20 mg,10's,8.44,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+402,515,Mefenamic Acid Suspension 100mg per 5ml,60 ml,16.88,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+403,516,Aceclofenac Sustained Release Tablets 200mg,10's,18.75,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+405,518,Baclofen Tablets IP 10 mg,10's,12.1,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+406,519,Ketorolac Tromethamine Tablets IP 10mg,10's,9.38,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+407,521,Tramadol Prolonged Release Tablets IP 100 mg,10's,32.81,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+408,522,Alfacalcidol Soft Gelatin Capsules 0.25 mcg,10's,20.63,Ortho,generic,Needs Review,None,Yes,Classified
+409,523,Naproxen Tablets IP 500 mg,15's,45.0,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+416,539,Acetylcysteine Tablets 600 mg,10's,30.0,Respiratory,generic,Needs Review,None,Yes,Classified
+418,541,Acebrophylline Capsules 100 mg,10's,22.69,Respiratory,generic,Needs Review,None,Yes,Classified
+421,544,Fluticasone Propionate Respules 0.5mg per 2ml,2 ML,15.94,Respiratory,generic,Needs Review,None,Yes,Classified
+422,555,Doxofylline Tablets IP 400 mg,10's,17.53,Respiratory,generic,Needs Review,None,Yes,Classified
+423,556,Montelukast Sodium 10mg  and Fexofenadine Hydrochloride 120 mg Tablets,10's,45.38,Respiratory,generic,Needs Review,None,Yes,Classified
+425,560,Fluticasone Propionate Nasal Spray IP 50 mcg,100 MD,75.0,Respiratory,generic,Needs Review,None,Yes,Classified
+426,561,Levosalbutamol Syrup 1mg per 5ml,100 ML,12.38,Respiratory,generic,Needs Review,None,Yes,Classified
+427,562,Loratadine Tablets IP 10mg,10's,9.38,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+428,563,Oxymetazoline Hydrochloride Nasal Drops IP 0.5 mg per ml,10 ML,15.88,Respiratory,generic,Needs Review,None,Yes,Classified
+431,566,Ipratropium Bromide Respirator Solution 250mcg,15 ML,26.25,Respiratory,generic,Needs Review,None,Yes,Classified
+434,569,Sildenafil Tablets IP 50 mg,4's,10.21,Urology,generic,Needs Review,None,Yes,Classified
+435,570,Tadalafil Tablets IP 20 mg,4's,17.02,Urology,generic,Needs Review,None,Yes,Classified
+437,574,"Rabies Vaccine, Human IP",1 ml vial with diluent in Mono pack,295.0,Anti-Rabies,generic,Needs Review,None,Yes,Classified
+441,583,Cyproheptadine Tablets IP 4 mg,10's,3.75,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+442,585,Cholecalciferol Granules 60000 IU per gm,1 Sachet,10.21,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+444,588,Vitamin E Softgel Capsules 400 mg,10's,22.69,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+446,591,Methylcobalamin Injection 500 mcg,1 ML,6.56,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+449,594,Dextrose Monohydrate IP Powder,75 gm,21.56,Electrolytes,generic,Needs Review,None,Yes,Classified
+451,597,Pyridoxine Tablets IP 50 mg,10's,8.44,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+453,599,Pregabalin Tablets 75 mg,10's,24.96,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+454,601,Disulfiram Tablets IP 500 mg,4's,6.56,Anti-Alcoholism,generic,Needs Review,None,Yes,Classified
+459,611,Cyproheptadine Hydrochloride Syrup IP 2mg,200 ml,28.13,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+467,629,"Inhalent Softgel Capsules (Camphor 25mg, Chlorothymol 5mg, Eucalyptol 130mg, Menthol 55mg, Turpineol 110mg)",10's,26.25,Respiratory,generic,Needs Review,None,Yes,Classified
+469,631,Etamsylate Tablets 500 mg,10's,12.19,Coagulants,generic,Needs Review,None,Yes,Classified
+470,632,Etamsylate Tablets 250 mg,10's,8.44,Coagulants,generic,Needs Review,None,Yes,Classified
+488,666,Pheniramine Maleate Injection IP 22.75 mg,2 ML,3.75,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+489,668,Multivitamin Drops,15 ml,16.88,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+490,669,Cefuroxime Axetil Oral Suspension 125mg per 5ml,30 ML,61.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+494,673,Biotin Tablets 10mg,10's,31.88,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+496,677,Flupentixol Tablets 0.5 mg,10's,10.31,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+497,679,Nalidixic Acid Tablets IP 500 mg,10's,15.94,Urology,generic,Needs Review,None,Yes,Classified
+498,680,Finasteride Tablets IP 5mg,10's,41.25,Urology,generic,Needs Review,None,Yes,Classified
+503,687,Lactulose Solution IP 10g per 15ml,200 ml,132.0,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+504,689,Clotrimazole Vaginal Tablets IP 100mg,10's,14.06,Antibiotics,generic,Needs Review,None,Yes,Classified
+505,690,Timolol Maleate Eye Drops IP 0.5 %,5 ml Vial,19.69,Opthalmic/Otic,generic,Needs Review,None,Yes,Classified
+513,704,Cephalexin Dry Syrup 125mg per 5ml,30 ml,17.81,Antibiotics,generic,Needs Review,None,Yes,Classified
+514,705,Levofloxacin Infusion IP 500 mg per 100 ml,100 ML,33.75,Antibiotics,generic,Needs Review,None,Yes,Classified
+515,707,Piroxicam Dispersible Tablets 10 mg,10's,9.38,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+516,708,Piroxicam Dispersible Tablets 20 mg,10's,19.69,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+517,709,Piroxicam with bezyl alcohol Injection 20 mg,1 ml,5.63,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+518,710,Piroxicam with bezyl alcohol Injection 40 mg,2 ml,11.25,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+519,712,Paracetamol Oral Suspension IP 250mg per 5ml,60 ml,19.69,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+522,717,Etodolac Tablets IP 300mg,10's,35.06,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+524,720,Ringer Lactate Infusion,500 ml in FFS Bottle,24.75,Electrolytes,generic,Needs Review,None,Yes,Classified
+525,722,Water for Injection amp polypack 5 ml,5 ml,1.41,Irrigation Fluid,generic,Needs Review,None,Yes,Classified
+526,723,Water for Injection amp polypack 10ml,10 ml,1.88,Irrigation Fluid,generic,Needs Review,None,Yes,Classified
+531,733,Progesterone Sustained Release Tablets 200 mg,10's,152.81,Gynaecology,generic,Needs Review,None,Yes,Classified
+532,734,Dehydroepiandrosterone (Micronized) 25 mg Capsule,10's,65.63,Gynaecology,generic,Needs Review,None,Yes,Classified
+533,736,Megestrol Acetate Tablets IP 40mg,10's,131.25,Oncology,generic,Needs Review,None,Yes,Classified
+534,739,Cefuroxime Axetil Tablets IP 125mg,6's,32.81,Antibiotics,generic,Needs Review,None,Yes,Classified
+535,740,Clarithromycin Tablets IP 250 mg,10's,76.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+536,741,Cefpodoxime Proxetil Dispersible Tablets 50 mg,10's,27.19,Antibiotics,generic,Needs Review,None,Yes,Classified
+537,746,Valganciclovir Hydrochloride Tablets USP 450 mg,10's,1740.0,Anti-viral,generic,Needs Review,None,Yes,Classified
+538,747,Glimepiride Tablets  IP 3mg,10's,6.81,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+539,748,Glimepiride Tablets IP 4mg,10's,8.25,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+540,752,Clotrimazole Powder 1%,100 gm Powder,62.39,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+543,757,Cefuroxime Injection IP 1500mg,Vial & Wfi,65.63,Antibiotics,generic,Needs Review,None,Yes,Classified
+544,759,Rosuvastatin Tablets IP 10mg,15's,19.28,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+545,762,Nortriptyline Tablets IP 25mg,10's,15.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+546,764,Etizolam Tablets IP 0.5mg,10's,10.21,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+547,766,L-Methylfolate calcium 7.5mg Tablet,10's,55.31,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+549,768,Acetazolamide Tablets IP 250mg,10's,18.0,Altitude Sickness,generic,Needs Review,None,Yes,Classified
+550,769,Acetylsalicylic Acid (Aspirin) Gastro-resistant Tablets IP 325mg,14's,7.5,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+551,772,Adenosine Injection IP 3mg per ml,2 ml,23.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+554,784,Amisulpride Tablets IP 50mg,10's,29.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+555,785,Amitriptyline Hydrochloride Tablets IP 25mg,15's,9.08,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+556,786,Amitriptyline Hydrochloride Tablets IP 10mg,10's,6.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+557,788,Anastrozole Tablets IP 1mg,10's,73.13,Oncology,generic,Needs Review,None,Yes,Classified
+558,790,Aspirin Enteric Coated Tablets IP 75mg,14's,2.81,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+560,793,Atenolol Tablets IP 25mg,14's,6.19,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+562,797,Atracurium Besylate Injection I.P 25mg per 2.5ml,2.5 ML,22.03,Anaesthetics,generic,Needs Review,None,Yes,Classified
+563,800,"Bacitracin 250 IU, Neomycin 5mg, Sulphacetamide 60mg Dusting Powder",10 gm Powder,23.44,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+564,804,Betamethasone Injection IP 4 mg per ml,1 ml,2.81,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+565,806,Bicalutamide Tablets IP 50mg,10's,128.44,Oncology,generic,Needs Review,None,Yes,Classified
+567,809,Bortezomib Injection IP 3.5 mg,Vial,928.13,Oncology,generic,Needs Review,None,Yes,Classified
+569,812,Bromocriptine Mesylate Tablets IP 2.5mg,10's,82.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+570,814,Cabergoline Tablets IP 0.5mg,4's,159.38,Gynaecology,generic,Needs Review,None,Yes,Classified
+571,815,Calcitriol Capsules IP 0.25mcg,10's,27.84,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+572,816,Calcium Acetate Tablets 667mg,10's,26.25,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+575,821,Carvedilol Tablets IP 6.25mg,10's,7.94,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+578,832,Chlorthalidone Tablets IP 12.5mg,10's,14.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+579,833,Cholecalciferol (Vitamin D3) Drops 800 IU per ml,15 ml,25.31,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+580,834,Cholecalciferol (Vitamin D3) Drops 400 IU per ml,15 ml,18.75,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+582,837,Cilnidipine Tablets IP 20mg,10's,20.42,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+583,838,Cilostazol Tablets IP 50mg,10's,68.07,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+584,840,Citicoline Tablets IP 500mg,10's,207.28,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+585,844,Clonazepam Tablets IP 1mg,10's,9.08,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+586,850,Cyclosporin capsules IP 50mg,5's,120.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+587,851,Dacarbazine Injection IP 200mg,VIAL,176.25,Oncology,generic,Needs Review,None,Yes,Classified
+588,853,Daunorubicin Hydrochloride Injection IP 20mg,vial,204.0,Oncology,generic,Needs Review,None,Yes,Classified
+589,860,Dextromethorphan Hydrobromide Syrup IP 13.5mg per 5ml,50 ml,21.56,Respiratory,generic,Needs Review,None,Yes,Classified
+591,865,Diacerein Capsules IP 50mg,10's,42.19,Ortho,generic,Needs Review,None,Yes,Classified
+592,866,Diazepam Injection IP 5mg per ml,2 ML,7.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+593,868,Dicyclomine Hydrochloride (Dicycloverine) Injection IP 10mg per ml,2 ml,3.75,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+594,875,Donepezil Hydrochloride Tablets IP 10mg,10's,23.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+596,879,Drotaverine Hydrochloride Tablets IP 40mg,10's,7.5,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+597,881,Ebastine Tablets IP 10mg,10's,18.75,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+598,882,Efavirenz Tablets IP 600mg,30's,510.0,Anti-Retroviral,generic,Needs Review,None,Yes,Classified
+600,888,Febuxostat Tablets 40mg,10's,20.63,Ortho,generic,Needs Review,None,Yes,Classified
+601,889,Febuxostat Tablets 80mg,10's,35.07,Ortho,generic,Needs Review,None,Yes,Classified
+605,901,Gabapentin Capsules IP 300mg,10's,28.36,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+607,906,Glyceryl Trinitrate Controlled Release Tablets 2.6mg (Nitroglycerin Controlled Release Tablets),30's,51.57,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+608,910,Human Chorionic Gonadotrophin IP 5000 IU (Powder for injection with solvent),Vial and solvent,215.0,Gynaecology,generic,Needs Review,None,Yes,Classified
+609,912,Hydrochlorothiazide Tablets IP 12.5mg,10's,5.63,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+610,913,Hydrocortisone Sodium Succinate Injection IP 100mg,Vial,20.0,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+611,915,Hydroxyzine Hydrochloride Tablets IP 10mg,10's,7.22,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+612,916,Imatinib Mesylate Tablets IP 400mg,10's,210.94,Oncology,generic,Needs Review,None,Yes,Classified
+613,917,Imipramine Hydrochloride Tablets IP 25mg,10's,4.69,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+614,920,Soluble Insulin Injection IP 100 IU per ml (R-DNA Origin),3 ml Catridge,170.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+615,922,Isopropyl Alcohol IP (70%) (Spirit),100 ML bottle,40.0,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+616,923,Isosorbidemononitrate Tablets IP 20mg,10's,8.25,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+617,924,Isoxsuprine Hydrochloride Tablets IP 10mg,50's,42.19,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+619,931,Lamotrigine Tablets 100mg,10's,41.25,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+620,933,Leflunomide Tablets IP 20mg,10's,69.38,Ortho,generic,Needs Review,None,Yes,Classified
+621,934,Lenalidomide  Capsules 10mg,10's,435.0,Oncology,generic,Needs Review,None,Yes,Classified
+622,935,Letrozole Tablets IP 2.5mg,10's,31.88,Oncology,generic,Needs Review,None,Yes,Classified
+623,936,Leuprolide Acetate Injections 3.75mg,1's,1687.5,Oncology,generic,Needs Review,None,Yes,Classified
+624,938,Levocarnitine Injections 1gm,5 ml,65.63,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+625,939,Levocarnitine Tablets 500mg,10's,52.5,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+626,944,Levosalbutamol Inhaler 50mcg,200 Mdi,77.81,Respiratory,generic,Needs Review,None,Yes,Classified
+627,945,Levosulpiride Tablets 25mg,10's,10.31,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+629,947,Lithium Carbonate Prolonged Release Tablets IP 450mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+630,948,Lorazepam Tablets IP 1mg,10's,10.31,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+631,949,Lorazepam Tablets IP 2mg,10's,12.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+633,954,Medroxyprogesterone Acetate Tablets IP 10mg,10's,24.38,Gynaecology,generic,Needs Review,None,Yes,Classified
+635,956,Mefloquine Hydrochloride Tablets IP 250mg,4's,106.88,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+636,957,Memantine Hydrochloride Tablets IP 10mg,10's,23.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+637,960,Metformin Sustained Release Tablets IP 850mg,10's,20.42,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+639,968,Mirtazapine Tablets IP 15mg,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+640,972,Mycophenolate Mofetil Tablets IP 500mg,10's,180.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+641,974,Natural Micronised Progesterone Capsules 100mg,10's,62.81,Gynaecology,generic,Needs Review,None,Yes,Classified
+643,976,Nebivolol Tablets IP 2.5mg,10's,16.5,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+645,986,Nitrazepam Tablets I.P 10mg,10's,8.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+646,987,Nitrofurantoin Tablets I.P 100mg,10's,18.15,Urology,generic,Needs Review,None,Yes,Classified
+647,990,Olanzapine Tablets IP 10mg,10's,9.08,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+648,991,Olanzapine Tablets IP 5mg,10's,6.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+649,992,Olmesartan Medoxomil Tablets IP 20mg,10's,17.53,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+650,993,Ondansetron Oral Solution IP 2 mg per 5ml,30 ml,14.06,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+651,994,Oxaliplatin Injections IP 50mg,Vial,445.31,Oncology,generic,Needs Review,None,Yes,Classified
+653,999,Paroxetine Prolonged Release Tablets IP 37.5mg,10's,60.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+655,1005,Phenobarbitone Tablets IP 30mg,30's,15.94,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+656,1008,Phytomenadione Injection (Vitamin K1) IP 1mg per 0.5ml,0.5 ml Ampoule,10.31,Coagulants,generic,Needs Review,None,Yes,Classified
+657,1009,Pioglitazone Tablets IP 15 mg,10's,9.08,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+658,1011,Piracetam Syrup 500mg per 5ml,100 ml,60.94,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+659,1012,Piracetam Tablets 400mg,10's,17.53,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+660,1024,Promethazine Injection IP 25 mg per ml,2 ml,2.81,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+661,1026,Propranolol Tablets IP 10mg,10's,5.68,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+662,1029,Pyrazinamide Tablets IP 1000mg,10's,0.0,Anti-T.B,generic,Needs Review,None,Yes,Classified
+663,1031,Quetiapine Fumarate Tablets IP 200mg,10's,60.94,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+664,1032,Quetiapine Tablets IP 100mg,10's,34.03,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+665,1037,Erythropoietin Injection IP 4000 IU,Vial,278.44,Erythropoiesis,generic,Needs Review,None,Yes,Classified
+666,1038,Erythropoietin Injection IP 2000 IU,Vial,215.63,Erythropoiesis,generic,Needs Review,None,Yes,Classified
+668,1042,Risperidone Tablets IP 4mg,10's,8.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+669,1044,Rosuvastatin Tablets IP 5mg,10's,13.62,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+670,1049,Sertraline Tablets IP 50mg,10's,18.57,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+671,1050,Sertraline Tablets IP 100mg,10's,20.63,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+672,1051,Sertraline Tablets IP 25mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+673,1059,Sodium Valproate Enteric Coated Tablets IP 200mg,10's,17.53,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+674,1060,Sodium Valproate Gastro-Resistant Tablets IP 300mg,10's,20.63,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+675,1062,Sofosbuvir Tablets IP 400mg,28's in a bottle,4125.0,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+677,1072,Tamsulosin Hydrochloride Prolonged Release Capsules IP 0.4mg,10's,22.69,Urology,generic,Needs Review,None,Yes,Classified
+680,1075,Teneligliptin Tablets IP 20mg,10's,20.63,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+681,1076,Tenofovir Disoproxil Fumarate Tablets IP 300 mg,10's,183.75,Anti-Retroviral,generic,Needs Review,None,Yes,Classified
+682,1081,Tizanidine Tablets I.P 2mg,10's,9.38,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+683,1087,Trihexyphenidyl Hydrochloride Tablets IP 2mg (Benzhexol Hydrochloride Tablets IP 2mg),10's,6.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+684,1088,Trimetazidine Hydrochloride Modified Release Tablets 35 mg,10's,22.69,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+685,1091,Vecuronium Bromide Injection I.P 4mg,Vial,45.0,Anaesthetics,generic,Needs Review,None,Yes,Classified
+686,1097,Vitamin A Capsule IP 25000 IU,30's,15.0,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+689,1104,Zoledronic Acid Injection IP 4mg per Vial,Vial,165.0,Ortho,generic,Needs Review,None,Yes,Classified
+690,1105,Zolpidem Tablets IP 10mg,10's,18.57,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+692,1108,Sildenafil Tablets IP 100 mg,4's,10.32,Urology,generic,Needs Review,None,Yes,Classified
+693,1110,Clobazam Tablet IP 5mg,10's,15.47,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+695,1112,Cinnarizine Tablets IP 25mg,10's,7.94,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+697,1123,Clomipramine Hydrochloride Sustained release Tablets 75mg,10's,51.56,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+698,1124,Fluvoxamine Maleate Tablets IP 100mg,10's,69.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+699,1125,Aripiprazole Tablets IP 5mg,10's,13.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+702,1131,Natural Micronised Progesterone Capsules 200mg,10's,117.19,Gynaecology,generic,Needs Review,None,Yes,Classified
+704,1149,Lisinopril Tablets IP 10mg,15's,21.56,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+705,1152,Carbamazepine Prolonged-release Tablets IP 200mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+706,1154,Diethylcarbamazine Citrate Tablets IP 100mg,30's,17.0,Anthelmintic,generic,Needs Review,None,Yes,Classified
+710,1164,Nandrolone Decanoate Injection IP 50 mg per ml,2 ml,37.5,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+711,1166,Mefenamic Acid Tablets 250 mg,10's,9.38,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+712,1167,Mefenamic Acid Tablets 500 mg,10's,15.94,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+713,1168,Ketorolac Injection IP 30mg per ml,1 ml,11.25,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+714,1170,Acetylcysteine Injection 200 mg per ml,2 ml Ampoules,23.44,Respiratory,generic,Needs Review,None,Yes,Classified
+715,1178,5-Flurouracil Injection 500mg,10 ml,11.5,Oncology,generic,Needs Review,None,Yes,Classified
+716,1181,Carboplatin Injection IP 150mg,15 ml Vial,386.72,Oncology,generic,Needs Review,None,Yes,Classified
+717,1182,Carboplatin Injection IP 450mg,45 ml Vial,1600.31,Oncology,generic,Needs Review,None,Yes,Classified
+718,1183,Cyclophosphamide Injection IP 500 mg,VIAL,35.0,Oncology,generic,Needs Review,None,Yes,Classified
+719,1186,Cyclosporin Capulses IP 25mg,5's,72.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+720,1187,Cyclosporine Capsules IP 100 mg,5's,230.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+721,1191,Glycopyrrolate Injection IP 0.2mg,1 ml,6.56,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+722,1199,Hydroxyurea Capsules IP 500mg,10's,66.0,Oncology,generic,Needs Review,None,Yes,Classified
+723,1201,Ifosfamide Injection IP 1gm,VIAL,159.38,Oncology,generic,Needs Review,None,Yes,Classified
+724,1203,Protamine Sulphate Injection IP 10mg per ml,5 ml Vial/Ampoule,21.0,Anticoagulant,generic,Needs Review,None,Yes,Classified
+725,1211,Docetaxel Injection IP 80 mg,VIAL,1687.5,Oncology,generic,Needs Review,None,Yes,Classified
+726,1212,Docetaxel Injection IP 120 mg,VIAL,2531.25,Oncology,generic,Needs Review,None,Yes,Classified
+727,1213,Erlotinib Tablets IP 150 mg,10's Bottle,656.25,Oncology,generic,Needs Review,None,Yes,Classified
+728,1214,Gefitinib Tablets IP 250 mg,10's,412.5,Oncology,generic,Needs Review,None,Yes,Classified
+729,1215,Pemetrexed Injection IP 100 mg,VIAL,759.38,Oncology,generic,Needs Review,None,Yes,Classified
+730,1216,Pemetrexed Injection IP 500 mg,VIAL,2165.63,Oncology,generic,Needs Review,None,Yes,Classified
+731,1217,Temozolomide Capsules IP 100mg,5's in Bottle,1371.56,Oncology,generic,Needs Review,None,Yes,Classified
+732,1218,Temozolomide Capsules IP 250 mg,5's,2517.19,Oncology,generic,Needs Review,None,Yes,Classified
+733,1219,Amino Acid Solution for IV,200 ml Glass Bottle,247.0,Electrolytes,generic,Needs Review,None,Yes,Classified
+734,1220,Oseltamivir Capsules IP 75mg,10's,178.13,Anti-Viral,generic,Needs Review,None,Yes,Classified
+735,1221,Thyroxine Sodium Tablets IP 50mcg,100's in Bottle,55.65,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+738,1225,Orlistat Capsules 120 mg,10's,134.06,Weight management,generic,Needs Review,None,Yes,Classified
+739,1226,Triamcinolone Acetonide Injection IP 40mg per ml,1 ml Vial,46.88,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+740,1227,Triamcinolone Tablets IP 4mg,10's,32.81,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+743,1232,Noscapine Syrup 1.83mg per 5ml,50 ml,37.5,Respiratory,generic,Needs Review,None,Yes,Classified
+744,1236,Albendazole Tablets IP 400mg,1's,3.4,Anthelmintic,generic,Needs Review,None,Yes,Classified
+745,1238,Prazosin Hydrochloride Sustained Release Tablets 2.5 mg,30's,56.25,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+747,1241,Cefaclor Dispersible Tablets 250 mg,10's,168.75,Antibiotics,generic,Needs Review,None,Yes,Classified
+748,1246,Fluconazole Tablets IP 150 mg,1's,5.68,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+750,1251,Vitamin B6 (Pyridoxine Hydrochloride) Tablets IP 100mg,10's,20.63,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+752,1254,"Diphenhydramine 13-15mg, Ammonium Chloride 135-150mg , Sodium Citrate 57-85mg, Menthol 0.9-2.6mg Cough Syrup",100 ml Bottle,18.57,Respiratory,generic,Needs Review,None,Yes,Classified
+754,1257,Allylestrenol Tablets 5 mg,10's,30.94,Gynaecology,generic,Needs Review,None,Yes,Classified
+756,1263,Ampicillin Capsules IP 500 mg,10's,37.5,Antibiotics,generic,Needs Review,None,Yes,Classified
+757,1281,Chlordiazepoxide Tablets IP 10 mg,10's,19.69,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+758,1283,Chlorthalidone Tablets IP 6.25 mg,10's,10.32,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+760,1285,Cinitapride Tablets 1 mg,10's,28.13,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+762,1298,Donepezil Tablets IP 5 mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+764,1302,Duloxetine Gastro-resistant Tablets IP 20 mg,10's,27.84,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+768,1310,Faropenem Tablets 200mg,6's,281.25,Antibiotics,generic,Needs Review,None,Yes,Classified
+769,1311,Fenofibrate Tablets IP 145 mg,10's,20.63,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+770,1312,Flavoxate Tablets IP 200 mg,15's,56.25,Urology,generic,Needs Review,None,Yes,Classified
+771,1315,Fluticasone Furoate Nasal Spray 27.5mcg,120 MDI,129.38,Respiratory,generic,Needs Review,None,Yes,Classified
+772,1319,Gabapentin Tablets IP 100 mg,10's,15.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+773,1328,Isoxsuprine Injection IP 5 mg,2 ml Vial,9.38,Gynaecology,generic,Needs Review,None,Yes,Classified
+774,1341,Mebendazole Tablets IP 100 mg,6's,8.44,Anthelmintic,generic,Needs Review,None,Yes,Classified
+775,1342,Mebeverine Hydrochloride Tablets IP 200mg,10's,52.5,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+777,1345,Meropenem Injection IP 500 mg,Vial & Wfi,154.69,Antibiotics,generic,Needs Review,None,Yes,Classified
+778,1348,Methylprednisolone Tablets IP 4mg,10's,17.02,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+779,1353,Mirtazapine Tablets IP 7.5mg,10's,12.19,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+780,1354,Modafinil Tablets IP 200mg,10's,78.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+781,1359,Naproxen Tablets IP 250 mg,15's,21.56,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+784,1375,Phenobarbitone Tablets IP 60 mg,30's,26.25,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+785,1382,Prasugrel Tablets IP 10 mg,10's,61.88,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+787,1384,Quetiapine Tablets IP 25 mg,10's,10.31,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+791,1409,Teicoplanin Injection IP 400mg,1 ml Vial,750.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+795,1417,Thiocolchicoside Capsules IP 4mg,10's,42.19,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+796,1418,Tigecycline Injection IP 50 mg,5 ml Vial,618.75,Antibiotics,generic,Needs Review,None,Yes,Classified
+800,1435,Capecitabine Tablets IP 500mg,10's,234.38,Oncology,generic,Needs Review,None,Yes,Classified
+801,1437,Cefpodoxime Proxetil Oral Suspension IP 50mg,30 ml,28.13,Antibiotics,generic,Needs Review,None,Yes,Classified
+803,1440,Janaushadhi Protein Powder 250g,1's Tin 250g,177.97,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+804,1441,Janaushadhi Nirmal (Nicotine Polacrilex Chewing Gum 2 mg)),1 x 9's (mono carton pack),46.2,Smoking Cessation,generic,Needs Review,None,Yes,Classified
+805,1442,Janaushadhi Urja (Glucose Powder (Orange Flavour) 300 g),300 g Box,62.29,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+806,1443,Janaushadhi Urja (Glucose Powder (Orange Flavour) 100 g),100 gm Tetra pack,26.69,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+807,1444,Janaushadhi Urja (Glucose Powder (Orange Flavour) 500g),500g Screw-Cap jar with scoop,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+808,1445,Jan Pudina Soft Gel Capsules,10's,16.5,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+809,1446,Janushadhi Madhurak (Stevia Natural Sweetener),100 gm Plastic Jar,140.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+810,1447,Janaushadhi Janani 250g,1's Tin 250g,200.21,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+811,1448,Lamotrigine Dispersible Tablets IP 100mg,10's,37.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+812,1449,Enzyme syrup mixed fruit flavour,200 ml,50.57,Enzyme Preparation,generic,Needs Review,None,Yes,Classified
+813,1450,Pyrantel Pamoate Oral Suspension IP 250mg per 5ml,10 ml,11.25,Anthelmintic,generic,Needs Review,None,Yes,Classified
+814,1451,Theophylline Prolonged-release Tablets IP 400 mg,10's,28.13,Respiratory,generic,Needs Review,None,Yes,Classified
+815,1452,Pyridoxine Hydrochloride Sustained release tablets 100mg,10's,32.81,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+816,1453,Levetiracetam Oral Solution IP 100mg,100 ml,79.69,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+817,1454,"Terbutaline 1.25mg, Ambroxol 15mg, Guaiphenesin 50mg per 5ml Syrup with Menthol base",100 ml,33.0,Respiratory,generic,Needs Review,None,Yes,Classified
+818,1455,L-Arginine Granules 3g,5 gm,16.5,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+819,1456,Itraconazole Capsules 200 mg,4's,36.3,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+822,1459,"Janaushadhi Poshan (Malt based food, 500gm)",1's Screw Cap Plastic Jar,160.17,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+823,1460,Insulin Pen,1's,0.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+824,1461,Vildagliptin Tablets IP 50mg,15's,20.63,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+827,1464,Janaushadhi Protein Bar (35 gm),1's Bar,40.04,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+828,1465,Janaushadhi Immunity Bar (10 gm),1's Bar,8.9,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+829,1466,Janaushadhi Protein Powder (Vanilla) 250 gm,1's Tin 250g,177.97,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+830,1467,Janaushadhi Protein Powder (Kesar Pista) 250 gm,1's Tin 250g,177.97,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+831,1471,"Janaushadhi Poshan (Malt based food with Cocoa, 500gm)",1's Screw Cap Plastic Jar,164.62,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+832,1472,Janaushadhi Janani (Vanilla) 250 gm,1's Tin 250g,200.21,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+836,1476,Hydroxychloroquine Tablet IP 400 mg,10's,76.88,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+837,1479,Canagliflozin Tablets 100 mg,10's,174.38,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+842,1485,Mesalazine Prolonged release Tablets IP 1200 mg,10's,129.38,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+844,1488,Acarbose Tablets IP 25 mg,10's,37.5,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+846,1490,Acebrophylline Sustained Release Tablets 200 mg,10's,28.13,Respiratory,generic,Needs Review,None,Yes,Classified
+850,1496,Aciclovir Dispersible Tablets IP 400 mg,5's,28.13,Anti-Viral,generic,Needs Review,None,Yes,Classified
+851,1497,Acitretin Capsules IP 25 mg,10's,234.38,Derma Care,generic,Needs Review,None,Yes,Classified
+852,1498,Acotiamide Tablets 100mg,10's,68.44,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+853,1501,Amantadine Hydrochloride Capsules IP 100 mg,10's,46.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+854,1502,Amiodarone Tablets IP 100 mg,10's,29.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+862,1510,Anti-D (Rho) Immunoglobulin (Monoclonal) 300 mcg,1 ml Vial,0.0,Gynaecology,generic,Needs Review,None,Yes,Classified
+863,1511,Antioxidant Capsules,30's,60.94,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+864,1512,Apremilast Tablets IP 10mg,10's,75.0,Derma Care,generic,Needs Review,None,Yes,Classified
+865,1513,Apremilast Tablets IP 20mg,10's,93.75,Derma Care,generic,Needs Review,None,Yes,Classified
+866,1514,Apremilast Tablets IP 30mg,10's,129.38,Derma Care,generic,Needs Review,None,Yes,Classified
+871,1519,Azilsartan Medoxomil 40mg and Chlorthalidone 12.5mg Tablets,10's,68.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+872,1520,Azilsartan Medoxomil Tablets IP 40mg,10's,60.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+873,1521,Azithromycin Oral Suspension IP 200 mg,15 ml,20.63,Antibiotics,generic,Needs Review,None,Yes,Classified
+876,1524,Bepotastine Besilate  Tablets 10mg,10's,60.94,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+877,1525,Betahistine Tablets IP 16 mg,15's,16.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+878,1526,Betahistine Tablets IP 24 mg,15's,22.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+880,1528,Bilastine Tablets 20 mg,10's,32.81,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+883,1531,Bisoprolol Fumarate Tablets 2.5 mg,10's,11.34,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+895,1548,Cefixime Oral Suspension IP 100 mg per 5ml,30 ml,30.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+896,1549,Cefixime Oral Suspension IP 25 mg per ml,10 ml,20.63,Antibiotics,generic,Needs Review,None,Yes,Classified
+897,1551,Cefoperazone 1g and Sulbactam 500mg Injection,1 Vial,60.94,Antibiotics,generic,Needs Review,None,Yes,Classified
+898,1552,Cefoperazone 2g and Sulbactam 1g Injection,1 Vial,107.81,Antibiotics,generic,Needs Review,None,Yes,Classified
+899,1553,Cefpodoxime Oral Suspension IP 100mg,30 ml,37.5,Antibiotics,generic,Needs Review,None,Yes,Classified
+900,1554,Ceftriaxone 250mg and Tazobactam 31.25mg Injection,1 Vial & wfi,22.5,Antibiotics,generic,Needs Review,None,Yes,Classified
+901,1555,Ceftriaxone Injection IP 2 g,1 Vial & wfi,56.25,Antibiotics,generic,Needs Review,None,Yes,Classified
+902,1556,Cephalexin Extended Release Tablets 750mg,10's,107.81,Antibiotics,generic,Needs Review,None,Yes,Classified
+903,1557,Cerebroprotein Hydrolysate Injection 30mg,1 vial,187.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+904,1559,Chloramphenicol Capsules IP 250 mg,10's,37.5,Antibiotics,generic,Needs Review,None,Yes,Classified
+905,1560,Chloramphenicol Capsules IP 500 mg,10's,60.94,Antibiotics,generic,Needs Review,None,Yes,Classified
+907,1564,Cholecalciferol Chewable Tablets 60000 IU,4'S,17.02,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+908,1565,Cilnidipine Tablets IP 10 mg,10's,17.02,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+909,1566,Cilnidipine Tablets IP 5 mg,10's,11.34,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+911,1568,Cinnarizine Tablets IP 75mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+916,1574,Clobazam Tablets IP 10 mg,15's,30.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+927,1585,Colistimethate Sodium for Injection IP 1 Million IU,Vial (10 ml),168.75,Antibiotics,generic,Needs Review,None,Yes,Classified
+928,1586,Colistimethate Sodium for Injection IP 4.5 Million IU,Vial (10 ml),421.88,Antibiotics,generic,Needs Review,None,Yes,Classified
+929,1587,Colistin Sulphate Oral Suspension IP 12.5 mg per 5ml,30 ml,27.19,Antibiotics,generic,Needs Review,None,Yes,Classified
+931,1590,Dabigatran Etexilate Mesilate Capsules 110 mg,10's,128.91,Anticoagulant,generic,Needs Review,None,Yes,Classified
+932,1591,Dabigatran Etexilate Mesilate Capsules 150 mg,10's,165.0,Anticoagulant,generic,Needs Review,None,Yes,Classified
+933,1592,Dapagliflozin Tablets 10 mg,10's,33.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+937,1597,Diclofenac Prolonged release Tablets IP 75 mg,10's,9.38,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+939,1599,Diltiazem Hydrochloride Extended Release Capsules 120 mg,10's,32.81,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+941,1602,Divalproex Tablets IP 500 mg,10's,32.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+944,1605,Dosulepin (or Dothiepin) Tablets 25 mg,10's,16.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+945,1606,Dosulepine (or Dothiepin) Tablets IP 75mg,10's,67.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+946,1607,Drotaverine Hydrochloride Tablets IP 80 mg,15's,18.75,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+948,1609,Empagliflozin Tablets 10 mg,10's,37.5,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+949,1610,Empagliflozin Tablets 25 mg,10's,61.88,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+951,1612,Entecavir Tablets IP 0.5 mg,10's,93.75,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+952,1613,Eplerenone Tablets IP 25 mg,10's,121.88,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+953,1615,Erythromycin Stearate Tablets IP 500mg,10's,53.44,Antibiotics,generic,Needs Review,None,Yes,Classified
+956,1620,Evening Primrose Oil 1000 mg,15's,79.69,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+957,1621,Evening Primrose Oil 500 mg,15's,51.56,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+961,1625,Fluticasone Propionate Cream IP 0.05%,10 g,18.75,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+969,1635,Framycetin Skin Cream 1 %,30 g,0.0,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+970,1636,Fungal Diastase with Carminatives Syrup,200 ml,42.19,Enzyme Preparation,generic,Needs Review,None,Yes,Classified
+975,1643,Glargine 100 IU Pre-filled Disposable Pen,3ml Pre-filled Pen,415.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+982,1659,Human Normal Immunoglobulin for Intravenous use IP 5%,100 ml,10000.0,Vaccines,generic,Needs Review,None,Yes,Classified
+983,1660,Human Normal Immunoglobulin IP 16.5% (For IM use),2 ml vial,0.0,Vaccines,generic,Needs Review,None,Yes,Classified
+985,1662,Hydroxyzine Tablets IP 25mg,15's,11.25,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+991,1670,Isotretinoin Capsules IP 20mg,10's,46.88,Derma Care,generic,Needs Review,None,Yes,Classified
+992,1671,Ivabradine Tablets 5mg,15's,92.82,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+993,1672,Ketoconazole Soap 2%,75 gm Pack,48.46,Derma Care,generic,Needs Review,None,Yes,Classified
+995,1674,"L-Methylfolate 1mg, Pyridoxal-5 Phosphate 0.5mg & Methylcobalamin 1500mcg Tablets",10's,37.5,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+996,1675,L- Ornithine L-Aspartate Infusion 5gm per 10ml,10 ml,93.75,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+999,1679,Lecithin Capsules 1000mg,10's,56.25,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1000,1680,Levetiracetam Tablets IP 1000 mg,10's,112.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1001,1681,Levetiracetam Tablets IP 250 mg,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1002,1682,Levetiracetam Tablets IP 750 mg,10's,84.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1003,1683,Levocetirizine Dihydrochloride Tablets IP 10mg,15's,14.44,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1011,1692,Levosalbutamol Respules 0.63mg per 2.5ml,2.5 ml,5.34,Respiratory,generic,Needs Review,None,Yes,Classified
+1014,1696,Linagliptin Tablets 5mg,10's,39.19,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1016,1703,"Metadoxine 500mg, Silymarin 140mg, L- Ornithin L- Aspartate 150mg Tablets",10's,0.0,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1019,1707,Metoprolol Succinate extended release capsules IP 50mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1020,1708,Metoprolol Succinate Prolonged release tablets IP 25mg,15's,17.02,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1021,1709,Minoxidil Solution 5%,60 ml,150.0,Derma Care,generic,Needs Review,None,Yes,Classified
+1029,1718,Nicorandil Tablet IP 10mg,10's,51.57,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1030,1719,Nicorandil Tablet IP 5mg,10's,41.25,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1034,1723,Nifedipine Sustained Release Tablets IP 10mg,15's,11.25,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1041,1737,Oxaceprol Capsules 200mg,10's,93.75,Ortho,generic,Needs Review,None,Yes,Classified
+1043,1739,Pancreatin Capsules 10000,10's,84.38,Enzyme Preparation,generic,Needs Review,None,Yes,Classified
+1044,1740,Pancreatin Capsules 25000,10's,196.88,Enzyme Preparation,generic,Needs Review,None,Yes,Classified
+1046,1742,Paracetamol Infusion IP 1 gm per 100 ml,100 ml,46.88,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1047,1743,Paracetamol Drops 100 mg per ml,15 ml,12.19,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1055,1755,Paracetamol Suspension IP 120 mg,60 ml,12.19,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1058,1760,Piracetam Tablet 800 mg,10's,31.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1059,1761,Pirfenidone Tablets IP 200mg,10's,0.0,Respiratory,generic,Needs Review,None,Yes,Classified
+1060,1762,Calcium Polystyrene Sulphonate Powder 15g per sachet,15 gm,41.25,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1061,1763,Prazosin Extended Release Tablets 5mg,10's,28.88,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1064,1767,Probiotic Microbes Capsules 5mg,10's,26.25,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1065,1769,Prucalopride Tablet 2 mg,10's,112.5,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1066,1770,Prucalopride Tablets 1mg,10's,84.38,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1067,1774,Racecadotril Capsule IP 100 mg,15's,103.13,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1069,1777,Ranitidine Syrup IP 75 mg per 5ml,100 ml,23.44,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1070,1778,Ranolazine Extended Release Tablets 500mg,10's,56.72,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1071,1780,Rivaroxaban Tablets 10mg,30's,196.88,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1072,1781,Rivaroxaban Tablets 20mg,14's,140.63,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1075,1784,Rosuvastatin Tablets IP 40mg,10's,45.38,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1078,1787,S (-) Amlodipine Tablets IP 5mg,15's,10.32,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1080,1790,Saccharomyces Boulardii Capsule 250mg,5's,61.88,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1081,1791,Saccharomyces Boulardii Powder 250mg,1’s Sachet,14.06,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1084,1794,Salbutamol Rotacaps 200mcg,60 s in Container,22.5,Respiratory,generic,Needs Review,None,Yes,Classified
+1087,1797,Saroglitazar Tablets 4mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1088,1799,Saxagliptin Tablets 5mg,10's,87.19,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1089,1801,Sitagliptin Phosphate 50mg & Metformin Hydrochloride 1000mg Tablets,10's,61.88,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1090,1802,Sitagliptin Phosphate 50mg & Metformin Hydrochloride 500mg Tablets,10's,56.72,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1091,1803,Sitagliptin Phosphate Tablets IP 100mg,10's,82.5,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1092,1804,Sitagliptin Phosphate Tablets IP 50mg,10's,44.34,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1093,1805,Sodium Valproate Oral solution IP 200mg per 5ml,200 ml Plastic Bottle,51.56,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1099,1813,Telmisartan Tablets IP 80mg,10's,24.96,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1104,1818,Tetrabenazine Tablets 25mg,10's,178.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1105,1819,Ticagrelor Tablets IP 90 mg,10's,134.07,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1106,1821,Tiotropium Bromide Inhalation 9mcg per actuation,200 mdi,206.25,Respiratory,generic,Needs Review,None,Yes,Classified
+1107,1822,Tiotropium Powder for Inhalation IP 18mcg Rotacaps,15's in Monocarton,65.63,Respiratory,generic,Needs Review,None,Yes,Classified
+1108,1824,Tolvaptan Tablets 15mg,10's,196.88,Diuretic,generic,Needs Review,None,Yes,Classified
+1110,1827,Torsemide Tablets IP 40mg,15's,46.88,Urology,generic,Needs Review,None,Yes,Classified
+1111,1828,Torsemide Tablets IP 5mg,15's,10.32,Urology,generic,Needs Review,None,Yes,Classified
+1113,1830,Trimetazidine Hydrochloride Controlled Release Capsules 60mg,10's,41.25,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1115,1833,Ursodeoxycholic Acid Tablets IP 150mg,15's,100.0,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1116,1834,Valacyclovir Tablets 1000mg,3's,103.13,Anti-Viral,generic,Needs Review,None,Yes,Classified
+1118,1841,Vitamin D3 Oral Solution 60000 IU,5 ml,25.78,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1123,1846,Zoledronic Acid Injection IP 4 mg per vial,4mg/vial,200.0,Ortho,generic,Needs Review,None,Yes,Classified
+1125,1849,Vitamin-C Chewable Tablets 500mg,10's,14.06,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1126,1850,Thyroxine Sodium Tablets IP 12.5mcg,100's Bottle,60.94,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+1127,1851,Thyroxine Sodium Tablets IP 25mcg,100's Bottle,42.19,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+1128,1852,Thyroxine Sodium Tablets IP 75mcg,100's Bottle,56.25,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+1129,1853,Thyroxine Sodium Tablets IP 125mcg,100's Bottle,71.25,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+1130,1854,Alfuzosin Prolonged-release Tablets IP 10mg,10's,42.19,Urology,generic,Needs Review,None,Yes,Classified
+1132,1856,Disodium Hydrogen Citrate Syrup 1.53gm per 5ml,100ml Bottle,28.13,Urology,generic,Needs Review,None,Yes,Classified
+1134,1858,Darifenacin Prolonged Release Tablets IP 7.5mg,10's,89.06,Urology,generic,Needs Review,None,Yes,Classified
+1135,1859,Disodium Hydrogen Citrate Syrup 1.37gm per 5ml,100ml Bottle,42.19,Urology,generic,Needs Review,None,Yes,Classified
+1136,1860,Dutasteride Capsule IP 0.5 mg,10's,46.88,Urology,generic,Needs Review,None,Yes,Classified
+1137,1861,Finasteride Tablets IP 1mg,10's,14.06,Urology,generic,Needs Review,None,Yes,Classified
+1138,1862,Mirabegron Extended-release Tablets 25 mg,10's,93.75,Urology,generic,Needs Review,None,Yes,Classified
+1139,1863,Mirabegron Extended-release Tablets 50 mg,10's,135.94,Urology,generic,Needs Review,None,Yes,Classified
+1141,1865,Silodosin Capsules 4 mg,10's,46.88,Urology,generic,Needs Review,None,Yes,Classified
+1142,1866,Silodosin Capsules 8 mg,10's,77.34,Urology,generic,Needs Review,None,Yes,Classified
+1145,1869,Solifenacin Succinate Tablets IP 5 mg,10's,60.94,Urology,generic,Needs Review,None,Yes,Classified
+1146,1870,Solifenacin Succinate Tablets IP 10 mg,10's,75.0,Urology,generic,Needs Review,None,Yes,Classified
+1149,1873,Tolterodine Tartrate Extended Release Capsules 2mg,10's,46.88,Urology,generic,Needs Review,None,Yes,Classified
+1150,1874,Tolterodine Tartrate Extended Release Capsules 4 mg,10's,65.63,Urology,generic,Needs Review,None,Yes,Classified
+1156,1880,Epalrestat Sustained Release Tablets 150 mg,10's,79.69,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1164,1889,Artesunate Injection IP 120mg,Vial with Diluent,46.88,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+1165,1890,Arteether Injection 75mg per ml,1ml Ampoule,9.38,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+1167,1893,Primaquine Phosphate Tablets IP 7.5 mg,10's,12.19,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+1168,1894,Primaquine Phosphate Tablets IP 2.5 mg,10's,9.38,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+1169,1897,Quinine Sulphate Tablets IP 600 mg,10's,50.0,Anti-Malarial,generic,Needs Review,None,Yes,Classified
+1170,1898,Agomelatine Tablets 25 mg,10's,61.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1175,1903,Amisulpride Tablets IP 100 mg,10's,37.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1176,1904,Amisulpride Tablets IP 200 mg,10's,65.63,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1177,1905,Amitriptyline Hydrochloride Tablets IP 75 mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1178,1906,Amitriptyline Hydrochloride Tablets IP 50 mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1179,1907,Amitriptyline Hydrochloride Tablets IP 5 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1180,1908,Amitriptyline Hydrochloride 25mg Chlordiazepoxide 10mg Tablets,10's,9.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1181,1909,Amoxapine Tablets IP 50mg,10's,48.28,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1182,1910,Amoxapine Tablets IP 100mg,10's,69.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1183,1911,Aripiprazole Tablets IP 2.5 mg,10's,9.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1184,1912,Aripiprazole Tablets IP 10 mg,10's,23.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1185,1913,Aripiprazole Tablets IP 15 mg,10's,32.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1186,1914,Aripiprazole Tablets IP 20 mg,10's,42.19,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1187,1915,Aripiprazole Tablets IP 7.5 mg,10's,21.56,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1188,1916,Aripiprazole Tablets IP 30 mg,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1189,1919,Bromocriptine Mesylate Tablets IP 1.25 mg,10's,32.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1190,1920,Bupropion Prolonged-release Tablets IP 150 mg,10's,42.19,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1191,1921,Chlordiazepoxide Tablets IP 25 mg,10's,23.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1192,1922,Chlorpromazine Tablets IP 100 mg,10's,6.19,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1193,1923,Chlorpromazine Tablets IP 50 mg,10's,5.16,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1194,1924,Chlorpromazine Tablets IP 25 mg,10's,3.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1196,1928,Citalopram Tablets IP 20mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1197,1930,Citicoline Injection IP 250mg per ml,2ml Ampoule,37.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1198,1931,Clonazepam Mouth Dissolving Tablets 0.25 mg,10's,9.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1199,1932,Clomipramine Hydrochloride Tablets 10mg,10's,11.25,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1200,1933,Clomipramine Hydrochloride Tablets 25mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1201,1934,Clomipramine Hydrochloride Tablets 50mg,10's,32.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1202,1935,Clozapine Tablets IP 25 mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1203,1936,Clozapine Tablets IP 50 mg,10's,23.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1204,1937,Clozapine Tablets IP 100 mg,10's,37.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1205,1938,Diazepam Tablets IP 2 mg,10's,6.56,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1206,1939,Diazepam Tablets IP 10 mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1207,1940,Doxepin Capsules IP 10mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1208,1941,Doxepin Capsules IP 25mg,10's,37.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1209,1942,Doxepin Capsules IP 75mg,10's,56.25,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1210,1943,Duloxetine Gastro Resistant Tablets IP 30mg,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1211,1944,Escitalopram Tablets IP 5 mg,10's,7.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1212,1945,Etizolam Tablets IP 0.25mg,10's,6.56,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1213,1946,Lamotrigine Dispersible Tablets IP 25mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1214,1947,Lamotrigine Dispersible Tablets IP 50mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1215,1948,Levosulpiride Tablets 50 mg,10's,20.63,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1216,1949,Levosulpiride Tablets 75 mg,10's,30.94,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1217,1950,Mirtazapine Tablets IP 30 mg,10's,42.19,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1218,1951,Rifaximin Tablets 200 mg,10's,65.63,Antibiotics,generic,Needs Review,None,Yes,Classified
+1219,1952,Rifaximin Tablets 550 mg,10's,159.38,Antibiotics,generic,Needs Review,None,Yes,Classified
+1221,1954,Phenytoin Injection IP 100mg per 2 ml,2ml Ampoule,7.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1223,1957,Risperidone Tablets IP 1mg,10's,7.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1224,1958,Risperidone Tablets IP 2 mg,10's,9.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1227,1961,Methylcobalamin Tablet 1500mcg,10's,25.78,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1228,1962,Methylcobalamin Tablet 500mcg,10's,15.47,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1230,1964,Biphasic Insulin Lispro Injection IP 100IU per ml (25:75),3ml Pre-Filled Cartridge,0.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1231,1965,Insulin Aspart Injection IP 100IU per ml,10ml Vial,0.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1232,1966,Repaglinide Tablet IP 0.5mg,10's,14.06,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1233,1967,Repaglinide Tablet IP 1mg,10's,23.44,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1234,1968,Repaglinide Tablet IP 2mg,10's,32.81,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1243,1978,Cefdinir Capsule IP 300mg,10's,140.63,Antibiotics,generic,Needs Review,None,Yes,Classified
+1244,1979,Cefdinir Oral Suspension IP 125mg per 5ml,30ml with Water for Reconstitution,58.13,Antibiotics,generic,Needs Review,None,Yes,Classified
+1245,1980,Tolperisone Tablet 150mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1246,1981,Cefixime 50Mg  And  Clavulanic Acid  31.25 Mg Dry syrup,30ml with Water for Reconstitution,37.5,Antibiotics,generic,Needs Review,None,Yes,Classified
+1248,1984,Cefprozil Oral Suspension 125mg per 5ml,30ml,51.56,Antibiotics,generic,Needs Review,None,Yes,Classified
+1249,1985,Cefprozil Oral Suspension 250mg per 5ml,30ml,93.75,Antibiotics,generic,Needs Review,None,Yes,Classified
+1250,1986,Cefprozil Tablet 500 mg,6's,168.75,Antibiotics,generic,Needs Review,None,Yes,Classified
+1251,1987,Cefprozil Tablet 250 mg,10's,140.63,Antibiotics,generic,Needs Review,None,Yes,Classified
+1260,1999,Carboprost Injection 125mcg,0.5ml Ampoule,45.94,Gynaecology,generic,Needs Review,None,Yes,Classified
+1264,2004,Ranolazine Extended Release Tablets 1000mg,10's,70.31,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1266,2006,Sodium Bicarbonate Tablet 500 mg,10's,10.32,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1267,2007,Sodium Bicarbonate Tablet 1000 mg,10's,15.47,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1269,2009,Silymarin Tablet 140 mg,10's,28.13,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1270,2010,Racecadotril Sachet IP 10mg,1gm Sachet,4.69,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1271,2011,Racecadotril Sachet IP 15mg,1gm Sachet,5.16,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1272,2012,Racecadotril Sachet IP 30mg,3gm Sachet,5.63,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1273,2014,Daclatasvir Tablets 60 mg,28's Bottle,871.88,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1275,2016,Minoxidil Tablets IP 10mg,10's,18.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1276,2017,Ulipristal Acetate Tablets  5mg,10's,445.31,Gynaecology,generic,Needs Review,None,Yes,Classified
+1277,2018,Mesalazine Prolonged release Tablets IP 500mg,10's,70.31,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1278,2020,Desmopressin Tablets 0.1 mg,15's in bottle,0.0,Urology,generic,Needs Review,None,Yes,Classified
+1279,2022,Ropinirole Tablets IP 1 mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1280,2023,Ropinirole Tablets IP 2 mg,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1281,2024,Ropinirole Tablets IP 4 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1283,2026,Etoposide Capsules IP 50 mg,8's,202.5,Oncology,generic,Needs Review,None,Yes,Classified
+1284,2027,Mesalazine Delayed release Tablets 800 mg,10's,91.41,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1285,2028,Tacrolimus Capsule IP 2 mg,10's,178.13,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1286,2029,Tacrolimus Capsule IP 1 mg,10's,103.13,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1287,2030,Tacrolimus Capsule IP 0.25 mg,10's,42.19,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1291,2034,Voriconazole Tablets IP 200mg,4's,328.13,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+1293,2037,Esomeprazole Gastro-Resistance Tablets IP 20mg,10's,9.38,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1294,2038,Pantoprazole Gastro-Resistance Tablets IP 20mg,10's,7.22,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1298,2044,Levonorgestrel Tablet IP 1.5 mg,1's in Monopack,20.0,Gynaecology,generic,Needs Review,None,Yes,Classified
+1299,2045,"Ferrous Asparto Glycinate 100 mg, L-Methylfolate Calcium 300mcg, Methylcobalamin 500mcg Tablet",10's,37.5,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1300,2046,"Riboflavin 10Mg,Folic Acid 1.5Mg, Niacinamide 100Mg & Lactic Acid Bacillus 60 Million Spores Tablets",10's,22.5,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1301,2047,Cholecalciferol Soft Gelatin Capsule 60000 IU,4's,20.63,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1302,2048,Methotrexate Tablets IP 2.5mg,10's,15.0,Oncology,generic,Needs Review,None,Yes,Classified
+1303,2049,Divalproex Prolonged release Tablets IP 500mg,10's,60.94,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1304,2050,Amlodipine Tablet IP 10mg,10's,10.32,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1305,2051,"L-Carnitine-L-Tartrate 1000Mg, Co-Enzyme Q10 60Mg, Zinc Oxide (As Elemental Zinc) 12.5Mg, Lycopene 2500Mcg Tablets",10's,194.06,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1313,2060,Paracetamol Tablets IP 1000 Mg,10's,15.0,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1314,2061,Ketorolac Tromethamine Dispersible Tablet 10 mg,10's,9.38,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1316,2066,Lignocaine Hydrochloride Injection IP (20ml),30 ml Vial,16.38,Anaesthetics,generic,Needs Review,None,Yes,Classified
+1320,2076,Atorvastatin Tablets IP 5mg,10's,10.32,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1323,2079,Bisacodyl Suppositories IP 10mg,5's,23.44,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1326,2082,Calcium Dobesilate Monohydrate Capsules 500mg,10's,37.5,Ortho,generic,Needs Review,None,Yes,Classified
+1328,2084,Carbamazepine Prolonged release Tablets IP 400mg,10's,24.47,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1331,2087,Papaya Leaf Extract 1100mg Tablets,15's,0.0,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1332,2088,Carvedilol Phosphate Extended Release Tablets 10mg,10's,15.94,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1333,2089,Carvedilol Phosphate Extended Release Tablets 20mg,10's,23.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1334,2090,Carvedilol Tablets IP 12.5 mg,10's,14.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1342,2098,Dabigatran Etexilate Mesilate Capsules 75 mg,10's,122.81,Anticoagulant,generic,Needs Review,None,Yes,Classified
+1345,2101,Dapagliflozin Tablets 5mg,10's,25.78,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1346,2102,Desloratadine Tablets 5mg,10's,14.06,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1347,2103,Diclofenac Sodium Suppositories 100mg,5's,0.0,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1348,2104,Divalproex Sodium Extended Release Tablets IP 250 mg,10's,23.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1349,2105,Dosulepin (Dothiepin) Tablets IP 50mg,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1353,2109,Glucosamine Tablets USP 500mg,30's in Bottle,75.0,Ortho,generic,Needs Review,None,Yes,Classified
+1354,2110,Isosorbide Mononitrate Sustained release Tablets 50mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1355,2111,Isotretinoin Capsules IP 10mg,10's,28.13,Derma Care,generic,Needs Review,None,Yes,Classified
+1357,2113,Lacosamide Tablets 100mg,10's,52.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1358,2114,Methotrexate Tablets IP 10mg,10's,30.0,Oncology,generic,Needs Review,None,Yes,Classified
+1359,2115,Methotrexate Tablets IP 5mg,10's,20.0,Oncology,generic,Needs Review,None,Yes,Classified
+1360,2116,Methylprednisolone Tablets IP 16mg,10's,37.5,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+1362,2118,Metoprolol Succinate Extended Release Tablets IP 12.5mg,10's,9.38,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1365,2122,Mycophenolate Sodium Gastro-resistant Tablets 360mg,10's,145.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1367,2124,Nitroglycerin Controlled Release Tablets 6.4 mg,30's in Bottle,51.56,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1368,2125,Nortriptyline Tablets IP 10mg,10's,9.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1369,2126,Ondansetron Orally disintegrating Tablets IP 8mg,10's,10.31,Anti-Emetic,generic,Needs Review,None,Yes,Classified
+1370,2127,Oxcarbazepine Tablets IP 150mg,10's,36.09,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1372,2129,Pirfenidone Tablets IP 400mg,10's,159.38,Respiratory,generic,Needs Review,None,Yes,Classified
+1373,2130,"Potassium Magnesium Citrate 978mg, D-Mannose 300mg with Cranberry extract 200mg Sachet",5gm Sachet,0.0,Urology,generic,Needs Review,None,Yes,Classified
+1376,2133,Pregabalin Tablets IP 150mg,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1377,2134,Ribavirin Capsules USP 200mg,4's,50.0,Hepato-protective,generic,Needs Review,None,Yes,Classified
+1381,2138,Torsemide Tablets IP 100mg,10's,46.88,Diuretic,generic,Needs Review,None,Yes,Classified
+1382,2139,Valsartan Tablets IP 40 mg,10's,18.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1383,2140,Verapamil Tablets IP 40mg,10's,4.22,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1384,2141,Warfarin Tablets IP 1mg,10's,14.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1385,2142,Warfarin Tablets IP 2mg,10's,14.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1386,2143,Zinc Sulphate Dispersible Tablets IP 20mg,10's,9.38,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1387,2144,Pyridostigmine Bromide Tablets IP 60mg,10's,67.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1388,2145,Budesonide Powder for Inhalation IP 400mcg (Rotacaps),30's,102.54,Respiratory,generic,Needs Review,None,Yes,Classified
+1390,2147,Estradiol Tablets 2mg,28's,103.13,Gynaecology,generic,Needs Review,None,Yes,Classified
+1391,2148,Atorvastatin Tablets IP 80mg,10's,32.81,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1392,2149,"Pre & Pro-Biotic Capsules (Bacillus Mesentericus - 2M, Clostridium Butyricum - 4M, Lactobacillus Sporogenes - 100M, Streptococcus Faecalis - 60M)",10's,51.56,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1393,2150,Beclomethasone Dipropionate Inhalation IP 200mcg,200 MDI,140.63,Respiratory,generic,Needs Review,None,Yes,Classified
+1394,2151,Beclomethasone Dipropionate Inhalation IP 100mcg,200 MDI,124.69,Respiratory,generic,Needs Review,None,Yes,Classified
+1395,2152,Beclomethasone Dipropionate 100mcg Rotacaps IP,30's in Plastic container,0.0,Respiratory,generic,Needs Review,None,Yes,Classified
+1396,2153,Beclomethasone Dipropionate Rotacaps 200mcg,30's in Plastic container with monocarton,66.43,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+1397,2154,Beclomethasone Dipropionate Rotacaps 400mcg,30's in Plastic container with monocarton,67.94,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+1398,2155,Benidipine Hydrochloride Tablets 4mg,10's,14.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1399,2156,Bilastine 20mg Montelukast 10mg Tablets,10's,46.88,Respiratory,generic,Needs Review,None,Yes,Classified
+1400,2158,Calcium Pantothenate 100mg Tablets IP,10's,14.06,Ortho,generic,Needs Review,None,Yes,Classified
+1403,2161,Diethylcarbamazine 150mg Tablets,10's,10.0,Anthelmintic,generic,Needs Review,None,Yes,Classified
+1405,2163,Enalapril Maleate Tablets IP 2.5mg,10's,6.56,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1409,2167,Evogliptin Tartarate 5mg Tablets,10's,0.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1410,2168,Fenofibrate Capsules IP 200mg,10's,23.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1411,2169,Flupirtine Maleate Capsules 100mg,10's,32.81,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1412,2170,Glimepiride IP 0.5mg Tablets,10's,3.28,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1413,2171,Glucosamine Sulphate 1500mg Tablets,10's,0.0,Ortho,generic,Needs Review,None,Yes,Classified
+1414,2172,Di-Hydralazine Hydrochloride 25mg Tablets USP,10's,0.0,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1415,2173,Ibandronic Acid Tablets 150mg,1's,304.69,Ortho,generic,Needs Review,None,Yes,Classified
+1416,2174,Ilaprazole Tablets 10mg,10's,23.44,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1417,2175,Iron Sucrose Injection,1's,30.94,Electrolytes,generic,Needs Review,None,Yes,Classified
+1418,2176,Labetalol IP 200mg Tablets,10's,56.25,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1420,2178,Meloxicam 7.5mg Tablets BP,10's,0.0,Ortho,generic,Needs Review,None,Yes,Classified
+1421,2179,Meloxicam 15mg Tablets BP,10's,0.0,Ortho,generic,Needs Review,None,Yes,Classified
+1422,2180,Mesalamine Delayed Release Tablets 400mg,10's,37.5,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1425,2183,Metolazone 2.5mg Tablets IP,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1427,2185,Moxonidine Tablets 0.2mg,10's,33.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1428,2186,Oxcarbazepine Tablets IP 450mg,10's,106.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1429,2187,Oxcarbazepine Tablets IP 600 mg,10's,115.31,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1430,2188,Paroxetin Prolonged-release Tablets IP 25mg,10's,37.5,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1431,2189,Paroxetine Prolonged-release Tablets IP 12.5mg,10's,23.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1432,2190,Pramipexole Dihydrochloride Tablets 0.25mg,10's,45.94,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1434,2192,Ramipril Tablets IP 10mg,10's,18.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1437,2195,Remogliflozin Etabonate 100mg Tablets,10's,0.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1439,2197,Risperidone Tablets IP 3 mg,10's,10.31,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1440,2198,Ropinirole Tablets IP 0.5mg,10's,14.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1441,2199,Ropinirole Tablets 0.25mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1442,2200,Selegiline Hydrochloride 5mg Tablets,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1443,2201,Sevelamer Carbonate Tablets 400mg,10's,51.56,Nephrology,generic,Needs Review,None,Yes,Classified
+1446,2204,Tenofovir Alafenamide Tablets IP 25mg,30's in Bottle,562.5,Hepato-protective,generic,Needs Review,None,Yes,Classified
+1447,2205,Verapamil Hydrochloride Prolonged Release 120mg Tablets IP,15's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1448,2206,Vitamin E Capsules 600mg,10's,26.25,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1451,2209,Ziprasidone 20mg Capsules,10's,42.19,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1452,2210,Perindopril Erbumine 8mg Tablets,10's,75.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1455,2213,Ziprasidone 40mg Capsules,10's,65.63,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1459,2219,Hydroxyprogesterone Injection 250mg,1ml ampoule in Mono blister pack,28.13,Gynaecology,generic,Needs Review,None,Yes,Classified
+1460,2220,Hydroxyprogesterone Injection IP 500mg,2ml Ampoule in Mono blister,46.88,Gynaecology,generic,Needs Review,None,Yes,Classified
+1462,2222,Allopurinol Tablets IP 300 mg,10's,28.13,Respiratory,generic,Needs Review,None,Yes,Classified
+1463,2223,Amisulpride Tablets IP 300mg,10's,75.0,Ortho,generic,Needs Review,None,Yes,Classified
+1465,2225,Acetylcysteine Effervescent Tablets 600mg,10's,126.56,Respiratory,generic,Needs Review,None,Yes,Classified
+1466,2226,Alendronate Sodium Tablets USP 70mg,4's,18.75,Ortho,generic,Needs Review,None,Yes,Classified
+1467,2227,"Amlodipine 5 mg, Losartan Potassium 50 mg & Hydrochlorothiazide 12.5 mg Tablets",10's,23.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1470,2238,Protein Powder (100% Whey Protein) 1 kg (2.2 lbs) Jar,1 kg (2.2 lbs) Jar,1333.86,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1471,2239,Cereal Based Foods Products (for Baby above 6 months),300g Mono Carton,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1472,2240,Diabetes Care Protein Powder,400g Jar,375.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1473,2241,Renal care protein powder (Low Protein),400g Jar,355.93,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1474,2242,Renal care protein powder for dialysis patients (High Protein),400g Jar,444.92,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1475,2243,Oral Rehydration Salt (Liquid form),200ml Tetra Pack,15.75,Electrolytes,generic,Needs Review,None,Yes,Classified
+1476,2244,Janushadhi Madhurak (Stevia Natural Sweetener (Liquid)),30ml Drops in Mono Carton,100.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1478,2246,Janaushadhi Women Protein (Chocolate) 250g,250g Jar,204.66,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1479,2247,Janaushadhi Women Protein (Vanilla) 250 gm,250g Jar,204.66,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1480,2248,"Janaushadhi Poshan (Malt based food with Cocoa, 30gm)",30g Sachet,8.9,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1483,2251,Recombinant Human Tissue type Plasminogen Activator Injection 20mg (Alteplase),Vial with WFI and Transfer canula in Mono Carton,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1484,2252,Recombinant Human Tissue type Plasminogen Activator Injection 50mg (Alteplase),Vial with WFI and Transfer canula in Mono Carton,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1485,2253,Bisacodyl Suppositories IP 5mg,5's,0.0,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1487,2255,Colchicine Tablets 0.5mg,10's,9.38,Ortho,generic,Needs Review,None,Yes,Classified
+1488,2256,Midazolam Injection 10mg,10ml vial,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1492,2260,Salicylic Acid 3% powder,150gm bottle,0.0,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+1494,2262,Somatotropin 4 IU (Recombinant Human Growth Hormone) Powder for Injection,Vial with WFI in Mono Carton,0.0,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+1497,2265,Multivitamin Syrup Chocolate Flavour,200ml Bottle,0.0,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1509,2277,Bempedoic Acid Tablets 180mg,10's,112.5,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1510,2278,"Vitamin C Effervescent Tablets (Vitamin C 1000mg, Vitamin D3 400 IU, Zinc 10mg)",10's,0.0,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1512,2280,Dextromethorphan Hydrobromide Lozenges 5mg,10's,0.0,Respiratory,generic,Needs Review,None,Yes,Classified
+1514,2282,"Para Aminobenzoic Acid100mg, Calcium Pant 100mg, Niacinamide12mg, L-Arginine50mg L-Cysteine50mg, DL-Methionine40mg, L-Lysine20mg, Zinc25mg, Inositol 10mg, Biotin10mg, Ferrous10mg, Copper2mg Tablets",10's,0.0,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1515,2283,Abiraterone Acetate Tablets 250mg,120's bottle,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1516,2284,Acamprosate Calcium Tablets 333mg,6's,46.88,Anti-Alcoholism,generic,Needs Review,None,Yes,Classified
+1517,2285,"Myo-Inositol 1000mg, L-Methyl Folate 100mcg, Vitamin D3 1000 IU, Acetylcysteine 600mg, L-Arginine 100mg Tablets",10's,0.0,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1519,2287,Alogliptin 25mg Tablets,10's,0.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1520,2288,Armodafinil 50mg Tablets,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1521,2289,Armodafinil 150mg Tablets,10's,121.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1522,2290,Baclofen 20mg Extended Release (Gastric Retentive System) Tablets,10's,30.0,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1523,2291,Benazepril 5mg Tablets,10's,42.19,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1524,2292,Benidipine 8mg Tablets,10's,23.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1525,2293,Bosentan 62.5mg Tablets,10's,351.56,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1527,2295,Brivaracetam Tablets IP 50mg,10's,79.69,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1529,2297,"Calcium (Calcium Carbonate) 1250mg, Vitamin D3 2000 IU, Mecobalamin (Vitamin B12) 1500mcg, L-Methylfolate Calcium (Vitamin B9) 1mg, Pyridoxal-5-Phosphate (Vitamin B6) 20mg Tablets",10's,37.5,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1532,2301,Dapoxetine Tablets IP 30mg,4's,14.06,Urology,generic,Needs Review,None,Yes,Classified
+1533,2302,Dasatinib 50mg Tablets,60's Bottle,1031.25,Oncology,generic,Needs Review,None,Yes,Classified
+1537,2306,Desvenlafaxine Extended Release Tablets 50mg,10's,23.44,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1538,2307,Desvenlafaxine Extended Release Tablets 100mg,10's,42.19,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1539,2308,Dexlansoprazole MR Capsules 60mg,10's,93.75,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1551,2321,Lapatinib Tablets IP 250mg,30's Bottle,2710.0,Oncology,generic,Needs Review,None,Yes,Classified
+1553,2323,Lithium Carbonate Tablets IP 300mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1554,2324,"L-Methylfoate Calcium 0.5mg, Vit K2 10mcg, Vit D 400 IU, Methylcobalamin 1500mcg, Pyridoxal-5-Phosphate 1.5mg, Lycopene 5000mcg, Calcium Citrate Malate 250mg Tablets",10's,0.0,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1555,2325,Lorazepam Tablets IP 3mg,10's,16.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1556,2326,"Lutein 10mg, Astaxanthin 2mg, Zeaxanthin 2mg, Omega 3 Fatty Acid 500mg Capsules",10's,37.5,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1557,2327,"Omega 3 Fatty Acid 500mg, EPA 150mg, DHA 100mg, Bilberry Extract 50mg, Lutein 20% & Zeaxanthin 4%- 25mg, Beta carotene 4.8mg, Vitamin D3 10mcg Capsules",30's Bottle,140.63,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1559,2329,Midazolam 0.5mg Nasal Spray,5ml bottle with nasal atomizer in Mono Carton,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1560,2330,Modafinil 100mg Tablets,10's,46.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1562,2332,Nicoumalone (Acenocoumarol) 2mg Tablets,10's,14.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1563,2333,Nintedanib Soft gelatin Capsules 150mg,10's,399.84,Oncology,generic,Needs Review,None,Yes,Classified
+1564,2334,Nitazoxanide 500mg Tablets,10's,51.56,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1565,2335,Obeticholic Acid 10mg Tablets,10's,93.75,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1566,2336,Obeticholic Acid 5mg Tablets,10's,56.25,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1568,2338,Oxybutynin Chloride 2.5mg Tablets,10's,46.88,Urology,generic,Needs Review,None,Yes,Classified
+1570,2340,Pomalidomide 2mg Capsules,21's in bottle,703.13,Oncology,generic,Needs Review,None,Yes,Classified
+1571,2341,Pramipexole 0.75mg Tablets,10's,15.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1572,2342,Pramipexole 1.5mg Tablets,10's,24.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1573,2343,Procyclidine 2.5mg Tablets,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1574,2344,Procyclidine 5mg Tablets,10's,32.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1575,2345,"Pyridoxine-3mg, Niacinamide-50mg, Folic Acid-1.5mg, Lactic Acid Bacillus 4 million spores Capsules",10's,0.0,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1576,2347,S-Adenosyl L-Methionine 200mg Tablets,10's,112.5,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1577,2348,S-Adenosyl L- Methionine 400mg Tablets,10's,234.38,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1578,2349,Sevelamer 800mg Tablets,10's,75.0,Nephrology,generic,Needs Review,None,Yes,Classified
+1579,2350,Tapentadol 100mg Extended Release Tablets,10's,60.94,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1580,2351,Tapentadol 50mg Tablets,10's,30.0,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1582,2353,Topiramate 100mg Tablets,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1583,2354,Topiramate 50mg Tablets,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1584,2355,Trazodone Hydrochloride 50mg Tablets,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1585,2356,Valacyclovir Tablets 500mg,3's in Mono Carton,46.88,Anti-Viral,generic,Needs Review,None,Yes,Classified
+1586,2357,Venlafaxine Prolonged Release Capsules 37.5mg,10's,18.75,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1587,2358,Venlafaxine Prolonged Release Capsules 75mg,10's,28.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1588,2359,Venlafaxine Prolonged Release Capsules 150mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1589,2360,Vildaglipitin 100mg Extended Release Tablets,10's,42.19,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1590,2361,Zonisamide 50mg Capsules,10's,55.02,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1591,2362,Zonisamide 100mg Capsules,10's,103.13,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1595,2366,Melatonin 5mg Tablets,15's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1596,2367,Methimazole 10mg Tablets,10's,0.0,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+1601,2372,Oxcarbazepine Tablets IP 300mg,15's,79.69,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1602,2374,Shilajit Capsule 500 mg,60's in Bottle,160.0,Ayurvedic,generic,Needs Review,None,Yes,Classified
+1603,2375,Triphala Tablets 500 mg,60's in Bottle,30.0,Ayurvedic,generic,Needs Review,None,Yes,Classified
+1604,2376,Ashwagandha Tablets 250 mg,60's in Bottle,50.0,Ayurvedic,generic,Needs Review,None,Yes,Classified
+1605,2377,Madhu (Makshik) 100g,100g PET Bottle,40.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1606,2378,Madhu (Makshik) 250g,250g PET Bottle,80.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1607,2379,Madhu (Makshik) 500g,500g PET Bottle,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+1608,2380,Chyawanprash Special 500g Jar,500g Jar,125.0,Ayurvedic,generic,Needs Review,None,Yes,Classified
+1609,2381,Chyawanprash Special 1Kg Jar,1kg Jar,226.0,Ayurvedic,generic,Needs Review,None,Yes,Classified
+1613,2385,Apixaban Tablets 2.5mg,10's,18.75,Anticoagulant,generic,Needs Review,None,Yes,Classified
+1614,2386,Apixaban Tablets 5mg,10's,32.81,Anticoagulant,generic,Needs Review,None,Yes,Classified
+1620,2392,Azelnidipine Tablets IP 16mg,10's,46.88,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1622,2394,Azelnidipine Tablets IP 8mg,10's,28.13,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1623,2395,Baricitinib Tablets 4mg,7's,0.0,Covid-19,generic,Needs Review,None,Yes,Classified
+1625,2397,Bethanechol Chloride 25mg Tablets,10's,87.19,Urology,generic,Needs Review,None,Yes,Classified
+1626,2398,Bortezomib 2mg powder for Injection,Vial with WFI,665.63,Oncology,generic,Needs Review,None,Yes,Classified
+1627,2399,Bortezomib 2.5mg powder for Injection,Vial with WFI,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1629,2401,Carbimazole Tablets IP 20mg,100's in Amber Coloured Glass Bottle,0.0,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+1630,2402,Cefadroxil Oral Suspension IP 125mg per 5ml (dry syrup),30ml,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+1634,2406,Clopidogrel 150mg Tablets,10's,33.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1635,2407,Conjugated Estrogens 0.625mg Tablets,28's,0.0,Gynaecology,generic,Needs Review,None,Yes,Classified
+1636,2408,Crizotinib Capsules 250mg,10's Bottle,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1639,2411,Dasatinib Tablets 20mg,60's Bottle in Monopack,1204.69,Oncology,generic,Needs Review,None,Yes,Classified
+1640,2412,Dasatinib Tablets 50mg,60's Bottle in Monopack,2217.19,Oncology,generic,Needs Review,None,Yes,Classified
+1641,2413,Dasatinib Tablets 70mg,60's Bottle in Monopack,2811.56,Oncology,generic,Needs Review,None,Yes,Classified
+1643,2415,Dolutegravir Tablets 50mg,30's Bottle,187.5,Anti-Retroviral,generic,Needs Review,None,Yes,Classified
+1644,2416,Eltrombopag Tablets 25mg,7's,271.88,Treatment of Severe Aplastic Anemia,generic,Needs Review,None,Yes,Classified
+1645,2417,Eltrombopag Tablets 50mg,7's,421.88,Treatment of Severe Aplastic Anemia,generic,Needs Review,None,Yes,Classified
+1646,2418,Ezetimibe Tablets IP 10mg,10's,18.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1647,2419,Ezetimibe Tablets IP 5mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1654,2426,Leflunomide 10mg Tablets,10's,32.81,Ortho,generic,Needs Review,None,Yes,Classified
+1655,2427,Lenalidomide Capsules 25mg,30's in PET bottle in Mono Carton,1387.5,Oncology,generic,Needs Review,None,Yes,Classified
+1656,2428,Lenalidomide Capsules 5mg,30's in PET bottle in Mono Carton,356.25,Oncology,generic,Needs Review,None,Yes,Classified
+1659,2431,Lincomycin 250mg Capsules,10's,27.19,Antibiotics,generic,Needs Review,None,Yes,Classified
+1660,2432,Lincomycin 500mg Capsules,10's,43.13,Antibiotics,generic,Needs Review,None,Yes,Classified
+1662,2434,Macitentan Tablets 10mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1663,2435,Mebendazole Oral Suspension 100mg per ml,30ml,0.0,Anthelmintic,generic,Needs Review,None,Yes,Classified
+1665,2437,Methotrexate Tablets IP 15mg,10's,32.81,Oncology,generic,Needs Review,None,Yes,Classified
+1666,2438,Methotrexate Tablets IP 20mg,10's,42.19,Oncology,generic,Needs Review,None,Yes,Classified
+1667,2439,Metoclopramide Hydrochloride Syrup IP 5mg per 5ml,60ml,0.0,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1668,2440,Metoprolol Extended Release Tablets IP 100mg,10's,23.44,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1670,2442,Midodrine Hydrochloride Tablets 10mg,10's,150.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1671,2443,Midodrine Hydrochloride Tablets 2.5mg,10's,51.56,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1672,2444,Midodrine Hydrochloride Tablets 5mg,10's,93.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1675,2447,Nintedanib Soft Gelatin Capsules 100mg,10's,499.69,Oncology,generic,Needs Review,None,Yes,Classified
+1676,2448,Olmesartan Medoxomil Tablets IP 10mg,10's,9.38,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1677,2449,"Oral Rehydration Salts IP (WHO Formula) Orange Flavour Sachet, 21g",1's Sachet,10.0,Electrolytes,generic,Needs Review,None,Yes,Classified
+1680,2452,Pazopanib Tablets 200mg,30's bottle in Monopack,2062.5,Oncology,generic,Needs Review,None,Yes,Classified
+1681,2453,Pazopanib Tablets 400mg,30's bottle in Monopack,2906.25,Oncology,generic,Needs Review,None,Yes,Classified
+1682,2454,Penicillin G Tablets 400000 IU,10's,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+1683,2455,Penicillin G Tablets 800000 IU,10's,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+1685,2457,Propranolol Tablets IP 20mg,10's,5.63,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1686,2458,Quetiapine Tablets IP 50mg,10's,16.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1688,2460,Ramipril Tablets IP 1.25mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1696,2468,Sorafenib Tablets 200mg,120's Bottle,3000.0,Oncology,generic,Needs Review,None,Yes,Classified
+1697,2469,Sunitinib Capsules 12.5mg,28's Bottle,499.0,Oncology,generic,Needs Review,None,Yes,Classified
+1698,2470,Sunitinib Capsules 25mg,28's Bottle,910.0,Oncology,generic,Needs Review,None,Yes,Classified
+1702,2474,Temozolomide Capsules IP 20mg,5's in bottle,314.06,Oncology,generic,Needs Review,None,Yes,Classified
+1705,2477,Thalidomide Capsules 100mg,10's,150.0,Oncology,generic,Needs Review,None,Yes,Classified
+1706,2478,Thalidomide Capsules 200mg,10's,234.38,Oncology,generic,Needs Review,None,Yes,Classified
+1707,2479,Thalidomide Capsules 50mg,10's,84.38,Oncology,generic,Needs Review,None,Yes,Classified
+1708,2480,Thyroxine Sodium Tablets IP 150mcg,120's in Bottle,93.75,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+1709,2481,Ticagrelor Tablets IP 60mg,10's,89.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1710,2482,Topiroxostat Tablets 20mg,10's,46.88,Treatment of Gout,generic,Needs Review,None,Yes,Classified
+1711,2483,Topiroxostat Tablets 40mg,10's,84.38,Treatment of Gout,generic,Needs Review,None,Yes,Classified
+1712,2484,Topiroxostat Tablets 60mg,10's,121.88,Treatment of Gout,generic,Needs Review,None,Yes,Classified
+1715,2487,Vortioxetine Tablets 10mg,10's,60.94,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1716,2488,Vortioxetine Tablets 20mg,10's,89.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1717,2489,Vortioxetine Tablets 5mg,10's,32.81,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1718,2490,Amlodipine Tablets IP 2.5mg,15's,3.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1719,2491,Cetirizine Tablets IP 5mg,10's,0.0,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1726,2498,Clozapine tablets IP 200mg,10's,75.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1729,2501,Ambrisentan Tablets 10mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1730,2502,Ambrisentan Tablets 5mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1732,2504,Azilsartan Medoxomil Tablets 20mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1733,2505,Azilsartan Medoxomil Tablets 80mg,10's,103.13,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1745,2517,Citicoline Syrup 500mg per 5ml,60 ml Bottle,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1754,2526,Deferasirox Dispersible Tablets 180mg,10's,46.88,Iron-Chelating Agents,generic,Needs Review,None,Yes,Classified
+1755,2527,Deferasirox Dispersible Tablets 250mg,30's,65.63,Iron-Chelating Agents,generic,Needs Review,None,Yes,Classified
+1756,2528,Deferasirox Dispersible Tablets 360mg,10's,79.69,Iron-Chelating Agents,generic,Needs Review,None,Yes,Classified
+1757,2529,Deferasirox Dispersible Tablets 400mg,10's,90.94,Iron-Chelating Agents,generic,Needs Review,None,Yes,Classified
+1758,2530,Deferasirox Dispersible Tablets 500mg,30's,112.5,Iron-Chelating Agents,generic,Needs Review,None,Yes,Classified
+1759,2531,Deferiprone Capsules 250mg,50's,124.69,Iron-Chelating Agents,generic,Needs Review,None,Yes,Classified
+1760,2532,Deferiprone Capsules 500mg,50's,234.38,Iron-Chelating Agents,generic,Needs Review,None,Yes,Classified
+1761,2533,Deflazacort oral Suspension 6mg per 5ml,30ml in Mono-carton with measuring cap,28.13,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+1763,2535,Diclofenac 200mg Transdermal patch,10's in Mono-carton,0.0,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1768,2540,Drotaverine Hydrochloride Injection 40mg per 2ml,2ml Ampoule,9.38,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1772,2544,Efonidipine Hydrochloride Ethanolate 20mg Tablets,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1773,2545,Efonidipine Hydrochloride Ethanolate 40mg Tablets,10's,70.31,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1775,2547,Entacapone Tablets IP 200mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1776,2548,Eplerenone 50mg Tablets,10's,234.38,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1779,2551,Etizolam Controlled release Tablets IP 1.5mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1793,2565,Hydroxyzine Hydrochloride Drops 6mg per ml,15ml in Mono-carton with screw dropper,18.75,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1794,2566,Hydroxyzine Hydrochloride Syrup 10mg per 5ml,100ml with measuring cap,23.44,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1796,2568,Iguratimod Tablets 25mg,10's,93.75,Ortho,generic,Needs Review,None,Yes,Classified
+1798,2570,Imeglimin Hydrochloride Tablets 1000mg,10's,0.0,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1799,2571,Imeglimin Hydrochloride Tablets 500mg,10's,55.31,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1803,2575,Ipratropium Bromide Inhaler 20mcg,200 MDI,0.0,Respiratory,generic,Needs Review,None,Yes,Classified
+1808,2580,Ketoprofen 2.5% Gel,30g in Mono-carton,0.0,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+1811,2583,Leucovorin Calcium Tablets IP 15mg,10's,0.0,Antidote,generic,Needs Review,None,Yes,Classified
+1812,2584,Levetiracetam Prolonged Release Tablets IP 1000mg,10's,117.19,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1815,2587,Levocloperastine Oral Suspension 20mg per 5ml,100ml,56.25,Respiratory,generic,Needs Review,None,Yes,Classified
+1827,2601,Lobeglitazone Sulfate Tablets 0.5mg,10's,46.88,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1832,2606,Molnupiravir Capsules 200mg,10's,37.5,Covid-19,generic,Needs Review,None,Yes,Classified
+1839,2613,Nitrofurantoin 50mg Tablets,10's,0.0,Urology,generic,Needs Review,None,Yes,Classified
+1840,2614,Nitrofurantoin Sustained Release Tablets 100mg,15's,28.13,Urology,generic,Needs Review,None,Yes,Classified
+1841,2615,Norethisterone Acetate Controlled Release Tablets 10mg,10's,25.31,Gynaecology,generic,Needs Review,None,Yes,Classified
+1844,2618,Panitumumab 100mg Infusion,5ml Vial,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1845,2619,Panitumumab 400mg Infusion,20ml Vial,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1850,2624,Quetiapine Prolonged release Tablets IP 300mg,10's,70.31,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1851,2625,Rasagiline Tablets 0.5mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1852,2626,Rasagiline Tablets 1mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1853,2627,Selexipag Tablets 200mcg,10's,393.75,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1854,2628,Selexipag Tablets 400mcg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1856,2630,Sildenafil Tablets IP 20mg,10's,6.56,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1857,2631,Sirolimus Tablets 1mg,10's,187.5,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1866,2640,"Throat Spray (Chamomile extract, peppermint oil, Sage oil, Pine Needle oil, Bergamot oil, Cineole oil, Methyl salicylate, Ethyl Alcohol, Propylene Glycol, Glycerin, Citric acid, Polysorbate 80, water)",50ml in Mono-carton,0.0,Throat Spray for Freshness,generic,Needs Review,None,Yes,Classified
+1869,2643,Tofacitinib Extended Release Tablets 11mg,10's,126.56,Ortho,generic,Needs Review,None,Yes,Classified
+1870,2644,Tofacitinib Extended Release Tablets 22mg,10's,225.0,Ortho,generic,Needs Review,None,Yes,Classified
+1871,2645,Tofacitinib Tablets 10mg,10's,93.75,Ortho,generic,Needs Review,None,Yes,Classified
+1872,2646,Tofacitinib Tablets 5mg,10's,51.56,Ortho,generic,Needs Review,None,Yes,Classified
+1876,2650,Tranylcypromine Tablets 10mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1877,2651,Triclofos oral Solution IP,30ml in Mono-carton,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1878,2652,Tulobuterol Transdermal patch 0.5mg,14's in Mono-carton,0.0,Respiratory,generic,Needs Review,None,Yes,Classified
+1883,2657,Acyclovir Dispersible Tablets IP 200 mg,5's,14.06,Anti-Viral,generic,Needs Review,None,Yes,Classified
+1884,2658,Amisulpride Tablets IP 25 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1885,2659,Amisulpride Sustained Release Tablets 100 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1886,2660,Amisulpride Sustained Release Tablets 200 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1887,2661,Amisulpride Sustained Release Tablets 300 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1888,2662,Amisulpride Sustained Release Tablets 400 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1890,2664,Cabozantinib Tablets 20 mg,30's bottle,1453.13,Oncology,generic,Needs Review,None,Yes,Classified
+1891,2665,Cabozantinib Tablets 40 mg,30's bottle,2296.88,Oncology,generic,Needs Review,None,Yes,Classified
+1892,2666,Cabozantinib Tablets 60 mg,30's bottle,3562.5,Oncology,generic,Needs Review,None,Yes,Classified
+1893,2667,Cariprazine Capsules 1.5 mg,10's,50.63,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1894,2668,Cariprazine Capsules 3 mg,10's,81.56,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1895,2669,Cariprazine Capsules 4.5 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1896,2670,Cariprazine Capsules 6 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1897,2671,Cefazolin Sodium Injection IP 250 mg,Vial with WFI,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+1898,2672,Cefazolin Sodium Injection IP 500 mg,Vial with WFI,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+1899,2673,Cefazolin Sodium Injection IP 1g,Vial with WFI,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+1901,2675,Cyclobenzaprine Extended-release Capsules 15mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1905,2679,Desloratadine Tablets 10 mg,10's,23.44,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1906,2680,Dexchlorpheniramine Maleate Sustained Release Tablets 6mg,10's,0.0,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1907,2681,Dexchlorpheniramine Maleate Tablets IP 2mg,10's,0.0,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+1910,2684,Everolimus Tablets 0.25 mg,10's,250.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1911,2685,Everolimus Tablets 0.5 mg,10's,450.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1912,2686,Everolimus Tablets 5 mg,10's,3600.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1913,2687,Everolimus Tablets 10 mg,10's,7000.0,Immunosuppressant,generic,Needs Review,None,Yes,Classified
+1917,2691,Hydrochlorothiazide Tablets IP 25 mg,10's,8.44,Diuretic,generic,Needs Review,None,Yes,Classified
+1918,2692,Hydrocortisone Tablets 10mg,10's,18.75,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+1919,2693,Hydrocortisone Tablets 5mg,10's,10.31,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+1920,2694,Inosine Pranobex Tablets 500 mg,10's,271.88,Anti-Viral,generic,Needs Review,None,Yes,Classified
+1921,2695,Itraconazole Capsules 130mg,10's,70.31,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+1922,2696,Itraconazole Capsules 65mg,10's,42.19,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+1927,2701,Lurasidone Hydrochloride Tablets 20 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1928,2702,Lurasidone Hydrochloride Tablets 40 mg,10's,86.25,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1929,2703,Lurasidone Hydrochloride Tablets 80 mg,10's,134.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1930,2704,Maraviroc Tablets 150 mg,60's in bottle,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1932,2706,Metformin Hydrochloride Tablets IP 250 mg,10's,3.75,Anti-Diabetic,generic,Needs Review,None,Yes,Classified
+1935,2709,Omeprazole 20mg Powder for Oral suspension (Sodium bicarbonate as buffer),10 sachet in monocarton,74.06,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1938,2712,Nebivolol Hydrochloride Tablets IP 10 mg,10's,42.19,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1939,2713,Nifedipine Extended Release Tablets IP 30 mg,10's,14.06,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1940,2714,Nifedipine Extended Release Tablets IP 60 mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+1941,2715,Octreotide long acting release Injection 20mg (Lyophilised),Vial,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1942,2716,Octreotide long acting release Injection 30mg (Lyophilised),Vial,12000.0,Oncology,generic,Needs Review,None,Yes,Classified
+1943,2717,Octreotide injection 50 mcg,1ml Ampoule,80.0,Oncology,generic,Needs Review,None,Yes,Classified
+1944,2718,Octreotide injection 100mcg,1ml Ampoule,140.0,Oncology,generic,Needs Review,None,Yes,Classified
+1945,2719,Olaparib Tablet 100 mg,30's in bottle,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1946,2720,Olaparib Tablet 150 mg,30's in bottle,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1951,2725,Oseltamivir Phosphate Capsules IP 30mg,10's,84.38,Anti-Viral,generic,Needs Review,None,Yes,Classified
+1952,2726,Pancreatin Capsules 40000,10's,0.0,Enzyme Preparation,generic,Needs Review,None,Yes,Classified
+1953,2727,Pilocarpine Tablets 5mg,10's,0.0,Opthalmic/Otic,generic,Needs Review,None,Yes,Classified
+1954,2728,Rebamipide Tablets 100 mg,10's,46.88,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+1955,2729,Risperidone 2mg Trihexyphenidyl 2 mg Tablets (mouth Dissolving ),10's,9.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1956,2730,Risperidone 3mg Trihexyphenidyl 2 mg Tablets,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1957,2731,Rivaroxaban Tablet 15 mg,14's,117.19,Anticoagulant,generic,Needs Review,None,Yes,Classified
+1958,2732,Rivaroxaban Tablet 2.5 mg,14's,42.19,Anticoagulant,generic,Needs Review,None,Yes,Classified
+1959,2733,Rivastigmine Capsules 1.5mg,10's,46.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1960,2734,Rivastigmine Capsules 3mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1961,2735,Rivastigmine Capsules 4.5 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1962,2736,Rivastigmine Capsules 6 mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1974,2748,Spironolactone Tablets IP 50 mg,15's,34.22,Diuretic,generic,Needs Review,None,Yes,Classified
+1975,2749,Spironolactone Tablets IP 100mg,15's,79.69,Diuretic,generic,Needs Review,None,Yes,Classified
+1978,2752,Tadalafil Tablets IP 2.5 mg,10's,9.38,Urology,generic,Needs Review,None,Yes,Classified
+1979,2753,Tadalafil Tablets IP 5 mg,10's,11.25,Urology,generic,Needs Review,None,Yes,Classified
+1980,2754,Tadalafil Tablets IP 10 mg,4's,9.38,Urology,generic,Needs Review,None,Yes,Classified
+1983,2757,Thyroxine Sodium Tablets IP 62.5mcg,100's Bottle,54.38,Anti-Thyroid,generic,Needs Review,None,Yes,Classified
+1986,2760,Trazodone Hydrochloride Tablets IP 100 mg,10's,46.88,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1987,2761,Trazodone Hydrochloride Tablets IP 25 mg,10's,14.06,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1988,2762,Trientine Hydrochloride Capsules 250 mg,100's in Bottle,10231.88,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+1989,2763,Ubidecarenone (Co-enzyme Q10) Capsules 100 mg,10's,84.38,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1990,2764,Ubidecarenone (Co-enzyme Q10) Capsules 300 mg,10's,234.38,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+1991,2765,Vancomycin Hydrochloride for Intravenous Infusion IP 1000 mg,Vial,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+1992,2766,Vancomycin Hydrochloride Capsules IP 250mg,10's,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+1993,2767,Vasopressin injection IP 20IU,1ml Ampoule,80.0,Anti-Diuretic,generic,Needs Review,None,Yes,Classified
+1995,2769,Vincristine Injection 1mg,1ml Vial,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+1996,2770,Zolpidem Tablets IP 5mg,10's,9.38,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+1997,2771,Fluconazole Tablets IP 50 mg,4's,7.5,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+1998,2772,Fluconazole Tablets IP 200 mg,4's,22.5,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+1999,2773,Fluconazole Tablets IP 400 mg,1's,9.38,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+2000,2774,Fluconazole Injection 2mg per ml,100ml Bottle,0.0,Anti-Fungal,generic,Needs Review,None,Yes,Classified
+2001,2775,Janaushadhi Urja (Glucose Powder (Orange Flavour) 1kg),1kg Screw-Cap jar with scoop,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2002,2776,Janaushadhi Urja (Glucose Powder 500g),500g Screw-Cap jar with scoop,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2003,2777,Janaushadhi Urja (Glucose Powder 1kg),1kg Screw-Cap jar with scoop,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2004,2778,Janaushadhi Onco-Care Protein Powder,500g HDPE Container,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2005,2779,"Janaushadhi Poshan (Malt based food with Cocoa, 1000gm)",1000g HDPE Container,266.95,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2006,2780,"Janaushadhi Poshan (Malt based food, 1000gm)",1000g HDPE Container,266.95,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2007,2781,Janaushadhi Ragi Malt based food (500gm),500g HDPE Container,169.07,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2008,2782,Janaushadhi Ragi Malt based food (1000gm),1000g HDPE Container,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2009,2783,Janaushadhi Ragi Sticks (Chocolate),Screw-cap plastic container,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2010,2784,Janaushadhi Energy Drink (Orange Flavour),200ml Tetra Pack,0.0,Nutraceuticals,generic,Needs Review,None,Yes,Classified
+2011,2785,Abiraterone Acetate Tablets 500mg,60's bottle,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+2019,2794,Atomoxetine Tablet (10 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2020,2795,Azelaic Acid 20% Cream,15GM,0.0,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+2022,2797,Benzoyl Peroxide 5% Soap,75GM,0.0,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+2023,2798,Benzoyl Peroxide Gel 5%,15GM,0.0,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+2024,2799,Buspirone Tablet (10 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2025,2800,Buspirone Tablet (5 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2031,2806,Enzalutamide Tablet 40Mg,28's in Bottle,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+2032,2807,Filgrastim injection 300mcg,1ML Vial,0.0,Immunostimulator,generic,Needs Review,None,Yes,Classified
+2033,2808,Flecanide Tablets 100Mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+2034,2809,Flecanide Tablets 50Mg,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+2035,2810,Fluoxetine 10 Mg Tablet,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2036,2811,Fluoxetine Capsules 60Mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2039,2814,Glycolic Acid Cream 12%,30GM,0.0,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+2040,2815,Glycolic Acid Cream 6%,30GM,0.0,Dermatology/Topical/External,generic,Needs Review,None,Yes,Classified
+2041,2816,Glycopyrrolate Tablet 1Mg,10's,0.0,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+2042,2817,Glycopyrrolate Tablet 2Mg,10's,0.0,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+2045,2820,Ibrutinib Capsule 140 Mg,30's in Bottle,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+2048,2823,Testosterone Enanthate Injection 250mg per 1 ml,1 ML,0.0,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+2049,2824,Lenvatinib Capsules IP 4Mg,10's bottle,0.0,Oncology,generic,Needs Review,None,Yes,Classified
+2050,2825,Levetiracetam Tablets IP 500 Mg XR,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2055,2830,Methylphenidate Tablet 10Mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2056,2831,Methylphenidate Tablet 18Mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2057,2832,Methylphenidate Tablet 20Mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2058,2833,Methylphenidate Tablet 5Mg,10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2062,2837,Minoxidil 5Mg Tablet,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+2063,2838,Naltrexone 50Mg Tablets,10's,0.0,Anti-Alcoholism,generic,Needs Review,None,Yes,Classified
+2064,2839,Nimodipine Tablet (30 Mg),10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+2068,2843,Opipramol Dihydrochloride Tablets (50 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2069,2844,Opipramol Tablet (50 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2070,2845,Orlistat Capsules 60Mg,10's,0.0,Weight management,generic,Needs Review,None,Yes,Classified
+2071,2846,Perampanel Tablet (2 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2072,2847,Perampanel Tablet (4 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2074,2849,Polmacoxib 2 Mg Capsules,10's,0.0,Ortho,generic,Needs Review,None,Yes,Classified
+2079,2854,Safinamide Tablet (50 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2089,2864,Tianeptine Tablet (12.5 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2090,2865,Tofisopam Tablet (50 Mg),10's,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2095,2870,Cefepime 250 Mg Inection,1.0 Injection in 1 vial,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+2100,2875,Ketoprofen 30 Mg Patch,7's pack,0.0,Analgesic/Antipyretic/Anti-Inflammatory,generic,Needs Review,None,Yes,Classified
+2101,2876,Lamivudine 100 Mg Tablets,10's,0.0,Hepato-Protective,generic,Needs Review,None,Yes,Classified
+2102,2877,Levetiracetam (100Mg) Injection,5.0 ml in 1 vial,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2103,2878,Levetiracetam 500 Mg Injection,5.0 ml in 1 vial,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2104,2879,Magnesium Sulphate Injection 50%,2 ml/ 1 Vial,0.0,Supplement/Vitamin/Mineral,generic,Needs Review,None,Yes,Classified
+2105,2880,Minocycline (100Mg) Modified Release Capsule,10's,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+2106,2881,Minocycline (45Mg) Extended Release Tablet,10's,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+2107,2882,Minocycline (50Mg) Tablet,10's,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+2108,2883,Minocycline (65Mg) Extended Release Tablet,10's,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+2109,2884,Minocycline 100 Mg Tab,10's,0.0,Antibiotics,generic,Needs Review,None,Yes,Classified
+2111,2886,Mosapride Citrate 5 Mg Tablet,10's,0.0,Gastrointestinal (GIT),generic,Needs Review,None,Yes,Classified
+2112,2887,Nifedipine 5Mg Capsule,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+2113,2888,Olopatadine 5 Mg Tab,10's,0.0,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+2116,2891,Phenobarbitone Sodium 20mg per 5ml Syrup,100 ml,0.0,Central Nervous System (CNS),generic,Needs Review,None,Yes,Classified
+2118,2893,Prednisolone Dispersible Tablet (20Mg),15's,0.0,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+2119,2894,Prednisolone Tablet (40Mg),10's,0.0,Steroids & Hormones,generic,Needs Review,None,Yes,Classified
+2122,2897,Rupatadine 10 Mg Tab,10's,0.0,Anti-Histaminic,generic,Needs Review,None,Yes,Classified
+2123,2898,Sumatriptan 50 Mg Tablets,10's,0.0,Anti-Migraine,generic,Needs Review,None,Yes,Classified
+2124,2899,Terazosin (1Mg) Tab,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+2125,2900,Terazosin (2Mg) Tab,10's,0.0,Cardiovascular System (CVS),generic,Needs Review,None,Yes,Classified
+2126,5001,Absorbent Cotton Wool IP 75 g,1's,27.19,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2127,5002,Absorbent Cotton Wool IP 200 g,1's,63.75,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2128,5003,Absorbent Cotton Wool IP 500 g,1's,161.25,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2139,5014,Needle 16G,1's,1.88,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2140,5015,Needle 18G,1's,1.41,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2141,5016,Needle 23G,1's,0.94,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2142,5017,Needle 26G half inch,1's,1.41,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2143,5019,Paper Adhesive Plaster 1 inch X 9m,1's,23.44,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2144,5020,Paper Adhesive Plaster 2 inch X 9m,1's,51.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2145,5021,Paper Adhesive Plaster 3 inch X 9m,1's,75.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2148,5024,Scalp Vein Set (Disposable) (18G),1's,6.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2149,5025,Scalp Vein Set (Disposable) (20G),1's,6.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2150,5026,Scalp Vein Set (Disposable) (22G),1's,6.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2151,5027,Scalp Vein Set (Disposable) (24G),1's,6.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2152,5030,"Surgical Blade, No. 22, Sterilized",1's,3.75,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2153,5033,"Surgical Blade, No. 15, Sterilized",1's,3.75,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2154,5037,"I.V Cannula (Sterile, Disposable), 26 G",1's pack,15.94,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2155,5039,Sterile Disposable Spinal Needle 22G x 3 ½ inch,1's,51.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2156,5040,Sterile Disposable Spinal Needle 25G x 3 ½ inch,1's,51.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2157,5041,"Urine Collecting Bag, Disposable, 2000ml",1's pack,30.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2158,5046,"Endotracheal Tube Plain, Size 2.5, Sterile, Single use",1's,32.81,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2159,5047,"Endotracheal Tube Plain, Size 3, Sterile, Single use",1's,32.81,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2160,5048,"Endotracheal Tube Plain, Size 3.5, Sterile, Single use",1's,32.81,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2161,5049,"Endotracheal Tube Plain, Size 4, Sterile, Single use",1's,32.81,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2162,5050,"Endotracheal Tube Plain, Size 4.5, Sterile, Single use",1's,32.81,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2163,5051,"Endotracheal Tube Plain, Size 5, Sterile, Single use",1's,32.81,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2164,5052,"Endotracheal Tube Plain, Size 8.5, Sterile, Single use",1's,37.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2165,5053,"Endotracheal Tube Cuffed, Size 4",1's,75.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2166,5054,"Endotracheal Tube Cuffed, Size 4.5",1's,70.31,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2167,5055,"Endotracheal Tube Cuffed, Size 5",1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2168,5056,"Endotracheal Tube Cuffed, Size 6",1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2169,5057,"Endotracheal Tube Cuffed, Size 6.5",1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2170,5058,"Endotracheal Tube Cuffed, Size 7",1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2171,5059,"Endotracheal Tube Cuffed, Size 7.5",1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2172,5060,"Endotracheal Tube Cuffed, Size 8",1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2173,5061,"Endotracheal Tube Cuffed, Size 8.5",1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2174,5062,"Endotracheal Tube Cuffed, Size 9",1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2175,5064,"Tracheostomy Tube (PVC), Sterilised, single use Size-24",1's,206.25,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2176,5065,"Abdominal Drainage Kit, Sterile (2000ml, 24 Graduate)",1's,93.75,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2177,5066,"Abdominal Drainage Kit, Sterile (2000ml, 28 Graduate)",1's,93.75,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2179,5070,Sterilized Umbilical Cotton Tape 3mm x 75cm,1's,39.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2180,5071,"Bone Wax, Sterilised",1's,45.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2182,5077,Rapid Diagnostic Malaria Test Kit,1's mono-carton,25.31,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2183,5078,Dengue Test Kit,1's mono-carton,42.19,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2184,5079,Janaushadhi Ankur (HCG- Pregnancy Test Kit),1's,18.75,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2185,5094,Sterile Gauze Pad size 2X2,1's,6.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2186,5095,Sterile Gauze Pad size 3X3,1's,7.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2187,5096,Sterile Gauze Pad size 4X4,1's,8.44,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2196,6010,Suction Catheter FG 5,1's,13.13,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2197,6011,"Suction Catheter FG (6), 50 cm, Sterilized",1's,6.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2198,6012,"Suction Catheter FG (8), 50 cm, Sterilized",1's,6.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2199,6013,"Suction Catheter FG (10), 50 cm, Sterilized",1's,7.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2200,6014,"Suction Catheter FG (12), 50 cm, Sterilized",1's,7.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2201,6015,"Suction Catheter FG (14), 50 cm, Sterilized",1's,8.44,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2202,6016,"Suction Catheter FG (16), 50 cm, Sterilized",1's,9.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2203,6017,"Suction Catheter FG (18), 50 cm, Sterilized",1's,9.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2204,6018,"Suction Catheter FG (20), 50 cm, Sterilized",1's,10.31,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2205,6020,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (8FG)",1's,60.94,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2206,6021,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (10FG)",1's,60.94,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2207,6022,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (16FG)",1's,37.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2208,6023,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (18FG)",1's,37.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2209,6024,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (20FG)",1's,37.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2210,6025,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (22FG)",1's,37.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2211,6026,"Sterile Catheter Single Use for Urinary Drainage (Foley Balloon Catheter), 2 way (24FG)",1's,37.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2212,6027,"Infant Feeding Tube, Sterile (Size-10 Fg, length 50 cm)",1's,9.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2213,6028,"Infant Feeding Tube, Sterile (Size-8 Fg, length 50 cm)",1's,9.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2214,6029,"Infant Feeding Tube, Sterile (Size-5 Fg, length 50 cm)",1's,9.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2216,6031,Sterile Disposable Infusion set with Microdrip (I.V.) (Pediatric use),1's,51.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2217,6032,Sterile Disposable Infusion set with Microdrip (I.V.) (Adult use),1's,14.06,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2219,6035,"I.V Cannula (Sterile, Disposable), 18 G",1's,14.06,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2220,6036,"I.V Cannula (Sterile, Disposable), 20 G",1's,14.06,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2221,6037,"I.V Cannula (Sterile, Disposable), 22 G",1's,14.06,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2222,6038,"I.V Cannula (Sterile, Disposable), 24 G",1's,14.06,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2223,6039,"Nasal Oxygen Cannula set, Twin bore (Adult)",1's,28.13,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2224,6040,"Absorbent Gelatin Sponge, Sterilized (80mm x 50mm x 10mm)",1's,93.75,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2225,6042,Blood Transfusion Set with Filter 170 Micron,1's,16.88,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2231,6050,Knee Cap (Small),Pair,120.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2232,6051,Knee Cap (Medium),Pair,120.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2233,6052,Knee Cap (Large),Pair,120.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2234,7001,Hot Water Bag (Small),1's,160.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2284,8078,Skin Grafting Knife Blade (Sterile),1's,84.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2286,8082,Umbilical Catheter (For New Born),1's,56.25,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2287,8087,Automatic Snap-Out Folding Walking Cane Stick with Adjustable Length,1's,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2288,8088,Walking Stick Tripod,1's,540.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2289,8089,"Abdominal Belt Velcro, Cream color (Large)",1's,240.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2290,8090,"Abdominal Belt Velcro, Cream color (Small)",1's,240.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2291,8091,"Abdominal Belt Velcro, Cream color (Medium)",1's,240.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2292,8092,"Abdominal Belt Velcro, Cream color (XL)",1's,250.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2293,8093,"Abdominal Belt Velcro, Cream color (XXL)",1's,250.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2294,8099,Cervical Collar (Small),1's,120.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2295,8100,Cervical Collar (Medium),1's,120.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2296,8101,Cervical Collar (Large),1's,120.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2297,8102,Cervical Collar (Extra Large),1's,120.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2307,8113,Hernia Belt (Small),1's mono-carton,180.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2308,8114,Knee Brace Belt (Medium),1's mono-carton,525.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2309,8115,Knee Brace Belt (Large),1's mono-carton,525.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2310,8116,IV Cannula Fixator (Medium 6cm x 5cm),1's pack,9.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2311,8117,"Cervical Pillow (polyester, PU foam)",1's mono-carton,500.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2312,8120,"Lancets, Round Sterile, 28G",50 pcs/Box,37.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2315,8123,Adhesive Surgical Paper Tape  Size 5cmx5m,1's,24.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2316,8124,Adhesive Surgical Paper Tape Size 2.5cmx5m,1's,12.19,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2317,8125,Adhesive Surgical Paper Tape  Size 1.25cmx5m,1's,6.56,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2321,8130,Manual breast pump,1's Monopack,600.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2322,8131,Plastic Urine Pot collector (For both Male & Female),1's,46.88,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2323,8132,Plastic Bedpan,1's,65.63,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2324,8133,Digital Blood Pressure Instrument ( 100% mercury free),1's Monopack,937.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2325,8134,Ice bag,1's,20.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2326,8135,Breathing Exerciser (3 Chambers),1's Monopack,150.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2332,8146,Baby Feeding Bottle 250 ml,1's mono-carton,42.19,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2335,8150,3-way stopcock with 10 cm extension line,1's,28.13,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2337,8153,"Arm Sling Pouch (Large), Grey",1's,130.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2338,8154,"Arm Sling Pouch (Medium), Grey",1's,130.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2339,8155,Baby Wipes (Pack of 20 wipes),Pack of 20 wipes,45.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2340,8156,Bed Bath Towel,1's,55.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2345,8167,Karman cannula 4 mm,1's,37.5,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2346,8168,Lumbar Spinal Brace (Grey),1's,770.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2348,8172,Pulse Oximeter,1's,464.06,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2349,8177,Specican 30 ml,1's,8.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2350,8178,Surgical Cap,1's,3.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2351,8179,Surgical shoe cap,1's,4.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2353,8182,Vein Compression Stocking Knee length (Extra Large),1's,130.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2354,8183,Vein Compression Stocking Knee length (Large),1's,140.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2355,8184,Vein Compression Stocking Knee length (Medium),1's,140.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2356,8185,Vein Compression Stocking Knee length (Small),1's,140.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2357,8186,Vein Compression Stocking Knee length (XXL),1's,140.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2358,8187,Vein Compression Stocking Thigh length (Extra Large),1's,170.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2359,8188,Vein Compression Stocking Thigh length (Large),1's,170.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2360,8189,Vein Compression Stocking Thigh length (Medium),1's,170.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2361,8190,Vein Compression Stocking Thigh length (Small),1's,170.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2362,8191,Vein Compression Stocking Thigh length (XXL),1's,180.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2363,8192,Zig zag cotton,100 gm,47.44,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2364,8193,Covid 19 Self-Testing Kit (ICMR Approved),One in Monopack,196.88,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2365,8194,Cotton Balls,Pack of 100 in a Zip Lock Bag,90.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2366,8195,Cotton Pads (Round),Pack of 50 in a Zip Lock Bag,46.88,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2367,8196,Heating Pad (Electrical),1’s in Mono Carton,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2368,8197,Exercise Ball (Universal Size),1’s in Mono Carton,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2369,8198,Maternity Sanitary Pads,Pack of 5 Napkins,68.25,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2371,9000,Reusable Menstrual Cup (Small),One in Mono-Pack,175.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2372,9001,Reusable Menstrual Cup (Medium),One in Mono-Pack,180.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2373,9002,Reusable Menstrual Cup (Large),One in Mono-Pack,185.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2374,9003,Female Natural Latex Condom,Three in Mono-Pack,115.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2375,9004,Janaushadhi Kavach (Male Latex Condom (Plain)),Three in Mono-Pack,12.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2376,9005,Janaushadhi Kavach (Male Latex Condom (Extra Thin)),Three in Mono-Pack,12.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2377,9006,Janaushadhi Kavach (Male Latex Condom (Normal Dot)),Three in Mono-Pack,12.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2378,9007,Janaushadhi Kavach (Male Latex Condom (1740 Dot)),Three in Mono-Pack,15.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2379,9008,Janaushadhi Kavach (Male Latex Condom (Ribbed)),Three in Mono-Pack,15.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2380,9009,Janaushadhi Kavach (Male Latex Condom (Three In One)),Three in Mono-Pack,12.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2381,9010,Medicated Corn Remover,Four Strips in Mono-Pack,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2382,9011,Perforated Plaster,Five in Mono-Pack,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2399,9028,Medical Steam Vaporizer,One in Mono-Pack,234.38,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2400,9029,Digital Weighing Scale,One in Mono-Pack,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2410,9039,Knee Cap with patellar ring (Large),1's pair in sealed poly pack and in Mono-carton,200.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2411,9040,Knee Cap with Patellar Ring (Medium),1's pair in sealed poly pack and in Mono-carton,200.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2412,9041,Knee Cap with Patellar Ring (Small),1's pair in sealed poly pack and in Mono-carton,200.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2415,9044,Elbow Crutch (Adjustable),1's in sealed poly pack,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2417,9046,Cervical Collar - Hard,1's,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2418,9047,Range of Motion - Knee Brace,1's,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2419,9048,Range of Motion - Elbow Brace,1's,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2420,9049,Disposable Maternity Pad Fixator,5's in a pack,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2422,9051,Finger Saperator - Hand,1 pair,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2423,9052,Finger Saperator - Feet,1 pair,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2424,9053,Cervical Collar - Hard (large),One in Mono-Carton,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2425,9054,Disposable Maternity Pad Fixator (Extra Large),5's in a pack,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2427,9056,Fibrin Sealant Kit I.P. (2inch X 4 inch),Pack of 2,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified
+2439,9068,Cotton Ear Buds,100 Ear Buds,0.0,Surgical & Medical Consumables,generic,Needs Review,None,Yes,Classified

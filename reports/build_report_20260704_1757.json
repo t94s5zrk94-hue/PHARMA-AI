@@ -1,0 +1,11 @@
+{
+    "timestamp": "2026-07-04T17:57:31.872526",
+    "duration": "0.18s",
+    "stats": {
+        "input": 2439,
+        "success": 0,
+        "review": 2439,
+        "errors": 0
+    },
+    "success_rate": "0.00%"
+}
