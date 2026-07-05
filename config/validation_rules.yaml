@@ -1,0 +1,38 @@
+# Governance Validation Rules - v1.0.0
+# Centralized registry for all clinical and governance validation rules.
+
+metadata:
+  id: GOV-RULES-001
+  version: "1.0.0"
+  status: ACTIVE
+  owner: Engineering Governance
+  effective_date: "2026-07-05T00:00:00Z"
+
+rules:
+  - id: "RULE-GOV-001"
+    name: "WeightSummation"
+    stage: "GOVERNANCE"
+    severity: "CRITICAL"
+    enabled: true
+    description: "Quality weights must sum to 1.0 (with 0.01 tolerance) to ensure a balanced quality score."
+
+  - id: "RULE-GOV-002"
+    name: "ThresholdHierarchy"
+    stage: "GOVERNANCE"
+    severity: "HIGH"
+    enabled: true
+    description: "Ensures strict hierarchy: ProductionReady > Acceptable > NeedsReview."
+
+  - id: "RULE-GOV-003"
+    name: "ValueBoundaryCheck"
+    stage: "GOVERNANCE"
+    severity: "HIGH"
+    enabled: true
+    description: "Validates that all weights and thresholds are within the [0.0, 1.0] range."
+
+  - id: "RULE-CLIN-001"
+    name: "ClinicalSafetyThreshold"
+    stage: "CLINICAL" # Corrected from VALIDATION to CLINICAL for Enum compatibility
+    severity: "CRITICAL"
+    enabled: false
+    description: "Ensures clinical dosage safety thresholds are never bypassed."

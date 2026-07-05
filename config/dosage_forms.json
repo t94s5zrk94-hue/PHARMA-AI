@@ -1,0 +1,141 @@
+{
+  "tablet": {
+    "display_name": "Tablet",
+    "aliases": ["tablet", "tablets", "tab", "tabs", "tablet ip", "tablets ip"],
+    "route": "ORAL",
+    "category": "SOLID"
+  },
+  "capsule": {
+    "display_name": "Capsule",
+    "aliases": ["capsule", "capsules", "cap", "caps", "capsule ip"],
+    "route": "ORAL",
+    "category": "SOLID"
+  },
+  "injection": {
+    "display_name": "Injection",
+    "aliases": ["inj", "inj.", "injection", "injections"],
+    "note": "vial/ampoule are containers, not forms",
+    "route": "PARENTERAL",
+    "category": "STERILE"
+  },
+  "syrup": {
+    "display_name": "Syrup",
+    "aliases": ["syrup", "oral syrup", "syrup ip"],
+    "route": "ORAL",
+    "category": "LIQUID"
+  },
+  "solution": {
+    "display_name": "Solution",
+    "aliases": ["solution", "oral solution"],
+    "route": "ORAL",
+    "category": "LIQUID"
+  },
+  "suspension": {
+    "display_name": "Suspension",
+    "aliases": ["suspension", "susp", "oral suspension"],
+    "route": "ORAL",
+    "category": "LIQUID"
+  },
+  "dry_syrup": {
+    "display_name": "Dry Syrup",
+    "aliases": ["dry syrup", "powder for suspension", "dry powder"],
+    "route": "ORAL",
+    "category": "SOLID_TO_LIQUID"
+  },
+  "eye_drop": {
+    "display_name": "Eye Drop",
+    "aliases": ["eye drop", "eye drops", "ophthalmic solution"],
+    "route": "OPHTHALMIC",
+    "category": "LIQUID"
+  },
+  "ear_drop": {
+    "display_name": "Ear Drop",
+    "aliases": ["ear drop", "ear drops", "otic drops"],
+    "route": "OTIC",
+    "category": "LIQUID"
+  },
+  "nasal_drop": {
+    "display_name": "Nasal Drop",
+    "aliases": ["nasal drop", "nasal drops"],
+    "route": "NASAL",
+    "category": "LIQUID"
+  },
+  "cream": {
+    "display_name": "Cream",
+    "aliases": ["cream", "topical cream"],
+    "route": "TOPICAL",
+    "category": "SEMI_SOLID"
+  },
+  "ointment": {
+    "aliases": ["ointment", "oint"],
+    "display_name": "Ointment",
+    "route": "TOPICAL",
+    "category": "SEMI_SOLID"
+  },
+  "gel": {
+    "display_name": "Gel",
+    "aliases": ["gel", "topical gel", "dental gel"],
+    "route": "TOPICAL",
+    "category": "SEMI_SOLID"
+  },
+  "lotion": {
+    "display_name": "Lotion",
+    "aliases": ["lotion", "topical lotion"],
+    "route": "TOPICAL",
+    "category": "LIQUID"
+  },
+  "infusion": {
+    "display_name": "Infusion",
+    "aliases": ["infusion", "iv infusion", "iv"],
+    "route": "PARENTERAL",
+    "category": "STERILE"
+  },
+  "spray": {
+    "display_name": "Spray",
+    "aliases": ["spray", "nasal spray", "aerosol"],
+    "route": "NASAL",
+    "category": "AEROSOL"
+  },
+  "inhaler": {
+    "display_name": "Inhaler",
+    "aliases": ["inhaler", "rotacap"],
+    "route": "INHALATION",
+    "category": "AEROSOL"
+  },
+  "respules": {
+    "display_name": "Respules",
+    "aliases": ["respules", "nebulizer solution"],
+    "route": "INHALATION",
+    "category": "STERILE"
+  },
+  "patch": {
+    "display_name": "Patch",
+    "aliases": ["patch", "transdermal patch"],
+    "route": "TRANSDERMAL",
+    "category": "SOLID"
+  },
+  "powder": {
+    "display_name": "Powder",
+    "aliases": ["powder", "sachet", "oral powder", "dusting powder"],
+    "route": "TOPICAL",
+    "category": "SOLID"
+  },
+  "granules": {
+    "display_name": "Granules",
+    "aliases": ["granules", "oral granules"],
+    "route": "ORAL",
+    "category": "SOLID"
+  },
+  "suppository": {
+    "display_name": "Suppository",
+    "aliases": ["suppository", "pessary"],
+    "route": "RECTAL",
+    "category": "SOLID"
+  },
+  "mouth_paint": {
+    "display_name": "Mouth Paint",
+    "aliases": ["mouth paint", "mouthwash", "gargle"],
+    "route": "ORAL",
+    "category": "LIQUID"
+  }
+}

@@ -1,50 +1,6 @@
 {
-  "metadata": {
-    "config_version": "2.0.0",
-    "schema_version": "1.0",
-    "last_updated": "2026-07-04",
-    "review_due": "2027-07-04",
-    "owner": "Clinical Data Team",
-    "approved_by": "Clinical Governance Team",
-    "status": "Approved"
-  },
-  "lexical_entries": {
-    "GEN000001": {
-      "generic_name": "Paracetamol",
-      "aliases": [
-        {
-          "term": "Tylenol",
-          "type": "brand",
-          "region": "US",
-          "source": "USP",
-          "evidence_level": "Official Terminology",
-          "status": "active",
-          "requires_context": false
-        },
-        {
-          "term": "APAP",
-          "type": "abbreviation",
-          "region": "Global",
-          "source": "USAN",
-          "evidence_level": "Official Terminology",
-          "status": "active",
-          "ambiguous": false
-        }
-      ]
-    },
-    "GEN000003": {
-      "generic_name": "Metformin",
-      "aliases": [
-        {
-          "term": "Met",
-          "type": "informal",
-          "region": "Global",
-          "source": "Clinical Practice",
-          "evidence_level": "Observation",
-          "status": "active",
-          "requires_context": true
-        }
-      ]
-    }
-  }
+  "pcm": "Paracetamol",
+  "crocin": "Paracetamol",
+  "dolo": "Paracetamol",
+  "acetaminophen": "Paracetamol"
 }

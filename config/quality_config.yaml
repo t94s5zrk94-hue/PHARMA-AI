@@ -1,0 +1,33 @@
+# Governance Policy Configuration - v1.0.0
+# Centralized Governance-as-Code artifact.
+
+metadata:
+  id: GOV-CONFIG-001
+  version: "1.0.0"
+  status: ACTIVE
+  owner: Engineering Governance
+  effective_date: "2026-07-05T00:00:00+00:00"
+
+weights:
+  # Quality Score Scale
+  # 1.00 = Perfect, 0.98 = Production Ready, 0.90 = Acceptable, 0.80 = Needs Review
+  critical: 0.20
+  high: 0.05
+  medium: 0.02
+  low: 0.005
+
+thresholds:
+  production_ready: 0.98
+  acceptable: 0.90
+  needs_review: 0.80
+
+release:
+  fail_on_critical: true
+  fail_on_schema_error: true
+  fail_on_referential_error: true
+
+audit:
+  json: true
+  csv: true
+
+config_hash: "governance-v1"

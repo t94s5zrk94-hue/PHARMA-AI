@@ -1,0 +1,27 @@
+version: "1.0.0"
+
+resolver:
+  pipeline:
+    - exact_generic
+    - exact_brand
+    - alias
+    - combination
+    - partial
+    - fuzzy
+
+confidence:
+  exact: 100
+  brand: 99
+  alias: 98
+  combination: 97
+  partial: 90
+  fuzzy: 80
+
+fuzzy:
+  score_cutoff: 80
+
+normalizer:
+  unicode: true
+  lowercase: true
+  whitespace: true
+  ocr_cleanup: true
