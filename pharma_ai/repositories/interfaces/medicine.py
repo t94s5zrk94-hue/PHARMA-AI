@@ -16,6 +16,16 @@ class MedicineRepositoryInterface(ABC):
     """
 
     @abstractmethod
+    def list_brand_names(self) -> list[str]:
+        """
+        Retrieves a complete list of all available brand names in the system.
+
+        Returns:
+            A list of all unique brand name strings.
+        """
+        ...
+
+    @abstractmethod
     def get_brand(self, brand_name: str) -> Optional[dict[str, Any]]:
         """
         Retrieves detailed information for a specific brand name.
@@ -35,6 +45,19 @@ class MedicineRepositoryInterface(ABC):
 
         Args:
             generic_id: The integer identifier for the generic drug.
+
+        Returns:
+            An optional dictionary containing generic drug details, or None if not found.
+        """
+        ...
+
+    @abstractmethod
+    def get_generic_by_name(self, generic_name: str) -> Optional[dict[str, Any]]:
+        """
+        Retrieves detailed information for a specific generic name.
+
+        Args:
+            generic_name: The string name of the generic drug.
 
         Returns:
             An optional dictionary containing generic drug details, or None if not found.

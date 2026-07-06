@@ -1,6 +1,13 @@
 """
 Search Layer for Pharma AI.
-Orchestrates search pipelines, normalization, and matching logic.
+
+Provides enterprise search capabilities including:
+
+- Exact Search
+- Fuzzy Search
+- Query Normalization
+- Search Pipeline
+- Search Result Factory
 """
 
 from .engine import SearchEngine
@@ -14,5 +21,5 @@ __all__ = [
     "Normalizer",
     "Matcher",
     "FuzzyMatcher",
-    "ResultFactory"
+    "ResultFactory",
 ]
