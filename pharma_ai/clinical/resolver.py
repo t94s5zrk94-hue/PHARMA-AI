@@ -4,7 +4,7 @@ Clinical Brain Gateway: Maps raw user input to canonical Clinical Generic concep
 """
 
 from typing import Optional
-from modules.database import PharmaDatabase
+from pharma_ai.services.database import PharmaDatabase
 from .models import ResolvedDrug
 from .enums import MatchType
 from .normalizer import ClinicalNormalizer
