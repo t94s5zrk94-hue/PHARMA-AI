@@ -1,7 +1,7 @@
 import logging
-from engine.generic_resolver import GenericResolver
-from engine.combination_parser import CombinationParser
-from engine.validation_gate import ValidationGate
+from services.generic_resolver import GenericResolver
+from services.combination_parser import CombinationParser
+from services.validation_gate import ValidationGate
 
 class PharmaTestSuite:
     def __init__(self):

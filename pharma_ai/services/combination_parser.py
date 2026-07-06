@@ -1,6 +1,6 @@
 import re
 import logging
-from engine.normalization import NormalizationEngine
+from services.normalization import NormalizationEngine
 
 # Logger Setup
 logger = logging.getLogger(__name__)

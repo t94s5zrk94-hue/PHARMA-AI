@@ -4,11 +4,11 @@ import json
 import os
 import time
 from datetime import datetime
-from engine.normalization import NormalizationEngine
-from engine.combination_parser import CombinationParser
-from engine.generic_resolver import GenericResolver
+from services.normalization import NormalizationEngine
+from services.combination_parser import CombinationParser
+from services.generic_resolver import GenericResolver
 from builders.combination_builder import CombinationBuilder
-from engine.validation_gate import ValidationGate
+from services.validation_gate import ValidationGate
 
 class PharmaPipeline:
     def __init__(self):
