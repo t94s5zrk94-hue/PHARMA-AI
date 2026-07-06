@@ -1,6 +1,7 @@
 from typing import List, Dict, Optional
-from modules.repositories.interfaces import MedicineRepositoryInterface
-from modules.repositories.base_repository import BaseRepository
+
+from pharma_ai.repositories.base_repository import BaseRepository
+from pharma_ai.repositories.interfaces import MedicineRepositoryInterface
 
 class MedicineRepository(BaseRepository, MedicineRepositoryInterface):
     """
