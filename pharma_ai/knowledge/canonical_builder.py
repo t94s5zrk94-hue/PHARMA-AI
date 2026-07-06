@@ -8,7 +8,7 @@ import json
 import csv
 from pathlib import Path
 from typing import Tuple, List
-from modules.clinical import ClinicalNormalizer
+from pharma_ai.clinical import ClinicalNormalizer
 from .models import CanonicalDrug
 
 class CanonicalGenericBuilder:

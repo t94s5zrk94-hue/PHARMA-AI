@@ -1,5 +1,5 @@
 from typing import Mapping, Any
-from modules.repositories.interfaces import (
+from pharma_ai.repositories.interfaces import (
     MedicineRepositoryInterface, 
     ClinicalRepositoryInterface, 
     InteractionRepositoryInterface
@@ -11,7 +11,7 @@ from pharma_ai.models.interaction_context import InteractionContext
 from pharma_ai.models.validation_context import ValidationContext
 from pharma_ai.models.metadata import Metadata, DataSource
 from pharma_ai.models.search_result import SearchResult
-from modules.context.validator import ContextValidator
+from pharma_ai.context.validator import ContextValidator
 
 class ContextBuilder:
     """
