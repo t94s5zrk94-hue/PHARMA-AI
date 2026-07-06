@@ -2,7 +2,7 @@ from typing import Optional
 from rapidfuzz import process, fuzz
 from modules.repositories.interfaces import MedicineRepositoryInterface
 from modules.search.result_factory import ResultFactory
-from models.search_result import SearchResult
+from pharma_ai.models.search_result import SearchResult
 
 class FuzzyMatcher:
     """Production-hardened Fuzzy Matcher with defensive checks and DI."""

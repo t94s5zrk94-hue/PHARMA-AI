@@ -1,0 +1,6 @@
+Therapeutic_Class_ID,Therapeutic_Class_Name,Therapeutic_Category,Description,Parent_Class_ID,Reference_Source,created_at,updated_at,source,version,Status
+THC000001,Analgesic,Pain Management,Medications for pain relief,,WHO,2026-07-06T09:30:00Z,2026-07-06T09:30:00Z,WHO/CDSCO,1.0.1,Active
+THC000002,Antipyretic,Fever Management,Medications for reducing fever,,WHO,2026-07-06T09:30:00Z,2026-07-06T09:30:00Z,WHO/CDSCO,1.0.1,Active
+THC000003,Antidiabetic,Endocrinology,Medications for blood glucose control,,WHO,2026-07-06T09:30:00Z,2026-07-06T09:30:00Z,WHO/CDSCO,1.0.0,Active
+THC000004,Proton Pump Inhibitor,Gastroenterology,Medications for acid suppression,,WHO,2026-07-06T09:30:00Z,2026-07-06T09:30:00Z,WHO/CDSCO,1.0.1,Active
+THC000005,Antiplatelet,Cardiovascular,Medications to prevent clot formation,,WHO,2026-07-06T09:30:00Z,2026-07-06T09:30:00Z,WHO/CDSCO,1.0.1,Active

@@ -1,0 +1,6 @@
+Product_ID,Generic_ID,Product_Name,Strength,Dosage_Form,Route,Pack_Size,Unit,Manufacturer,PMBJK_Code,HSN_Code,GST_Rate,Schedule,Storage,Status,created_at,updated_at,source,version
+PRD000001,GEN000002,Aceclofenac Tablet,100 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK-ACE-100,300490,12,H,Store below 30°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
+PRD000002,GEN000001,Aceclofenac + Paracetamol Tablet,100 mg + 325 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK-ACE-PAR,300490,12,H,Store below 30°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
+PRD000003,GEN000003,Pregabalin Capsule,75 mg,Capsule,Oral,10 Capsules,Capsule,PMBI,PMBJK-PRE-75,300490,12,H,Store below 25°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
+PRD000004,GEN000004,Aspirin Gastro-resistant Tablet,150 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK-ASP-150,300490,12,H,Store below 25°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
+PRD000005,GEN002074,Pantoprazole + Mosapride Tablet,40 mg + 15 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK-PAN-MOS,300490,12,H,Store below 30°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0

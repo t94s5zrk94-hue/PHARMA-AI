@@ -1,0 +1,3 @@
+Interaction_ID,Generic_ID_1,Generic_ID_2,Severity,Clinical_Effect,Mechanism,Management,Evidence_Level,Reference_Source,created_at,updated_at,source,version,Status
+INT000001,GEN000004,GEN000005,Major,Increased risk of gastrointestinal bleeding,Pharmacokinetic,Avoid concurrent use or monitor closely,High,Stockley's,2026-07-06T11:30:00Z,2026-07-06T11:30:00Z,Manual,1.0.0,Active
+INT000003,GEN000200,GEN000004,Major,Increased risk of hemorrhage,Pharmacodynamic,Monitor INR and bleeding symptoms,High,Stockley's,2026-07-06T11:30:00Z,2026-07-06T11:30:00Z,Manual,1.0.0,Active

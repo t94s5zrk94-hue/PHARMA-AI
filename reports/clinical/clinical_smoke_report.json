@@ -1,0 +1,28 @@
+{
+  "report_metadata": {
+    "report_id": "REP-CLIN-SMOKE-001",
+    "timestamp": "2026-07-05T19:47:18Z",
+    "status": "HEALTHY",
+    "environment": "PRODUCTION-BASELINE"
+  },
+  "test_results": {
+    "loading_config": "PASS",
+    "loading_database": "PASS",
+    "normalizer": "PASS",
+    "resolved_drug_model": "PASS",
+    "resolver_connectivity": "PASS",
+    "pipeline_stages": {
+      "exact_generic": "PASS",
+      "exact_brand": "PASS",
+      "alias": "PASS",
+      "partial": "PASS",
+      "fuzzy": "PASS",
+      "combination": "PASS"
+    }
+  },
+  "summary": {
+    "total_tests": 12,
+    "passed": 12,
+    "failed": 0
+  }
+}

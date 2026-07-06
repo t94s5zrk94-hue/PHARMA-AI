@@ -4,13 +4,13 @@ from modules.repositories.interfaces import (
     ClinicalRepositoryInterface, 
     InteractionRepositoryInterface
 )
-from models.clinical_context import ClinicalContext
-from models.medicine_context import MedicineContext
-from models.clinical_data import ClinicalData
-from models.interaction_context import InteractionContext
-from models.validation_context import ValidationContext
-from models.metadata import Metadata, DataSource
-from models.search_result import SearchResult
+from pharma_ai.models.clinical_context import ClinicalContext
+from pharma_ai.models.medicine_context import MedicineContext
+from pharma_ai.models.clinical_data import ClinicalData
+from pharma_ai.models.interaction_context import InteractionContext
+from pharma_ai.models.validation_context import ValidationContext
+from pharma_ai.models.metadata import Metadata, DataSource
+from pharma_ai.models.search_result import SearchResult
 from modules.context.validator import ContextValidator
 
 class ContextBuilder:

@@ -1,0 +1,5 @@
+Pregnancy_ID,Generic_ID,Trimester,Risk_Level,Pregnancy_Category,Clinical_Recommendation,Clinical_Reason,Evidence_Level,Reference_Source,created_at,updated_at,source,version,Status
+PRG000001,GEN000004,All,Safe,A,Continue as needed,Well established safety profile,High,WHO,2026-07-06T12:30:00Z,2026-07-06T12:30:00Z,Manual,1.0.0,Active
+PRG000002,GEN000003,All,Use with caution,B,Use only if clearly indicated,Limited human data available,Moderate,Briggs,2026-07-06T12:30:00Z,2026-07-06T12:30:00Z,Manual,1.0.0,Active
+PRG000003,GEN000002,Third,Avoid,D,Avoid during third trimester,Risk of premature closure of ductus arteriosus,High,BNF,2026-07-06T12:30:00Z,2026-07-06T12:30:00Z,Manual,1.0.0,Active
+PRG000004,GEN002074,All,Use with caution,C,Use if benefit outweighs risk,Potential for minor fetal complications,Moderate,Lexicomp,2026-07-06T12:30:00Z,2026-07-06T12:30:00Z,Manual,1.0.0,Active

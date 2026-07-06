@@ -1,0 +1,6 @@
+Pharmacological_Class_ID,Pharmacological_Class_Name,Mechanism_of_Action,Parent_Class_ID,Reference_Source,created_at,updated_at,source,version,Status
+PHC000001,NSAID,Inhibits cyclooxygenase (COX-1/COX-2) enzymes reducing prostaglandin synthesis,,WHO/BNF,2026-07-06T09:45:00Z,2026-07-06T09:45:00Z,WHO/CDSCO,1.0.0,Active
+PHC000002,Biguanide,Decreases hepatic glucose production and improves insulin sensitivity,,WHO/BNF,2026-07-06T09:45:00Z,2026-07-06T09:45:00Z,WHO/CDSCO,1.0.0,Active
+PHC000003,Proton Pump Inhibitor,Irreversibly inhibits the gastric H+/K+ ATPase proton pump,,WHO/BNF,2026-07-06T09:45:00Z,2026-07-06T09:45:00Z,WHO/CDSCO,1.0.0,Active
+PHC000004,ACE Inhibitor,Blocks conversion of angiotensin I to angiotensin II,,WHO/BNF,2026-07-06T09:45:00Z,2026-07-06T09:45:00Z,WHO/CDSCO,1.0.0,Active
+PHC000005,Aniline Analgesic,Acts primarily on the central nervous system to reduce pain and fever,,WHO/BNF,2026-07-06T09:45:00Z,2026-07-06T09:45:00Z,WHO/CDSCO,1.0.0,Active

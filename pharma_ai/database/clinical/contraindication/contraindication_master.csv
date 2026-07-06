@@ -1,0 +1,5 @@
+Contraindication_ID,Generic_ID,Contraindication,Contraindication_Type,Severity,Clinical_Reason,Recommendation,Evidence_Level,Reference_Source,created_at,updated_at,source,version,Status
+CNT000001,GEN000004,Active gastrointestinal bleeding,Absolute,Contraindicated,Increases risk of severe bleeding and ulceration,Avoid,High,BNF,2026-07-06T11:45:00Z,2026-07-06T11:45:00Z,Manual,1.0.0,Active
+CNT000002,GEN000003,Severe renal impairment,Relative,Major,Decreased excretion leading to drug accumulation,Dose Adjustment,High,Lexicomp,2026-07-06T11:45:00Z,2026-07-06T11:45:00Z,Manual,1.0.0,Active
+CNT000003,GEN000002,History of hypersensitivity to NSAIDs,Absolute,Contraindicated,Risk of severe anaphylactic reaction,Avoid,High,CDSCO,2026-07-06T11:45:00Z,2026-07-06T11:45:00Z,Manual,1.0.0,Active
+CNT000004,GEN000005,History of asthma,Relative,Moderate,May trigger bronchospasm in sensitive patients,Monitor,Moderate,BNF,2026-07-06T11:45:00Z,2026-07-06T11:45:00Z,Manual,1.0.0,Active

@@ -1,0 +1,6 @@
+Indication_ID,Generic_ID,Disease_Name,Indication_Type,Line_of_Therapy,Clinical_Use,Evidence_Level,Reference_Source,created_at,updated_at,source,version,Status
+IND000001,GEN000004,Fever,Approved,First-line,Reduce pyrexia,High,WHO,2026-07-06T12:00:00Z,2026-07-06T12:00:00Z,Manual,1.0.0,Active
+IND000002,GEN000004,Mild to Moderate Pain,Approved,First-line,Analgesic effect,High,WHO,2026-07-06T12:00:00Z,2026-07-06T12:00:00Z,Manual,1.0.0,Active
+IND000003,GEN000003,Neuropathic Pain,Approved,First-line,Manage nerve pain,High,BNF,2026-07-06T12:00:00Z,2026-07-06T12:00:00Z,Manual,1.0.0,Active
+IND000004,GEN000003,Generalized Anxiety Disorder,Off-label,Second-line,Anxiolytic effect,Moderate,Lexicomp,2026-07-06T12:00:00Z,2026-07-06T12:00:00Z,Manual,1.0.0,Active
+IND000005,GEN002074,GERD,Approved,First-line,Acid suppression,High,BNF,2026-07-06T12:00:00Z,2026-07-06T12:00:00Z,Manual,1.0.0,Active

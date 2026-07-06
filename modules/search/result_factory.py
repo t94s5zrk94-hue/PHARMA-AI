@@ -1,5 +1,5 @@
 from typing import Dict
-from models.search_result import SearchResult, MatchType, SearchStrategy
+from pharma_ai.models.search_result import SearchResult, MatchType, SearchStrategy
 
 class ResultFactory:
     """Centralized factory for creating SearchResult objects."""

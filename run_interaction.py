@@ -1,55 +1,56 @@
 import logging
-# sys દૂર કર્યું (Unused)
-from interaction import DrugInteraction # તમારા ફોલ્ડર સ્ટ્રક્ચર મુજબ adjust કરશો
+from modules.interaction import DrugInteraction  # સુધારેલ ઇમ્પોર્ટ પાથ
 
 # Logging setup
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
 def main():
-    print("===========================")
-    print("      PHARMA AI CLI        ")
-    print("===========================")
+    print("===========================================")
+    print("      PHARMA AI - ડિજિટલ ફાર્માસિસ્ટ        ")
+    print("===========================================")
+    print("બે દવાઓ વચ્ચેની આંતરક્રિયા (Interaction) તપાસો.\n")
     
     try:
+        # DrugInteraction ક્લાસનું ઇનિશિયલાઇઝેશન
         checker = DrugInteraction()
     except Exception as e:
-        logger.error(f"Initialization Error: {e}")
+        logger.error(f"Initialization Error: સિસ્ટમ શરૂ કરવામાં ભૂલ - {e}")
         return
 
     while True:
         try:
-            med1 = input("\nપહેલી દવાનું નામ (અથવા 'exit'): ").strip()
+            print("\n--- નવી તપાસ ---")
+            med1 = input("પહેલી દવાનું નામ (અથવા 'exit'): ").strip()
             if med1.lower() == 'exit': break
-            if not med1:
-                print("ભૂલ: કૃપા કરીને પ્રથમ દવાનું નામ લખો.")
-                continue
-                
+            
             med2 = input("બીજી દવાનું નામ (અથવા 'exit'): ").strip()
             if med2.lower() == 'exit': break
-            if not med2:
-                print("ભૂલ: કૃપા કરીને બીજી દવાનું નામ લખો.")
+            
+            if not med1 or not med2:
+                print("ભૂલ: કૃપા કરીને બંને દવાનું નામ લખો.")
                 continue
             
-            logger.info(f"Analyzing interaction between {med1} and {med2}...")
+            # વિશ્લેષણ
+            logger.info(f"વિશ્લેષણ ચાલુ છે: {med1} અને {med2}...")
             result = checker.check_interaction(med1, med2)
             
-            if result['success']:
-                print("-" * 40)
-                print(f"Severity: {result['severity']}")
-                print(f"Interaction: {result['interaction']}")
-                print(f"Mechanism: {result['mechanism']}")
-                print(f"Management: {result['management']}")
-                print(f"Advice: {result['patient_counselling']}")
-                print("-" * 40)
+            if result.get('success'):
+                print("-" * 45)
+                print(f"🔴 తీవ్రતા (Severity): {result.get('severity', 'N/A')}")
+                print(f"💊 આંતરક્રિયા (Interaction): {result.get('interaction', 'N/A')}")
+                print(f"⚙️ કેવી રીતે કાર્ય કરે છે?: {result.get('mechanism', 'N/A')}")
+                print(f"🩺 વ્યવસ્થાપન (Management): {result.get('management', 'N/A')}")
+                print(f"👨‍⚕️ દર્દી માટે સલાહ: {result.get('patient_counselling', 'N/A')}")
+                print("-" * 45)
             else:
-                print(f"Error: {result['interaction']}")
+                print(f"સૂચના: {result.get('interaction', 'માહિતી ઉપલબ્ધ નથી.')}")
         
         except KeyboardInterrupt:
             print("\n\nGoodbye! પ્રોગ્રામ બંધ થઈ રહ્યો છે...")
             break
         except Exception as e:
-            logger.error(f"Unexpected Error: {e}")
+            logger.error(f"અણધારી ભૂલ: {e}")
 
 if __name__ == "__main__":
     main()

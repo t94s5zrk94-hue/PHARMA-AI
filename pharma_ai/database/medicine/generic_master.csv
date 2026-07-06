@@ -1,0 +1,11 @@
+Generic_ID,Generic_Name,Standardized_Name,Generic_Type,Ingredients,created_at,updated_at,catalog_source,clinical_source,version,Status
+GEN000001,Aceclofenac + Paracetamol,aceclofenac and paracetamol,Fixed Dose Combination,Aceclofenac; Paracetamol,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN000002,Aceclofenac,aceclofenac,Single,Aceclofenac,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN000003,Pregabalin,pregabalin,Single,Pregabalin,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN000004,Aspirin,aspirin,Single,Aspirin,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN000005,Chlorzoxazone + Diclofenac + Paracetamol,chlorzoxazone diclofenac and paracetamol,Fixed Dose Combination,Chlorzoxazone; Diclofenac; Paracetamol,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN002073,Olopatadine,olopatadine,Single,Olopatadine,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN002074,Mosapride + Pantoprazole,mosapride and pantoprazole,Fixed Dose Combination,Mosapride; Pantoprazole,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN002075,Phenobarbitone,phenobarbitone,Single,Phenobarbitone,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN002077,Prednisolone,prednisolone,Single,Prednisolone,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active
+GEN002080,Mosapride + Rabeprazole,mosapride and rabeprazole,Fixed Dose Combination,Mosapride; Rabeprazole,2026-07-06T09:00:00Z,2026-07-06T09:00:00Z,PMBJK Catalogue,CDSCO,1.0.0,Active

@@ -4,7 +4,7 @@ from typing import Optional
 from modules.search.normalizer import Normalizer
 from modules.search.matcher import Matcher
 from modules.search.fuzzy_matcher import FuzzyMatcher
-from models.search_result import SearchResult
+from pharma_ai.models.search_result import SearchResult
 
 class SearchEngine:
     """Orchestrates the search pipeline."""

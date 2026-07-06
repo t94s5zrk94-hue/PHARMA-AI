@@ -1,0 +1,5 @@
+Lactation_ID,Generic_ID,Risk_Level,Breast_Milk_Transfer,Infant_Risk,Clinical_Recommendation,Clinical_Reason,Monitoring_Advice,Evidence_Level,Reference_Source,created_at,updated_at,source,version,Status
+LAC000001,GEN000004,Compatible,Low,None,Continue breastfeeding,Excreted in negligible amounts,None,High,LactMed,2026-07-06T13:00:00Z,2026-07-06T13:00:00Z,Manual,1.0.0,Active
+LAC000002,GEN000003,Compatible,Low,Low,Use with caution,Minimal transfer to breast milk,Monitor infant for sedation,Moderate,LactMed,2026-07-06T13:00:00Z,2026-07-06T13:00:00Z,Manual,1.0.0,Active
+LAC000003,GEN000002,Use with caution,Moderate,Low,Use only if clearly indicated,Short half-life makes it safer than others,Monitor for gastrointestinal distress,Moderate,Briggs,2026-07-06T13:00:00Z,2026-07-06T13:00:00Z,Manual,1.0.0,Active
+LAC000004,GEN000005,Contraindicated,High,High,Avoid use during breastfeeding,Significant accumulation in infant,Monitor for adverse effects,High,WHO,2026-07-06T13:00:00Z,2026-07-06T13:00:00Z,Manual,1.0.0,Active

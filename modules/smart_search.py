@@ -1,217 +1,92 @@
+"""
+Smart Search Module.
+Provides multi-layered search functionality (Exact + Fuzzy).
+Optimized with Dynamic Schema Validation for resilient column handling.
+"""
+
+from typing import Dict, Any, Optional
+import pandas as pd
 from rapidfuzz import process
 from modules.database import PharmaDatabase
 
+# API Public Exposure
+__all__ = ["search_anything", "get_brand_list"]
+
 db = PharmaDatabase()
+FUZZY_SCORE_CUTOFF = 60
 
+# Internal Constant Keys
+KEY_DATA = "data"
+KEY_GENERIC = "generic"
+KEY_GENERIC_ID = "Generic_ID"
 
-def fuzzy_match(keyword, choices, score=60):
+def _get_validated_generic_columns() -> list:
+    """Dynamically returns generic columns available in the current schema."""
+    available_cols = ["Generic_Name", "Generic_Name_Gujarati"]
+    return [col for col in available_cols if col in db.generic.columns]
 
-    result = process.extractOne(
-        keyword,
-        choices,
-        score_cutoff=score
-    )
-
-    if result:
-        return result[0]
-
+def _create_search_result(brand_name: str, match_type: str, confidence: float = 100.0, matched_value: Optional[str] = None) -> Optional[Dict[str, Any]]:
+    """Structured Result Object."""
+    medicine = db.get_complete_medicine(brand_name)
+    if medicine:
+        return {
+            KEY_DATA: medicine,
+            "match_type": match_type,
+            "confidence": float(confidence),
+            "matched_value": matched_value
+        }
     return None
 
-
-def search_anything(keyword):
-
+def search_anything(keyword: str) -> Optional[Dict[str, Any]]:
+    """Performs multi-layered search with dynamic schema awareness."""
     keyword = str(keyword).strip().lower()
+    generic_cols = _get_validated_generic_columns()
 
-    # =====================================================
-    # 1. Exact Product Search
-    # =====================================================
+    def get_df_match(df: pd.DataFrame, col_name: str) -> pd.DataFrame:
+        return df[df[col_name].fillna("").str.lower() == keyword]
 
-    for _, row in db.product.iterrows():
+    # 1. Exact Search
+    b_match = get_df_match(db.brand, "Brand_Name")
+    if not b_match.empty:
+        return _create_search_result(b_match.iloc[0]["Brand_Name"], "Exact Brand")
 
-        if keyword in str(row["Product_Name"]).lower():
-
-            return db.get_complete_medicine(
-                row["Product_Name"]
-            )
-
-    # =====================================================
-    # 2. Exact Brand Search
-    # =====================================================
-
-    for _, row in db.brand.iterrows():
-
-        if keyword in str(row["Brand_Name"]).lower():
-
-            return db.get_complete_medicine(
-                row["Brand_Name"]
-            )
-
-    # =====================================================
-    # 3. Exact Generic Search
-    # =====================================================
-
-    for _, row in db.generic.iterrows():
-
-        if keyword in str(row["Generic_Name"]).lower():
-
-            brand = db.brand[
-                db.brand["Generic_ID"] == row["Generic_ID"]
-            ]
-
+    for col in generic_cols:
+        g_match = get_df_match(db.generic, col)
+        if not g_match.empty:
+            brand = db.brand[db.brand[KEY_GENERIC_ID] == g_match.iloc[0][KEY_GENERIC_ID]]
             if not brand.empty:
+                return _create_search_result(brand.iloc[0]["Brand_Name"], f"Exact {col}")
 
-                return db.get_complete_medicine(
-                    brand.iloc[0]["Brand_Name"]
-                )
+    # 2. Fuzzy Search
+    # Brand
+    match = process.extractOne(keyword, db.brand["Brand_Name"].astype(str).tolist(), score_cutoff=FUZZY_SCORE_CUTOFF)
+    if match:
+        return _create_search_result(match[0], "Fuzzy Brand", match[1], match[0])
 
-    # =====================================================
-    # 4. Exact Gujarati Generic Search
-    # =====================================================
-
-    for _, row in db.generic.iterrows():
-
-        if keyword in str(
-            row["Generic_Name_Gujarati"]
-        ).lower():
-
-            brand = db.brand[
-                db.brand["Generic_ID"] == row["Generic_ID"]
-            ]
-
+    # Generic / Gujarati (Dynamic)
+    for col in generic_cols:
+        choices = db.generic[col].fillna("").astype(str).tolist()
+        match = process.extractOne(keyword, choices, score_cutoff=FUZZY_SCORE_CUTOFF)
+        if match:
+            g_row = db.generic[db.generic[col] == match[0]].iloc[0]
+            brand = db.brand[db.brand[KEY_GENERIC_ID] == g_row[KEY_GENERIC_ID]]
             if not brand.empty:
-
-                return db.get_complete_medicine(
-                    brand.iloc[0]["Brand_Name"]
-                )
-
-    # =====================================================
-    # 5. Exact Company Search
-    # =====================================================
-
-    for _, row in db.company.iterrows():
-
-        if keyword in str(row["Company_Name"]).lower():
-
-            brand = db.brand[
-                db.brand["Company_ID"] == row["Company_ID"]
-            ]
-
-            if not brand.empty:
-
-                return db.get_complete_medicine(
-                    brand.iloc[0]["Brand_Name"]
-                )
-
-    # =====================================================
-    # 6. Fuzzy Product Search
-    # =====================================================
-
-    products = db.product["Product_Name"].astype(str).tolist()
-
-    match = fuzzy_match(keyword, products)
-
-    if match:
-
-        return db.get_complete_medicine(match)
-
-    # =====================================================
-    # 7. Fuzzy Brand Search
-    # =====================================================
-
-    brands = db.brand["Brand_Name"].astype(str).tolist()
-
-    match = fuzzy_match(keyword, brands)
-
-    if match:
-
-        return db.get_complete_medicine(match)
-
-    # =====================================================
-    # 8. Fuzzy Generic Search
-    # =====================================================
-
-    generics = db.generic["Generic_Name"].astype(str).tolist()
-
-    match = fuzzy_match(keyword, generics)
-
-    if match:
-
-        generic_row = db.generic[
-            db.generic["Generic_Name"] == match
-        ].iloc[0]
-
-        brand = db.brand[
-            db.brand["Generic_ID"] == generic_row["Generic_ID"]
-        ]
-
-        if not brand.empty:
-
-            return db.get_complete_medicine(
-                brand.iloc[0]["Brand_Name"]
-            )
-
-    # =====================================================
-    # 9. Fuzzy Gujarati Search
-    # =====================================================
-
-    gujarati = db.generic[
-        "Generic_Name_Gujarati"
-    ].astype(str).tolist()
-
-    match = fuzzy_match(keyword, gujarati)
-
-    if match:
-
-        generic_row = db.generic[
-            db.generic["Generic_Name_Gujarati"] == match
-        ].iloc[0]
-
-        brand = db.brand[
-            db.brand["Generic_ID"] == generic_row["Generic_ID"]
-        ]
-
-        if not brand.empty:
-
-            return db.get_complete_medicine(
-                brand.iloc[0]["Brand_Name"]
-            )
-
-    # =====================================================
-    # 10. Fuzzy Company Search
-    # =====================================================
-
-    companies = db.company["Company_Name"].astype(str).tolist()
-
-    match = fuzzy_match(keyword, companies)
-
-    if match:
-
-        company_row = db.company[
-            db.company["Company_Name"] == match
-        ].iloc[0]
-
-        brand = db.brand[
-            db.brand["Company_ID"] == company_row["Company_ID"]
-        ]
-
-        if not brand.empty:
-
-            return db.get_complete_medicine(
-                brand.iloc[0]["Brand_Name"]
-            )
+                return _create_search_result(brand.iloc[0]["Brand_Name"], f"Fuzzy {col}", match[1], match[0])
 
     return None
-# =====================================================
-# Get All Brands of a Generic
-# =====================================================
 
-def get_brand_list(medicine):
+def get_brand_list(search_result: Optional[Dict[str, Any]]) -> pd.DataFrame:
+    """Return all brands belonging to the matched generic, resilient to schema changes."""
+    empty_df = db.brand.iloc[0:0].copy()
 
-    if medicine is None:
-        return None
+    if search_result is None or KEY_DATA not in search_result:
+        return empty_df
 
-    generic_id = medicine["brand"]["Generic_ID"]
+    generic = search_result[KEY_DATA].get(KEY_GENERIC)
+    if generic is None or KEY_GENERIC_ID not in generic:
+        return empty_df
 
-    brands = db.get_brands_by_generic(generic_id)
+    generic_id = generic[KEY_GENERIC_ID]
+    brands = db.brand[db.brand[KEY_GENERIC_ID] == generic_id].copy()
 
-    return brands
+    return brands if not brands.empty else empty_df
