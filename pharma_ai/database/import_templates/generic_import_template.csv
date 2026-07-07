@@ -1,0 +1,4 @@
+Generic_Name,Generic_Type,Ingredients,Catalog_Source,Clinical_Source,Status,Reference
+Paracetamol,Single,Paracetamol,PMBJK,DailyMed,Active,PMBJK_List_2026_Q1
+Metformin,Single,Metformin,PMBJK,DailyMed,Active,PMBJK_List_2026_Q1
+Paracetamol + Ibuprofen,Combination,Paracetamol|Ibuprofen,PMBJK,DailyMed,Active,PMBJK_List_2026_Q1
