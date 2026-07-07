@@ -1,0 +1,327 @@
+{
+    "version": "1.0.0",
+    "phase": "13.6",
+    "generated_at": "2026-07-07T18:50:32.429218",
+    "status": "FAIL",
+    "health_score": 100,
+    "statistics": {
+        "generic": {
+            "rows": 10,
+            "columns": 11,
+            "memory_kb": 2.41,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "brand": {
+            "rows": 17,
+            "columns": 7,
+            "memory_kb": 1.84,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "company": {
+            "rows": 5,
+            "columns": 5,
+            "memory_kb": 0.54,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "product": {
+            "rows": 5,
+            "columns": 19,
+            "memory_kb": 1.75,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "atc": {
+            "rows": 5,
+            "columns": 19,
+            "memory_kb": 2.11,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "therapeutic": {
+            "rows": 5,
+            "columns": 11,
+            "memory_kb": 1.21,
+            "null_values": 5,
+            "duplicate_rows": 0
+        },
+        "pharmacological": {
+            "rows": 5,
+            "columns": 10,
+            "memory_kb": 1.27,
+            "null_values": 5,
+            "duplicate_rows": 0
+        },
+        "generic_atc_mapping": {
+            "rows": 5,
+            "columns": 9,
+            "memory_kb": 0.9,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "generic_class_mapping": {
+            "rows": 5,
+            "columns": 10,
+            "memory_kb": 0.95,
+            "null_values": 0,
+            "duplicate_rows": 0
+        }
+    },
+    "load_summary": {
+        "loaded": 9,
+        "failed": 0
+    },
+    "errors": [],
+    "warnings": [],
+    "schema_validation": {
+        "generic": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "brand": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "company": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "product": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "atc": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "therapeutic": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "pharmacological": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "generic_atc_mapping": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "generic_class_mapping": {
+            "status": "PASS",
+            "missing_columns": []
+        }
+    },
+    "duplicate_validation": {
+        "generic": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "brand": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "company": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "product": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "atc": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "therapeutic": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "pharmacological": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "generic_atc_mapping": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "generic_class_mapping": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        }
+    },
+    "missing_values_validation": {
+        "generic": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "Generic_ID",
+                "Generic_Name"
+            ],
+            "missing": {}
+        },
+        "brand": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "Brand_ID",
+                "Brand_Name",
+                "Generic_ID",
+                "Company_ID"
+            ],
+            "missing": {}
+        },
+        "company": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "Company_ID",
+                "Company_Name"
+            ],
+            "missing": {}
+        },
+        "product": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "Product_ID",
+                "Generic_ID"
+            ],
+            "missing": {}
+        },
+        "atc": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "ATC_Code",
+                "ATC_Name"
+            ],
+            "missing": {}
+        },
+        "therapeutic": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "Therapeutic_Class_ID",
+                "Therapeutic_Class_Name"
+            ],
+            "missing": {}
+        },
+        "pharmacological": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "Pharmacological_Class_ID",
+                "Pharmacological_Class_Name"
+            ],
+            "missing": {}
+        },
+        "generic_atc_mapping": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "Mapping_ID",
+                "Generic_ID",
+                "ATC_ID"
+            ],
+            "missing": {}
+        },
+        "generic_class_mapping": {
+            "status": "PASS",
+            "total_missing": 0,
+            "checked_columns": [
+                "Mapping_ID",
+                "Generic_ID",
+                "Therapeutic_Class_ID",
+                "Pharmacological_Class_ID"
+            ],
+            "missing": {}
+        }
+    },
+    "foreign_key_validation": {
+        "brand": {
+            "status": "FAIL",
+            "violations": {
+                "Generic_ID": {
+                    "count": 14,
+                    "invalid_values": [
+                        "GEN000020",
+                        "GEN000030",
+                        "GEN000041",
+                        "GEN000060",
+                        "GEN000011",
+                        "GEN000031",
+                        "GEN000050",
+                        "GEN000062"
+                    ]
+                },
+                "Company_ID": {
+                    "count": 17,
+                    "invalid_values": [
+                        "COM001",
+                        "COM002",
+                        "COM003",
+                        "COM004",
+                        "COM005",
+                        "COM006",
+                        "COM007",
+                        "COM008",
+                        "COM009",
+                        "COM010",
+                        "COM011",
+                        "COM012",
+                        "COM013",
+                        "COM014",
+                        "COM015",
+                        "COM016",
+                        "COM017"
+                    ]
+                }
+            }
+        },
+        "product": {
+            "status": "PASS",
+            "violations": {}
+        },
+        "generic_atc_mapping": {
+            "status": "PASS",
+            "violations": {}
+        },
+        "generic_class_mapping": {
+            "status": "PASS",
+            "violations": {}
+        }
+    },
+    "foreign_key_summary": {
+        "checked_relationships": 8,
+        "failed_relationships": 2
+    },
+    "mapping_integrity_validation": {
+        "generic_atc_mapping": {
+            "status": "PASS",
+            "duplicate_mappings": 0,
+            "multiple_primary": 0,
+            "details": {}
+        },
+        "generic_class_mapping": {
+            "status": "PASS",
+            "duplicate_mappings": 0,
+            "multiple_primary": 0,
+            "details": {}
+        }
+    },
+    "mapping_integrity_summary": {
+        "checked_tables": 2,
+        "failed_tables": 0
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "version": "1.0.0",
+    "phase": "13.6",
+    "generated_at": "2026-07-07T16:28:16.671855",
+    "status": "PASS",
+    "health_score": 100,
+    "statistics": {
+        "generic": {
+            "rows": 10,
+            "columns": 11,
+            "memory_kb": 2.41,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "brand": {
+            "rows": 17,
+            "columns": 7,
+            "memory_kb": 1.84,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "company": {
+            "rows": 5,
+            "columns": 5,
+            "memory_kb": 0.54,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "product": {
+            "rows": 5,
+            "columns": 19,
+            "memory_kb": 1.75,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "atc": {
+            "rows": 5,
+            "columns": 19,
+            "memory_kb": 2.11,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "therapeutic": {
+            "rows": 5,
+            "columns": 11,
+            "memory_kb": 1.21,
+            "null_values": 5,
+            "duplicate_rows": 0
+        },
+        "pharmacological": {
+            "rows": 5,
+            "columns": 10,
+            "memory_kb": 1.27,
+            "null_values": 5,
+            "duplicate_rows": 0
+        },
+        "generic_atc_mapping": {
+            "rows": 5,
+            "columns": 9,
+            "memory_kb": 0.9,
+            "null_values": 0,
+            "duplicate_rows": 0
+        },
+        "generic_class_mapping": {
+            "rows": 5,
+            "columns": 10,
+            "memory_kb": 0.95,
+            "null_values": 0,
+            "duplicate_rows": 0
+        }
+    },
+    "load_summary": {
+        "loaded": 9,
+        "failed": 0
+    },
+    "errors": [],
+    "warnings": [],
+    "schema_validation": {
+        "generic": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "brand": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "company": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "product": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "atc": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "therapeutic": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "pharmacological": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "generic_atc_mapping": {
+            "status": "PASS",
+            "missing_columns": []
+        },
+        "generic_class_mapping": {
+            "status": "PASS",
+            "missing_columns": []
+        }
+    },
+    "duplicate_validation": {
+        "generic": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "brand": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "company": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "product": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "atc": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "therapeutic": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "pharmacological": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "generic_atc_mapping": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        },
+        "generic_class_mapping": {
+            "status": "PASS",
+            "duplicate_ids": 0,
+            "duplicate_names": 0
+        }
+    }
+}
