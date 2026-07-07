@@ -1,5 +1,5 @@
 import logging
-from modules.interaction import DrugInteraction  # સુધારેલ ઇમ્પોર્ટ પાથ
+from pharma_ai.ui.interaction import DrugInteraction  # સુધારેલ ઇમ્પોર્ટ પાથ
 
 # Logging setup
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
