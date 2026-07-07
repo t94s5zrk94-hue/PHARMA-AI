@@ -6,7 +6,7 @@ import re
 from threading import Lock
 from typing import Any, ClassVar
 
-from modules.database import PharmaDatabase
+from pharma_ai.services.database import PharmaDatabase
 
 
 class BrandComparison:

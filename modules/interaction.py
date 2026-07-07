@@ -9,7 +9,7 @@ import logging
 from typing import TypedDict
 from dotenv import load_dotenv
 from google import genai
-from modules.smart_search import search_anything
+from pharma_ai.services.smart_search import search_anything
 
 # Logger setup
 logging.basicConfig(level=logging.INFO)
