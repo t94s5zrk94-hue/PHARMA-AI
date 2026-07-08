@@ -1,7 +1,6 @@
 import re
 import logging
-from services.normalization import NormalizationEngine
-
+from pharma_ai.services.normalization import NormalizationEngine
 # Logger Setup
 logger = logging.getLogger(__name__)
 
