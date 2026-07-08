@@ -4,7 +4,7 @@ import json
 import os
 import time
 from datetime import datetime
-from services.normalization import NormalizationEngine
+from pharma_ai.services.normalization import NormalizationEngine
 from services.combination_parser import CombinationParser
 from services.generic_resolver import GenericResolver
 from builders.combination_builder import CombinationBuilder
