@@ -65,3 +65,23 @@ class NormalizationEngine:
         for c in candidates:
             if re.search(rf'\b{c}\b', name, re.IGNORECASE): return c.upper() if c in self.rules.get('pharmacopoeia', []) else c.title()
         return None
+    import re
+
+def normalize_company_name(name: str) -> str:
+    """
+    કંપનીના નામનું નોર્મલાઇઝેશન:
+    1. Lowercase
+    2. સફિક્સ દૂર કરવા (Ltd, Pvt, etc.)
+    3. વધારાની સ્પેસ દૂર કરવી
+    """
+    if not name:
+        return ""
+        
+    name = str(name).lower().strip()
+    
+    # કોમન સફિક્સ દૂર કરવા માટેની પેટર્ન
+    suffixes = [r'\s+ltd\.?', r'\s+limited', r'\s+pvt\.?\s+ltd\.?', r'\s+private\s+limited', r'\s+inc\.?']
+    for suffix in suffixes:
+        name = re.sub(suffix, '', name)
+        
+    return re.sub(r'\s+', ' ', name).strip()
