@@ -31,24 +31,48 @@ class DrugInteraction:
     VALID_SEVERITIES = ("Major", "Moderate", "Minor", "No Known Interaction")
 
     def check_interaction(self, med1_name: str, med2_name: str) -> InteractionResult:
-        if not med1_name.strip() or not med2_name.strip():
-            return self._error_response("કૃપા કરીને બંને દવાઓના નામ લખો.")
+    # ૧. ઇનપુટ વેલિડેશન
+        if not med1_name or not med1_name.strip() or not med2_name or not med2_name.strip():
+           return self._error_response("કૃપા કરીને બંને દવાઓના નામ લખો.")
 
+    # ૨. ડુપ્લીકેટ દવા ચેક (এক જ દવા)
         if med1_name.strip().lower() == med2_name.strip().lower():
-            return self._success_response("Moderate", "બંને દવાઓ એક જ છે.", "Duplicate therapy detected.", "ડોક્ટરની સલાહ લો.", "ડબલ ડોઝ ટાળવો.")
+            return self._success_response(
+            "Moderate",
+            "બંને દવાઓ એક જ છે.",
+            "Duplicate therapy detected.",
+            "ડોક્ટરની સલાહ લો.",
+            "ડબલ ડોઝ ટાળવો."
+        )
 
-        med1_data = search_anything(med1_name)
-        med2_data = search_anything(med2_name)
+    # ૩. સર્ચ લેયર (ડેટા ફેચિંગ)
+        med1_result = search_anything(med1_name)
+        med2_result = search_anything(med2_name)
 
-        if not med1_data or not med2_data:
+        if not med1_result or not med2_result:
             return self._error_response("ક્ષમા કરશો, દવાઓ ડેટાબેઝમાં મળી નથી.")
 
+    # ૪. ડેટા એક્સટ્રેક્શન (Safe Extraction)
+        med1_data = med1_result.get("data", {})
+        med2_data = med2_result.get("data", {})
+
+    # ૫. ડુપ્લીકેટ થેરાપી ચેક (Generic ID Match)
         g1 = med1_data.get("generic", {}).get("Generic_ID")
         g2 = med2_data.get("generic", {}).get("Generic_ID")
-        if g1 and g2 and g1 == g2:
-            return self._success_response("Moderate", "બંને દવાઓનું Generic કન્ટેન્ટ એક જ છે (Duplicate Therapy).", "Same Pharmacological Action", "ડોક્ટરની સલાહ લો.", "ડબલ ડોઝ ટાળવો.")
 
-        return self._call_gemini(self._build_context(med1_data, med2_data))
+        if g1 and g2 and g1 == g2:
+            return self._success_response(
+            "Moderate",
+            "બંને દવાઓનું Generic કન્ટેન્ટ એક જ છે (Duplicate Therapy).",
+            "Same Pharmacological Action",
+            "ડોક્ટરની સલાહ લો.",
+            "ડબલ ડોઝ ટાળવો."
+        )
+
+    # ૬. AI ઇન્ટરેક્શન એનાલિસિસ
+        return self._call_gemini(
+        self._build_context(med1_data, med2_data)
+    )
 
     def _build_context(self, m1: dict, m2: dict) -> str:
         def fmt(m): 

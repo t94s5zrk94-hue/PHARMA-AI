@@ -68,10 +68,16 @@ def build_ai_context(medicine: MedicineData) -> str:
     return "\n".join(f"{label}: {value or 'N/A'}" for label, value in fields)
 
 def process_question(question: str) -> None:
+
+    # Every new search starts a fresh conversation
+    st.session_state[KEY_MESSAGES] = []
+
     result = search_anything(question)
     st.session_state[KEY_RESULT] = result
-    
-    st.session_state[KEY_MESSAGES].append({ "role": MSG_USER, "content": question })
+
+    st.session_state[KEY_MESSAGES].append(
+        {"role": MSG_USER, "content": question}
+    )
     
     if result and "data" in result:
         medicine: MedicineData = result["data"]
@@ -101,11 +107,18 @@ def main() -> None:
         m2 = st.text_input("Medicine 2")
         if st.button("Check Interaction"):
             res = DrugInteraction().check_interaction(m1, m2)
-            st.write(res.get("interaction", "Error") if res.get("success") else res.get("message"))
+
+            st.write(res.get("interaction", "Error")) 
 
     result = st.session_state[KEY_RESULT]
+    
     if result and "data" in result:
+
         medicine: MedicineData = result["data"]
+
+        # Pass display name to UI
+        medicine["display_name"] = result.get("display_name")
+
         show_medicine_card(medicine)
         
         brands = get_brand_list(result)

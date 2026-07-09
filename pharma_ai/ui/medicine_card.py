@@ -7,19 +7,26 @@ def safe_metric(label, data, key):
         st.metric(label, value)
 
 def show_medicine_card(medicine):
-    """
-    Displays medicine details using a resilient, dynamic UI pattern.
-    """
+
     if medicine is None:
         st.error("❌ Medicine Not Found")
         return
-
+    
+    
     product = medicine.get("product", {})
     brand = medicine.get("brand", {})
     generic = medicine.get("generic", {})
     company = medicine.get("company", {})
 
-    st.subheader(f"💊 {product.get('Product_Name', 'Unknown Product')}")
+    display_name = (
+    medicine.get("display_name")
+    or product.get("Product_Name")
+    or brand.get("Brand_Name")
+    or generic.get("Generic_Name")
+    or "Unknown Product"
+)
+
+    st.subheader(f"💊 {display_name}")
 
     tab1, tab2, tab3 = st.tabs(["💊 General", "🧬 Generic", "🏢 Company"])
 

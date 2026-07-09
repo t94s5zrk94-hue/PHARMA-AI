@@ -45,6 +45,8 @@ class SmartSearch:
         # Tier 1: Fuzzy Brand Lookup
         brand_names = self._db.brand["Brand_Name"].dropna().astype(str).tolist()
         best_brand = process.extractOne(query, brand_names, scorer=fuzz.WRatio, score_cutoff=self._FUZZY_SCORE_CUTOFF)
+        print("DEBUG Brand Query:", query)
+        print("DEBUG Brand Match:", best_brand)
 
         if best_brand:
             matched_name, score, _ = best_brand
@@ -55,7 +57,7 @@ class SmartSearch:
         # Tier 2: Fuzzy Generic Lookup
         generic_names = self._db.generic["Generic_Name"].dropna().astype(str).tolist()
         best_generic = process.extractOne(query, generic_names, scorer=fuzz.WRatio, score_cutoff=self._FUZZY_SCORE_CUTOFF)
-
+        print("DEBUG Generic Match:", best_generic)
         if best_generic:
             matched_name, score, _ = best_generic
             # Find brand via generic link (Generic_ID)
@@ -71,13 +73,16 @@ class SmartSearch:
         logger.warning(f"No match found for query: {query}")
         return None
 
-    def _format_response(self, data: dict[str, Any], match_type: str, confidence: float, matched_value: str) -> dict[str, Any]:
+    def _format_response(self, data, match_type, confidence, matched_value):
         return {
-            "data": data,
-            "match_type": match_type,
-            "confidence": confidence,
-            "matched_value": matched_value
-        }
+        "data": data,
+        "match_type": match_type,
+        "confidence": confidence,
+        "matched_value": matched_value,
+        "display_name": matched_value
+
+             
+    }
 
     def get_brand_list(self, search_result: dict[str, Any]) -> pd.DataFrame:
         """
