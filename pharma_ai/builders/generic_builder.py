@@ -13,10 +13,22 @@ class GenericBuilder(BaseBuilder):
     VALID_TYPES = ["Single", "Combination", "Device", "Vaccine", "Biological", "Herbal"]
     VALID_STATUS = ["Active", "Inactive"]
 
-    def __init__(self, input_file: str, output_path: str):
-        required_cols = ["Generic_Name", "Generic_Type", "Ingredients", "Catalog_Source", "Clinical_Source", "Status"]
+    def __init__(
+        self,
+        input_file: str = "pharma_ai/database/input/generic_import.csv",
+        output_path: str = "pharma_ai/database/medicine/generic_master.csv",
+        ):
+        required_cols = [
+            "Generic_Name",
+            "Generic_Type",
+            "Ingredients",
+            "Catalog_Source",
+            "Clinical_Source",
+            "Status",
+        ]
+
         super().__init__(input_file, output_path, required_cols)
-        # BaseBuilder ના output_path પરથી જ Master File નો Path derive કરો
+
         self.master_path = self.output_path
         self.normalizer = NormalizationEngine()
         self.parser = CombinationParser()
@@ -98,3 +110,14 @@ class GenericBuilder(BaseBuilder):
         # 6. Save
         self.save_csv(final_df)
         return self.get_summary(start_time, len(new_df), len(final_df), 0, 0, 0, "SUCCESS")
+
+if __name__ == "__main__":
+    builder = GenericBuilder()
+    result = builder.build()
+
+    print("\n" + "=" * 60)
+    print("GENERIC BUILDER")
+    print("=" * 60)
+
+    for key, value in result.items():
+        print(f"{key}: {value}")

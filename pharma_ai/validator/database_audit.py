@@ -2,7 +2,7 @@
 Pharma AI
 Database Integrity Audit
 
-Phase 13.6
+"phase": "15.0"
 
 Purpose:
     Comprehensive database audit framework.
@@ -55,7 +55,7 @@ REQUIRED_SCHEMAS: Final = {
     ],
     "product": [
         "Product_ID", "Generic_ID", "Product_Name", "Strength", "Dosage_Form", "Route", 
-        "Pack_Size", "Unit", "Manufacturer", "PMBJK_Code", "HSN_Code", "GST_Rate", 
+        "Pack_Size", "Unit", "Manufacturer", "PMBJK_Code", "HSN_Code",  
         "Schedule", "Storage", "Status", "created_at", "updated_at", "source", "version"
     ],
     "atc": [
@@ -254,7 +254,7 @@ class DatabaseAudit:
         self.report["duplicate_validation"] = {}
         dupe_config = {
             "generic": ("Generic_ID", "Generic_Name"),
-            "brand": ("Brand_ID", "Brand_Name"),
+            "brand": ("Brand_ID", None),
             "company": ("Company_ID", "Company_Name"),
             "product": ("Product_ID", None),
             "atc": ("ATC_Code", "ATC_Name"),

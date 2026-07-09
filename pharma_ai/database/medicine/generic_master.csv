@@ -1,14 +1,14 @@
 Generic_ID,Generic_Name,Standardized_Name,Generic_Type,Ingredients,created_at,updated_at,catalog_source,clinical_source,version,Status
-GEN000001,Aceclofenac + Paracetamol,aceclofenac and paracetamol,Fixed Dose Combination,Aceclofenac; Paracetamol,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN000002,Aceclofenac,aceclofenac,Single,Aceclofenac,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN000003,Pregabalin,pregabalin,Single,Pregabalin,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN000004,Aspirin,aspirin,Single,Aspirin,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN000005,Chlorzoxazone + Diclofenac + Paracetamol,chlorzoxazone diclofenac and paracetamol,Fixed Dose Combination,Chlorzoxazone; Diclofenac; Paracetamol,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN002073,Olopatadine,olopatadine,Single,Olopatadine,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN002074,Mosapride + Pantoprazole,mosapride and pantoprazole,Fixed Dose Combination,Mosapride; Pantoprazole,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN002075,Phenobarbitone,phenobarbitone,Single,Phenobarbitone,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN002077,Prednisolone,prednisolone,Single,Prednisolone,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN002080,Mosapride + Rabeprazole,mosapride and rabeprazole,Fixed Dose Combination,Mosapride; Rabeprazole,2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK Catalogue,CDSCO,1,Active
-GEN002081,Paracetamol,Paracetamol,Single,"{'is_combination': False, 'components': [{'name': 'Paracetamol', 'strength': None, 'unit': None, 'dosage_form': None}], 'error': None}",2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK,DailyMed,1,Active
-GEN002082,Metformin,Metformin,Single,"{'is_combination': False, 'components': [{'name': 'Metformin', 'strength': None, 'unit': None, 'dosage_form': None}], 'error': None}",2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK,DailyMed,1,Active
-GEN002083,Paracetamol + Ibuprofen,Paracetamol + Ibuprofen,Combination,"{'is_combination': False, 'components': [{'name': 'Paracetamol|Ibuprofen', 'strength': None, 'unit': None, 'dosage_form': None}], 'error': None}",2026-07-08T08:53:24.500858,2026-07-08T08:53:24.500858,PMBJK,DailyMed,1,Active
+GEN000001,Paracetamol,paracetamol,Single,Paracetamol,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000002,Metformin,metformin,Single,Metformin,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000003,Aspirin,aspirin,Single,Aspirin,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000004,Ramipril,ramipril,Single,Ramipril,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000005,Pantoprazole,pantoprazole,Single,Pantoprazole,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000006,Atorvastatin,atorvastatin,Single,Atorvastatin,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000007,Amlodipine,amlodipine,Single,Amlodipine,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000008,Amoxicillin,amoxicillin,Single,Amoxicillin,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000009,Cefixime,cefixime,Single,Cefixime,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000010,Pregabalin,pregabalin,Single,Pregabalin,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000011,Aceclofenac + Paracetamol,aceclofenac and paracetamol,Combination,Aceclofenac;Paracetamol,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000012,Chlorzoxazone + Diclofenac + Paracetamol,chlorzoxazone and diclofenac and paracetamol,Combination,Chlorzoxazone;Diclofenac;Paracetamol,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active
+GEN000013,Telmisartan + Amlodipine,telmisartan and amlodipine,Combination,Telmisartan;Amlodipine,2026-07-09T16:30:00,2026-07-09T16:30:00,PMBJK Catalogue,CDSCO,1.0,Active

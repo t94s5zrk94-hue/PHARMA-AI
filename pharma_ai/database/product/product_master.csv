@@ -1,6 +1,14 @@
-Product_ID,Generic_ID,Product_Name,Strength,Dosage_Form,Route,Pack_Size,Unit,Manufacturer,PMBJK_Code,HSN_Code,GST_Rate,Schedule,Storage,Status,created_at,updated_at,source,version
-PRD000001,GEN000002,Aceclofenac Tablet,100 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK-ACE-100,300490,12,H,Store below 30°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
-PRD000002,GEN000001,Aceclofenac + Paracetamol Tablet,100 mg + 325 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK-ACE-PAR,300490,12,H,Store below 30°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
-PRD000003,GEN000003,Pregabalin Capsule,75 mg,Capsule,Oral,10 Capsules,Capsule,PMBI,PMBJK-PRE-75,300490,12,H,Store below 25°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
-PRD000004,GEN000004,Aspirin Gastro-resistant Tablet,150 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK-ASP-150,300490,12,H,Store below 25°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
-PRD000005,GEN002074,Pantoprazole + Mosapride Tablet,40 mg + 15 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK-PAN-MOS,300490,12,H,Store below 30°C,Active,2026-07-06T10:15:00Z,2026-07-06T10:15:00Z,PMBJK Catalogue,1.0.0
+Product_ID,Generic_ID,Product_Name,Strength,Dosage_Form,Route,Pack_Size,Unit,Manufacturer,PMBJK_Code,HSN_Code,Schedule,Storage,Status,created_at,updated_at,source,version
+PRD000001,GEN000001,Paracetamol 500 Tablet,500 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000001,30049099,OTC,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000002,GEN000002,Metformin 500 Tablet,500 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000002,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000003,GEN000003,Aspirin 75 Tablet,75 mg,Tablet,Oral,14 Tablets,Tablet,PMBI,PMBJK000003,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000004,GEN000004,Ramipril 5 Tablet,5 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000004,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000005,GEN000005,Pantoprazole 40 Tablet,40 mg,Tablet,Oral,15 Tablets,Tablet,PMBI,PMBJK000005,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000006,GEN000006,Atorvastatin 10 Tablet,10 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000006,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000007,GEN000007,Amlodipine 5 Tablet,5 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000007,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000008,GEN000008,Amoxicillin 500 Capsule,500 mg,Capsule,Oral,10 Capsules,Capsule,PMBI,PMBJK000008,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000009,GEN000009,Cefixime 200 Tablet,200 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000009,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000010,GEN000010,Pregabalin 75 Capsule,75 mg,Capsule,Oral,10 Capsules,Capsule,PMBI,PMBJK000010,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000011,GEN000011,Aceclofenac + Paracetamol Tablet,100 mg + 325 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000011,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000012,GEN000012,Chlorzoxazone + Diclofenac + Paracetamol Tablet,250 mg + 50 mg + 325 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000012,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0
+PRD000013,GEN000013,Telmisartan + Amlodipine Tablet,40 mg + 5 mg,Tablet,Oral,10 Tablets,Tablet,PMBI,PMBJK000013,30049099,Rx,Store below 30°C,Active,2026-07-09T00:00:00,2026-07-09T00:00:00,PMBJK,1.0.0

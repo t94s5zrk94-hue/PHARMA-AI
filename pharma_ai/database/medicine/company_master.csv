@@ -1,6 +1,12 @@
 Company_ID,Company_Name,Standardized_Name,Country,Company_Type,Status,created_at,updated_at,version
-COM000001,Sun Pharmaceutical,sun pharmaceutical,India,Generic,Active,,,
-COM000002,Cipla Limited,cipla,India,Generic,Active,,,
-COM000003,Dr. Reddy's Laboratories,dr. reddy's laboratories,India,Generic,Active,,,
-COM000004,Torrent Pharmaceuticals,torrent pharmaceuticals,India,Generic,Active,,,
-COM000005,GlaxoSmithKline,glaxosmithkline,UK,MNC,Active,,,
+CMP000001,Sun Pharmaceutical Industries Ltd.,SUN PHARMACEUTICAL INDUSTRIES LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000002,Cipla Ltd.,CIPLA LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000003,Dr. Reddy's Laboratories Ltd.,DR. REDDY'S LABORATORIES LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000004,Lupin Ltd.,LUPIN LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000005,Torrent Pharmaceuticals Ltd.,TORRENT PHARMACEUTICALS LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000006,Alkem Laboratories Ltd.,ALKEM LABORATORIES LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000007,Mankind Pharma Ltd.,MANKIND PHARMA LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000008,Glenmark Pharmaceuticals Ltd.,GLENMARK PHARMACEUTICALS LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000009,Zydus Lifesciences Ltd.,ZYDUS LIFESCIENCES LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+CMP000010,Abbott India Ltd.,ABBOTT INDIA LTD.,India,Manufacturer & Marketer,Active,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+

@@ -1,2 +1,15 @@
 Brand_ID,Brand_Name,Standardized_Brand_Name,Generic_ID,Generic_Name,Standardized_Generic_Name,Company_ID,Company_Name,Standardized_Company_Name,Strength,Dosage_Form,Status,Record_Status,Catalog_Source,Clinical_Source,created_at,updated_at,version
-BRD000001,Crocin,Crocin,GEN002081,Paracetamol,Paracetamol,COM000005,GlaxoSmithKline,glaxosmithkline,500 mg,Tablet,Active,New,Manual,Manual,2026-07-08T18:27:20.709898,2026-07-08T18:27:20.709898,1
+BRD000001,Pantocid,pantocid,GEN000001,Paracetamol,paracetamol,CMP000001,Sun Pharmaceutical Industries Ltd.,SUN PHARMACEUTICAL INDUSTRIES LTD.,500 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000002,Glycomet,glycomet,GEN000002,Metformin,metformin,CMP000004,Lupin Ltd.,LUPIN LTD.,500 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000003,Atorlip,atorlip,GEN000003,Aspirin,aspirin,CMP000002,Cipla Ltd.,CIPLA LTD.,325 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000004,Cardace,cardace,GEN000004,Ramipril,ramipril,CMP000003,Dr. Reddy's Laboratories Ltd.,DR. REDDY'S LABORATORIES LTD.,5 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000005,Pantocid,pantocid,GEN000005,Pantoprazole,pantoprazole,CMP000001,Sun Pharmaceutical Industries Ltd.,SUN PHARMACEUTICAL INDUSTRIES LTD.,40 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000006,Atorlip,atorlip,GEN000006,Atorvastatin,atorvastatin,CMP000002,Cipla Ltd.,CIPLA LTD.,10 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000007,Amlong,amlong,GEN000007,Amlodipine,amlodipine,CMP000005,Torrent Pharmaceuticals Ltd.,TORRENT PHARMACEUTICALS LTD.,5 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000008,Mox,mox,GEN000008,Amoxicillin,amoxicillin,CMP000006,Alkem Laboratories Ltd.,ALKEM LABORATORIES LTD.,500 mg,Capsule,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000009,Taxim-O,taxim-o,GEN000009,Cefixime,cefixime,CMP000006,Alkem Laboratories Ltd.,ALKEM LABORATORIES LTD.,200 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000010,Maxgalin,maxgalin,GEN000010,Pregabalin,pregabalin,CMP000001,Sun Pharmaceutical Industries Ltd.,SUN PHARMACEUTICAL INDUSTRIES LTD.,75 mg,Capsule,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000011,Zerodol-P,zerodol-p,GEN000011,Aceclofenac + Paracetamol,aceclofenac and paracetamol,CMP000007,Mankind Pharma Ltd.,MANKIND PHARMA LTD.,100 mg + 325 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000012,Myospaz Forte,myospaz forte,GEN000012,Chlorzoxazone + Diclofenac + Paracetamol,chlorzoxazone and diclofenac and paracetamol,CMP000008,Glenmark Pharmaceuticals Ltd.,GLENMARK PHARMACEUTICALS LTD.,500 mg + 50 mg + 325 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+BRD000013,Telma-AM,telma-am,GEN000013,Telmisartan + Amlodipine,telmisartan and amlodipine,CMP000005,Torrent Pharmaceuticals Ltd.,TORRENT PHARMACEUTICALS LTD.,40 mg + 5 mg,Tablet,Active,New,PMBJK Catalogue,CDSCO,2026-07-09T16:30:00,2026-07-09T16:30:00,1.0
+

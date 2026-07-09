@@ -30,11 +30,12 @@ class IDGenerator:
 
 # Global instances
 _MANAGERS = {
-        "GEN": IDGenerator("GEN"),
-        "CMP": IDGenerator("CMP"),
-        "BRD": IDGenerator("BRD"),
-        "ATC": IDGenerator("ATC"),
-    }
+    "GEN": IDGenerator("GEN"),
+    "CMP": IDGenerator("CMP"),
+    "BRD": IDGenerator("BRD"),
+    "ATC": IDGenerator("ATC"),
+    "MAP": IDGenerator("MAP"),
+}
 
 # --- Backward Compatible APIs ---
 
@@ -49,3 +50,5 @@ def get_next_brand_id(last_id: Optional[str], count: int = 1) -> List[str]:
 
 def get_next_atc_id(last_id: Optional[str], count: int = 1) -> List[str]:
     return _MANAGERS["ATC"].generate(last_id, count)
+def get_next_mapping_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["MAP"].generate(last_id, count)
