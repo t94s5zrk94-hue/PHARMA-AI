@@ -1,67 +1,51 @@
 import re
-from typing import List, Optional
+import logging
+from typing import Optional, List
+
+# Setup simple logging
+logger = logging.getLogger(__name__)
 
 class IDGenerator:
-    """
-    Pharma AI Builder Framework માટે સેન્ટ્રલ ID જનરેટર.
-    """
-
+    """Core utility for ID generation with robust regex validation."""
     def __init__(self, prefix: str, padding: int = 6):
-        self.prefix = prefix.upper()  # સુધારો 3: Prefix હંમેશા Uppercase માં
+        self.prefix = prefix.upper()
         self.padding = padding
-        # પેટર્ન: Prefix + Numbers
+        # Regex to ensure ID starts exactly with the prefix followed by digits
         self.pattern = re.compile(rf"^{self.prefix}(\d+)$")
 
-    def _get_number(self, last_id: Optional[str]) -> int:
-        # સુધારો 2: Empty string, whitespace, કે None ને handle કરે છે
-        if not last_id or not last_id.strip():
-            return 0
-            
-        match = self.pattern.match(last_id.strip())
-        if not match:
-            raise ValueError(f"Invalid ID format: {last_id}. Expected prefix: {self.prefix}")
-        return int(match.group(1))
-
-    def generate_next(self, last_id: Optional[str] = None, count: int = 1) -> List[str]:
-        """
-        છેલ્લા ID પરથી આગામી N IDs જનરેટ કરે છે.
-        """
-        # સુધારો 1: Count Validation
+    def generate(self, last_id: Optional[str], count: int = 1) -> List[str]:
         if count < 1:
             raise ValueError("count must be greater than zero")
-            
-        start_num = self._get_number(last_id)
-        new_ids = []
         
-        for i in range(1, count + 1):
-            next_num = start_num + i
-            new_id = f"{self.prefix}{next_num:0{self.padding}d}"
-            new_ids.append(new_id)
-            
-        return new_ids
+        start_num = 0
+        if last_id and last_id.strip():
+            match = self.pattern.fullmatch(last_id.strip())
+            if match:
+                start_num = int(match.group(1))
+            else:
+                logger.warning(f"Corrupted or invalid ID encountered: '{last_id}'. Defaulting start_num to 0.")
+                start_num = 0
+        
+        return [f"{self.prefix}{(start_num + i):0{self.padding}d}" for i in range(1, count + 1)]
 
-# --- Wrapper API (સુધારો 4: બધા જ જરૂરી Wrappers) ---
+# Global instances
+_MANAGERS = {
+        "GEN": IDGenerator("GEN"),
+        "CMP": IDGenerator("CMP"),
+        "BRD": IDGenerator("BRD"),
+        "ATC": IDGenerator("ATC"),
+    }
+
+# --- Backward Compatible APIs ---
 
 def get_next_generic_id(last_id: Optional[str], count: int = 1) -> List[str]:
-    return IDGenerator("GEN").generate_next(last_id, count)
+    return _MANAGERS["GEN"].generate(last_id, count)
 
 def get_next_company_id(last_id: Optional[str], count: int = 1) -> List[str]:
-    return IDGenerator("CMP").generate_next(last_id, count)
+    return _MANAGERS["CMP"].generate(last_id, count)
 
 def get_next_brand_id(last_id: Optional[str], count: int = 1) -> List[str]:
-    return IDGenerator("BRD").generate_next(last_id, count)
-
-def get_next_product_id(last_id: Optional[str], count: int = 1) -> List[str]:
-    return IDGenerator("PRD").generate_next(last_id, count)
+    return _MANAGERS["BRD"].generate(last_id, count)
 
 def get_next_atc_id(last_id: Optional[str], count: int = 1) -> List[str]:
-    return IDGenerator("ATC").generate_next(last_id, count)
-
-def get_next_therapeutic_id(last_id: Optional[str], count: int = 1) -> List[str]:
-    return IDGenerator("THR").generate_next(last_id, count)
-
-def get_next_pharmacological_id(last_id: Optional[str], count: int = 1) -> List[str]:
-    return IDGenerator("PHR").generate_next(last_id, count)
-
-def get_next_mapping_id(last_id: Optional[str], count: int = 1) -> List[str]:
-    return IDGenerator("MAP").generate_next(last_id, count)
+    return _MANAGERS["ATC"].generate(last_id, count)

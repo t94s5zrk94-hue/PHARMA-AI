@@ -30,7 +30,14 @@ class PharmaDatabase:
                                           ["Company_ID", "Company_Name"])
             self.product = self._load_csv(os.path.join(product_dir, "product_master.csv"), 
                                           ["Product_ID", "Generic_ID"])
-            
+            atc_dir = os.path.join(DATABASE_DIR, "atc") 
+            self.atc = self._load_csv(os.path.join(atc_dir, "atc_master.csv"),
+                                      ["ATC_ID", "ATC_Code", "ATC_Name"]
+            )  
+            self.generic_atc_mapping = self._load_csv(
+                                     os.path.join(DATABASE_DIR, "mapping", "generic_atc_mapping.csv"),
+                                     ["Generic_ID", "ATC_ID"]
+            )
             logger.info("Database loaded successfully.")
         except Exception as e:
             logger.error(f"Critical error loading database files: {e}")
@@ -97,12 +104,23 @@ class PharmaDatabase:
             generic_row = self.generic[self.generic["Generic_ID"] == brand_row["Generic_ID"]]
             company_row = self.company[self.company["Company_ID"] == brand_row["Company_ID"]]
             product_row = self.product[self.product["Generic_ID"] == brand_row["Generic_ID"]]
+            mapping_row = self.generic_atc_mapping[
+                self.generic_atc_mapping["Generic_ID"] == brand_row["Generic_ID"]
+            ]
+
+            if not mapping_row.empty:
+                atc_row = self.atc[
+                    self.atc["ATC_ID"] == mapping_row.iloc[0]["ATC_ID"]
+                ]
+            else:
+                atc_row = pd.DataFrame()
 
             return {
                 "brand": brand_row.to_dict(),
                 "generic": generic_row.iloc[0].to_dict() if not generic_row.empty else {},
                 "company": company_row.iloc[0].to_dict() if not company_row.empty else {},
-                "product": product_row.iloc[0].to_dict() if not product_row.empty else {}
+                "product": product_row.iloc[0].to_dict() if not product_row.empty else {},
+                "atc": atc_row.iloc[0].to_dict() if not atc_row.empty else {},
             }
         except Exception as e:
             logger.error(f"Error in get_complete_medicine for {medicine_name}: {e}")

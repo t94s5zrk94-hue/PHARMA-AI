@@ -22,8 +22,7 @@ class GenericBuilder(BaseBuilder):
         self.parser = CombinationParser()
 
     def validate_business_rules(self, df: pd.DataFrame):
-        print(df.columns.tolist())
-        print(self.required_columns)
+        
         """Perform robust business validation."""
         # 1. Clean strings and handle whitespace-only values
         df = df.apply(lambda col: col.str.strip() if col.dtype == "object" else col)
@@ -73,7 +72,7 @@ class GenericBuilder(BaseBuilder):
                 raise ValueError("Some records already exist in the master database.")
             
             # Correct ID Generation using last ID parse
-            last_id = master_df['Generic_ID'].iloc[-1] if not master_df.empty else None
+            last_id = master_df["Generic_ID"].max() if not master_df.empty else None
             new_df['Generic_ID'] = get_next_generic_id(last_id, count=len(new_df))
             
             # Concat

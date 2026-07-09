@@ -1,0 +1,5 @@
+﻿ATC_Code,ATC_Name,Level_1_Code,Level_1_Name,Level_2_Code,Level_2_Name,Level_3_Code,Level_3_Name,Level_4_Code,Level_4_Name,Level_5_Code,Level_5_Name,WHO_Version,Status
+N02BE01,Paracetamol,N,Nervous System,N02,Analgesics,N02B,Other Analgesics and Antipyretics,N02BE,Anilides,N02BE01,Paracetamol,2025,Active
+A10BA02,Metformin,A,Alimentary Tract and Metabolism,A10,Drugs Used in Diabetes,A10B,Blood Glucose Lowering Drugs,A10BA,Biguanides,A10BA02,Metformin,2025,Active
+C09AA05,Ramipril,C,Cardiovascular System,C09,Agents Acting on the Renin-Angiotensin System,C09A,ACE Inhibitors,C09AA,ACE Inhibitors Plain,C09AA05,Ramipril,2025,Active
+B01AC06,Aspirin,B,Blood and Blood Forming Organs,B01,Antithrombotic Agents,B01A,Antithrombotic Agents,B01AC,Platelet Aggregation Inhibitors,B01AC06,Aspirin,2025,Active

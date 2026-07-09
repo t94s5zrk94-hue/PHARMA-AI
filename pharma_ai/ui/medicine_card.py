@@ -17,6 +17,7 @@ def show_medicine_card(medicine):
     brand = medicine.get("brand", {})
     generic = medicine.get("generic", {})
     company = medicine.get("company", {})
+    atc = medicine.get("atc", {})
 
     display_name = (
     medicine.get("display_name")
@@ -28,8 +29,9 @@ def show_medicine_card(medicine):
 
     st.subheader(f"💊 {display_name}")
 
-    tab1, tab2, tab3 = st.tabs(["💊 General", "🧬 Generic", "🏢 Company"])
-
+    tab1, tab2, tab3, tab4 = st.tabs(
+    ["💊 General", "🧬 Generic", "🏢 Company", "🧾 ATC"]
+)
     # -------------------------
     # General
     # -------------------------
@@ -60,3 +62,11 @@ def show_medicine_card(medicine):
         safe_metric("WHO GMP", company, "WHO_GMP")
         safe_metric("USFDA", company, "USFDA_Approved")
         safe_metric("Status", company, "Status")
+    # -------------------------
+    # ATC
+    # -------------------------
+    with tab4:
+        safe_metric("ATC Code", atc, "ATC_Code")
+        safe_metric("ATC Name", atc, "ATC_Name")
+        safe_metric("WHO Version", atc, "WHO_Version")
+        safe_metric("Status", atc, "Status")    
