@@ -2,8 +2,7 @@
 Pharma AI
 Database Integrity Audit
 
-"phase": "15.0"
-
+"phase": "14",
 Purpose:
     Comprehensive database audit framework.
 
@@ -61,16 +60,16 @@ REQUIRED_SCHEMAS: Final = {
     "atc": [
         "ATC_ID", "ATC_Code", "ATC_Name", "Level_1_Code", "Level_1_Name", "Level_2_Code", 
         "Level_2_Name", "Level_3_Code", "Level_3_Name", "Level_4_Code", "Level_4_Name", 
-        "Level_5_Code", "Level_5_Name", "WHO_Version", "created_at", "updated_at", "source", "version", "Status"
+        "Level_5_Code", "Level_5_Name", "WHO_Version","Status","created_at","updated_at","version",
     ],
     "therapeutic": [
-        "Therapeutic_Class_ID", "Therapeutic_Class_Name", "Therapeutic_Category", "Description", 
-        "Parent_Class_ID", "Reference_Source", "created_at", "updated_at", "source", "version", "Status"
+        "Therapeutic_Class_ID","Therapeutic_Class_Name","Description","WHO_Reference",
+        "Status","created_at","updated_at","version",
     ],
     "pharmacological": [
-        "Pharmacological_Class_ID", "Pharmacological_Class_Name", "Mechanism_of_Action", 
-        "Parent_Class_ID", "Reference_Source", "created_at", "updated_at", "source", "version", "Status"
-    ],
+         "Pharmacological_Class_ID","Pharmacological_Class_Name","Description","WHO_Reference","Status",
+         "created_at","updated_at","version",
+        ],
     "generic_atc_mapping": [
         "Mapping_ID", "Generic_ID", "ATC_ID", "Is_Primary", "created_at", "updated_at", "source", "version", "Status"
     ],
@@ -121,9 +120,9 @@ FILE_MAP: Final = {
     "brand": ("medicine", "brand_master.csv"),
     "company": ("medicine", "company_master.csv"),
     "product": ("product", "product_master.csv"),
-    "atc": ("medicine", "atc_master.csv"),
-    "therapeutic": ("medicine", "therapeutic_class_master.csv"),
-    "pharmacological": ("medicine", "pharmacological_class_master.csv"),
+    "atc": ("atc", "atc_master.csv"),
+    "therapeutic": ("therapeutic", "therapeutic_master.csv"),
+    "pharmacological": ("pharmacological", "pharmacological_master.csv"),
     "generic_atc_mapping": ("mapping", "generic_atc_mapping.csv"),
     "generic_class_mapping": ("mapping", "generic_class_mapping.csv")
 }
@@ -154,14 +153,17 @@ class DatabaseAudit:
         self.paths = {
             "medicine": os.path.join(self.base_dir, "database", "medicine"),
             "product": os.path.join(self.base_dir, "database", "product"),
-            "mapping": os.path.join(self.base_dir, "database", "mapping")
+            "mapping": os.path.join(self.base_dir, "database", "mapping"),
+            "atc": os.path.join(self.base_dir, "database", "atc"),
+            "therapeutic": os.path.join(self.base_dir, "database", "therapeutic"),
+            "pharmacological": os.path.join(self.base_dir, "database", "pharmacological"),
         }
 
         self.tables: Dict[str, pd.DataFrame] = {}
         
         self.report = {
             "version": "1.0.0",
-            "phase": "13.6",
+            "phase": "14",
             "generated_at": datetime.datetime.now().isoformat(),
             "status": STATUS_PASS,
             "health_score": 100,

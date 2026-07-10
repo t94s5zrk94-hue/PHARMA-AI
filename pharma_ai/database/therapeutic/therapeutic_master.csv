@@ -1,0 +1,14 @@
+Therapeutic_Class_ID,Therapeutic_Class_Name,Description,WHO_Reference,Status,created_at,updated_at,version
+THR000001,Analgesics and Antipyretics,Pain relief and fever reduction,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000002,Antidiabetic Agents,Medicines used to lower blood glucose,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000003,Antithrombotic Agents,Medicines that reduce blood clot formation,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000004,ACE Inhibitors,Medicines used for hypertension and heart failure,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000005,Proton Pump Inhibitors,Medicines used for acid-related disorders,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000006,Lipid Lowering Agents,Medicines used to reduce cholesterol levels,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000007,Calcium Channel Blockers,Medicines used for hypertension and angina,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000008,Penicillin Antibiotics,Beta-lactam antibacterial agents,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000009,Cephalosporin Antibiotics,Third-generation cephalosporin antibacterial agents,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000010,Antiepileptic Agents,Medicines used for epilepsy and neuropathic pain,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000011,NSAID Combination Analgesics,Combination anti-inflammatory and analgesic medicines,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000012,Muscle Relaxant Combinations,Combination medicines for muscle spasm relief,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0
+THR000013,ARB Combination Antihypertensives,Combination antihypertensive medicines containing ARBs,WHO ATC,Active,2026-07-10T08:38:30.143033,2026-07-10T08:38:30.143033,1.0.0

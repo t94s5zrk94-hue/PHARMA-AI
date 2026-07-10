@@ -1,0 +1,14 @@
+Pharmacological_Class_ID,Pharmacological_Class_Name,Description,WHO_Reference,Status,created_at,updated_at,version
+PHR000001,Anilides,Paracetamol derivative analgesics and antipyretics,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000002,Biguanides,Oral antidiabetic biguanide medicines,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000003,Platelet Aggregation Inhibitors,Medicines that inhibit platelet aggregation,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000004,ACE Inhibitors,Angiotensin-converting enzyme inhibitors,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000005,Proton Pump Inhibitors,Medicines that suppress gastric acid secretion,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000006,HMG-CoA Reductase Inhibitors,Statin class lipid-lowering medicines,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000007,Dihydropyridine Derivatives,Calcium channel blocker derivatives,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000008,Extended Spectrum Penicillins,Beta-lactam antibiotics with extended spectrum,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000009,Third Generation Cephalosporins,Third-generation cephalosporin antibiotics,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000010,Other Antiepileptics,Modern antiepileptic medicines,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000011,NSAID Combinations,Combination non-steroidal anti-inflammatory medicines,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000012,Centrally Acting Muscle Relaxants,Muscle relaxants acting on the central nervous system,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0
+PHR000013,ARB and Calcium Channel Blocker Combinations,Combination antihypertensive medicines,WHO ATC,Active,2026-07-10T09:02:18.427967,2026-07-10T09:02:18.427967,1.0.0

@@ -1,0 +1,14 @@
+Pharmacological_Class_Name,Description,WHO_Reference,Status
+Anilides,Paracetamol derivative analgesics and antipyretics,WHO ATC,Active
+Biguanides,Oral antidiabetic biguanide medicines,WHO ATC,Active
+Platelet Aggregation Inhibitors,Medicines that inhibit platelet aggregation,WHO ATC,Active
+ACE Inhibitors,Angiotensin-converting enzyme inhibitors,WHO ATC,Active
+Proton Pump Inhibitors,Medicines that suppress gastric acid secretion,WHO ATC,Active
+HMG-CoA Reductase Inhibitors,Statin class lipid-lowering medicines,WHO ATC,Active
+Dihydropyridine Derivatives,Calcium channel blocker derivatives,WHO ATC,Active
+Extended Spectrum Penicillins,Beta-lactam antibiotics with extended spectrum,WHO ATC,Active
+Third Generation Cephalosporins,Third-generation cephalosporin antibiotics,WHO ATC,Active
+Other Antiepileptics,Modern antiepileptic medicines,WHO ATC,Active
+NSAID Combinations,Combination non-steroidal anti-inflammatory medicines,WHO ATC,Active
+Centrally Acting Muscle Relaxants,Muscle relaxants acting on the central nervous system,WHO ATC,Active
+ARB and Calcium Channel Blocker Combinations,Combination antihypertensive medicines,WHO ATC,Active

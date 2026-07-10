@@ -18,6 +18,8 @@ def show_medicine_card(medicine):
     generic = medicine.get("generic", {})
     company = medicine.get("company", {})
     atc = medicine.get("atc", {})
+    therapeutic = medicine.get("therapeutic", {})
+    pharmacological = medicine.get("pharmacological", {})
 
     display_name = (
     medicine.get("display_name")
@@ -25,13 +27,14 @@ def show_medicine_card(medicine):
     or brand.get("Brand_Name")
     or generic.get("Generic_Name")
     or "Unknown Product"
-)
+    )
 
     st.subheader(f"💊 {display_name}")
+    
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
+    ["💊 General","🧬 Generic","🏢 Company","🧾 ATC","🩺 Therapeutic","⚙️ Pharmacological",]
+    )
 
-    tab1, tab2, tab3, tab4 = st.tabs(
-    ["💊 General", "🧬 Generic", "🏢 Company", "🧾 ATC"]
-)
     # -------------------------
     # General
     # -------------------------
@@ -41,7 +44,6 @@ def show_medicine_card(medicine):
         safe_metric("Dosage Form", brand, "Dosage_Form")
         safe_metric("Pack Size", product, "Pack_Size")
         safe_metric("Schedule", product, "Schedule")
-        safe_metric("GST", product, "GST")
 
     # -------------------------
     # Generic
@@ -70,3 +72,21 @@ def show_medicine_card(medicine):
         safe_metric("ATC Name", atc, "ATC_Name")
         safe_metric("WHO Version", atc, "WHO_Version")
         safe_metric("Status", atc, "Status")    
+
+    # -------------------------
+    # Therapeutic
+    # -------------------------
+    with tab5:
+        safe_metric("Therapeutic Class",therapeutic,"Therapeutic_Class_Name",)
+        safe_metric("Description",therapeutic,"Description",)
+        safe_metric("WHO Reference",therapeutic,"WHO_Reference",)
+        safe_metric("Status",therapeutic,"Status",)  
+    
+        # -------------------------
+        # Pharmacological
+        # -------------------------
+    with tab6:
+        safe_metric("Pharmacological Class",pharmacological,"Pharmacological_Class_Name",)
+        safe_metric("Description",pharmacological,"Description",)
+        safe_metric("WHO Reference",pharmacological,"WHO_Reference",)
+        safe_metric("Status",pharmacological,"Status",)

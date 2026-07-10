@@ -33,7 +33,10 @@ _MANAGERS = {
     "GEN": IDGenerator("GEN"),
     "CMP": IDGenerator("CMP"),
     "BRD": IDGenerator("BRD"),
+    "PRD": IDGenerator("PRD"),
     "ATC": IDGenerator("ATC"),
+    "THR": IDGenerator("THR"),
+    "PHR": IDGenerator("PHR"),
     "MAP": IDGenerator("MAP"),
 }
 
@@ -52,3 +55,28 @@ def get_next_atc_id(last_id: Optional[str], count: int = 1) -> List[str]:
     return _MANAGERS["ATC"].generate(last_id, count)
 def get_next_mapping_id(last_id: Optional[str], count: int = 1) -> List[str]:
     return _MANAGERS["MAP"].generate(last_id, count)
+def get_next_therapeutic_id(
+    last_id: Optional[str],
+    count: int = 1,
+) -> List[str]:
+    """
+    Generate sequential Therapeutic Class IDs.
+
+    Example:
+        THR000001
+        THR000002
+    """
+    return _MANAGERS["THR"].generate(last_id, count)
+
+def get_next_pharmacological_id(
+    last_id: Optional[str],
+    count: int = 1,
+) -> List[str]:
+    """
+    Generate sequential Pharmacological Class IDs.
+
+    Example:
+        PHR000001
+        PHR000002
+    """
+    return _MANAGERS["PHR"].generate(last_id, count)

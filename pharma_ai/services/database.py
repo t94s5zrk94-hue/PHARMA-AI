@@ -32,12 +32,20 @@ class PharmaDatabase:
                                           ["Product_ID", "Generic_ID"])
             atc_dir = os.path.join(DATABASE_DIR, "atc") 
             self.atc = self._load_csv(os.path.join(atc_dir, "atc_master.csv"),
-                                      ["ATC_ID", "ATC_Code", "ATC_Name"]
-            )  
+                                      ["ATC_ID", "ATC_Code", "ATC_Name"])  
             self.generic_atc_mapping = self._load_csv(
                                      os.path.join(DATABASE_DIR, "mapping", "generic_atc_mapping.csv"),
-                                     ["Generic_ID", "ATC_ID"]
-            )
+                                     ["Generic_ID", "ATC_ID"])
+            self.generic_class_mapping = self._load_csv(
+                                     os.path.join(DATABASE_DIR, "mapping", "generic_class_mapping.csv"),
+                                    ["Generic_ID","Therapeutic_Class_ID","Pharmacological_Class_ID",],)
+            self.therapeutic = self._load_csv(
+                                     os.path.join(DATABASE_DIR, "therapeutic", "therapeutic_master.csv"),
+                                     ["Therapeutic_Class_ID", "Therapeutic_Class_Name"],)
+            self.pharmacological = self._load_csv(
+                                    os.path.join(DATABASE_DIR, "pharmacological", "pharmacological_master.csv"),
+                                    ["Pharmacological_Class_ID", "Pharmacological_Class_Name"],)
+            
             logger.info("Database loaded successfully.")
         except Exception as e:
             logger.error(f"Critical error loading database files: {e}")
@@ -89,21 +97,63 @@ class PharmaDatabase:
     def get_complete_medicine(self, medicine_name: str) -> Optional[dict[str, Any]]:
         """Retrieves comprehensive data by brand or generic name."""
         try:
-            brand_match = self.brand[self.brand["Brand_Name"].str.contains(medicine_name, case=False, na=False)]
-            
+            # -----------------------------
+            # Brand Search
+            # -----------------------------
+            brand_match = self.brand[
+                self.brand["Brand_Name"].str.contains(
+                    medicine_name,
+                    case=False,
+                    na=False,
+                )
+            ]
+
             if not brand_match.empty:
                 brand_row = brand_match.iloc[0]
             else:
-                generic_match = self.generic[self.generic["Generic_Name"].str.contains(medicine_name, case=False, na=False)]
-                if generic_match.empty: return None
+                # -----------------------------
+                # Generic Search
+                # -----------------------------
+                generic_match = self.generic[
+                    self.generic["Generic_Name"].str.contains(
+                        medicine_name,
+                        case=False,
+                        na=False,
+                    )
+                ]
+
+                if generic_match.empty:
+                    return None
+
                 generic_row = generic_match.iloc[0]
-                brand_match = self.brand[self.brand["Generic_ID"] == generic_row["Generic_ID"]]
-                if brand_match.empty: return None
+
+                brand_match = self.brand[
+                    self.brand["Generic_ID"] == generic_row["Generic_ID"]
+                ]
+
+                if brand_match.empty:
+                    return None
+
                 brand_row = brand_match.iloc[0]
 
-            generic_row = self.generic[self.generic["Generic_ID"] == brand_row["Generic_ID"]]
-            company_row = self.company[self.company["Company_ID"] == brand_row["Company_ID"]]
-            product_row = self.product[self.product["Generic_ID"] == brand_row["Generic_ID"]]
+            # -----------------------------
+            # Related Master Records
+            # -----------------------------
+            generic_row = self.generic[
+                self.generic["Generic_ID"] == brand_row["Generic_ID"]
+            ]
+
+            company_row = self.company[
+                self.company["Company_ID"] == brand_row["Company_ID"]
+            ]
+
+            product_row = self.product[
+                self.product["Generic_ID"] == brand_row["Generic_ID"]
+            ]
+
+            # -----------------------------
+            # ATC Mapping
+            # -----------------------------
             mapping_row = self.generic_atc_mapping[
                 self.generic_atc_mapping["Generic_ID"] == brand_row["Generic_ID"]
             ]
@@ -115,13 +165,66 @@ class PharmaDatabase:
             else:
                 atc_row = pd.DataFrame()
 
+            # -----------------------------
+            # Therapeutic & Pharmacological Mapping
+            # -----------------------------
+            class_mapping_row = self.generic_class_mapping[
+                self.generic_class_mapping["Generic_ID"] == brand_row["Generic_ID"]
+            ]
+
+            if not class_mapping_row.empty:
+                therapeutic_row = self.therapeutic[
+                    self.therapeutic["Therapeutic_Class_ID"]
+                    == class_mapping_row.iloc[0]["Therapeutic_Class_ID"]
+                ]
+
+                pharmacological_row = self.pharmacological[
+                    self.pharmacological["Pharmacological_Class_ID"]
+                    == class_mapping_row.iloc[0]["Pharmacological_Class_ID"]
+                ]
+            else:
+                therapeutic_row = pd.DataFrame()
+                pharmacological_row = pd.DataFrame()
+
+            # -----------------------------
+            # Final Response
+            # -----------------------------
             return {
                 "brand": brand_row.to_dict(),
-                "generic": generic_row.iloc[0].to_dict() if not generic_row.empty else {},
-                "company": company_row.iloc[0].to_dict() if not company_row.empty else {},
-                "product": product_row.iloc[0].to_dict() if not product_row.empty else {},
-                "atc": atc_row.iloc[0].to_dict() if not atc_row.empty else {},
+                "generic": (
+                    generic_row.iloc[0].to_dict()
+                    if not generic_row.empty
+                    else {}
+                ),
+                "company": (
+                    company_row.iloc[0].to_dict()
+                    if not company_row.empty
+                    else {}
+                ),
+                "product": (
+                    product_row.iloc[0].to_dict()
+                    if not product_row.empty
+                    else {}
+                ),
+                "atc": (
+                    atc_row.iloc[0].to_dict()
+                    if not atc_row.empty
+                    else {}
+                ),
+                "therapeutic": (
+                    therapeutic_row.iloc[0].to_dict()
+                    if not therapeutic_row.empty
+                    else {}
+                ),
+                "pharmacological": (
+                    pharmacological_row.iloc[0].to_dict()
+                    if not pharmacological_row.empty
+                    else {}
+                ),
             }
+
         except Exception as e:
-            logger.error(f"Error in get_complete_medicine for {medicine_name}: {e}")
+            logger.error(
+                f"Error in get_complete_medicine for {medicine_name}: {e}"
+            )
             return None

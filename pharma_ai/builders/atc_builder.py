@@ -60,8 +60,7 @@ class ATCBuilder(BaseBuilder):
         new_df = self._validate_duplicates(new_df)
 
     # Step 6
-        master_df = self._load_master()
-
+        master_df = pd.DataFrame(columns=self.OUTPUT_COLUMNS)
     # Step 7
         new_df = self._generate_ids(new_df, master_df)
 
