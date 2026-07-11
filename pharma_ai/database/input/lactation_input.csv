@@ -1,0 +1,14 @@
+Generic_Name,Lactation_Risk,Recommendation,Clinical_Notes,Evidence_Level,Primary_Reference,Status
+Paracetamol,Compatible,Continue,Compatible with breastfeeding when used at recommended doses.,High,BNF,Active
+Metformin,Compatible,Continue,Compatible during breastfeeding with minimal transfer into breast milk.,High,SmPC,Active
+Aspirin,Use with Caution,Consult Doctor,Low-dose aspirin may be used in selected cases under medical supervision.,Moderate,BNF,Active
+Ramipril,Use with Caution,Consult Doctor,Limited human data are available and alternative medicines may be preferred for newborn infants.,Moderate,SmPC,Active
+Pantoprazole,Compatible,Continue,Minimal transfer into breast milk and generally considered acceptable.,Moderate,SmPC,Active
+Atorvastatin,Contraindicated,Avoid,Statins are generally not recommended during breastfeeding.,High,FDA Label,Active
+Amlodipine,Compatible,Continue,Small amounts are present in breast milk and it is generally considered acceptable.,Moderate,SmPC,Active
+Amoxicillin,Compatible,Continue,Widely considered compatible with breastfeeding.,High,BNF,Active
+Cefixime,Compatible,Continue,Compatible with breastfeeding although infant monitoring is advisable.,Moderate,SmPC,Active
+Pregabalin,Use with Caution,Monitor Infant,Monitor the breastfed infant for excessive drowsiness and poor feeding.,Moderate,FDA Label,Active
+Aceclofenac + Paracetamol,Use with Caution,Consult Doctor,Short-term use may be acceptable under medical supervision.,Moderate,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Use with Caution,Consult Doctor,Limited safety data are available during breastfeeding.,Low,SmPC,Active
+Telmisartan + Amlodipine,Contraindicated,Avoid,Alternative antihypertensive medicines are generally preferred during breastfeeding.,Moderate,FDA Label,Active
