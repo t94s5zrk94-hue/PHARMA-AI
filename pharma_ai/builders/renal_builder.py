@@ -1,0 +1,327 @@
+import logging
+from pathlib import Path
+
+import pandas as pd
+
+from pharma_ai.builders.base_builder import BaseBuilder
+from pharma_ai.builders.id_generator import get_next_renal_id
+
+class RenalBuilder(BaseBuilder):
+    """
+    Phase 15.7
+    Renal Dose Adjustment Builder
+    """
+
+    REQUIRED_COLUMNS = [
+        "Generic_Name",
+        "Renal_Category",
+        "eGFR_Min",
+        "eGFR_Max",
+        "Dose_Recommendation",
+        "Clinical_Note",
+        "Dialysis",
+        "Evidence_Level",
+        "Primary_Reference",
+        "Status",
+    ]
+
+    VALID_RENAL_CATEGORY = {
+        "Mild",
+        "Moderate",
+        "Severe",
+        "ESRD",
+    }
+
+    VALID_DIALYSIS = {
+        "Yes",
+        "No",
+    }
+
+    VALID_EVIDENCE = {
+        "High",
+        "Moderate",
+        "Low",
+    }
+
+    VALID_STATUS = {
+        "Active",
+        "Inactive",
+    }
+
+    def __init__(self):
+        """
+        Initialize Renal Builder.
+        """
+
+        self.logger = logging.getLogger(__name__)
+
+        self.input_file = Path(
+            "pharma_ai/database/input/renal_input.csv"
+        )
+
+        self.master_file = Path(
+            "pharma_ai/database/clinical/renal/renal_master.csv"
+        )
+
+        super().__init__(
+            input_file=self.input_file,
+            output_path=self.master_file,
+            required_columns=self.REQUIRED_COLUMNS,
+        )
+
+        self.generic_master_file = Path(
+            "pharma_ai/database/medicine/generic_master.csv"
+        )
+
+        self.df = pd.DataFrame()
+        self.master_df = pd.DataFrame()
+        self.generic_df = pd.DataFrame()
+
+        self.logger.info("RenalBuilder initialized.")
+
+    def _load_input(self):
+
+        self.logger.info("Loading renal input...")
+
+        self.df = pd.read_csv(self.input_file)
+
+        self.logger.info(
+            "Loaded %d renal records.",
+            len(self.df),
+        )
+
+    def _validate_schema(self):
+
+        self.logger.info("Validating required columns...")
+
+        missing_columns = [
+            col
+            for col in self.REQUIRED_COLUMNS
+            if col not in self.df.columns
+        ]
+
+        if missing_columns:
+            raise ValueError(
+                f"Missing required columns: {missing_columns}"
+            )
+
+        self.logger.info("Schema validation passed.")
+
+    def _validate_business_rules(self):
+
+        self.logger.info("Validating business rules...")
+
+        if not self.df["Renal_Category"].isin(
+            self.VALID_RENAL_CATEGORY
+        ).all():
+            raise ValueError("Invalid Renal_Category found.")
+
+        if not self.df["Dialysis"].isin(
+            self.VALID_DIALYSIS
+        ).all():
+            raise ValueError("Invalid Dialysis value found.")
+
+        if not self.df["Evidence_Level"].isin(
+            self.VALID_EVIDENCE
+        ).all():
+            raise ValueError("Invalid Evidence_Level found.")
+
+        if not self.df["Status"].isin(
+            self.VALID_STATUS
+        ).all():
+            raise ValueError("Invalid Status found.")
+
+        invalid_egfr = self.df[
+            self.df["eGFR_Min"] > self.df["eGFR_Max"]
+        ]
+
+        if not invalid_egfr.empty:
+            raise ValueError(
+                "eGFR_Min cannot be greater than eGFR_Max."
+            )
+
+        self.logger.info("Business rule validation passed.")
+
+    def _validate_duplicates(self):
+
+        self.logger.info("Checking duplicate renal records...")
+
+        duplicate_mask = self.df.duplicated(
+            subset=[
+                "Generic_Name",
+                "Renal_Category",
+            ]
+        )
+
+        if duplicate_mask.any():
+
+            duplicates = self.df.loc[
+                duplicate_mask,
+                ["Generic_Name", "Renal_Category"],
+            ]
+
+            raise ValueError(
+                f"Duplicate renal records found:\n{duplicates}"
+            )
+
+        self.logger.info("Duplicate validation passed.")
+
+    def _load_existing_master(self):
+
+        self.logger.info("Loading existing master...")
+
+        if self.master_file.exists():
+
+            self.master_df = pd.read_csv(
+                self.master_file
+            )
+
+            self.logger.info(
+                "Existing master loaded (%d records).",
+                len(self.master_df),
+            )
+
+        else:
+
+            self.master_df = pd.DataFrame()
+
+            self.logger.info(
+                "Master file not found. New master will be created."
+            )
+
+        self.logger.info("Loading Generic Master...")
+
+        self.generic_df = pd.read_csv(
+            self.generic_master_file
+        )
+
+        self.logger.info(
+            "Loaded %d generic records.",
+            len(self.generic_df),
+        )
+    def _generate_ids(self):
+
+        self.logger.info("Generating Renal IDs...")
+
+        # Generic_Name -> Generic_ID Mapping
+        generic_map = dict(
+            zip(
+                self.generic_df["Generic_Name"],
+                self.generic_df["Generic_ID"],
+            )
+        )
+
+        self.df["Generic_ID"] = self.df["Generic_Name"].map(generic_map)
+
+        missing_generic = self.df[
+            self.df["Generic_ID"].isna()
+        ]
+
+        if not missing_generic.empty:
+            raise ValueError(
+                "Generic not found in generic_master.csv:\n"
+                f"{missing_generic[['Generic_Name']]}"
+            )
+
+       # Get last generated ID
+        last_id = None
+
+        if not self.master_df.empty:
+            last_id = self.master_df.iloc[-1]["Renal_ID"]
+
+        # Generate new IDs
+        self.df.insert(
+            0,
+            "Renal_ID",
+            get_next_renal_id(
+                last_id=last_id,
+                count=len(self.df),
+            ),
+        )
+
+        # Generic_Name હવે Master માં નહીં રાખીએ
+        self.df.drop(columns=["Generic_Name"], inplace=True)
+
+        self.logger.info("Renal IDs generated successfully.")
+
+    def _add_metadata(self):
+
+        self.logger.info("Adding metadata...")
+
+        timestamp = pd.Timestamp.now().strftime(
+            "%Y-%m-%d %H:%M:%S"
+        )
+
+        self.df["created_at"] = timestamp
+        self.df["updated_at"] = timestamp
+        self.df["version"] = "1.0"
+
+        self.logger.info("Metadata added successfully.")
+
+    def _merge_master(self):
+
+        self.logger.info("Merging master data...")
+
+        if self.master_df.empty:
+
+            final_df = self.df.copy()
+
+        else:
+
+            final_df = pd.concat(
+                [self.master_df, self.df],
+                ignore_index=True,
+            )
+
+            final_df.drop_duplicates(
+                subset=["Generic_ID", "Renal_Category"],
+                keep="last",
+                inplace=True,
+            )
+
+        final_df.to_csv(
+            self.master_file,
+            index=False,
+        )
+
+        self.logger.info(
+            "Renal master saved successfully (%d records).",
+            len(final_df),
+        )
+
+    def build(self):
+
+        self.logger.info(
+            "=" * 60
+        )
+        self.logger.info(
+            "Starting Renal Builder..."
+        )
+
+        self._load_input()
+        self._validate_schema()
+        self._validate_business_rules()
+        self._validate_duplicates()
+        self._load_existing_master()
+        self._generate_ids()
+        self._add_metadata()
+        self._merge_master()
+
+        self.logger.info(
+            "Renal Builder completed successfully."
+        )
+
+    @staticmethod
+    def main():
+
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s | %(levelname)s | %(message)s",
+        )
+
+        builder = RenalBuilder()
+        builder.build()
+
+
+if __name__ == "__main__":
+    RenalBuilder.main()    

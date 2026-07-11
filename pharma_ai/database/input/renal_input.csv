@@ -1,0 +1,14 @@
+Generic_Name,Renal_Category,eGFR_Min,eGFR_Max,Dose_Recommendation,Clinical_Note,Dialysis,Evidence_Level,Primary_Reference,Status
+Paracetamol,Mild,60,89,No dose adjustment required,Safe at standard doses,No,High,Lexicomp,Active
+Metformin,Moderate,30,59,Reduce maximum daily dose to 1000 mg,Monitor renal function regularly,No,High,ADA Guidelines,Active
+Aspirin,Severe,15,29,Use with caution,Monitor for bleeding and renal toxicity,No,Moderate,BNF,Active
+Ramipril,Moderate,30,59,Start with a lower dose and titrate slowly,Monitor serum creatinine and potassium,No,High,KDIGO,Active
+Pantoprazole,Mild,60,89,No dose adjustment required,No renal dose adjustment needed,No,High,Lexicomp,Active
+Atorvastatin,Severe,15,29,No dose adjustment required,Monitor for muscle toxicity,No,Moderate,Lexicomp,Active
+Amlodipine,Severe,15,29,No dose adjustment required,No adjustment generally required,No,High,BNF,Active
+Amoxicillin,Moderate,30,59,Reduce dose or extend dosing interval,Adjust based on infection severity,No,High,Lexicomp,Active
+Cefixime,Severe,15,29,Reduce daily dose by 50 percent,Monitor therapeutic response,No,High,Lexicomp,Active
+Pregabalin,Moderate,30,59,Reduce dose according to creatinine clearance,Dose depends on renal function,No,High,Prescribing Information,Active
+Aceclofenac + Paracetamol,Severe,15,29,Avoid prolonged use,NSAIDs may worsen renal impairment,No,Moderate,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Severe,15,29,Avoid if possible,Diclofenac may increase renal injury risk,No,Moderate,BNF,Active
+Telmisartan + Amlodipine,Moderate,30,59,Start at lower dose and monitor BP and creatinine,Monitor potassium and renal function,No,High,KDIGO,Active
