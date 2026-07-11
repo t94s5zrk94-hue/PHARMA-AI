@@ -1,0 +1,11 @@
+Generic_Name,Warning,Severity,Reason,Recommendation,Primary_Reference,Evidence_Level,Status
+Metformin,Lactic acidosis risk,Major,Rare but life-threatening complication,Monitor renal function,ADA,High,Active
+Aspirin,Gastrointestinal bleeding,Major,Increased bleeding risk,Use gastroprotection if indicated,BNF,High,Active
+Ramipril,Hyperkalemia,Major,May increase serum potassium,Monitor potassium levels,BNF,High,Active
+Ramipril,First-dose hypotension,Moderate,Risk of excessive blood pressure reduction,Start with low dose,BNF,Moderate,Active
+Atorvastatin,Myopathy,Major,Risk of muscle toxicity,Monitor for muscle pain,BNF,High,Active
+Pregabalin,Dizziness,Moderate,May impair alertness,Avoid driving until response known,BNF,Moderate,Active
+Pantoprazole,Long-term fracture risk,Minor,Reduced calcium absorption with prolonged use,Use lowest effective dose,BNF,Moderate,Active
+Amoxicillin,Antibiotic-associated diarrhea,Moderate,Alteration of gut flora,Advise patient to report severe diarrhea,BNF,Moderate,Active
+Cefixime,C. difficile-associated diarrhea,Major,Risk of severe colitis,Discontinue if suspected,BNF,High,Active
+Amlodipine,Peripheral edema,Moderate,Dose-related vasodilation,Monitor and adjust therapy if needed,BNF,Moderate,Active

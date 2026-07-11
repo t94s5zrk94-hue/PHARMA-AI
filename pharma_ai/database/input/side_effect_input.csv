@@ -1,0 +1,31 @@
+Generic_Name,Side_Effect,Frequency,Severity,Action,Patient_Counseling,Evidence_Level,Primary_Reference,Status
+Paracetamol,Nausea,Rare,Mild,Monitor,Usually mild and temporary; consult a doctor if persistent.,High,BNF,Active
+Paracetamol,Vomiting,Rare,Mild,Monitor,Maintain hydration and consult a doctor if symptoms persist.,High,BNF,Active
+Paracetamol,Skin Rash,Rare,Moderate,Consult Doctor,Stop medicine and seek medical advice if rash develops.,High,BNF,Active
+Paracetamol,Urticaria,Rare,Moderate,Consult Doctor,Discontinue medicine and consult a doctor immediately.,High,BNF,Active
+Paracetamol,Pruritus,Rare,Mild,Monitor,Report persistent itching to your healthcare provider.,Moderate,BNF,Active
+Paracetamol,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care.,High,FDA Label,Active
+Paracetamol,Stevens-Johnson Syndrome,Very Rare,Life-threatening,Emergency,Stop medicine immediately and seek emergency care.,High,SmPC,Active
+Paracetamol,Toxic Epidermal Necrolysis,Very Rare,Life-threatening,Emergency,Immediate hospitalization is required.,High,SmPC,Active
+Paracetamol,Elevated Liver Enzymes,Rare,Moderate,Consult Doctor,Liver function monitoring may be required in susceptible patients.,Moderate,SmPC,Active
+Paracetamol,Hepatotoxicity,Not Known,Severe,Emergency,Overdose requires immediate emergency treatment.,High,FDA Label,Active
+Metformin,Diarrhoea,Very Common,Mild,Monitor,Usually occurs at the start of treatment and often improves with time. Take with meals.,High,SmPC,Active
+Metformin,Nausea,Very Common,Mild,Monitor,Take the medicine with food to reduce stomach upset.,High,SmPC,Active
+Metformin,Vomiting,Common,Moderate,Consult Doctor,Maintain hydration and consult your doctor if symptoms persist.,High,SmPC,Active
+Metformin,Abdominal Pain,Common,Mild,Monitor,Usually temporary; taking the medicine with meals may help.,High,SmPC,Active
+Metformin,Loss of Appetite,Common,Mild,Monitor,Eat small frequent meals if appetite decreases.,Moderate,SmPC,Active
+Metformin,Taste Disturbance,Very Common,Mild,Monitor,This is usually temporary and improves with continued treatment.,High,SmPC,Active
+Metformin,Vitamin B12 Deficiency,Common,Moderate,Consult Doctor,Long-term treatment may require periodic Vitamin B12 monitoring.,High,BNF,Active
+Metformin,Lactic Acidosis,Very Rare,Life-threatening,Emergency,Stop the medicine and seek immediate emergency medical care.,High,FDA Label,Active
+Metformin,Hepatitis,Very Rare,Severe,Stop Medicine,Stop the medicine and contact your doctor immediately.,Moderate,SmPC,Active
+Metformin,Skin Rash,Rare,Moderate,Consult Doctor,Stop the medicine if the rash worsens and seek medical advice.,Moderate,SmPC,Active
+Aspirin,Dyspepsia,Common,Mild,Monitor,Take the medicine after food to reduce stomach irritation.,High,SmPC,Active
+Aspirin,Nausea,Common,Mild,Monitor,Take with food and adequate water if stomach upset occurs.,High,SmPC,Active
+Aspirin,Abdominal Pain,Common,Moderate,Consult Doctor,Consult your doctor if pain is severe or persistent.,High,SmPC,Active
+Aspirin,Gastrointestinal Bleeding,Uncommon,Severe,Emergency,Stop the medicine and seek immediate medical attention if blood is seen in vomit or stool.,High,FDA Label,Active
+Aspirin,Peptic Ulcer,Rare,Severe,Stop Medicine,Discontinue the medicine and consult your doctor immediately.,High,BNF,Active
+Aspirin,Hypersensitivity Reaction,Rare,Severe,Stop Medicine,Stop the medicine and seek medical advice immediately.,High,SmPC,Active
+Aspirin,Bronchospasm,Rare,Life-threatening,Emergency,Seek emergency medical care immediately especially in patients with asthma.,High,FDA Label,Active
+Aspirin,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical attention.,High,FDA Label,Active
+Aspirin,Tinnitus,Common,Moderate,Consult Doctor,May indicate high aspirin exposure; consult your doctor promptly.,High,BNF,Active
+Aspirin,Hemorrhagic Stroke,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care if sudden neurological symptoms develop.,High,FDA Label,Active

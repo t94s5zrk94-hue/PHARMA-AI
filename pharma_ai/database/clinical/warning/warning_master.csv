@@ -1,0 +1,11 @@
+Warning_ID,Generic_Name,Warning,Severity,Reason,Recommendation,Primary_Reference,Evidence_Level,Status,created_at,updated_at,version
+WRN000001,Metformin,Lactic acidosis risk,Major,Rare but life-threatening complication,Monitor renal function,ADA,High,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000002,Aspirin,Gastrointestinal bleeding,Major,Increased bleeding risk,Use gastroprotection if indicated,BNF,High,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000003,Ramipril,Hyperkalemia,Major,May increase serum potassium,Monitor potassium levels,BNF,High,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000004,Ramipril,First-dose hypotension,Moderate,Risk of excessive blood pressure reduction,Start with low dose,BNF,Moderate,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000005,Atorvastatin,Myopathy,Major,Risk of muscle toxicity,Monitor for muscle pain,BNF,High,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000006,Pregabalin,Dizziness,Moderate,May impair alertness,Avoid driving until response known,BNF,Moderate,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000007,Pantoprazole,Long-term fracture risk,Minor,Reduced calcium absorption with prolonged use,Use lowest effective dose,BNF,Moderate,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000008,Amoxicillin,Antibiotic-associated diarrhea,Moderate,Alteration of gut flora,Advise patient to report severe diarrhea,BNF,Moderate,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000009,Cefixime,C. difficile-associated diarrhea,Major,Risk of severe colitis,Discontinue if suspected,BNF,High,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
+WRN000010,Amlodipine,Peripheral edema,Moderate,Dose-related vasodilation,Monitor and adjust therapy if needed,BNF,Moderate,Active,2026-07-11T09:43:15.962104,2026-07-11T09:43:15.962104,1.0
