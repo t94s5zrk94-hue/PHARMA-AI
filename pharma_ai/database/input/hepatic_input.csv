@@ -1,0 +1,14 @@
+Generic_Name,Hepatic_Category,Child_Pugh_Class,Dose_Recommendation,Clinical_Note,Contraindicated,Evidence_Level,Primary_Reference,Status
+Paracetamol,Mild,A,Use standard dose; avoid exceeding 4 g/day,Monitor liver function in chronic liver disease,No,High,Lexicomp,Active
+Metformin,Mild,A,Use with caution in stable liver disease,Avoid if severe hepatic impairment due to lactic acidosis risk,No,High,ADA Guidelines,Active
+Aspirin,Moderate,B,Use with caution; monitor bleeding risk,Avoid in severe liver disease with coagulopathy,No,Moderate,BNF,Active
+Ramipril,Mild,A,No dose adjustment required,Monitor blood pressure and renal function,No,High,Lexicomp,Active
+Pantoprazole,Mild,A,No dose adjustment required,Generally safe in mild hepatic impairment,No,High,BNF,Active
+Atorvastatin,Moderate,B,Start with lowest effective dose,Monitor liver enzymes periodically,No,High,Lexicomp,Active
+Amlodipine,Moderate,B,Start with lower dose,Titrate slowly in hepatic impairment,No,High,BNF,Active
+Amoxicillin,Mild,A,No dose adjustment required,Hepatic monitoring in prolonged therapy,No,High,Lexicomp,Active
+Cefixime,Mild,A,No dose adjustment required,No significant hepatic adjustment required,No,High,Lexicomp,Active
+Pregabalin,Mild,A,No dose adjustment required,Primarily eliminated by kidneys,No,High,Prescribing Information,Active
+Aceclofenac + Paracetamol,Severe,C,Avoid use,Increased risk of hepatotoxicity,Yes,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Severe,C,Contraindicated,High risk of severe liver injury,Yes,High,BNF,Active
+Telmisartan + Amlodipine,Moderate,B,Start with lower dose and monitor,Monitor blood pressure and liver function,No,Moderate,Lexicomp,Active

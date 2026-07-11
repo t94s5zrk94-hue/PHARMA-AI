@@ -1,0 +1,14 @@
+Hepatic_ID,Hepatic_Category,Child_Pugh_Class,Dose_Recommendation,Clinical_Note,Contraindicated,Evidence_Level,Primary_Reference,Status,Generic_ID,created_at,updated_at,version
+HEP000001,Mild,A,Use standard dose; avoid exceeding 4 g/day,Monitor liver function in chronic liver disease,No,High,Lexicomp,Active,GEN000001,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000002,Mild,A,Use with caution in stable liver disease,Avoid if severe hepatic impairment due to lactic acidosis risk,No,High,ADA Guidelines,Active,GEN000002,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000003,Moderate,B,Use with caution; monitor bleeding risk,Avoid in severe liver disease with coagulopathy,No,Moderate,BNF,Active,GEN000003,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000004,Mild,A,No dose adjustment required,Monitor blood pressure and renal function,No,High,Lexicomp,Active,GEN000004,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000005,Mild,A,No dose adjustment required,Generally safe in mild hepatic impairment,No,High,BNF,Active,GEN000005,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000006,Moderate,B,Start with lowest effective dose,Monitor liver enzymes periodically,No,High,Lexicomp,Active,GEN000006,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000007,Moderate,B,Start with lower dose,Titrate slowly in hepatic impairment,No,High,BNF,Active,GEN000007,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000008,Mild,A,No dose adjustment required,Hepatic monitoring in prolonged therapy,No,High,Lexicomp,Active,GEN000008,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000009,Mild,A,No dose adjustment required,No significant hepatic adjustment required,No,High,Lexicomp,Active,GEN000009,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000010,Mild,A,No dose adjustment required,Primarily eliminated by kidneys,No,High,Prescribing Information,Active,GEN000010,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000011,Severe,C,Avoid use,Increased risk of hepatotoxicity,Yes,High,BNF,Active,GEN000011,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000012,Severe,C,Contraindicated,High risk of severe liver injury,Yes,High,BNF,Active,GEN000012,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
+HEP000013,Moderate,B,Start with lower dose and monitor,Monitor blood pressure and liver function,No,Moderate,Lexicomp,Active,GEN000013,2026-07-11 12:09:27,2026-07-11 12:09:27,1.0
