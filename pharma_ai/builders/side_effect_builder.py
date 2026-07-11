@@ -12,16 +12,12 @@ Output:
 - side_effect_master.csv
 """
 
-from datetime import datetime
 from pathlib import Path
-import time
 
 import pandas as pd
 
-from pharma_ai.builders.base_builder import BaseBuilder
-from pharma_ai.builders.id_generator import (
-    get_next_side_effect_id,
-)
+from pharma_ai.builders.clinical_base_builder import ClinicalBaseBuilder
+
 
 INPUT_FILE = (
     "pharma_ai/database/input/side_effect_input.csv"
@@ -59,34 +55,29 @@ OUTPUT_COLUMNS = [
     "updated_at",
     "version",
 ]
-class SideEffectBuilder(BaseBuilder):
-    """Production Side Effect Builder."""
+class SideEffectBuilder(ClinicalBaseBuilder):
+    INPUT_FILE = INPUT_FILE
 
-    def __init__(self):
+    OUTPUT_FILE = OUTPUT_FILE
 
-        super().__init__(
-            input_file=INPUT_FILE,
-            output_path=OUTPUT_FILE,
-            required_columns=REQUIRED_COLUMNS,
-        )
-    def _load_input(self) -> pd.DataFrame:
-        """Load side effect input."""
+    REQUIRED_COLUMNS = REQUIRED_COLUMNS
 
-        df = self.load_csv()
+    OUTPUT_COLUMNS = OUTPUT_COLUMNS
 
-        print(f"Loaded {len(df)} input records.")
+    ID_PREFIX = "SFX"
 
-        return df
-    
-    def _validate_schema(
-        self,
-        df: pd.DataFrame,
-    ) -> None:
-        """Validate input schema."""
+    MASTER_KEY = "SideEffect_ID"
 
-        self.validate_columns(df)
+    DUPLICATE_COLUMNS = [
+        "Generic_Name",
+        "Side_Effect",
+    ]
 
-        print("Schema validation passed.")
+    MERGE_COLUMNS = [
+        "Generic_Name",
+        "Side_Effect",
+    ]
+
     def _validate_business_rules(
         self,
         df: pd.DataFrame,
@@ -107,164 +98,9 @@ class SideEffectBuilder(BaseBuilder):
             .str.strip()
         )
 
-        df = df.drop_duplicates()
-
         print("Business validation passed.")
 
         return df
-    
-    def _validate_duplicates(
-        self,
-        df: pd.DataFrame,
-    ) -> pd.DataFrame:
-        """Remove duplicate side effects."""
-
-        before = len(df)
-
-        df = df.drop_duplicates(
-            subset=[
-                "Generic_Name",
-                "Side_Effect",
-            ]
-        )
-
-        removed = before - len(df)
-
-        print(
-            f"Duplicate records removed: {removed}"
-        )
-
-        return df
-    
-    def _load_existing_master(
-        self,
-    ) -> pd.DataFrame:
-        """Load existing side effect master."""
-
-        output_path = Path(OUTPUT_FILE)
-
-        if output_path.exists():
-
-            print("Loading existing side effect master...")
-
-            return pd.read_csv(output_path)
-
-        print("No existing side effect master found.")
-
-        return pd.DataFrame(columns=OUTPUT_COLUMNS)
-    
-    def _generate_ids(
-        self,
-        df: pd.DataFrame,
-    ) -> pd.DataFrame:
-        """Generate Side Effect IDs."""
-
-        master_df = self._load_existing_master()
-
-        if master_df.empty:
-            last_id = None
-        else:
-            last_id = master_df["SideEffect_ID"].iloc[-1]
-
-        ids = get_next_side_effect_id(
-            last_id,
-            len(df),
-        )
-
-        df.insert(
-            0,
-            "SideEffect_ID",
-            ids,
-        )
-
-        print("Side Effect IDs generated.")
-
-        return df
-    
-    def _add_metadata(
-        self,
-        df: pd.DataFrame,
-    ) -> pd.DataFrame:
-        """Add production metadata."""
-
-        timestamp = datetime.now().isoformat()
-
-        df["created_at"] = timestamp
-        df["updated_at"] = timestamp
-        df["version"] = "1.0"
-
-        print("Metadata added.")
-
-        return df
-    def _merge_master(
-        self,
-        df: pd.DataFrame,
-    ) -> pd.DataFrame:
-        """Merge with existing side effect master."""
-
-        master_df = self._load_existing_master()
-
-        final_df = pd.concat(
-            [
-                master_df,
-                df,
-            ],
-            ignore_index=True,
-        )
-
-        final_df = final_df.drop_duplicates(
-            subset=[
-                "Generic_Name",
-                "Side_Effect",
-            ],
-            keep="first",
-        )
-
-        final_df = final_df[OUTPUT_COLUMNS]
-
-        print(
-            f"Master contains {len(final_df)} records."
-        )
-
-        return final_df
-    def build(self) -> dict:
-        """Build side effect master."""
-
-        start_time = time.time()
-
-        print("\nStarting Side Effect Builder...")
-
-        df = self._load_input()
-
-        input_records = len(df)
-
-        self._validate_schema(df)
-
-        df = self._validate_business_rules(df)
-
-        df = self._validate_duplicates(df)
-
-        df = self._generate_ids(df)
-
-        df = self._add_metadata(df)
-
-        final_df = self._merge_master(df)
-
-        self.save_csv(final_df)
-
-        summary = self.get_summary(
-            start_time=start_time,
-            input_count=input_records,
-            output_count=len(final_df),
-            dups_removed=input_records - len(df),
-            skipped=0,
-            failed=0,
-            status="SUCCESS",
-        )
-
-        print("\nSide Effect Builder Completed Successfully.")
-
-        return summary
     
 def main() -> None:
     """Run Side Effect Builder."""

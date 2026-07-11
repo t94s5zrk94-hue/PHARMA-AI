@@ -1,31 +1,31 @@
 SideEffect_ID,Generic_Name,Side_Effect,Frequency,Severity,Action,Patient_Counseling,Evidence_Level,Primary_Reference,Status,created_at,updated_at,version
-SEF000001,Paracetamol,Nausea,Rare,Mild,Monitor,Usually mild and temporary; consult a doctor if persistent.,High,BNF,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000002,Paracetamol,Vomiting,Rare,Mild,Monitor,Maintain hydration and consult a doctor if symptoms persist.,High,BNF,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000003,Paracetamol,Skin Rash,Rare,Moderate,Consult Doctor,Stop medicine and seek medical advice if rash develops.,High,BNF,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000004,Paracetamol,Urticaria,Rare,Moderate,Consult Doctor,Discontinue medicine and consult a doctor immediately.,High,BNF,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000005,Paracetamol,Pruritus,Rare,Mild,Monitor,Report persistent itching to your healthcare provider.,Moderate,BNF,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000006,Paracetamol,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care.,High,FDA Label,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000007,Paracetamol,Stevens-Johnson Syndrome,Very Rare,Life-threatening,Emergency,Stop medicine immediately and seek emergency care.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000008,Paracetamol,Toxic Epidermal Necrolysis,Very Rare,Life-threatening,Emergency,Immediate hospitalization is required.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000009,Paracetamol,Elevated Liver Enzymes,Rare,Moderate,Consult Doctor,Liver function monitoring may be required in susceptible patients.,Moderate,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000010,Paracetamol,Hepatotoxicity,Not Known,Severe,Emergency,Overdose requires immediate emergency treatment.,High,FDA Label,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000011,Metformin,Diarrhoea,Very Common,Mild,Monitor,Usually occurs at the start of treatment and often improves with time. Take with meals.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000012,Metformin,Nausea,Very Common,Mild,Monitor,Take the medicine with food to reduce stomach upset.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000013,Metformin,Vomiting,Common,Moderate,Consult Doctor,Maintain hydration and consult your doctor if symptoms persist.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000014,Metformin,Abdominal Pain,Common,Mild,Monitor,Usually temporary; taking the medicine with meals may help.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000015,Metformin,Loss of Appetite,Common,Mild,Monitor,Eat small frequent meals if appetite decreases.,Moderate,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000016,Metformin,Taste Disturbance,Very Common,Mild,Monitor,This is usually temporary and improves with continued treatment.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000017,Metformin,Vitamin B12 Deficiency,Common,Moderate,Consult Doctor,Long-term treatment may require periodic Vitamin B12 monitoring.,High,BNF,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000018,Metformin,Lactic Acidosis,Very Rare,Life-threatening,Emergency,Stop the medicine and seek immediate emergency medical care.,High,FDA Label,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000019,Metformin,Hepatitis,Very Rare,Severe,Stop Medicine,Stop the medicine and contact your doctor immediately.,Moderate,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000020,Metformin,Skin Rash,Rare,Moderate,Consult Doctor,Stop the medicine if the rash worsens and seek medical advice.,Moderate,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000021,Aspirin,Dyspepsia,Common,Mild,Monitor,Take the medicine after food to reduce stomach irritation.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000022,Aspirin,Nausea,Common,Mild,Monitor,Take with food and adequate water if stomach upset occurs.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000023,Aspirin,Abdominal Pain,Common,Moderate,Consult Doctor,Consult your doctor if pain is severe or persistent.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000024,Aspirin,Gastrointestinal Bleeding,Uncommon,Severe,Emergency,Stop the medicine and seek immediate medical attention if blood is seen in vomit or stool.,High,FDA Label,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000025,Aspirin,Peptic Ulcer,Rare,Severe,Stop Medicine,Discontinue the medicine and consult your doctor immediately.,High,BNF,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000026,Aspirin,Hypersensitivity Reaction,Rare,Severe,Stop Medicine,Stop the medicine and seek medical advice immediately.,High,SmPC,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000027,Aspirin,Bronchospasm,Rare,Life-threatening,Emergency,Seek emergency medical care immediately especially in patients with asthma.,High,FDA Label,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000028,Aspirin,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical attention.,High,FDA Label,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000029,Aspirin,Tinnitus,Common,Moderate,Consult Doctor,May indicate high aspirin exposure; consult your doctor promptly.,High,BNF,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
-SEF000030,Aspirin,Hemorrhagic Stroke,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care if sudden neurological symptoms develop.,High,FDA Label,Active,2026-07-11T10:33:40.004898,2026-07-11T10:33:40.004898,1.0
+SEF000001,Paracetamol,Nausea,Rare,Mild,Monitor,Usually mild and temporary; consult a doctor if persistent.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000002,Paracetamol,Vomiting,Rare,Mild,Monitor,Maintain hydration and consult a doctor if symptoms persist.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000003,Paracetamol,Skin Rash,Rare,Moderate,Consult Doctor,Stop medicine and seek medical advice if rash develops.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000004,Paracetamol,Urticaria,Rare,Moderate,Consult Doctor,Discontinue medicine and consult a doctor immediately.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000005,Paracetamol,Pruritus,Rare,Mild,Monitor,Report persistent itching to your healthcare provider.,Moderate,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000006,Paracetamol,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000007,Paracetamol,Stevens-Johnson Syndrome,Very Rare,Life-threatening,Emergency,Stop medicine immediately and seek emergency care.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000008,Paracetamol,Toxic Epidermal Necrolysis,Very Rare,Life-threatening,Emergency,Immediate hospitalization is required.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000009,Paracetamol,Elevated Liver Enzymes,Rare,Moderate,Consult Doctor,Liver function monitoring may be required in susceptible patients.,Moderate,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000010,Paracetamol,Hepatotoxicity,Not Known,Severe,Emergency,Overdose requires immediate emergency treatment.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000011,Metformin,Diarrhoea,Very Common,Mild,Monitor,Usually occurs at the start of treatment and often improves with time. Take with meals.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000012,Metformin,Nausea,Very Common,Mild,Monitor,Take the medicine with food to reduce stomach upset.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000013,Metformin,Vomiting,Common,Moderate,Consult Doctor,Maintain hydration and consult your doctor if symptoms persist.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000014,Metformin,Abdominal Pain,Common,Mild,Monitor,Usually temporary; taking the medicine with meals may help.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000015,Metformin,Loss of Appetite,Common,Mild,Monitor,Eat small frequent meals if appetite decreases.,Moderate,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000016,Metformin,Taste Disturbance,Very Common,Mild,Monitor,This is usually temporary and improves with continued treatment.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000017,Metformin,Vitamin B12 Deficiency,Common,Moderate,Consult Doctor,Long-term treatment may require periodic Vitamin B12 monitoring.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000018,Metformin,Lactic Acidosis,Very Rare,Life-threatening,Emergency,Stop the medicine and seek immediate emergency medical care.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000019,Metformin,Hepatitis,Very Rare,Severe,Stop Medicine,Stop the medicine and contact your doctor immediately.,Moderate,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000020,Metformin,Skin Rash,Rare,Moderate,Consult Doctor,Stop the medicine if the rash worsens and seek medical advice.,Moderate,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000021,Aspirin,Dyspepsia,Common,Mild,Monitor,Take the medicine after food to reduce stomach irritation.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000022,Aspirin,Nausea,Common,Mild,Monitor,Take with food and adequate water if stomach upset occurs.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000023,Aspirin,Abdominal Pain,Common,Moderate,Consult Doctor,Consult your doctor if pain is severe or persistent.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000024,Aspirin,Gastrointestinal Bleeding,Uncommon,Severe,Emergency,Stop the medicine and seek immediate medical attention if blood is seen in vomit or stool.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000025,Aspirin,Peptic Ulcer,Rare,Severe,Stop Medicine,Discontinue the medicine and consult your doctor immediately.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000026,Aspirin,Hypersensitivity Reaction,Rare,Severe,Stop Medicine,Stop the medicine and seek medical advice immediately.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000027,Aspirin,Bronchospasm,Rare,Life-threatening,Emergency,Seek emergency medical care immediately especially in patients with asthma.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000028,Aspirin,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical attention.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000029,Aspirin,Tinnitus,Common,Moderate,Consult Doctor,May indicate high aspirin exposure; consult your doctor promptly.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000030,Aspirin,Hemorrhagic Stroke,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care if sudden neurological symptoms develop.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
