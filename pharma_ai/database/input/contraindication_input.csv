@@ -9,3 +9,28 @@ Amoxicillin,Penicillin allergy,Absolute,Severe hypersensitivity risk,Avoid use,B
 Pregabalin,Hypersensitivity,Absolute,Allergic reaction risk,Discontinue immediately,BNF,Moderate,Active
 Pantoprazole,Rilpivirine therapy,Relative,Reduced antiviral absorption,Avoid combination,BNF,Moderate,Active
 Atorvastatin,Active liver disease,Absolute,Risk of hepatotoxicity,Do not prescribe,BNF,High,Active
+Amlodipine,Hypersensitivity to Amlodipine,Critical,Known allergy to amlodipine or formulation components,Do not administer amlodipine; use an alternative antihypertensive,BNF,High,Active
+Amlodipine,Severe Hypotension,Major,May worsen existing severe hypotension,Avoid use until blood pressure is stabilized,BNF,High,Active
+Amlodipine,Cardiogenic Shock,Critical,Vasodilation may further reduce cardiac output,Contraindicated in cardiogenic shock,BNF,High,Active
+Amlodipine,Hemodynamically Unstable Heart Failure,Major,May aggravate unstable cardiac status,Use only under specialist supervision if absolutely necessary,BNF,Moderate,Active
+Amlodipine,Severe Aortic Stenosis,Major,Peripheral vasodilation may compromise coronary perfusion,Use with extreme caution or avoid,BNF,Moderate,Active
+Cefixime,Hypersensitivity to Cefixime,Critical,Known allergy to cefixime or other cephalosporins,Do not administer cefixime; use an alternative antibiotic,BNF,High,Active
+Cefixime,Severe Cephalosporin Allergy,Critical,Risk of life-threatening allergic reaction,Avoid cefixime completely,BNF,High,Active
+Cefixime,History of Anaphylaxis to Beta-lactam Antibiotics,Critical,Cross-reactivity may occur,Use only if no safer alternative is available under specialist supervision,BNF,High,Active
+Cefixime,Previous Cefixime-induced Stevens-Johnson Syndrome,Critical,Risk of recurrence with re-exposure,Permanently avoid cefixime,BNF,High,Active
+Cefixime,Previous Toxic Epidermal Necrolysis due to Cefixime,Critical,Risk of severe recurrent cutaneous adverse reaction,Do not re-administer cefixime,BNF,High,Active
+Aceclofenac + Paracetamol,Hypersensitivity to Aceclofenac or Paracetamol,Critical,Known allergy to aceclofenac paracetamol or formulation components,Do not administer this combination; use an alternative analgesic,BNF,High,Active
+Aceclofenac + Paracetamol,Active Peptic Ulcer Disease,Critical,NSAID component increases the risk of gastrointestinal bleeding and ulcer perforation,Avoid use until ulcer is healed,BNF,High,Active
+Aceclofenac + Paracetamol,History of NSAID-induced Gastrointestinal Bleeding,Critical,High risk of recurrent gastrointestinal bleeding,Contraindicated; select a safer alternative,BNF,High,Active
+Aceclofenac + Paracetamol,Severe Hepatic Impairment,Major,Reduced metabolism increases risk of hepatotoxicity,Avoid use in severe liver disease,BNF,High,Active
+Aceclofenac + Paracetamol,Severe Heart Failure,Major,NSAIDs may worsen heart failure and fluid retention,Avoid use; consider an alternative analgesic,BNF,High,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Hypersensitivity to Chlorzoxazone Diclofenac or Paracetamol,Critical,Known allergy to any component of the combination,Do not administer this combination; use an alternative therapy,BNF,High,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Active Peptic Ulcer Disease,Critical,Diclofenac increases the risk of gastrointestinal bleeding and ulcer perforation,Avoid use until ulcer is healed,BNF,High,Active
+Chlorzoxazone + Diclofenac + Paracetamol,History of NSAID-induced Gastrointestinal Bleeding,Critical,High risk of recurrent gastrointestinal bleeding,Contraindicated; select a safer alternative,BNF,High,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Severe Hepatic Impairment,Critical,Chlorzoxazone and paracetamol may significantly increase the risk of hepatotoxicity,Avoid use in severe liver disease,BNF,High,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Severe Heart Failure,Major,NSAID component may worsen heart failure and cause fluid retention,Avoid use; consider an alternative analgesic or muscle relaxant,BNF,High,Active
+Telmisartan + Amlodipine,Hypersensitivity to Telmisartan or Amlodipine,Critical,Known allergy to telmisartan amlodipine or formulation components,Do not administer this combination; use an alternative antihypertensive,BNF,High,Active
+Telmisartan + Amlodipine,Pregnancy,Critical,Drugs affecting the renin-angiotensin system can cause fetal injury and death,Discontinue immediately when pregnancy is detected and switch to a safer alternative,BNF,High,Active
+Telmisartan + Amlodipine,Severe Hypotension,Major,May further reduce blood pressure causing hemodynamic instability,Avoid use until blood pressure is stabilized,BNF,High,Active
+Telmisartan + Amlodipine,Biliary Obstructive Disorders,Major,Telmisartan is primarily eliminated via the biliary route,Avoid use in severe biliary obstruction or cholestasis,BNF,High,Active
+Telmisartan + Amlodipine,Cardiogenic Shock,Critical,Vasodilation may further compromise cardiac output,Contraindicated in cardiogenic shock,BNF,High,Active
