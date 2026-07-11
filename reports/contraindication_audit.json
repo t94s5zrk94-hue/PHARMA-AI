@@ -1,0 +1,29 @@
+{
+    "status": "SUCCESS",
+    "audit_results": {
+        "schema": true,
+        "missing_values": true,
+        "duplicates": true,
+        "enum": true,
+        "metadata": true
+    },
+    "statistics": {
+        "missing_values": 0,
+        "duplicate_ids": 0,
+        "duplicate_pairs": 0,
+        "total_records": 10,
+        "total_columns": 12,
+        "active_records": 10,
+        "inactive_records": 0,
+        "severity_distribution": {
+            "Absolute": 8,
+            "Relative": 2
+        },
+        "evidence_distribution": {
+            "High": 7,
+            "Moderate": 3
+        },
+        "health_score": 100,
+        "health_grade": "A+"
+    }
+}

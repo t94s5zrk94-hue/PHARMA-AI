@@ -1,0 +1,11 @@
+Generic_A,Generic_B,Severity,Mechanism,Clinical_Effect,Management,Evidence_Level,Primary_Reference,Status
+Aspirin,Ramipril,Moderate,Pharmacodynamic,NSAIDs may reduce the antihypertensive effect of ACE inhibitors and increase the risk of renal impairment,Monitor blood pressure and renal function; use the lowest effective NSAID dose,High,Lexicomp,Active
+Aspirin,Aceclofenac + Paracetamol,Major,Pharmacodynamic,Increased risk of gastrointestinal bleeding and ulceration,Avoid routine combination; if unavoidable consider gastroprotection and monitor for bleeding,High,Lexicomp,Active
+Ramipril,Aceclofenac + Paracetamol,Major,Pharmacodynamic,NSAIDs may reduce ACE inhibitor efficacy and increase the risk of acute kidney injury,Monitor renal function blood pressure and hydration; avoid prolonged combined use,High,Lexicomp,Active
+Ramipril,Telmisartan + Amlodipine,Major,Pharmacodynamic,Dual renin-angiotensin system blockade increases the risk of hypotension hyperkalemia and renal impairment,Avoid dual RAS blockade unless specifically indicated; monitor renal function and potassium closely,High,FDA,Active
+Aspirin,Telmisartan + Amlodipine,Moderate,Pharmacodynamic,NSAIDs may reduce antihypertensive effect and increase renal risk,Monitor blood pressure and kidney function,Moderate,BNF,Active
+Amlodipine,Atorvastatin,Moderate,Pharmacokinetic,Amlodipine may increase atorvastatin exposure leading to higher myopathy risk,Use recommended atorvastatin doses and monitor for muscle symptoms,Moderate,Lexicomp,Active
+Pregabalin,Amlodipine,Moderate,Pharmacodynamic,May increase dizziness somnolence and fall risk,Monitor CNS effects especially in elderly patients,Moderate,BNF,Active
+Pantoprazole,Aspirin,Minor,Pharmacodynamic,Pantoprazole reduces aspirin-associated gastrointestinal irritation,Combination is generally appropriate in patients at GI risk,High,WHO,Active
+Paracetamol,Aspirin,Minor,Pharmacodynamic,Usually no clinically significant interaction at therapeutic doses,Use as prescribed and monitor total analgesic use,High,WHO,Active
+Metformin,Pregabalin,Minor,Unknown,No clinically significant interaction is generally expected,Routine monitoring only,Low,Micromedex,Active

@@ -1,0 +1,30 @@
+{
+    "audit_results": {
+        "schema": true,
+        "missing_values": true,
+        "duplicates": true,
+        "enum": true,
+        "metadata": true
+    },
+    "statistics": {
+        "missing_values": 0,
+        "duplicate_ids": 0,
+        "duplicate_pairs": 0,
+        "total_records": 10,
+        "total_columns": 13,
+        "active_records": 10,
+        "inactive_records": 0,
+        "severity_distribution": {
+            "Moderate": 4,
+            "Major": 3,
+            "Minor": 3
+        },
+        "evidence_distribution": {
+            "High": 6,
+            "Moderate": 3,
+            "Low": 1
+        },
+        "health_score": 100,
+        "health_grade": "A+"
+    }
+}

@@ -1,0 +1,11 @@
+Generic_Name,Contraindication,Severity,Reason,Recommendation,Primary_Reference,Evidence_Level,Status
+Ramipril,History of angioedema,Absolute,High risk of recurrent angioedema,Do not prescribe,BNF,High,Active
+Ramipril,Pregnancy,Absolute,Fetal toxicity,Use alternative antihypertensive,BNF,High,Active
+Metformin,eGFR below 30 mL/min,Absolute,Risk of lactic acidosis,Contraindicated,ADA,High,Active
+Metformin,Metabolic acidosis,Absolute,Risk of worsening acidosis,Do not prescribe,ADA,High,Active
+Aspirin,Active peptic ulcer,Relative,Increased GI bleeding risk,Use with caution,NICE,Moderate,Active
+Aspirin,Hemophilia,Absolute,Severe bleeding risk,Avoid use,BNF,High,Active
+Amoxicillin,Penicillin allergy,Absolute,Severe hypersensitivity risk,Avoid use,BNF,High,Active
+Pregabalin,Hypersensitivity,Absolute,Allergic reaction risk,Discontinue immediately,BNF,Moderate,Active
+Pantoprazole,Rilpivirine therapy,Relative,Reduced antiviral absorption,Avoid combination,BNF,Moderate,Active
+Atorvastatin,Active liver disease,Absolute,Risk of hepatotoxicity,Do not prescribe,BNF,High,Active

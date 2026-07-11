@@ -207,7 +207,7 @@ class ATCBuilder(BaseBuilder):
 
     # 2. Remove duplicates, keeping the latest entry if applicable
     # We use 'last' to ensure new data overwrites old data if there's a conflict
-        final_df = final_df.drop_duplicates(subset=subset_cols, keep='last')
+        final_df = final_df.drop_duplicates(subset=subset_cols, keep='first')
 
         logger.info(
         f"Existing={len(master_df)} | "

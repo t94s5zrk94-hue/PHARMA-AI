@@ -38,6 +38,18 @@ _MANAGERS = {
     "THR": IDGenerator("THR"),
     "PHR": IDGenerator("PHR"),
     "MAP": IDGenerator("MAP"),
+
+    # ===== Clinical =====
+    "INT": IDGenerator("INT"),
+    "CON": IDGenerator("CON"),
+    "WRN": IDGenerator("WRN"),
+    "SEF": IDGenerator("SEF"),
+    "PRG": IDGenerator("PRG"),
+    "LAC": IDGenerator("LAC"),
+    "REN": IDGenerator("REN"),
+    "HEP": IDGenerator("HEP"),
+    "MON": IDGenerator("MON"),
+    "EVD": IDGenerator("EVD"),
 }
 
 # --- Backward Compatible APIs ---
@@ -80,3 +92,41 @@ def get_next_pharmacological_id(
         PHR000002
     """
     return _MANAGERS["PHR"].generate(last_id, count)
+def get_next_interaction_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["INT"].generate(last_id, count)
+
+
+def get_next_contraindication_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["CON"].generate(last_id, count)
+
+
+def get_next_warning_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["WRN"].generate(last_id, count)
+
+
+def get_next_side_effect_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["SEF"].generate(last_id, count)
+
+
+def get_next_pregnancy_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["PRG"].generate(last_id, count)
+
+
+def get_next_lactation_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["LAC"].generate(last_id, count)
+
+
+def get_next_renal_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["REN"].generate(last_id, count)
+
+
+def get_next_hepatic_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["HEP"].generate(last_id, count)
+
+
+def get_next_monitoring_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["MON"].generate(last_id, count)
+
+
+def get_next_evidence_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["EVD"].generate(last_id, count)

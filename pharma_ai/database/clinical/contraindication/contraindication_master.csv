@@ -1,5 +1,11 @@
-Contraindication_ID,Generic_ID,Contraindication,Contraindication_Type,Severity,Clinical_Reason,Recommendation,Evidence_Level,Reference_Source,created_at,updated_at,source,version,Status
-CNT000001,GEN000004,Active gastrointestinal bleeding,Absolute,Contraindicated,Increases risk of severe bleeding and ulceration,Avoid,High,BNF,2026-07-06T11:45:00Z,2026-07-06T11:45:00Z,Manual,1.0.0,Active
-CNT000002,GEN000003,Severe renal impairment,Relative,Major,Decreased excretion leading to drug accumulation,Dose Adjustment,High,Lexicomp,2026-07-06T11:45:00Z,2026-07-06T11:45:00Z,Manual,1.0.0,Active
-CNT000003,GEN000002,History of hypersensitivity to NSAIDs,Absolute,Contraindicated,Risk of severe anaphylactic reaction,Avoid,High,CDSCO,2026-07-06T11:45:00Z,2026-07-06T11:45:00Z,Manual,1.0.0,Active
-CNT000004,GEN000005,History of asthma,Relative,Moderate,May trigger bronchospasm in sensitive patients,Monitor,Moderate,BNF,2026-07-06T11:45:00Z,2026-07-06T11:45:00Z,Manual,1.0.0,Active
+Contraindication_ID,Generic_Name,Contraindication,Severity,Reason,Recommendation,Primary_Reference,Evidence_Level,Status,created_at,updated_at,version
+CON000001,Ramipril,History of angioedema,Absolute,High risk of recurrent angioedema,Do not prescribe,BNF,High,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000002,Ramipril,Pregnancy,Absolute,Fetal toxicity,Use alternative antihypertensive,BNF,High,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000003,Metformin,eGFR below 30 mL/min,Absolute,Risk of lactic acidosis,Contraindicated,ADA,High,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000004,Metformin,Metabolic acidosis,Absolute,Risk of worsening acidosis,Do not prescribe,ADA,High,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000005,Aspirin,Active peptic ulcer,Relative,Increased GI bleeding risk,Use with caution,NICE,Moderate,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000006,Aspirin,Hemophilia,Absolute,Severe bleeding risk,Avoid use,BNF,High,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000007,Amoxicillin,Penicillin allergy,Absolute,Severe hypersensitivity risk,Avoid use,BNF,High,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000008,Pregabalin,Hypersensitivity,Absolute,Allergic reaction risk,Discontinue immediately,BNF,Moderate,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000009,Pantoprazole,Rilpivirine therapy,Relative,Reduced antiviral absorption,Avoid combination,BNF,Moderate,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
+CON000010,Atorvastatin,Active liver disease,Absolute,Risk of hepatotoxicity,Do not prescribe,BNF,High,Active,2026-07-11T09:05:49.886290,2026-07-11T09:05:49.886290,1.0
