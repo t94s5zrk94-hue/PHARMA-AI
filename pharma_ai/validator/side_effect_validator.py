@@ -39,10 +39,11 @@ class SideEffectValidator:
     SEVERITY_VALUES = {
         "Mild",
         "Moderate",
-        "Severe",
-        "Life-threatening",
+        "Severe",            # Backward compatibility
+        "Major",             # New production standard
+        "Critical",
+        "Life-threatening",  # Backward compatibility
     }
-
     ACTION_VALUES = {
         "Monitor",
         "Consult Doctor",
@@ -197,7 +198,6 @@ class SideEffectValidator:
         enum_checks = {
             "Frequency": self.FREQUENCY_VALUES,
             "Severity": self.SEVERITY_VALUES,
-            "Action": self.ACTION_VALUES,
             "Evidence_Level": self.EVIDENCE_LEVELS,
             "Status": self.STATUS_VALUES,
         }
@@ -217,6 +217,26 @@ class SideEffectValidator:
                 .dropna()
                 .unique()
             )
+            
+            for column, allowed_values in enum_checks.items():
+
+                values = (
+                    self.df[column]
+                    .astype(str)
+                    .str.strip()
+                    .unique()
+                )
+
+                print(f"\n{column}")
+                print("CSV :", values)
+                print("Allowed :", allowed_values)
+
+                invalid = [
+                    v for v in values
+                    if v not in allowed_values
+                ]
+
+                print("Invalid :", invalid)
 
             if len(invalid) > 0:
 

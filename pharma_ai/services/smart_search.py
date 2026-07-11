@@ -12,7 +12,7 @@ class SmartSearch:
     Implements a multi-tiered search pipeline (Exact -> Fuzzy).
     """
 
-    _FUZZY_SCORE_CUTOFF: Final[float] = 60.0
+    _FUZZY_SCORE_CUTOFF: Final[float] = 90.0
 
     def __init__(self) -> None:
         self._db = PharmaDatabase()
@@ -42,6 +42,34 @@ class SmartSearch:
         """
         Performs multi-stage fuzzy matching (Brand -> Generic).
         """
+        # Combination medicines should not use fuzzy brand matching
+        is_combination = any(separator in query for separator in ["+", "/", ","])
+
+        if not is_combination:
+            # Tier 1: Fuzzy Brand Lookup
+            brand_names = self._db.brand["Brand_Name"].dropna().astype(str).tolist()
+
+            best_brand = process.extractOne(
+                query,
+                brand_names,
+                scorer=fuzz.WRatio,
+                score_cutoff=self._FUZZY_SCORE_CUTOFF,
+            )
+
+            print("DEBUG Brand Query:", query)
+            print("DEBUG Brand Match:", best_brand)
+
+            if best_brand:
+                matched_name, score, _ = best_brand
+                result = self._db.get_complete_medicine(matched_name)
+                if result:
+                    return self._format_response(
+                        result,
+                        "fuzzy_brand",
+                        float(score),
+                        matched_name,
+                    )
+
         # Tier 1: Fuzzy Brand Lookup
         brand_names = self._db.brand["Brand_Name"].dropna().astype(str).tolist()
         best_brand = process.extractOne(query, brand_names, scorer=fuzz.WRatio, score_cutoff=self._FUZZY_SCORE_CUTOFF)

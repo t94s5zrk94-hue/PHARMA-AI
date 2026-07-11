@@ -62,7 +62,6 @@ def build_ai_context(medicine: MedicineData) -> str:
         ("Company", c.get("Company_Name")),
         ("Schedule", p.get("Schedule")),
         ("Pack Size", p.get("Pack_Size")),
-        ("GST Rate", p.get("GST_Rate")),
         ("Ingredients", g.get("Ingredients"))
     ]
     return "\n".join(f"{label}: {value or 'N/A'}" for label, value in fields)
@@ -118,6 +117,8 @@ def main() -> None:
 
         # Pass display name to UI
         medicine["display_name"] = result.get("display_name")
+
+        #st.write(medicine.keys()) # temporary debug
 
         show_medicine_card(medicine)
         

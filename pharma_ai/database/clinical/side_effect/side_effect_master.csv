@@ -1,31 +1,131 @@
 SideEffect_ID,Generic_Name,Side_Effect,Frequency,Severity,Action,Patient_Counseling,Evidence_Level,Primary_Reference,Status,created_at,updated_at,version
-SEF000001,Paracetamol,Nausea,Rare,Mild,Monitor,Usually mild and temporary; consult a doctor if persistent.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000002,Paracetamol,Vomiting,Rare,Mild,Monitor,Maintain hydration and consult a doctor if symptoms persist.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000003,Paracetamol,Skin Rash,Rare,Moderate,Consult Doctor,Stop medicine and seek medical advice if rash develops.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000004,Paracetamol,Urticaria,Rare,Moderate,Consult Doctor,Discontinue medicine and consult a doctor immediately.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000005,Paracetamol,Pruritus,Rare,Mild,Monitor,Report persistent itching to your healthcare provider.,Moderate,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000006,Paracetamol,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000007,Paracetamol,Stevens-Johnson Syndrome,Very Rare,Life-threatening,Emergency,Stop medicine immediately and seek emergency care.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000008,Paracetamol,Toxic Epidermal Necrolysis,Very Rare,Life-threatening,Emergency,Immediate hospitalization is required.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000009,Paracetamol,Elevated Liver Enzymes,Rare,Moderate,Consult Doctor,Liver function monitoring may be required in susceptible patients.,Moderate,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000010,Paracetamol,Hepatotoxicity,Not Known,Severe,Emergency,Overdose requires immediate emergency treatment.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000011,Metformin,Diarrhoea,Very Common,Mild,Monitor,Usually occurs at the start of treatment and often improves with time. Take with meals.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000012,Metformin,Nausea,Very Common,Mild,Monitor,Take the medicine with food to reduce stomach upset.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000013,Metformin,Vomiting,Common,Moderate,Consult Doctor,Maintain hydration and consult your doctor if symptoms persist.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000014,Metformin,Abdominal Pain,Common,Mild,Monitor,Usually temporary; taking the medicine with meals may help.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000015,Metformin,Loss of Appetite,Common,Mild,Monitor,Eat small frequent meals if appetite decreases.,Moderate,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000016,Metformin,Taste Disturbance,Very Common,Mild,Monitor,This is usually temporary and improves with continued treatment.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000017,Metformin,Vitamin B12 Deficiency,Common,Moderate,Consult Doctor,Long-term treatment may require periodic Vitamin B12 monitoring.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000018,Metformin,Lactic Acidosis,Very Rare,Life-threatening,Emergency,Stop the medicine and seek immediate emergency medical care.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000019,Metformin,Hepatitis,Very Rare,Severe,Stop Medicine,Stop the medicine and contact your doctor immediately.,Moderate,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000020,Metformin,Skin Rash,Rare,Moderate,Consult Doctor,Stop the medicine if the rash worsens and seek medical advice.,Moderate,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000021,Aspirin,Dyspepsia,Common,Mild,Monitor,Take the medicine after food to reduce stomach irritation.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000022,Aspirin,Nausea,Common,Mild,Monitor,Take with food and adequate water if stomach upset occurs.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000023,Aspirin,Abdominal Pain,Common,Moderate,Consult Doctor,Consult your doctor if pain is severe or persistent.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000024,Aspirin,Gastrointestinal Bleeding,Uncommon,Severe,Emergency,Stop the medicine and seek immediate medical attention if blood is seen in vomit or stool.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000025,Aspirin,Peptic Ulcer,Rare,Severe,Stop Medicine,Discontinue the medicine and consult your doctor immediately.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000026,Aspirin,Hypersensitivity Reaction,Rare,Severe,Stop Medicine,Stop the medicine and seek medical advice immediately.,High,SmPC,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000027,Aspirin,Bronchospasm,Rare,Life-threatening,Emergency,Seek emergency medical care immediately especially in patients with asthma.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000028,Aspirin,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical attention.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000029,Aspirin,Tinnitus,Common,Moderate,Consult Doctor,May indicate high aspirin exposure; consult your doctor promptly.,High,BNF,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
-SEF000030,Aspirin,Hemorrhagic Stroke,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care if sudden neurological symptoms develop.,High,FDA Label,Active,2026-07-11 16:16:54.035933,2026-07-11 16:16:54.035933,1.0
+SEF000001,Paracetamol,Nausea,Rare,Mild,Monitor,Usually mild and temporary; consult a doctor if persistent.,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000002,Paracetamol,Vomiting,Rare,Mild,Monitor,Maintain hydration and consult a doctor if symptoms persist.,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000003,Paracetamol,Skin Rash,Rare,Moderate,Consult Doctor,Stop medicine and seek medical advice if rash develops.,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000004,Paracetamol,Urticaria,Rare,Moderate,Consult Doctor,Discontinue medicine and consult a doctor immediately.,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000005,Paracetamol,Pruritus,Rare,Mild,Monitor,Report persistent itching to your healthcare provider.,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000006,Paracetamol,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care.,High,FDA Label,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000007,Paracetamol,Stevens-Johnson Syndrome,Very Rare,Life-threatening,Emergency,Stop medicine immediately and seek emergency care.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000008,Paracetamol,Toxic Epidermal Necrolysis,Very Rare,Life-threatening,Emergency,Immediate hospitalization is required.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000009,Paracetamol,Elevated Liver Enzymes,Rare,Moderate,Consult Doctor,Liver function monitoring may be required in susceptible patients.,Moderate,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000010,Paracetamol,Hepatotoxicity,Not Known,Severe,Emergency,Overdose requires immediate emergency treatment.,High,FDA Label,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000011,Metformin,Diarrhoea,Very Common,Mild,Monitor,Usually occurs at the start of treatment and often improves with time. Take with meals.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000012,Metformin,Nausea,Very Common,Mild,Monitor,Take the medicine with food to reduce stomach upset.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000013,Metformin,Vomiting,Common,Moderate,Consult Doctor,Maintain hydration and consult your doctor if symptoms persist.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000014,Metformin,Abdominal Pain,Common,Mild,Monitor,Usually temporary; taking the medicine with meals may help.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000015,Metformin,Loss of Appetite,Common,Mild,Monitor,Eat small frequent meals if appetite decreases.,Moderate,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000016,Metformin,Taste Disturbance,Very Common,Mild,Monitor,This is usually temporary and improves with continued treatment.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000017,Metformin,Vitamin B12 Deficiency,Common,Moderate,Consult Doctor,Long-term treatment may require periodic Vitamin B12 monitoring.,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000018,Metformin,Lactic Acidosis,Very Rare,Life-threatening,Emergency,Stop the medicine and seek immediate emergency medical care.,High,FDA Label,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000019,Metformin,Hepatitis,Very Rare,Severe,Stop Medicine,Stop the medicine and contact your doctor immediately.,Moderate,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000020,Metformin,Skin Rash,Rare,Moderate,Consult Doctor,Stop the medicine if the rash worsens and seek medical advice.,Moderate,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000021,Aspirin,Dyspepsia,Common,Mild,Monitor,Take the medicine after food to reduce stomach irritation.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000022,Aspirin,Nausea,Common,Mild,Monitor,Take with food and adequate water if stomach upset occurs.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000023,Aspirin,Abdominal Pain,Common,Moderate,Consult Doctor,Consult your doctor if pain is severe or persistent.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000024,Aspirin,Gastrointestinal Bleeding,Uncommon,Severe,Emergency,Stop the medicine and seek immediate medical attention if blood is seen in vomit or stool.,High,FDA Label,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000025,Aspirin,Peptic Ulcer,Rare,Severe,Stop Medicine,Discontinue the medicine and consult your doctor immediately.,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000026,Aspirin,Hypersensitivity Reaction,Rare,Severe,Stop Medicine,Stop the medicine and seek medical advice immediately.,High,SmPC,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000027,Aspirin,Bronchospasm,Rare,Life-threatening,Emergency,Seek emergency medical care immediately especially in patients with asthma.,High,FDA Label,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000028,Aspirin,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical attention.,High,FDA Label,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000029,Aspirin,Tinnitus,Common,Moderate,Consult Doctor,May indicate high aspirin exposure; consult your doctor promptly.,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SEF000030,Aspirin,Hemorrhagic Stroke,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care if sudden neurological symptoms develop.,High,FDA Label,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000001,Ramipril,Dry Cough,Common,Moderate,Continue if mild; consult physician if persistent,Inform doctor if cough is persistent or troublesome,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000002,Ramipril,Dizziness,Common,Mild,Monitor,Rise slowly from sitting or lying position,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000003,Ramipril,Hypotension,Common,Moderate,Monitor blood pressure,Avoid sudden standing and report severe dizziness,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000004,Ramipril,Headache,Common,Mild,Symptomatic treatment,Usually improves with continued therapy,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000005,Ramipril,Fatigue,Common,Mild,Monitor,Avoid driving if affected,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000006,Ramipril,Hyperkalemia,Uncommon,Major,Check serum potassium,Avoid potassium supplements unless prescribed,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000007,Ramipril,Increased Serum Creatinine,Uncommon,Moderate,Monitor renal function,Regular kidney function tests may be required,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000008,Ramipril,Rash,Uncommon,Mild,Consult physician if severe,Report worsening skin reactions,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000009,Ramipril,Syncope,Rare,Major,Seek medical attention,Lie down immediately if faintness occurs,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000010,Ramipril,Angioedema,Rare,Critical,Stop medicine immediately and seek emergency care,Swelling of face lips or tongue is a medical emergency,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000011,Pantoprazole,Headache,Common,Mild,Symptomatic treatment,Take medicine as prescribed and inform doctor if headache persists,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000012,Pantoprazole,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000013,Pantoprazole,Nausea,Common,Mild,Monitor,Take medicine before meals as directed,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000014,Pantoprazole,Abdominal Pain,Common,Moderate,Consult Doctor,Report persistent abdominal pain,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000015,Pantoprazole,Flatulence,Common,Mild,Monitor,Avoid gas-producing foods if troublesome,Low,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000016,Pantoprazole,Constipation,Uncommon,Mild,Monitor,Increase fluid and dietary fiber intake,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000017,Pantoprazole,Dizziness,Uncommon,Mild,Monitor,Avoid driving if dizziness occurs,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000018,Pantoprazole,Hypomagnesemia,Rare,Major,Monitor serum magnesium,Long-term therapy may require periodic blood tests,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000019,Pantoprazole,Vitamin B12 Deficiency,Rare,Moderate,Monitor vitamin B12 levels,May occur with prolonged treatment,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000020,Pantoprazole,Clostridioides difficile-associated Diarrhea,Rare,Critical,Stop medicine and seek immediate medical evaluation,Report severe or persistent diarrhea immediately,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000021,Atorvastatin,Myalgia,Common,Moderate,Monitor,Report persistent muscle pain or weakness to your doctor,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000022,Atorvastatin,Arthralgia,Common,Mild,Monitor,Consult your doctor if symptoms persist,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000023,Atorvastatin,Headache,Common,Mild,Symptomatic treatment,Usually improves with continued therapy,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000024,Atorvastatin,Nausea,Common,Mild,Monitor,Take medicine at the same time each day,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000025,Atorvastatin,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000026,Atorvastatin,Abdominal Pain,Uncommon,Moderate,Consult Doctor,Seek medical advice if severe or persistent,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000027,Atorvastatin,Elevated Liver Enzymes,Uncommon,Major,Monitor liver function,Periodic liver function tests may be required,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000028,Atorvastatin,Myopathy,Rare,Major,Stop medicine and consult physician immediately,Report unexplained muscle pain especially with fever or weakness,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000029,Atorvastatin,Rhabdomyolysis,Rare,Critical,Stop medicine immediately and seek emergency care,Seek urgent medical attention for severe muscle pain dark urine or weakness,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000030,Atorvastatin,Hypersensitivity Rash,Rare,Moderate,Consult Doctor,Discontinue medicine if severe allergic reaction develops,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000031,Amoxicillin,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration during treatment,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000032,Amoxicillin,Nausea,Common,Mild,Monitor,Take with food if stomach upset occurs,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000033,Amoxicillin,Vomiting,Common,Mild,Monitor,Drink plenty of fluids to avoid dehydration,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000034,Amoxicillin,Abdominal Pain,Common,Moderate,Consult Doctor,Seek medical advice if pain becomes severe,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000035,Amoxicillin,Skin Rash,Common,Moderate,Consult Doctor,Report any rash especially if widespread,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000036,Amoxicillin,Urticaria,Uncommon,Moderate,Stop medicine and consult physician,Seek immediate advice if swelling develops,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000037,Amoxicillin,Candidiasis,Uncommon,Mild,Consult Doctor,Maintain good oral and personal hygiene,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000038,Amoxicillin,Anaphylaxis,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for breathing difficulty or facial swelling,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000039,Amoxicillin,Stevens-Johnson Syndrome,Rare,Critical,Stop medicine immediately and seek emergency care,Discontinue immediately if blistering rash develops,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000040,Amoxicillin,Clostridioides difficile-associated Diarrhea,Rare,Major,Consult Doctor,Report severe or persistent diarrhea immediately,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000041,Cefixime,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration during treatment,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000042,Cefixime,Nausea,Common,Mild,Monitor,Take medicine with food if stomach upset occurs,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000043,Cefixime,Abdominal Pain,Common,Moderate,Consult Doctor,Seek medical advice if pain is severe or persistent,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000044,Cefixime,Dyspepsia,Common,Mild,Monitor,Avoid spicy or heavy meals if symptoms occur,Low,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000045,Cefixime,Headache,Uncommon,Mild,Symptomatic treatment,Usually improves with continued therapy,Low,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000046,Cefixime,Dizziness,Uncommon,Mild,Monitor,Avoid driving if dizziness occurs,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000047,Cefixime,Skin Rash,Uncommon,Moderate,Consult Doctor,Report any rash or itching promptly,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000048,Cefixime,Urticaria,Rare,Moderate,Stop medicine and consult physician,Seek medical advice if swelling or hives develop,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000049,Cefixime,Clostridioides difficile-associated Diarrhea,Rare,Major,Consult Doctor,Report severe or persistent diarrhea immediately,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000050,Cefixime,Anaphylaxis,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for breathing difficulty or facial swelling,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000051,Pregabalin,Dizziness,Very Common,Moderate,Monitor,Avoid driving or operating machinery until you know how the medicine affects you,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000052,Pregabalin,Somnolence,Very Common,Moderate,Monitor,Avoid alcohol and other sedatives unless prescribed,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000053,Pregabalin,Peripheral Edema,Common,Moderate,Consult Doctor,Report swelling of feet or ankles especially if persistent,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000054,Pregabalin,Weight Gain,Common,Moderate,Monitor,Maintain a healthy diet and regular physical activity,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000055,Pregabalin,Blurred Vision,Common,Moderate,Consult Doctor,Report persistent visual disturbances to your doctor,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000056,Pregabalin,Dry Mouth,Common,Mild,Monitor,Maintain adequate hydration and good oral hygiene,Low,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000057,Pregabalin,Ataxia,Uncommon,Major,Consult Doctor,Avoid activities requiring coordination until symptoms resolve,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000058,Pregabalin,Confusion,Uncommon,Major,Consult Doctor,Inform your doctor if confusion or unusual behavior develops,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000059,Pregabalin,Tremor,Uncommon,Moderate,Monitor,Consult your doctor if tremor interferes with daily activities,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000060,Pregabalin,Angioedema,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for facial swelling or breathing difficulty,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000061,Aceclofenac + Paracetamol,Nausea,Common,Mild,Monitor,Take the medicine after food to reduce stomach upset,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000062,Aceclofenac + Paracetamol,Dyspepsia,Common,Mild,Monitor,Avoid spicy foods and report persistent symptoms,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000063,Aceclofenac + Paracetamol,Abdominal Pain,Common,Moderate,Consult Doctor,Seek medical advice if pain is severe or persistent,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000064,Aceclofenac + Paracetamol,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000065,Aceclofenac + Paracetamol,Dizziness,Common,Mild,Monitor,Avoid driving if dizziness occurs,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000066,Aceclofenac + Paracetamol,Elevated Liver Enzymes,Uncommon,Major,Monitor liver function,Periodic liver function tests may be required during prolonged therapy,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000067,Aceclofenac + Paracetamol,Peptic Ulcer,Uncommon,Major,Stop medicine and consult physician,Report black stools or severe stomach pain immediately,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000068,Aceclofenac + Paracetamol,Gastrointestinal Bleeding,Rare,Critical,Stop medicine immediately and seek emergency care,Seek urgent medical attention if vomiting blood or passing black stools,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000069,Aceclofenac + Paracetamol,Anaphylaxis,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for breathing difficulty or facial swelling,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000070,Aceclofenac + Paracetamol,Skin Rash,Uncommon,Moderate,Consult Doctor,Report any rash or allergic skin reaction promptly,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000071,Chlorzoxazone + Diclofenac + Paracetamol,Drowsiness,Common,Moderate,Monitor,Avoid driving or operating heavy machinery until you know how the medicine affects you,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000072,Chlorzoxazone + Diclofenac + Paracetamol,Dizziness,Common,Mild,Monitor,Rise slowly from sitting or lying position,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000073,Chlorzoxazone + Diclofenac + Paracetamol,Nausea,Common,Mild,Monitor,Take the medicine after food to reduce stomach upset,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000074,Chlorzoxazone + Diclofenac + Paracetamol,Abdominal Pain,Common,Moderate,Consult Doctor,Seek medical advice if pain becomes severe or persistent,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000075,Chlorzoxazone + Diclofenac + Paracetamol,Dyspepsia,Common,Mild,Monitor,Avoid spicy foods and alcohol during treatment,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000076,Chlorzoxazone + Diclofenac + Paracetamol,Elevated Liver Enzymes,Uncommon,Major,Monitor liver function,Periodic liver function tests may be required during prolonged therapy,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000077,Chlorzoxazone + Diclofenac + Paracetamol,Peptic Ulcer,Uncommon,Major,Stop medicine and consult physician,Report black stools or severe stomach pain immediately,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000078,Chlorzoxazone + Diclofenac + Paracetamol,Gastrointestinal Bleeding,Rare,Critical,Stop medicine immediately and seek emergency care,Seek urgent medical attention if vomiting blood or passing black stools,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000079,Chlorzoxazone + Diclofenac + Paracetamol,Hepatotoxicity,Rare,Critical,Stop medicine immediately and seek emergency care,Report jaundice dark urine or severe fatigue immediately,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000080,Chlorzoxazone + Diclofenac + Paracetamol,Skin Rash,Uncommon,Moderate,Consult Doctor,Report any rash or allergic skin reaction promptly,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000081,Telmisartan + Amlodipine,Peripheral Edema,Common,Moderate,Monitor,Report persistent swelling of feet or ankles to your doctor,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000082,Telmisartan + Amlodipine,Dizziness,Common,Mild,Monitor,Rise slowly from sitting or lying position to reduce dizziness,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000083,Telmisartan + Amlodipine,Headache,Common,Mild,Symptomatic treatment,Usually improves with continued treatment,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000084,Telmisartan + Amlodipine,Fatigue,Common,Mild,Monitor,Avoid driving if excessive tiredness occurs,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000085,Telmisartan + Amlodipine,Hypotension,Uncommon,Major,Monitor blood pressure,Seek medical attention if severe dizziness or fainting occurs,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000086,Telmisartan + Amlodipine,Palpitations,Uncommon,Moderate,Consult Doctor,Report persistent or severe palpitations,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000087,Telmisartan + Amlodipine,Hyperkalemia,Rare,Major,Monitor serum potassium,Avoid potassium supplements unless prescribed,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000088,Telmisartan + Amlodipine,Renal Function Impairment,Rare,Major,Monitor renal function,Regular kidney function tests may be required,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000089,Telmisartan + Amlodipine,Angioedema,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for facial swelling or breathing difficulty,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000090,Telmisartan + Amlodipine,Skin Rash,Uncommon,Moderate,Consult Doctor,Report any rash or allergic skin reaction promptly,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000091,Amlodipine,Peripheral Edema,Very Common,Moderate,Monitor,Report persistent swelling of ankles or feet,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000092,Amlodipine,Headache,Common,Mild,Symptomatic treatment,Usually improves after continued use,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000093,Amlodipine,Dizziness,Common,Mild,Monitor,Rise slowly from sitting or lying position,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000094,Amlodipine,Flushing,Common,Mild,Monitor,Avoid overheating and consult doctor if persistent,Low,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000095,Amlodipine,Fatigue,Common,Mild,Monitor,Avoid driving if excessive tiredness occurs,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000096,Amlodipine,Palpitations,Uncommon,Moderate,Consult Doctor,Report persistent or severe palpitations,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000097,Amlodipine,Nausea,Uncommon,Mild,Monitor,Take medicine at the same time every day,Low,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000098,Amlodipine,Abdominal Pain,Uncommon,Moderate,Consult Doctor,Seek medical advice if pain is persistent,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000099,Amlodipine,Gingival Hyperplasia,Rare,Moderate,Consult Doctor,Maintain good oral hygiene and regular dental checkups,Moderate,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0
+SFX000100,Amlodipine,Hypotension,Rare,Major,Monitor blood pressure,Seek medical attention if severe dizziness or fainting occurs,High,BNF,Active,2026-07-11 21:31:56.452754,2026-07-11 21:31:56.452754,1.0

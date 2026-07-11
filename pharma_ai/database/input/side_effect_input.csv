@@ -29,3 +29,103 @@ Aspirin,Bronchospasm,Rare,Life-threatening,Emergency,Seek emergency medical care
 Aspirin,Anaphylaxis,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical attention.,High,FDA Label,Active
 Aspirin,Tinnitus,Common,Moderate,Consult Doctor,May indicate high aspirin exposure; consult your doctor promptly.,High,BNF,Active
 Aspirin,Hemorrhagic Stroke,Very Rare,Life-threatening,Emergency,Seek immediate emergency medical care if sudden neurological symptoms develop.,High,FDA Label,Active
+Ramipril,Dry Cough,Common,Moderate,Continue if mild; consult physician if persistent,Inform doctor if cough is persistent or troublesome,High,BNF,Active
+Ramipril,Dizziness,Common,Mild,Monitor,Rise slowly from sitting or lying position,High,BNF,Active
+Ramipril,Hypotension,Common,Moderate,Monitor blood pressure,Avoid sudden standing and report severe dizziness,High,BNF,Active
+Ramipril,Headache,Common,Mild,Symptomatic treatment,Usually improves with continued therapy,Moderate,BNF,Active
+Ramipril,Fatigue,Common,Mild,Monitor,Avoid driving if affected,Moderate,BNF,Active
+Ramipril,Hyperkalemia,Uncommon,Major,Check serum potassium,Avoid potassium supplements unless prescribed,High,BNF,Active
+Ramipril,Increased Serum Creatinine,Uncommon,Moderate,Monitor renal function,Regular kidney function tests may be required,High,BNF,Active
+Ramipril,Rash,Uncommon,Mild,Consult physician if severe,Report worsening skin reactions,Moderate,BNF,Active
+Ramipril,Syncope,Rare,Major,Seek medical attention,Lie down immediately if faintness occurs,High,BNF,Active
+Ramipril,Angioedema,Rare,Critical,Stop medicine immediately and seek emergency care,Swelling of face lips or tongue is a medical emergency,High,BNF,Active
+Pantoprazole,Headache,Common,Mild,Symptomatic treatment,Take medicine as prescribed and inform doctor if headache persists,Moderate,BNF,Active
+Pantoprazole,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration,Moderate,BNF,Active
+Pantoprazole,Nausea,Common,Mild,Monitor,Take medicine before meals as directed,Moderate,BNF,Active
+Pantoprazole,Abdominal Pain,Common,Moderate,Consult Doctor,Report persistent abdominal pain,Moderate,BNF,Active
+Pantoprazole,Flatulence,Common,Mild,Monitor,Avoid gas-producing foods if troublesome,Low,BNF,Active
+Pantoprazole,Constipation,Uncommon,Mild,Monitor,Increase fluid and dietary fiber intake,Moderate,BNF,Active
+Pantoprazole,Dizziness,Uncommon,Mild,Monitor,Avoid driving if dizziness occurs,Moderate,BNF,Active
+Pantoprazole,Hypomagnesemia,Rare,Major,Monitor serum magnesium,Long-term therapy may require periodic blood tests,High,BNF,Active
+Pantoprazole,Vitamin B12 Deficiency,Rare,Moderate,Monitor vitamin B12 levels,May occur with prolonged treatment,Moderate,BNF,Active
+Pantoprazole,Clostridioides difficile-associated Diarrhea,Rare,Critical,Stop medicine and seek immediate medical evaluation,Report severe or persistent diarrhea immediately,High,BNF,Active
+Atorvastatin,Myalgia,Common,Moderate,Monitor,Report persistent muscle pain or weakness to your doctor,High,BNF,Active
+Atorvastatin,Arthralgia,Common,Mild,Monitor,Consult your doctor if symptoms persist,Moderate,BNF,Active
+Atorvastatin,Headache,Common,Mild,Symptomatic treatment,Usually improves with continued therapy,Moderate,BNF,Active
+Atorvastatin,Nausea,Common,Mild,Monitor,Take medicine at the same time each day,Moderate,BNF,Active
+Atorvastatin,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration,Moderate,BNF,Active
+Atorvastatin,Abdominal Pain,Uncommon,Moderate,Consult Doctor,Seek medical advice if severe or persistent,Moderate,BNF,Active
+Atorvastatin,Elevated Liver Enzymes,Uncommon,Major,Monitor liver function,Periodic liver function tests may be required,High,BNF,Active
+Atorvastatin,Myopathy,Rare,Major,Stop medicine and consult physician immediately,Report unexplained muscle pain especially with fever or weakness,High,BNF,Active
+Atorvastatin,Rhabdomyolysis,Rare,Critical,Stop medicine immediately and seek emergency care,Seek urgent medical attention for severe muscle pain dark urine or weakness,High,BNF,Active
+Atorvastatin,Hypersensitivity Rash,Rare,Moderate,Consult Doctor,Discontinue medicine if severe allergic reaction develops,Moderate,BNF,Active
+Amoxicillin,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration during treatment,Moderate,BNF,Active
+Amoxicillin,Nausea,Common,Mild,Monitor,Take with food if stomach upset occurs,Moderate,BNF,Active
+Amoxicillin,Vomiting,Common,Mild,Monitor,Drink plenty of fluids to avoid dehydration,Moderate,BNF,Active
+Amoxicillin,Abdominal Pain,Common,Moderate,Consult Doctor,Seek medical advice if pain becomes severe,Moderate,BNF,Active
+Amoxicillin,Skin Rash,Common,Moderate,Consult Doctor,Report any rash especially if widespread,High,BNF,Active
+Amoxicillin,Urticaria,Uncommon,Moderate,Stop medicine and consult physician,Seek immediate advice if swelling develops,High,BNF,Active
+Amoxicillin,Candidiasis,Uncommon,Mild,Consult Doctor,Maintain good oral and personal hygiene,Moderate,BNF,Active
+Amoxicillin,Anaphylaxis,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for breathing difficulty or facial swelling,High,BNF,Active
+Amoxicillin,Stevens-Johnson Syndrome,Rare,Critical,Stop medicine immediately and seek emergency care,Discontinue immediately if blistering rash develops,High,BNF,Active
+Amoxicillin,Clostridioides difficile-associated Diarrhea,Rare,Major,Consult Doctor,Report severe or persistent diarrhea immediately,High,BNF,Active
+Cefixime,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration during treatment,Moderate,BNF,Active
+Cefixime,Nausea,Common,Mild,Monitor,Take medicine with food if stomach upset occurs,Moderate,BNF,Active
+Cefixime,Abdominal Pain,Common,Moderate,Consult Doctor,Seek medical advice if pain is severe or persistent,Moderate,BNF,Active
+Cefixime,Dyspepsia,Common,Mild,Monitor,Avoid spicy or heavy meals if symptoms occur,Low,BNF,Active
+Cefixime,Headache,Uncommon,Mild,Symptomatic treatment,Usually improves with continued therapy,Low,BNF,Active
+Cefixime,Dizziness,Uncommon,Mild,Monitor,Avoid driving if dizziness occurs,Moderate,BNF,Active
+Cefixime,Skin Rash,Uncommon,Moderate,Consult Doctor,Report any rash or itching promptly,High,BNF,Active
+Cefixime,Urticaria,Rare,Moderate,Stop medicine and consult physician,Seek medical advice if swelling or hives develop,High,BNF,Active
+Cefixime,Clostridioides difficile-associated Diarrhea,Rare,Major,Consult Doctor,Report severe or persistent diarrhea immediately,High,BNF,Active
+Cefixime,Anaphylaxis,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for breathing difficulty or facial swelling,High,BNF,Active
+Pregabalin,Dizziness,Very Common,Moderate,Monitor,Avoid driving or operating machinery until you know how the medicine affects you,High,BNF,Active
+Pregabalin,Somnolence,Very Common,Moderate,Monitor,Avoid alcohol and other sedatives unless prescribed,High,BNF,Active
+Pregabalin,Peripheral Edema,Common,Moderate,Consult Doctor,Report swelling of feet or ankles especially if persistent,High,BNF,Active
+Pregabalin,Weight Gain,Common,Moderate,Monitor,Maintain a healthy diet and regular physical activity,Moderate,BNF,Active
+Pregabalin,Blurred Vision,Common,Moderate,Consult Doctor,Report persistent visual disturbances to your doctor,Moderate,BNF,Active
+Pregabalin,Dry Mouth,Common,Mild,Monitor,Maintain adequate hydration and good oral hygiene,Low,BNF,Active
+Pregabalin,Ataxia,Uncommon,Major,Consult Doctor,Avoid activities requiring coordination until symptoms resolve,High,BNF,Active
+Pregabalin,Confusion,Uncommon,Major,Consult Doctor,Inform your doctor if confusion or unusual behavior develops,High,BNF,Active
+Pregabalin,Tremor,Uncommon,Moderate,Monitor,Consult your doctor if tremor interferes with daily activities,Moderate,BNF,Active
+Pregabalin,Angioedema,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for facial swelling or breathing difficulty,High,BNF,Active
+Aceclofenac + Paracetamol,Nausea,Common,Mild,Monitor,Take the medicine after food to reduce stomach upset,Moderate,BNF,Active
+Aceclofenac + Paracetamol,Dyspepsia,Common,Mild,Monitor,Avoid spicy foods and report persistent symptoms,Moderate,BNF,Active
+Aceclofenac + Paracetamol,Abdominal Pain,Common,Moderate,Consult Doctor,Seek medical advice if pain is severe or persistent,High,BNF,Active
+Aceclofenac + Paracetamol,Diarrhea,Common,Mild,Monitor,Maintain adequate hydration,Moderate,BNF,Active
+Aceclofenac + Paracetamol,Dizziness,Common,Mild,Monitor,Avoid driving if dizziness occurs,Moderate,BNF,Active
+Aceclofenac + Paracetamol,Elevated Liver Enzymes,Uncommon,Major,Monitor liver function,Periodic liver function tests may be required during prolonged therapy,High,BNF,Active
+Aceclofenac + Paracetamol,Peptic Ulcer,Uncommon,Major,Stop medicine and consult physician,Report black stools or severe stomach pain immediately,High,BNF,Active
+Aceclofenac + Paracetamol,Gastrointestinal Bleeding,Rare,Critical,Stop medicine immediately and seek emergency care,Seek urgent medical attention if vomiting blood or passing black stools,High,BNF,Active
+Aceclofenac + Paracetamol,Anaphylaxis,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for breathing difficulty or facial swelling,High,BNF,Active
+Aceclofenac + Paracetamol,Skin Rash,Uncommon,Moderate,Consult Doctor,Report any rash or allergic skin reaction promptly,Moderate,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Drowsiness,Common,Moderate,Monitor,Avoid driving or operating heavy machinery until you know how the medicine affects you,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Dizziness,Common,Mild,Monitor,Rise slowly from sitting or lying position,Moderate,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Nausea,Common,Mild,Monitor,Take the medicine after food to reduce stomach upset,Moderate,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Abdominal Pain,Common,Moderate,Consult Doctor,Seek medical advice if pain becomes severe or persistent,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Dyspepsia,Common,Mild,Monitor,Avoid spicy foods and alcohol during treatment,Moderate,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Elevated Liver Enzymes,Uncommon,Major,Monitor liver function,Periodic liver function tests may be required during prolonged therapy,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Peptic Ulcer,Uncommon,Major,Stop medicine and consult physician,Report black stools or severe stomach pain immediately,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Gastrointestinal Bleeding,Rare,Critical,Stop medicine immediately and seek emergency care,Seek urgent medical attention if vomiting blood or passing black stools,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Hepatotoxicity,Rare,Critical,Stop medicine immediately and seek emergency care,Report jaundice dark urine or severe fatigue immediately,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Skin Rash,Uncommon,Moderate,Consult Doctor,Report any rash or allergic skin reaction promptly,Moderate,BNF,Active
+Telmisartan + Amlodipine,Peripheral Edema,Common,Moderate,Monitor,Report persistent swelling of feet or ankles to your doctor,High,BNF,Active
+Telmisartan + Amlodipine,Dizziness,Common,Mild,Monitor,Rise slowly from sitting or lying position to reduce dizziness,High,BNF,Active
+Telmisartan + Amlodipine,Headache,Common,Mild,Symptomatic treatment,Usually improves with continued treatment,Moderate,BNF,Active
+Telmisartan + Amlodipine,Fatigue,Common,Mild,Monitor,Avoid driving if excessive tiredness occurs,Moderate,BNF,Active
+Telmisartan + Amlodipine,Hypotension,Uncommon,Major,Monitor blood pressure,Seek medical attention if severe dizziness or fainting occurs,High,BNF,Active
+Telmisartan + Amlodipine,Palpitations,Uncommon,Moderate,Consult Doctor,Report persistent or severe palpitations,Moderate,BNF,Active
+Telmisartan + Amlodipine,Hyperkalemia,Rare,Major,Monitor serum potassium,Avoid potassium supplements unless prescribed,High,BNF,Active
+Telmisartan + Amlodipine,Renal Function Impairment,Rare,Major,Monitor renal function,Regular kidney function tests may be required,High,BNF,Active
+Telmisartan + Amlodipine,Angioedema,Rare,Critical,Stop medicine immediately and seek emergency care,Seek emergency medical attention for facial swelling or breathing difficulty,High,BNF,Active
+Telmisartan + Amlodipine,Skin Rash,Uncommon,Moderate,Consult Doctor,Report any rash or allergic skin reaction promptly,Moderate,BNF,Active
+Amlodipine,Peripheral Edema,Very Common,Moderate,Monitor,Report persistent swelling of ankles or feet,High,BNF,Active
+Amlodipine,Headache,Common,Mild,Symptomatic treatment,Usually improves after continued use,Moderate,BNF,Active
+Amlodipine,Dizziness,Common,Mild,Monitor,Rise slowly from sitting or lying position,Moderate,BNF,Active
+Amlodipine,Flushing,Common,Mild,Monitor,Avoid overheating and consult doctor if persistent,Low,BNF,Active
+Amlodipine,Fatigue,Common,Mild,Monitor,Avoid driving if excessive tiredness occurs,Moderate,BNF,Active
+Amlodipine,Palpitations,Uncommon,Moderate,Consult Doctor,Report persistent or severe palpitations,Moderate,BNF,Active
+Amlodipine,Nausea,Uncommon,Mild,Monitor,Take medicine at the same time every day,Low,BNF,Active
+Amlodipine,Abdominal Pain,Uncommon,Moderate,Consult Doctor,Seek medical advice if pain is persistent,Moderate,BNF,Active
+Amlodipine,Gingival Hyperplasia,Rare,Moderate,Consult Doctor,Maintain good oral hygiene and regular dental checkups,Moderate,BNF,Active
+Amlodipine,Hypotension,Rare,Major,Monitor blood pressure,Seek medical attention if severe dizziness or fainting occurs,High,BNF,Active

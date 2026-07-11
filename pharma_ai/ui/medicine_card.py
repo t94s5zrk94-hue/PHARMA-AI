@@ -6,6 +6,27 @@ def safe_metric(label, data, key):
     if value and value != "N/A" and str(value).strip().lower() != "nan":
         st.metric(label, value)
 
+def show_clinical_table(title: str, data: list, columns: list):
+    """Displays clinical information in a consistent format."""
+
+    st.subheader(title)
+
+    if not data:
+        st.info("No data available.")
+        return
+
+    import pandas as pd
+
+    df = pd.DataFrame(data)
+
+    available_columns = [col for col in columns if col in df.columns]
+
+    st.dataframe(
+        df[available_columns],
+        use_container_width=True,
+        hide_index=True,
+    )
+
 def show_medicine_card(medicine):
 
     if medicine is None:
@@ -31,9 +52,13 @@ def show_medicine_card(medicine):
 
     st.subheader(f"💊 {display_name}")
     
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
-    ["💊 General","🧬 Generic","🏢 Company","🧾 ATC","🩺 Therapeutic","⚙️ Pharmacological",]
-    )
+    tab1, tab2, tab3, tab4, tab5, tab6, \
+    tab7, tab8, tab9, tab10, \
+    tab11, tab12, tab13, tab14, \
+    tab15, tab16 = st.tabs([
+        "💊 General","🧬 Generic","🏢 Company","🧾 ATC","🩺 Therapeutic","⚙️ Pharmacological",
+        "🔄 Interactions","⛔ Contraindications","⚠️ Warnings","🤒 Side Effects","🤰 Pregnancy",
+        "👶 Lactation","🩸 Renal","🫀 Hepatic","🩺 Monitoring","📚 Evidence",])
 
     # -------------------------
     # General
@@ -90,3 +115,122 @@ def show_medicine_card(medicine):
         safe_metric("Description",pharmacological,"Description",)
         safe_metric("WHO Reference",pharmacological,"WHO_Reference",)
         safe_metric("Status",pharmacological,"Status",)
+    
+    with tab7:
+        show_clinical_table(
+            "Drug Interactions",
+            medicine.get("interaction", []),
+            [
+                "Generic_A",
+                "Generic_B",
+                "Severity",
+                "Clinical_Effect",
+                "Management",
+            ],
+        )
+
+    with tab8:
+        show_clinical_table(
+            "Contraindications",
+            medicine.get("contraindication", []),
+            [
+                "Contraindication",
+                "Severity",
+                "Recommendation",
+            ],
+        )
+
+    with tab9:
+        show_clinical_table(
+            "Warnings",
+            medicine.get("warning", []),
+            [
+                "Warning",
+                "Severity",
+                "Recommendation",
+            ],
+        )
+
+    with tab10:
+        show_clinical_table(
+            "Side Effects",
+            medicine.get("side_effect", []),
+            [
+                "Side_Effect",
+                "Frequency",
+                "Severity",
+                "Action",
+            ],
+        )
+
+    with tab11:
+        show_clinical_table(
+            "Pregnancy",
+            medicine.get("pregnancy", []),
+            [
+                "Pregnancy_Risk",
+                "Trimester",
+                "Recommendation",
+                "Clinical_Notes",
+            ],
+        )
+    with tab12:
+        show_clinical_table(
+            "Lactation",
+            medicine.get("lactation", []),
+            [
+                "Lactation_Risk",
+                "Recommendation",
+                "Clinical_Notes",
+            ],
+        )
+
+    with tab13:
+        show_clinical_table(
+            "Renal Dose Adjustment",
+            medicine.get("renal", []),
+            [
+                "Renal_Category",
+                "eGFR_Min",
+                "eGFR_Max",
+                "Dose_Recommendation",
+                "Clinical_Note",
+            ],
+        )
+
+    with tab14:
+        show_clinical_table(
+            "Hepatic Dose Adjustment",
+            medicine.get("hepatic", []),
+            [
+                "Hepatic_Category",
+                "Child_Pugh_Class",
+                "Dose_Recommendation",
+                "Clinical_Note",
+            ],
+        )
+
+    with tab15:
+        show_clinical_table(
+            "Monitoring Parameters",
+            medicine.get("monitoring", []),
+            [
+                "Monitoring_Parameter",
+                "Monitoring_Frequency",
+                "Target_Range",
+                "Clinical_Action",
+            ],
+        )
+
+    with tab16:
+        show_clinical_table(
+            "Clinical Evidence",
+            medicine.get("evidence", []),
+            [
+                "Clinical_Topic",
+                "Evidence_Summary",
+                "Evidence_Level",
+                "Guideline_Source",
+                "Reference_Year",
+            ],
+        )
