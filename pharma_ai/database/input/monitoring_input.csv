@@ -1,0 +1,14 @@
+Generic_Name,Monitoring_Parameter,Monitoring_Frequency,Target_Range,Clinical_Action,Evidence_Level,Primary_Reference,Status
+Paracetamol,Liver Function Test,If prolonged therapy,Within normal limits,Discontinue if significant liver injury suspected,High,Lexicomp,Active
+Metformin,eGFR,Every 3-6 months,>=30 mL/min/1.73m2,Reduce dose or discontinue if eGFR falls below threshold,High,ADA Guidelines,Active
+Aspirin,Signs of Bleeding,At every follow-up,Not Applicable,Stop therapy if major bleeding occurs,High,BNF,Active
+Ramipril,Serum Creatinine and Potassium,1-2 weeks after initiation,Creatinine stable; Potassium <5.5 mmol/L,Adjust dose if renal function worsens or potassium increases,High,KDIGO,Active
+Pantoprazole,Serum Magnesium,Long-term therapy,Within normal limits,Supplement or discontinue if severe hypomagnesemia develops,Moderate,BNF,Active
+Atorvastatin,Liver Enzymes,Baseline and if clinically indicated,ALT/AST within normal limits,Discontinue if persistent marked elevation occurs,High,Lexicomp,Active
+Amlodipine,Blood Pressure,Every visit,Individual target BP,Adjust dose according to BP response,High,BNF,Active
+Amoxicillin,Hypersensitivity Reaction,During therapy,Not Applicable,Stop immediately if allergic reaction occurs,High,Lexicomp,Active
+Cefixime,Renal Function,If prolonged therapy,Stable renal function,Adjust dose if renal impairment develops,Moderate,Lexicomp,Active
+Pregabalin,Dizziness and Sedation,Every visit,Tolerable symptoms,Reduce dose if adverse effects are significant,Moderate,Prescribing Information,Active
+Aceclofenac + Paracetamol,Renal and Liver Function,Periodic monitoring,Within normal limits,Discontinue if organ toxicity develops,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Liver Function Test,Periodic monitoring,Within normal limits,Stop therapy if liver injury suspected,High,BNF,Active
+Telmisartan + Amlodipine,Blood Pressure and Serum Potassium,Every 2-4 weeks after initiation,Target BP; Potassium <5.5 mmol/L,Adjust therapy according to BP and potassium,High,KDIGO,Active
