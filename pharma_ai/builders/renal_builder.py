@@ -3,15 +3,34 @@ from pathlib import Path
 
 import pandas as pd
 
-from pharma_ai.builders.base_builder import BaseBuilder
+from pharma_ai.builders.clinical_base_builder import ClinicalBaseBuilder
 from pharma_ai.builders.id_generator import get_next_renal_id
 
-class RenalBuilder(BaseBuilder):
+class RenalBuilder(ClinicalBaseBuilder):    
     """
     Phase 15.7
     Renal Dose Adjustment Builder
     """
+    INPUT_FILE = "pharma_ai/database/input/renal_input.csv"
 
+    OUTPUT_FILE = (
+        "pharma_ai/database/clinical/"
+        "renal/renal_master.csv"
+    )
+
+    ID_PREFIX = "REN"
+
+    MASTER_KEY = "Renal_ID"
+
+    DUPLICATE_COLUMNS = [
+        "Generic_Name",
+        "Renal_Category",
+    ]
+
+    MERGE_COLUMNS = [
+        "Generic_ID",
+        "Renal_Category",
+    ]
     REQUIRED_COLUMNS = [
         "Generic_Name",
         "Renal_Category",
@@ -48,65 +67,7 @@ class RenalBuilder(BaseBuilder):
         "Inactive",
     }
 
-    def __init__(self):
-        """
-        Initialize Renal Builder.
-        """
-
-        self.logger = logging.getLogger(__name__)
-
-        self.input_file = Path(
-            "pharma_ai/database/input/renal_input.csv"
-        )
-
-        self.master_file = Path(
-            "pharma_ai/database/clinical/renal/renal_master.csv"
-        )
-
-        super().__init__(
-            input_file=self.input_file,
-            output_path=self.master_file,
-            required_columns=self.REQUIRED_COLUMNS,
-        )
-
-        self.generic_master_file = Path(
-            "pharma_ai/database/medicine/generic_master.csv"
-        )
-
-        self.df = pd.DataFrame()
-        self.master_df = pd.DataFrame()
-        self.generic_df = pd.DataFrame()
-
-        self.logger.info("RenalBuilder initialized.")
-
-    def _load_input(self):
-
-        self.logger.info("Loading renal input...")
-
-        self.df = pd.read_csv(self.input_file)
-
-        self.logger.info(
-            "Loaded %d renal records.",
-            len(self.df),
-        )
-
-    def _validate_schema(self):
-
-        self.logger.info("Validating required columns...")
-
-        missing_columns = [
-            col
-            for col in self.REQUIRED_COLUMNS
-            if col not in self.df.columns
-        ]
-
-        if missing_columns:
-            raise ValueError(
-                f"Missing required columns: {missing_columns}"
-            )
-
-        self.logger.info("Schema validation passed.")
-
+    
     def _validate_business_rules(self):
 
         self.logger.info("Validating business rules...")
@@ -142,30 +103,7 @@ class RenalBuilder(BaseBuilder):
 
         self.logger.info("Business rule validation passed.")
 
-    def _validate_duplicates(self):
-
-        self.logger.info("Checking duplicate renal records...")
-
-        duplicate_mask = self.df.duplicated(
-            subset=[
-                "Generic_Name",
-                "Renal_Category",
-            ]
-        )
-
-        if duplicate_mask.any():
-
-            duplicates = self.df.loc[
-                duplicate_mask,
-                ["Generic_Name", "Renal_Category"],
-            ]
-
-            raise ValueError(
-                f"Duplicate renal records found:\n{duplicates}"
-            )
-
-        self.logger.info("Duplicate validation passed.")
-
+    
     def _load_existing_master(self):
 
         self.logger.info("Loading existing master...")
@@ -244,19 +182,6 @@ class RenalBuilder(BaseBuilder):
 
         self.logger.info("Renal IDs generated successfully.")
 
-    def _add_metadata(self):
-
-        self.logger.info("Adding metadata...")
-
-        timestamp = pd.Timestamp.now().strftime(
-            "%Y-%m-%d %H:%M:%S"
-        )
-
-        self.df["created_at"] = timestamp
-        self.df["updated_at"] = timestamp
-        self.df["version"] = "1.0"
-
-        self.logger.info("Metadata added successfully.")
 
     def _merge_master(self):
 
