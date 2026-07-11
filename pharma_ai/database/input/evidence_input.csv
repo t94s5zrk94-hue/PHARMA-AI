@@ -1,0 +1,14 @@
+Generic_Name,Clinical_Topic,Evidence_Summary,Evidence_Level,Primary_Reference,Reference_Year,Guideline_Source,Status
+Paracetamol,Dosage Safety,Safe at recommended doses; overdose may cause hepatotoxicity,High,Lexicomp,2025,Lexicomp,Active
+Metformin,Diabetes Management,First-line therapy for type 2 diabetes with proven cardiovascular benefit,High,ADA Standards of Care,2025,ADA,Active
+Aspirin,Antiplatelet Therapy,Reduces risk of cardiovascular events in appropriate patients,High,BNF,2025,BNF,Active
+Ramipril,Hypertension,ACE inhibitor recommended for hypertension and heart failure,High,KDIGO,2024,KDIGO,Active
+Pantoprazole,Acid Suppression,Effective proton pump inhibitor for GERD and peptic ulcer disease,High,BNF,2025,BNF,Active
+Atorvastatin,Lipid Management,Reduces LDL cholesterol and cardiovascular risk,High,ACC/AHA Guideline,2024,ACC/AHA,Active
+Amlodipine,Hypertension,Calcium channel blocker effective for blood pressure control,High,ESC Guideline,2024,ESC,Active
+Amoxicillin,Antibiotic Therapy,Effective against susceptible bacterial infections,High,IDSA Guideline,2024,IDSA,Active
+Cefixime,Antibiotic Therapy,Third-generation cephalosporin for susceptible infections,High,IDSA Guideline,2024,IDSA,Active
+Pregabalin,Neuropathic Pain,Effective for neuropathic pain and partial seizures,High,NICE Guideline,2024,NICE,Active
+Aceclofenac + Paracetamol,Pain Management,Provides analgesic and anti-inflammatory effects,Moderate,BNF,2025,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Musculoskeletal Disorders,Used for muscle spasm with pain relief,Moderate,BNF,2025,BNF,Active
+Telmisartan + Amlodipine,Hypertension Combination,Combination therapy improves blood pressure control,High,ESC Guideline,2024,ESC,Active

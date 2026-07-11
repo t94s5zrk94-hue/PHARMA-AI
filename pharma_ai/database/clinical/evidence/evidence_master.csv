@@ -1,0 +1,14 @@
+Evidence_ID,Clinical_Topic,Evidence_Summary,Evidence_Level,Primary_Reference,Reference_Year,Guideline_Source,Status,Generic_ID,created_at,updated_at,version
+EVD000001,Dosage Safety,Safe at recommended doses; overdose may cause hepatotoxicity,High,Lexicomp,2025,Lexicomp,Active,GEN000001,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000002,Diabetes Management,First-line therapy for type 2 diabetes with proven cardiovascular benefit,High,ADA Standards of Care,2025,ADA,Active,GEN000002,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000003,Antiplatelet Therapy,Reduces risk of cardiovascular events in appropriate patients,High,BNF,2025,BNF,Active,GEN000003,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000004,Hypertension,ACE inhibitor recommended for hypertension and heart failure,High,KDIGO,2024,KDIGO,Active,GEN000004,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000005,Acid Suppression,Effective proton pump inhibitor for GERD and peptic ulcer disease,High,BNF,2025,BNF,Active,GEN000005,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000006,Lipid Management,Reduces LDL cholesterol and cardiovascular risk,High,ACC/AHA Guideline,2024,ACC/AHA,Active,GEN000006,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000007,Hypertension,Calcium channel blocker effective for blood pressure control,High,ESC Guideline,2024,ESC,Active,GEN000007,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000008,Antibiotic Therapy,Effective against susceptible bacterial infections,High,IDSA Guideline,2024,IDSA,Active,GEN000008,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000009,Antibiotic Therapy,Third-generation cephalosporin for susceptible infections,High,IDSA Guideline,2024,IDSA,Active,GEN000009,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000010,Neuropathic Pain,Effective for neuropathic pain and partial seizures,High,NICE Guideline,2024,NICE,Active,GEN000010,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000011,Pain Management,Provides analgesic and anti-inflammatory effects,Moderate,BNF,2025,BNF,Active,GEN000011,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000012,Musculoskeletal Disorders,Used for muscle spasm with pain relief,Moderate,BNF,2025,BNF,Active,GEN000012,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
+EVD000013,Hypertension Combination,Combination therapy improves blood pressure control,High,ESC Guideline,2024,ESC,Active,GEN000013,2026-07-11 12:42:06,2026-07-11 12:42:06,1.0
