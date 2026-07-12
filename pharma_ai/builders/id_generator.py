@@ -38,6 +38,7 @@ _MANAGERS = {
     "THR": IDGenerator("THR"),
     "PHR": IDGenerator("PHR"),
     "MAP": IDGenerator("MAP"),
+    "ALS": IDGenerator("ALS"),
 
     # ===== Clinical =====
     "INT": IDGenerator("INT"),
@@ -130,3 +131,6 @@ def get_next_monitoring_id(last_id: Optional[str], count: int = 1) -> List[str]:
 
 def get_next_evidence_id(last_id: Optional[str], count: int = 1) -> List[str]:
     return _MANAGERS["EVD"].generate(last_id, count)
+
+def get_next_alias_id(last_id: Optional[str], count: int = 1) -> List[str]:
+    return _MANAGERS["ALS"].generate(last_id, count)

@@ -9,3 +9,25 @@ Pantoprazole,Long-term fracture risk,Minor,Reduced calcium absorption with prolo
 Amoxicillin,Antibiotic-associated diarrhea,Moderate,Alteration of gut flora,Advise patient to report severe diarrhea,BNF,Moderate,Active
 Cefixime,C. difficile-associated diarrhea,Major,Risk of severe colitis,Discontinue if suspected,BNF,High,Active
 Amlodipine,Peripheral edema,Moderate,Dose-related vasodilation,Monitor and adjust therapy if needed,BNF,Moderate,Active
+Paracetamol,Hepatotoxicity with overdose,Major,Excess doses may cause severe liver injury,Do not exceed the recommended daily dose and avoid duplicate paracetamol-containing products,BNF,High,Active
+Aceclofenac + Paracetamol,Gastrointestinal bleeding,Major,NSAID component increases bleeding risk,Use the lowest effective dose and avoid concomitant NSAIDs when possible,BNF,High,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Hepatotoxicity,Major,Combination may increase the risk of liver injury,Monitor liver function during prolonged therapy and discontinue if liver injury is suspected,BNF,High,Active
+Telmisartan + Amlodipine,Symptomatic hypotension,Major,Combination therapy may produce excessive blood pressure reduction,Monitor blood pressure especially after initiation or dose escalation,BNF,High,Active
+Paracetamol,Hepatotoxicity with overdose,Major,Excess doses may cause severe liver injury,Do not exceed the recommended daily dose and avoid duplicate paracetamol-containing products,BNF,High,Active
+Paracetamol,Concurrent use of multiple paracetamol-containing products,Major,May result in accidental overdose,Check all medicines for paracetamol content before use,BNF,High,Active
+Paracetamol,Severe hepatic impairment,Major,Reduced hepatic metabolism increases the risk of toxicity,Use only under medical supervision and monitor liver function,BNF,High,Active
+Paracetamol,Chronic alcohol consumption,Moderate,Alcohol may increase the risk of liver toxicity,Avoid excessive alcohol intake while taking paracetamol,BNF,Moderate,Active
+Paracetamol,Prolonged high-dose use,Moderate,May increase the risk of liver and kidney injury,Use the lowest effective dose for the shortest duration,BNF,Moderate,Active
+Aceclofenac + Paracetamol,Peptic ulcer risk,Major,NSAIDs may aggravate existing peptic ulcer disease,Avoid use in patients with active peptic ulcer unless specifically advised,BNF,High,Active
+Aceclofenac + Paracetamol,Hepatotoxicity,Major,Paracetamol component may cause liver injury especially at high doses,Do not exceed the recommended daily dose and monitor liver function during prolonged therapy,BNF,High,Active
+Aceclofenac + Paracetamol,Renal impairment,Moderate,NSAIDs may reduce renal perfusion and worsen kidney function,Monitor renal function in at-risk patients,BNF,Moderate,Active
+Aceclofenac + Paracetamol,Cardiovascular thrombotic events,Major,Long-term NSAID use may increase the risk of myocardial infarction and stroke,Use the lowest effective dose for the shortest duration,BNF,High,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Gastrointestinal bleeding,Major,Diclofenac increases the risk of gastrointestinal bleeding and ulceration,Use the lowest effective dose and report black stools or vomiting blood immediately,BNF,High,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Drowsiness,Moderate,Chlorzoxazone may impair mental alertness,Avoid driving or operating heavy machinery until the medicine's effects are known,BNF,Moderate,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Renal impairment,Moderate,NSAID component may worsen renal function in susceptible patients,Monitor renal function during prolonged treatment,BNF,Moderate,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Cardiovascular thrombotic events,Major,Long-term NSAID use may increase the risk of myocardial infarction and stroke,Use the lowest effective dose for the shortest duration,BNF,High,Active
+Telmisartan + Amlodipine,Symptomatic hypotension,Major,Combination therapy may produce excessive blood pressure reduction,Monitor blood pressure especially after initiation or dose escalation,BNF,High,Active
+Telmisartan + Amlodipine,Hyperkalemia,Major,Telmisartan may increase serum potassium levels,Monitor serum potassium especially in patients with renal impairment or those taking potassium-sparing medicines,BNF,High,Active
+Telmisartan + Amlodipine,Renal function deterioration,Major,Renin-angiotensin system blockade may reduce renal function in susceptible patients,Monitor renal function before and during therapy,BNF,High,Active
+Telmisartan + Amlodipine,Angioedema,Critical,Rare but potentially life-threatening hypersensitivity reaction,Discontinue immediately and seek emergency medical attention if facial or airway swelling occurs,BNF,High,Active
+Telmisartan + Amlodipine,Dizziness,Moderate,Blood pressure reduction may impair alertness,Avoid driving or operating machinery until individual response is known,BNF,Moderate,Active

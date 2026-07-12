@@ -9,3 +9,18 @@ Pregabalin,Amlodipine,Moderate,Pharmacodynamic,May increase dizziness somnolence
 Pantoprazole,Aspirin,Minor,Pharmacodynamic,Pantoprazole reduces aspirin-associated gastrointestinal irritation,Combination is generally appropriate in patients at GI risk,High,WHO,Active
 Paracetamol,Aspirin,Minor,Pharmacodynamic,Usually no clinically significant interaction at therapeutic doses,Use as prescribed and monitor total analgesic use,High,WHO,Active
 Metformin,Pregabalin,Minor,Unknown,No clinically significant interaction is generally expected,Routine monitoring only,Low,Micromedex,Active
+Amoxicillin,Methotrexate,Major,Reduced renal clearance of methotrexate by penicillins,Increased methotrexate toxicity and bone marrow suppression,Avoid combination if possible or monitor CBC and renal function closely,High,BNF,Active
+Amoxicillin,Warfarin,Moderate,Alteration of intestinal flora may enhance anticoagulant effect,Increased INR and bleeding risk,Monitor INR closely and adjust warfarin dose if required,Moderate,BNF,Active
+Amoxicillin,Allopurinol,Moderate,Concurrent use increases incidence of hypersensitivity reactions,Higher risk of skin rash,Use cautiously and discontinue if rash develops,Moderate,BNF,Active
+Amoxicillin,Doxycycline,Moderate,Bacteriostatic antibiotics may reduce bactericidal activity of penicillins,Possible reduction in antibacterial efficacy,Avoid routine combination unless clinically indicated,Moderate,BNF,Active
+Amoxicillin,Probenecid,Moderate,Probenecid decreases renal tubular secretion of amoxicillin,Increased and prolonged amoxicillin plasma concentration,Dose adjustment usually not required but monitor for adverse effects,High,BNF,Active
+Cefixime,Warfarin,Moderate,Cephalosporins may potentiate anticoagulant effect,Increased INR and bleeding risk,Monitor INR during therapy,Moderate,BNF,Active
+Cefixime,Carbamazepine,Moderate,Cefixime may increase carbamazepine serum concentration,Risk of carbamazepine toxicity,Monitor carbamazepine levels and clinical response,Moderate,BNF,Active
+Cefixime,Probenecid,Moderate,Reduced renal elimination of cefixime,Increased cefixime exposure,Monitor for adverse effects,Moderate,BNF,Active
+Cefixime,Live Typhoid Vaccine,Major,Antibiotic may reduce effectiveness of live vaccine,Vaccine failure,Avoid vaccine during antibiotic therapy and for at least 3 days after completion,High,CDC,Active
+Cefixime,Furosemide,Moderate,Potential additive nephrotoxicity with cephalosporins,Increased renal impairment risk,Monitor renal function in high-risk patients,Moderate,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Warfarin,Major,Diclofenac increases bleeding risk while paracetamol may potentiate anticoagulation,Major bleeding risk,Avoid if possible and monitor INR closely,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Methotrexate,Major,NSAIDs reduce methotrexate clearance,Severe methotrexate toxicity,Avoid combination or monitor CBC liver and renal function closely,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Alcohol,Major,Alcohol increases CNS depression and hepatotoxicity,Excess sedation and liver injury,Avoid alcohol during treatment,High,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,ACE Inhibitors,Moderate,NSAIDs may reduce antihypertensive effect and impair renal function,Reduced BP control and renal impairment,Monitor blood pressure and renal function,Moderate,BNF,Active
+Chlorzoxazone + Diclofenac + Paracetamol,Corticosteroids,Major,Combined use markedly increases gastrointestinal bleeding risk,GI ulceration and bleeding,Use gastroprotection and monitor for GI symptoms,High,BNF,Active

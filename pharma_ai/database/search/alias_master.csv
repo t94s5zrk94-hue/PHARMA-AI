@@ -1,0 +1,39 @@
+Alias_ID,Alias,Generic_Name,Alias_Type,Priority,Status,created_at,updated_at,source,version
+ALS000001,pcm,Paracetamol,Generic,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000002,crocin,Paracetamol,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000003,dolo,Paracetamol,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000004,calpol,Paracetamol,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000005,met,Metformin,Short_Name,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000006,glycomet,Metformin,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000007,gluformin,Metformin,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000008,asa,Aspirin,Abbreviation,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000009,ecosprin,Aspirin,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000010,ramace,Ramipril,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000011,ramicard,Ramipril,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000012,panto,Pantoprazole,Short_Name,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000013,pan 40,Pantoprazole,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000014,pantocid,Pantoprazole,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000015,pantodac,Pantoprazole,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000016,atorva,Atorvastatin,Short_Name,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000017,atorlip,Atorvastatin,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000018,atocor,Atorvastatin,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000019,amlo,Amlodipine,Short_Name,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000020,amlong,Amlodipine,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000021,amlokind,Amlodipine,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000022,amox,Amoxicillin,Short_Name,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000023,mox,Amoxicillin,Short_Name,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000024,novamox,Amoxicillin,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000025,cefi,Cefixime,Short_Name,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000026,taxim o,Cefixime,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000027,mahacef,Cefixime,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000028,prega,Pregabalin,Short_Name,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000029,pregaba,Pregabalin,Short_Name,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000030,maxgalin,Pregabalin,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000031,aceclo pcm,Aceclofenac + Paracetamol,Abbreviation,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000032,hifenac p,Aceclofenac + Paracetamol,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000033,zerodol p,Aceclofenac + Paracetamol,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000034,myospaz plus,Chlorzoxazone + Diclofenac + Paracetamol,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000035,chlorzox pcm,Chlorzoxazone + Diclofenac + Paracetamol,Abbreviation,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000036,telmi amlo,Telmisartan + Amlodipine,Abbreviation,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000037,telma am,Telmisartan + Amlodipine,Brand,1,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0
+ALS000038,cresar am,Telmisartan + Amlodipine,Brand,2,Active,2026-07-12 11:12:04.787397,2026-07-12 11:12:04.787397,Pharma AI,1.0

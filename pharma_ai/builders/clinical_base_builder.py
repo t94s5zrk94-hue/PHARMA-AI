@@ -54,7 +54,7 @@ class ClinicalBaseBuilder(BaseBuilder, ABC):
 
     # Metadata Configuration
     VERSION: str = "1.0"
-
+    SOURCE: str = "Pharma AI"
     # ---------------------------------------------------------
     # Constructor
     # ---------------------------------------------------------
@@ -328,6 +328,11 @@ class ClinicalBaseBuilder(BaseBuilder, ABC):
             df["created_at"] = df["created_at"].fillna(timestamp)
 
         df["updated_at"] = timestamp
+
+        if "source" not in df.columns:
+            df["source"] = self.SOURCE
+        else:
+            df["source"] = df["source"].fillna(self.SOURCE)
 
         if "version" not in df.columns:
             df["version"] = self.VERSION

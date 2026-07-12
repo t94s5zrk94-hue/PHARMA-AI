@@ -344,6 +344,7 @@ class PharmaDatabase:
 
             interaction_data = self.get_interactions_by_generic(generic_name)
             contraindication_data = self.get_contraindications_by_generic(generic_name)
+            print(f"DEBUG Contra: '{generic_name}' -> {len(contraindication_data)} records")
             warning_data = self.get_warnings_by_generic(generic_name)
             side_effect_data = self.get_side_effects_by_generic(generic_name)    
             pregnancy_data = self.get_pregnancy_by_generic(generic_name)

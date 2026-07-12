@@ -34,3 +34,8 @@ Telmisartan + Amlodipine,Pregnancy,Critical,Drugs affecting the renin-angiotensi
 Telmisartan + Amlodipine,Severe Hypotension,Major,May further reduce blood pressure causing hemodynamic instability,Avoid use until blood pressure is stabilized,BNF,High,Active
 Telmisartan + Amlodipine,Biliary Obstructive Disorders,Major,Telmisartan is primarily eliminated via the biliary route,Avoid use in severe biliary obstruction or cholestasis,BNF,High,Active
 Telmisartan + Amlodipine,Cardiogenic Shock,Critical,Vasodilation may further compromise cardiac output,Contraindicated in cardiogenic shock,BNF,High,Active
+Paracetamol,Hypersensitivity to Paracetamol,Critical,Known hypersensitivity or allergic reaction to paracetamol or any formulation component,Do not administer paracetamol; use an alternative analgesic or antipyretic,BNF,High,Active
+Paracetamol,Severe Hepatic Impairment,Major,Severely impaired liver function increases the risk of paracetamol-induced hepatotoxicity,Avoid use or use only under specialist supervision with dose adjustment,BNF,High,Active
+Paracetamol,Severe Active Liver Disease,Major,Active severe liver disease significantly reduces safe metabolism of paracetamol,Avoid use until liver function is stabilized,BNF,High,Active
+Paracetamol,Previous Paracetamol-induced Severe Cutaneous Adverse Reaction,Critical,History of Stevens-Johnson syndrome toxic epidermal necrolysis or other severe cutaneous reaction following paracetamol exposure,Do not re-challenge with paracetamol; use an alternative analgesic,FDA Label,High,Active
+Paracetamol,Acute Paracetamol Overdose,Critical,Further administration may worsen hepatotoxicity after an overdose,Do not administer additional paracetamol; initiate overdose management protocol immediately,BNF,High,Active

@@ -1,0 +1,51 @@
+Alias,Generic_Name,Alias_Type,Priority,Status
+PCM,Paracetamol,Generic,1,Active
+Crocin,Paracetamol,Brand,1,Active
+Dolo,Paracetamol,Brand,1,Active
+Calpol,Paracetamol,Brand,2,Active
+
+Met,Metformin,Short_Name,1,Active
+Glycomet,Metformin,Brand,1,Active
+Gluformin,Metformin,Brand,2,Active
+
+ASA,Aspirin,Abbreviation,1,Active
+Ecosprin,Aspirin,Brand,1,Active
+
+Ramace,Ramipril,Brand,1,Active
+Ramicard,Ramipril,Brand,2,Active
+
+Panto,Pantoprazole,Short_Name,1,Active
+Pan 40,Pantoprazole,Brand,1,Active
+Pantocid,Pantoprazole,Brand,1,Active
+Pantodac,Pantoprazole,Brand,2,Active
+
+Atorva,Atorvastatin,Short_Name,1,Active
+Atorlip,Atorvastatin,Brand,1,Active
+Atocor,Atorvastatin,Brand,2,Active
+
+Amlo,Amlodipine,Short_Name,1,Active
+Amlong,Amlodipine,Brand,1,Active
+Amlokind,Amlodipine,Brand,2,Active
+
+Amox,Amoxicillin,Short_Name,1,Active
+Mox,Amoxicillin,Short_Name,2,Active
+Novamox,Amoxicillin,Brand,1,Active
+
+Cefi,Cefixime,Short_Name,1,Active
+Taxim O,Cefixime,Brand,1,Active
+Mahacef,Cefixime,Brand,2,Active
+
+Prega,Pregabalin,Short_Name,1,Active
+Pregaba,Pregabalin,Short_Name,2,Active
+Maxgalin,Pregabalin,Brand,1,Active
+
+Aceclo PCM,Aceclofenac + Paracetamol,Abbreviation,1,Active
+Hifenac P,Aceclofenac + Paracetamol,Brand,1,Active
+Zerodol P,Aceclofenac + Paracetamol,Brand,2,Active
+
+Myospaz Plus,Chlorzoxazone + Diclofenac + Paracetamol,Brand,1,Active
+Chlorzox PCM,Chlorzoxazone + Diclofenac + Paracetamol,Abbreviation,1,Active
+
+Telmi Amlo,Telmisartan + Amlodipine,Abbreviation,1,Active
+Telma AM,Telmisartan + Amlodipine,Brand,1,Active
+Cresar AM,Telmisartan + Amlodipine,Brand,2,Active

@@ -26,11 +26,12 @@ class WarningValidator:
     ]
 
     SEVERITY_VALUES = {
-        "Major",
-        "Moderate",
         "Minor",
+        "Mild",
+        "Moderate",
+        "Major",
+        "Critical",
     }
-
     EVIDENCE_LEVELS = {
         "High",
         "Moderate",
